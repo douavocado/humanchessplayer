@@ -1,0 +1,4210 @@
+Playing side: BLACK 
+Move number: 1
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P P P P P P
+R . B Q K B N R
+Legal_moves found from human search: ['e7e5', 'd7d5', 'c7c5', 'b7b6', 'g8f6', 'b8c6', 'g8h6']
+Moves evaluations: {-10: 'd7d5', -12: 'g8f6', -25: 'e7e5'}
+Decided centipawn loss from mean 0 and stdev 8: 7.022193378046885
+Target_evaluation: -2.977806621953115
+Chosen move: d7d5
+Move number: 2
+r n b q k b n r
+p p p . p p p p
+. . . . . . . .
+. . . p . . . .
+. . . . . . . .
+. . N . . N . .
+P P P P P P P P
+R . B Q K B . R
+Legal_moves found from human search: ['c7c5', 'd5d4', 'e7e6', 'g7g6', 'g8f6', 'b8c6', 'b8d7', 'c8g4', 'c8f5', 'c8d7', 'c8e6', 'd8d7', 'd8d6', 'e8d7']
+Moves evaluations: {6: 'd5d4', -5: 'c8f5', -10: 'g8f6'}
+Decided centipawn loss from mean 0 and stdev 8: 4.017666141362996
+Target_evaluation: 10.017666141362996
+Chosen move: d5d4
+Move number: 3
+r n b q k b n r
+p p p . p p p p
+. . . . . . . .
+. . . . . . . .
+. . . p N . . .
+. . . . . N . .
+P P P P P P P P
+R . B Q K B . R
+Legal_moves found from human search: ['c7c5', 'e7e5', 'g7g6', 'b8c6', 'g8f6', 'b8d7', 'c8f5', 'c8g4', 'c8d7', 'c8e6', 'd8d5', 'd8d7', 'e8d7']
+Moves evaluations: {-9: 'e7e5', -15: 'd8d5', -24: 'b8c6'}
+Decided centipawn loss from mean 0 and stdev 8: -21.918935770651583
+Target_evaluation: -30.918935770651583
+Chosen move: b8c6
+Move number: 4
+r . b q k b n r
+p p p . p p p p
+. . n . . . . .
+. . . . . . . .
+. . . p N . . .
+. . P . . N . .
+P P . P P P P P
+R . B Q K B . R
+Legal_moves found from human search: ['e7e5', 'd4c3', 'f7f5', 'h7h6', 'g8f6', 'c6e5', 'c6a5', 'c8f5', 'c8g4', 'c8d7', 'c8e6', 'a8b8', 'd8d5', 'd8d7', 'e8d7']
+Moves evaluations: {47: 'e7e5', 41: 'f7f5', -23: 'd8d5'}
+Decided centipawn loss from mean 0 and stdev 8: -0.8972834276845589
+Target_evaluation: 46.102716572315444
+Chosen move: e7e5
+Move number: 5
+r . b q k b n r
+p p p . . p p p
+. . n . . . . .
+. . . . p . . .
+. . . p N . . .
+. Q P . . N . .
+P P . P P P P P
+R . B . K B . R
+Legal_moves found from human search: ['f7f5', 'd4c3', 'a7a5', 'h7h6', 'c6a5', 'g8f6', 'g8e7', 'c6e7', 'f8e7', 'c8g4', 'f8d6', 'c8f5', 'a8b8', 'd8d5', 'd8e7', 'd8d7', 'e8e7', 'e8d7']
+Moves evaluations: {32: 'f8e7', 21: 'g8f6', 24: 'f7f5'}
+Decided centipawn loss from mean 0 and stdev 8: 4.503739961253387
+Target_evaluation: 36.50373996125339
+Chosen move: f8e7
+Move number: 6
+r . b q k . n r
+p p p . b p p p
+. . n . . . . .
+. . . . p . . .
+. . . P N . . .
+. Q . . . N . .
+P P . P P P P P
+R . B . K B . R
+Legal_moves found from human search: ['e5d4', 'f7f5', 'b7b6', 'c6a5', 'c6d4', 'g8f6', 'c6b4', 'c8g4', 'c8d7', 'c8e6', 'c8f5', 'a8b8', 'd8d5', 'd8d7', 'd8d4', 'e8f8', 'e8d7']
+Moves evaluations: {47: 'c6d4', -50: 'e5d4', -20: 'f7f5'}
+Decided centipawn loss from mean 0 and stdev 8: -8.710636506606765
+Target_evaluation: 38.28936349339324
+Chosen move: c6d4
+Move number: 7
+r . b q k . n r
+p p p . b p p p
+. . . . . . . .
+. . . . p . . .
+. . . N N . . .
+. Q . . . . . .
+P P . P P P P P
+R . B . K B . R
+Legal_moves found from human search: ['e5d4', 'f7f5', 'c7c5', 'c7c6', 'g8f6', 'c8d7', 'c8g4', 'c8e6', 'e7f6', 'a8b8', 'd8d4', 'd8d5', 'd8d7', 'e8f8', 'e8d7']
+Moves evaluations: {39: 'd8d4', 36: 'e5d4', -204: 'f7f5'}
+Decided centipawn loss from mean 0 and stdev 8: -5.627903618168715
+Target_evaluation: 33.372096381831284
+Chosen move: e5d4
+Move number: 8
+r . b q k . n r
+p p p . b p p p
+. . . . . . . .
+. . . . . . . .
+. . . p N . . .
+. . . . . . Q .
+P P . P P P P P
+R . B . K B . R
+Legal_moves found from human search: ['c7c5', 'f7f5', 'h7h5', 'a7a5', 'g8f6', 'g8h6', 'c8f5', 'c8d7', 'c8g4', 'e7f6', 'a8b8', 'd8d5', 'd8d7', 'e8f8', 'e8d7']
+Moves evaluations: {32: 'e8f8', -60: 'g8f6'}
+Decided centipawn loss from mean 0 and stdev 8: 16.825753031946306
+Target_evaluation: 48.825753031946306
+Chosen move: e8f8
+Move number: 9
+r . b q . k n r
+p p p . b p p p
+. . . . . . . .
+. . . . . . . .
+. . . p N . . .
+. . . P . . Q .
+P P . . P P P P
+R . B . K B . R
+Legal_moves found from human search: ['c7c5', 'h7h5', 'f7f5', 'b7b6', 'g8f6', 'g8h6', 'c8f5', 'e7d6', 'e7h4', 'e7f6', 'a8b8', 'd8d5', 'd8e8', 'd8d7', 'f8e8']
+Moves evaluations: {47: 'h7h5', 54: 'g8f6', 46: 'c7c5'}
+Decided centipawn loss from mean 0 and stdev 8: -6.975909078964339
+Target_evaluation: 47.024090921035665
+Chosen move: h7h5
+Move number: 10
+r . b q . k n r
+p p p . b p p .
+. . . . . . . .
+. . . . . . . p
+. . . p N . . .
+. . . P . . Q .
+P P . B P P P P
+R . . . K B . R
+Legal_moves found from human search: ['h5h4', 'c7c5', 'b7b6', 'c7c6', 'g8f6', 'g8h6', 'e7h4', 'e7f6', 'c8g4', 'c8f5', 'h8h6', 'd8d5', 'd8e8', 'd8d7', 'f8e8']
+Moves evaluations: {67: 'h5h4', 68: 'g8f6', 63: 'c7c5'}
+Decided centipawn loss from mean 0 and stdev 8: -3.138182709404725
+Target_evaluation: 64.86181729059527
+Chosen move: c7c5
+Move number: 11
+r . b q . k n r
+p p . . b p p .
+. . . . . . . .
+. . p . . . . p
+. . . p N . . .
+. . . P . . Q .
+P P . B P P P P
+. . R . K B . R
+Legal_moves found from human search: ['h5h4', 'b7b6', 'g7g6', 'f7f5', 'g8f6', 'g8h6', 'c8d7', 'e7d6', 'c8g4', 'c8e6', 'h8h6', 'a8b8', 'd8d5', 'd8b6', 'd8e8', 'd8d7', 'f8e8']
+Moves evaluations: {54: 'b7b6', 36: 'd8d5', 33: 'h5h4'}
+Decided centipawn loss from mean 0 and stdev 8: 3.3098116513599334
+Target_evaluation: 57.30981165135994
+Chosen move: b7b6
+Move number: 12
+r . b q . k n r
+p . . . b p p .
+. p . . . . . .
+. . p . . . . p
+. . . p N . . P
+. . . P . . Q .
+P P . B P P P .
+. . R . K B . R
+Legal_moves found from human search: ['f7f5', 'a7a5', 'g7g6', 'f7f6', 'g8f6', 'g8h6', 'c8b7', 'e7h4', 'c8d7', 'e7d6', 'h8h6', 'a8b8', 'd8d5', 'd8e8', 'd8d7', 'f8e8']
+Moves evaluations: {63: 'g8f6', 51: 'c8b7', 41: 'd8d5'}
+Decided centipawn loss from mean 0 and stdev 8: -9.333043110903006
+Target_evaluation: 53.666956889096994
+Chosen move: c8b7
+Move number: 13
+r . . q . k n r
+p b . . b p p .
+. p . . . . . .
+. . p . . . . p
+. . . p N Q . P
+. . . P . . . .
+P P . B P P P .
+. . R . K B . R
+Legal_moves found from human search: ['f7f5', 'a7a5', 'g7g6', 'c5c4', 'g8f6', 'g8h6', 'b7e4', 'e7d6', 'e7h4', 'a8c8', 'h8h6', 'd8d5', 'd8d7', 'd8e8', 'd8b8', 'f8e8']
+Moves evaluations: {88: 'g8f6', 62: 'g8h6', 20: 'd8d5'}
+Decided centipawn loss from mean 0 and stdev 8: 1.7999774930540302
+Target_evaluation: 89.79997749305403
+Chosen move: g8f6
+Move number: 14
+r . . q . k . r
+p b . . b p p .
+. p . . . N . .
+. . p . . . . p
+. . . p . Q . P
+. . . P . . . .
+P P . B P P P .
+. . R . K B . R
+Legal_moves found from human search: ['g7f6', 'g7g6', 'e7f6', 'e7d6', 'b7g2', 'a8c8', 'h8h6', 'd8d5', 'd8d6', 'd8d7']
+Moves evaluations: {85: 'e7f6', -50: 'e7d6', 64: 'g7f6'}
+Decided centipawn loss from mean 0 and stdev 8: -13.32341461989838
+Target_evaluation: 71.67658538010161
+Chosen move: g7f6
+Move number: 15
+r . . q . k . r
+p b . . b p . .
+. p . . . p . .
+. . p . . . . p
+. . . p . Q . P
+. . . P . . . .
+P P R B P P P .
+. . . . K B . R
+Legal_moves found from human search: ['a7a5', 'b6b5', 'f6f5', 'a7a6', 'e7d6', 'b7g2', 'b7c6', 'b7d5', 'h8g8', 'a8c8', 'h8h6', 'd8d5', 'd8d7', 'd8c8', 'd8b8', 'f8g7', 'f8e8', 'f8g8']
+Moves evaluations: {83: 'e7d6', -50: 'a7a5', 50: 'd8d5'}
+Decided centipawn loss from mean 0 and stdev 8: 10.757525450139465
+Target_evaluation: 93.75752545013947
+Chosen move: e7d6
+Move number: 16
+r . . q . k . r
+p b . . . p . .
+. p . b . p . .
+. . p . . Q . p
+. . . p . . . P
+. . . P . . . .
+P P R B P P P .
+. . . . K B . R
+Legal_moves found from human search: ['a7a5', 'b6b5', 'a7a6', 'c5c4', 'd6e5', 'b7c8', 'd6e7', 'b7g2', 'h8h6', 'a8c8', 'd8e7', 'd8d7', 'd8e8', 'd8b8', 'f8g7', 'f8e8', 'f8g8', 'f8e7']
+Moves evaluations: {109: 'f8g7', 86: 'd8e7', 88: 'b7c8'}
+Decided centipawn loss from mean 0 and stdev 8: 9.936279617028934
+Target_evaluation: 118.93627961702893
+Chosen move: f8g7
+Move number: 17
+r . . q . . . r
+p b . . . p k .
+. p . b . p . .
+. . p . . Q . p
+. . . p . . . P
+. . . P . . . .
+P P R B P P P .
+. . . . K B R .
+Legal_moves found from human search: ['a7a5', 'b6b5', 'a7a6', 'c5c4', 'd6e5', 'b7c8', 'd6e7', 'd6c7', 'h8h6', 'a8c8', 'h8e8', 'd8d7', 'd8e7', 'd8b8', 'g7f8', 'g7g8']
+Moves evaluations: {87: 'b7c8', -50: 'd8e7', 25: 'g7f8'}
+Decided centipawn loss from mean 0 and stdev 8: -1.8932374264995215
+Target_evaluation: 85.10676257350048
+Chosen move: b7c8
+Move number: 18
+r . b q . . . r
+p . . . . p k .
+. p . b . p . .
+. . p . . . . p
+. . . p Q . . P
+. . . P . . . .
+P P R B P P P .
+. . . . K B R .
+Legal_moves found from human search: ['f6f5', 'a7a5', 'b6b5', 'c5c4', 'c8d7', 'c8b7', 'd6e5', 'c8e6', 'h8e8', 'h8h6', 'a8b8', 'd8d7', 'd8e7', 'd8f8', 'g7f8']
+Moves evaluations: {47: 'a8b8', -50: 'c8e6', 0: 'c8d7'}
+Decided centipawn loss from mean 0 and stdev 8: -0.44924739263438174
+Target_evaluation: 46.55075260736562
+Chosen move: a8b8
+Move number: 19
+. r b q . . . r
+p . . . . p k .
+. p . b . p . .
+. . p . . . . p
+. . . p Q . . P
+. . . P . . P .
+P P R B P P . .
+. . . . K B R .
+Legal_moves found from human search: ['f6f5', 'a7a5', 'b6b5', 'c5c4', 'd6e5', 'c8d7', 'c8b7', 'c8e6', 'h8e8', 'b8b7', 'h8h6', 'd8d7', 'd8e7', 'd8e8', 'd8f8', 'g7f8', 'g7g8']
+Moves evaluations: {55: 'h8e8', 39: 'c8e6', -50: 'd8d7'}
+Decided centipawn loss from mean 0 and stdev 8: 20.519786045735543
+Target_evaluation: 75.51978604573554
+Chosen move: h8e8
+Move number: 20
+. r b q r . . .
+p . . . . p k .
+. p Q b . p . .
+. . p . . . . p
+. . . p . . . P
+. . . P . . P .
+P P R B P P . .
+. . . . K B R .
+Legal_moves found from human search: ['a7a5', 'b6b5', 'f6f5', 'c5c4', 'd6e5', 'c8d7', 'c8g4', 'c8b7', 'e8h8', 'b8b7', 'e8e5', 'd8e7', 'd8d7', 'g7h7', 'g7f8', 'g7g6', 'g7h8']
+Moves evaluations: {46: 'c8b7', 45: 'c8g4', -50: 'd6e5'}
+Decided centipawn loss from mean 0 and stdev 8: -1.052035082913194
+Target_evaluation: 44.94796491708681
+Chosen move: c8g4
+Move number: 21
+. r . q r . . .
+p . . . . p k .
+. p Q b . p . .
+. . p . . . . p
+. . . p . B b P
+. . . P . . P .
+P P R . P P . .
+. . . . K B R .
+Legal_moves found from human search: ['b6b5', 'c5c4', 'a7a5', 'd6f4', 'd6e5', 'g4d7', 'g4f3', 'e8h8', 'b8c8', 'e8e6', 'd8d7', 'd8c8', 'd8e7', 'g7h7', 'g7f8', 'g7h8', 'g7g6']
+Moves evaluations: {87: 'd6f4', 54: 'e8e6', 48: 'd6e5'}
+Decided centipawn loss from mean 0 and stdev 8: -1.2279704068635615
+Target_evaluation: 85.77202959313644
+Chosen move: d6f4
+Move number: 22
+. r . q r . . .
+p . . . . p k .
+. p Q . . p . .
+. . p . . . . p
+. . . p . P b P
+. . . P . . . .
+P P R . P P . .
+. . . . K B R .
+Legal_moves found from human search: ['f6f5', 'b6b5', 'a7a5', 'c5c4', 'b8c8', 'e8h8', 'e8e6', 'd8d5', 'd8d7', 'd8d6', 'g7h7', 'g7f8', 'g7h6', 'g7h8']
+Moves evaluations: {94: 'g7h6', 54: 'g7f8', 29: 'g7h8'}
+Decided centipawn loss from mean 0 and stdev 8: -8.924831068825315
+Target_evaluation: 85.07516893117469
+Chosen move: g7h6
+Move number: 23
+. r . q r . . .
+p . . . . p . .
+. p Q . . p . k
+. . p . . . . p
+. . . p . P b P
+. . . P . . . .
+P P R . P P B .
+. . . . K . R .
+Legal_moves found from human search: ['c5c4', 'a7a5', 'b6b5', 'g4d7', 'g4f5', 'g4e2', 'g4f3', 'b8c8', 'e8g8', 'e8e2', 'd8d7', 'd8d6', 'h6h7', 'h6g7', 'h6g6']
+Moves evaluations: {195: 'c5c4', 90: 'b8c8', 76: 'g4f5'}
+Decided centipawn loss from mean 0 and stdev 8: 6.83040143320176
+Target_evaluation: 201.83040143320176
+Chosen move: c5c4
+Move number: 24
+. r . q r . . .
+p . . . . p . .
+. p Q . . p . k
+. . . . . . . p
+. . p p B P b P
+. . . P . . . .
+P P R . P P . .
+. . . . K . R .
+Legal_moves found from human search: ['c4c3', 'c4d3', 'b6b5', 'g4d7', 'g4h3', 'g4e2', 'g4f5', 'b8c8', 'e8e6', 'e8e4', 'd8d7', 'd8c8', 'd8e7', 'h6g7']
+Moves evaluations: {193: 'b8c8', 112: 'd8e7', 109: 'c4d3'}
+Decided centipawn loss from mean 0 and stdev 8: -12.440690628851652
+Target_evaluation: 180.55930937114834
+Chosen move: b8c8
+Move number: 25
+. . r q r . . .
+p . . . . p . .
+. p . . . p . k
+. . . . . . . p
+Q . p p B P b P
+. . . P . . . .
+P P R . P P . .
+. . . . K . R .
+Legal_moves found from human search: ['c4c3', 'b6b5', 'f6f5', 'a7a5', 'g4d7', 'g4h3', 'g4f5', 'e8e4', 'c8c6', 'c8c5', 'd8d7', 'd8d6', 'd8e7', 'h6g7']
+Moves evaluations: {168: 'f6f5', 162: 'd8d6', 103: 'd8e7'}
+Decided centipawn loss from mean 0 and stdev 8: 4.61953782713507
+Target_evaluation: 172.61953782713508
+Chosen move: f6f5
+Move number: 26
+. . r q r . . .
+p B . . . p . .
+. p . . . . . k
+. . . . . p . p
+Q . p p . P b P
+. . . P . . . .
+P P R . P P . .
+. . . . K . R .
+Legal_moves found from human search: ['c4c3', 'c4d3', 'b6b5', 'a7a5', 'g4f3', 'g4h3', 'c8c6', 'c8c7', 'e8e3', 'd8d5', 'd8h4', 'd8d6', 'd8d7', 'h6h7', 'h6g7', 'h6g6']
+Moves evaluations: {169: 'c8c7', 100: 'b6b5', -156: 'h6h7'}
+Decided centipawn loss from mean 0 and stdev 8: 5.109009009632766
+Target_evaluation: 174.10900900963276
+Chosen move: c8c7
+Move number: 27
+. . . q r . . .
+p . r . . p . .
+B p . . . . . k
+. . . . . p . p
+Q . p p . P b P
+. . . P . . . .
+P P R . P P . .
+. . . . K . R .
+Legal_moves found from human search: ['c4c3', 'c4d3', 'b6b5', 'g4f3', 'g4h3', 'c7c6', 'c7c8', 'c7c5', 'd8d5', 'd8f6', 'd8d6', 'd8d7', 'h6h7', 'h6g7', 'h6g6']
+Moves evaluations: {230: 'c4c3', 127: 'c4d3', 44: 'h6h7'}
+Decided centipawn loss from mean 0 and stdev 8: -2.581762721716633
+Target_evaluation: 227.41823727828336
+Chosen move: c4c3
+Move number: 28
+. . . q r . . .
+p . r . . p . .
+B p . . . . . k
+. . . . . p . p
+Q . . p . P b P
+. . P P . . . .
+P . R . P P . .
+. . . . K . R .
+Legal_moves found from human search: ['d4c3', 'b6b5', 'f7f6', 'g4f3', 'g4h3', 'c7c8', 'c7c6', 'e8e7', 'c7e7', 'c7c5', 'd8d5', 'd8d6', 'd8f6', 'd8d7', 'h6g7', 'h6h7']
+Moves evaluations: {154: 'd4c3', 43: 'c7e7', -10: 'c7c5'}
+Decided centipawn loss from mean 0 and stdev 8: -4.944957131298561
+Target_evaluation: 149.05504286870143
+Chosen move: d4c3
+Move number: 29
+. . . q r . . .
+p . r . . p . .
+B p . . . . . k
+. . . . . p . p
+Q . . . . P b P
+. . p P P . . .
+P . R . . P . .
+. . . . K . R .
+Legal_moves found from human search: ['b6b5', 'f7f6', 'g4f3', 'g4h3', 'c7c6', 'c7c8', 'c7c5', 'c7d7', 'd8f6', 'd8d6', 'd8d3', 'd8h4', 'h6h7', 'h6g7', 'h6g6']
+Moves evaluations: {227: 'b6b5', 170: 'h6h7', 41: 'h6g7'}
+Decided centipawn loss from mean 0 and stdev 8: -4.465356274748297
+Target_evaluation: 222.5346437252517
+Chosen move: b6b5
+Move number: 30
+. . . q r . . .
+p . r . . p . .
+. . . . . . . k
+. B . . . p . p
+Q . . . . P b P
+. . p P P . . .
+P . R . . P . .
+. . . . K . R .
+Legal_moves found from human search: ['a7a6', 'a7a5', 'f7f6', 'g4f3', 'c7c8', 'e8e5', 'c7c5', 'e8e3', 'd8d6', 'd8f6', 'd8c8', 'd8h4', 'h6g7', 'h6h7']
+Moves evaluations: {0: 'e8e3', -50: 'h6h7', -158: 'c7c8'}
+Decided centipawn loss from mean 0 and stdev 8: 5.454162562712078
+Target_evaluation: 5.454162562712078
+Chosen move: e8e3
+Playing side: BLACK 
+Move number: 1
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P P P P P P
+R . B Q K B N R
+Legal_moves found from human search: ['e7e5', 'd7d5', 'c7c5', 'b7b6', 'g8f6', 'b8c6', 'g8h6']
+Moves evaluations: {-6: 'e7e5', -14: 'g8f6', -17: 'd7d5'}
+Decided centipawn loss from mean 0 and stdev 8: -0.09002296922232991
+Target_evaluation: -6.09002296922233
+Chosen move: e7e5
+Move number: 2
+r n b q k b n r
+p p p p . p p p
+. . . . . . . .
+. . . . p . . .
+. . . . . . . .
+. . N . . N . .
+P P P P P P P P
+R . B Q K B . R
+Legal_moves found from human search: ['e5e4', 'd7d6', 'd7d5', 'b8c6', 'g8f6', 'g8e7', 'f8b4', 'f8e7', 'f8c5', 'f8d6', 'd8f6', 'd8e7', 'e8e7']
+Moves evaluations: {-17: 'b8c6', -50: 'd7d5', -52: 'd7d6'}
+Decided centipawn loss from mean 0 and stdev 8: 0.7676108695780322
+Target_evaluation: -16.232389130421968
+Chosen move: b8c6
+Move number: 3
+r . b q k b n r
+p p p p . p p p
+. . n . . . . .
+. . . . p . . .
+. . . P . . . .
+. . N . . N . .
+P P P . P P P P
+R . B Q K B . R
+Legal_moves found from human search: ['e5d4', 'e5e4', 'd7d6', 'd7d5', 'g8f6', 'g8e7', 'c6e7', 'c6d4', 'c6a5', 'f8b4', 'f8e7', 'f8d6', 'a8b8', 'd8f6', 'd8e7', 'd8h4', 'e8e7']
+Moves evaluations: {-14: 'e5d4', -38: 'c6d4', -84: 'd7d5'}
+Decided centipawn loss from mean 0 and stdev 8: -0.13897848492030979
+Target_evaluation: -14.13897848492031
+Chosen move: e5d4
+Move number: 4
+r . b q k b n r
+p p p p . p p p
+. . n . . . . .
+. . . . . . . .
+. . . N . . . .
+. . N . . . . .
+P P P . P P P P
+R . B Q K B . R
+Legal_moves found from human search: ['d7d5', 'h7h5', 'h7h6', 'd7d6', 'g8f6', 'c6d4', 'g8e7', 'c6e7', 'c6e5', 'f8b4', 'f8c5', 'f8e7', 'f8d6', 'a8b8', 'd8f6', 'd8g5', 'd8h4', 'e8e7']
+Moves evaluations: {-7: 'g8f6', -23: 'f8c5', -24: 'f8b4'}
+Decided centipawn loss from mean 0 and stdev 8: 6.800697348901037
+Target_evaluation: -0.1993026510989626
+Chosen move: g8f6
+Move number: 5
+r . b q k b . r
+p p p p . p p p
+. . N . . n . .
+. . . . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P . P P P P
+R . B Q K B . R
+Legal_moves found from human search: ['b7c6', 'd7c6', 'b7b6', 'd7d5', 'f6g4', 'f6e4', 'f6h5', 'f8b4', 'f8c5', 'f8e7', 'f8d6', 'h8g8', 'd8e7']
+Moves evaluations: {2: 'b7c6', -51: 'd7c6', -1097: 'f8e7'}
+Decided centipawn loss from mean 0 and stdev 8: -4.338781788044477
+Target_evaluation: -2.338781788044477
+Chosen move: b7c6
+Move number: 6
+r . b q k b . r
+p . p p . p p p
+. . p . . n . .
+. . . . . . . .
+. . . . P . . .
+. . N . . . . .
+P P P . . P P P
+R . B Q K B . R
+Legal_moves found from human search: ['d7d5', 'h7h5', 'd7d6', 'h7h6', 'f6e4', 'f6g4', 'f6h5', 'f8b4', 'f8c5', 'f8e7', 'f8d6', 'a8b8', 'd8e7', 'e8e7']
+Moves evaluations: {11: 'f8b4', -8: 'f8d6', 7: 'f8c5'}
+Decided centipawn loss from mean 0 and stdev 8: -1.182802718473414
+Target_evaluation: 9.817197281526585
+Chosen move: f8b4
+Move number: 7
+r . b q k . . r
+p . p p . p p p
+. . p . . n . .
+. . . . . . . .
+. b . Q P . . .
+. . N . . . . .
+P P P . . P P P
+R . B . K B . R
+Legal_moves found from human search: ['d7d5', 'c6c5', 'd7d6', 'h7h6', 'f6e4', 'f6g4', 'f6h5', 'b4e7', 'b4c3', 'b4a5', 'b4c5', 'a8b8', 'd8e7', 'e8g8', 'e8f8', 'e8e7']
+Moves evaluations: {40: 'd8e7', -17: 'a8b8', -50: 'b4c3'}
+Decided centipawn loss from mean 0 and stdev 8: -0.10113355848863513
+Target_evaluation: 39.898866441511366
+Chosen move: d8e7
+Move number: 8
+r . b . k . . r
+p . p p q p p p
+. . p . . n . .
+. . . . . . . .
+. b . Q P . . .
+. . N . . P . .
+P P P . . . P P
+R . B . K B . R
+Legal_moves found from human search: ['d7d5', 'c6c5', 'd7d6', 'f6h5', 'f6d5', 'b4c5', 'b4c3', 'b4a5', 'c8a6', 'a8b8', 'h8g8', 'e7e5', 'e7e6', 'e7c5', 'e8g8', 'e8f8', 'e8d8']
+Moves evaluations: {29: 'a8b8', -50: 'b4c5', 0: 'e8g8'}
+Decided centipawn loss from mean 0 and stdev 8: -14.432225811738615
+Target_evaluation: 14.567774188261385
+Chosen move: a8b8
+Move number: 9
+. r b . k . . r
+Q . p p q p p p
+. . p . . n . .
+. . . . . . . .
+. b . . P . . .
+. . N . . P . .
+P P P . . . P P
+R . B . K B . R
+Legal_moves found from human search: ['d7d5', 'd7d6', 'c6c5', 'h7h6', 'f6h5', 'f6d5', 'b4c3', 'b4a5', 'b4c5', 'c8a6', 'b8b6', 'b8a8', 'b8b5', 'e7e5', 'e7c5', 'e7e6', 'e7d6', 'e8g8', 'e8f8', 'e8d8']
+Moves evaluations: {-123: 'b4c3', -274: 'b8b6', -291: 'b8b5'}
+Decided centipawn loss from mean 0 and stdev 8: -4.266284321213069
+Target_evaluation: -127.26628432121306
+Chosen move: b4c3
+Move number: 10
+. r b . k . . r
+Q . p p q p p p
+. . p . . n . .
+. . . . . . . .
+. . . . P . . .
+. . P . . P . .
+P . P . . . P P
+R . B . K B . R
+Legal_moves found from human search: ['d7d5', 'h7h5', 'c6c5', 'd7d6', 'f6h5', 'f6e4', 'f6d5', 'f6g8', 'c8a6', 'c8b7', 'b8b1', 'b8b6', 'b8a8', 'b8b5', 'e7e5', 'e7e4', 'e7e6', 'e8g8', 'e8f8', 'e8d8']
+Moves evaluations: {-331: 'b8b6', -338: 'f6e4', -345: 'b8b5'}
+Decided centipawn loss from mean 0 and stdev 8: 2.986221787741246
+Target_evaluation: -328.0137782122587
+Chosen move: b8b6
+Move number: 11
+. . b . k . . r
+. . Q p q p p p
+. r p . . n . .
+. . . . . . . .
+. . . . P . . .
+. . P . . P . .
+P . P . . . P P
+R . B . K B . R
+Legal_moves found from human search: ['d7d5', 'h7h6', 'h7h5', 'c6c5', 'f6h5', 'f6e4', 'c8a6', 'b6b7', 'b6b8', 'b6b5', 'b6b1', 'e7c5', 'e7e6', 'e7e4', 'e8g8', 'e8f8']
+Moves evaluations: {-607: 'e7c5', -632: 'e8g8', -675: 'd7d5'}
+Decided centipawn loss from mean 0 and stdev 8: 0.48096879968976375
+Target_evaluation: -606.5190312003102
+Chosen move: e7c5
+Move number: 12
+. . Q . k . . r
+. . . p . p p p
+. r p . . n . .
+. . q . . . . .
+. . . . P . . .
+. . P . . P . .
+P . P . . . P P
+R . B . K B . R
+Legal_moves found from human search: ['e8e7']
+Moves evaluations: {-633: 'e8e7'}
+Decided centipawn loss from mean 0 and stdev 8: 4.749497141744585
+Target_evaluation: -628.2505028582555
+Chosen move: e8e7
+Move number: 13
+. . . . . . . Q
+. . . p k p p p
+. r p . . n . .
+. . q . . . . .
+. . . . P . . .
+. . P . . P . .
+P . P . . . P P
+R . B . K B . R
+Legal_moves found from human search: ['d7d5', 'h7h5', 'd7d6', 'h7h6', 'f6h5', 'f6e8', 'f6e4', 'b6b1', 'b6b5', 'b6b8', 'b6b7', 'c5c3', 'c5e3', 'c5a5', 'c5e5', 'e7e6', 'e7d6']
+Moves evaluations: {-651: 'c5c3', -1199: 'c5e5', -1204: 'd7d5'}
+Decided centipawn loss from mean 0 and stdev 8: 6.653423966729686
+Target_evaluation: -644.3465760332704
+Chosen move: c5c3
+Move number: 14
+. . . . . . . Q
+. . . p k p p p
+. r p . . n . .
+. . . . . . . .
+. . . . P . . .
+. . q . . P . .
+P . P . . . P P
+R . B K . B . R
+Legal_moves found from human search: ['d7d5', 'h7h5', 'c6c5', 'd7d6', 'f6h5', 'f6e8', 'f6d5', 'f6e4', 'b6b4', 'b6b5', 'b6b8', 'b6b2', 'c3e5', 'c3a5', 'c3c2', 'c3c5', 'e7e6', 'e7d6']
+Moves evaluations: {-643: 'f6e8', -650: 'c6c5', -747: 'd7d6'}
+Decided centipawn loss from mean 0 and stdev 8: 0.36232981094605515
+Target_evaluation: -642.6376701890539
+Chosen move: f6e8
+Move number: 15
+. . . . n . . Q
+. . . p k p p p
+. r p . . . . .
+. . . . . . B .
+. . . . P . . .
+. . q . . P . .
+P . P . . . P P
+R . . K . B . R
+Legal_moves found from human search: ['f7f6', 'e8f6', 'e7e6', 'e7d6']
+Moves evaluations: {-639: 'f7f6', -1221: 'e8f6', -1473: 'e7d6'}
+Decided centipawn loss from mean 0 and stdev 8: 2.5611801932035485
+Target_evaluation: -636.4388198067965
+Chosen move: f7f6
+Move number: 16
+. . . . n . . Q
+. . . p k . p p
+. r p . . B . .
+. . . . . . . .
+. . . . P . . .
+. . q . . P . .
+P . P . . . P P
+R . . K . B . R
+Legal_moves found from human search: ['g7f6', 'e8f6', 'c3f6', 'e7f6', 'e7f7', 'e7e6']
+Moves evaluations: {-657: 'c3f6', -761: 'g7f6', -812: 'e8f6'}
+Decided centipawn loss from mean 0 and stdev 8: -7.071444095207895
+Target_evaluation: -664.0714440952079
+Chosen move: c3f6
+Move number: 17
+. . . . n . . Q
+. . . p k . p p
+. r p . . q . .
+. . . . . . . .
+. . . . P . . .
+. . . . . P . .
+P . P . . . P P
+. . R K . B . R
+Legal_moves found from human search: ['d7d5', 'h7h5', 'd7d6', 'h7h6', 'e8d6', 'e8c7', 'b6b1', 'b6b2', 'b6b8', 'b6b4', 'f6e6', 'f6b2', 'f6e5', 'e7d8', 'e7d6', 'e7f7']
+Moves evaluations: {-660: 'h7h6', -714: 'e8c7'}
+Decided centipawn loss from mean 0 and stdev 8: -3.0827176928504954
+Target_evaluation: -663.0827176928505
+Chosen move: h7h6
+Move number: 18
+. . . . n . . Q
+. . . p k . p .
+. r p . . q . p
+. . . . . . . .
+. . . . P . . .
+. . . B . P . .
+P . P . . . P P
+. . R K . . . R
+Legal_moves found from human search: ['d7d5', 'g7g5', 'h6h5', 'c6c5', 'e8d6', 'e8c7', 'b6b8', 'b6b5', 'b6b2', 'b6b1', 'f6e6', 'f6d4', 'f6b2', 'e7d8', 'e7d6', 'e7f7']
+Moves evaluations: {-743: 'f6e6', -763: 'c6c5', -727: 'f6d4'}
+Decided centipawn loss from mean 0 and stdev 8: -0.5188873250049889
+Target_evaluation: -727.518887325005
+Chosen move: f6d4
+Move number: 19
+. . . . n . . Q
+. . . p k . p .
+. r p . . . . p
+. . . . . . . .
+. . . q P . . .
+. . . B . P . .
+P . P . K . P P
+. . R . . . . R
+Legal_moves found from human search: ['d7d5', 'g7g5', 'c6c5', 'h6h5', 'e8f6', 'e8d6', 'e8c7', 'b6b5', 'b6b8', 'b6b2', 'b6b1', 'd4b2', 'd4e5', 'd4f6', 'd4e3', 'e7d6', 'e7d8', 'e7f6']
+Moves evaluations: {-784: 'b6b8', -802: 'd4e5', -822: 'b6b2'}
+Decided centipawn loss from mean 0 and stdev 8: -10.834253268511556
+Target_evaluation: -794.8342532685116
+Chosen move: d4e5
+Move number: 20
+. . . . n . Q .
+. . . p k . p .
+. r p . . . . p
+. . . . q . . .
+. . . . P . . .
+. . . B . P . .
+P . P . K . P P
+. . R . . . . R
+Legal_moves found from human search: ['d7d5', 'g7g5', 'h6h5', 'c6c5', 'e8f6', 'e8d6', 'e8c7', 'b6b5', 'b6b8', 'b6b2', 'b6b4', 'e5b2', 'e5e6', 'e5c5', 'e5f6', 'e7d6', 'e7f6', 'e7d8']
+Moves evaluations: {-826: 'b6b4', -836: 'e8c7', -854: 'b6b8'}
+Decided centipawn loss from mean 0 and stdev 8: 3.6418740307510364
+Target_evaluation: -822.3581259692489
+Chosen move: b6b4
+Move number: 21
+. . . . n . Q .
+. . . p k . p .
+. . p . . . . p
+. . . . q . . .
+. r . . P . . .
+. . . B . P P .
+P . P . K . . P
+. . R . . . . R
+Legal_moves found from human search: ['d7d5', 'g7g5', 'h6h5', 'd7d6', 'e8f6', 'e8d6', 'e8c7', 'b4b2', 'b4b8', 'b4a4', 'b4b6', 'e5b2', 'e5e6', 'e5d6', 'e5f6', 'e7f6', 'e7d6', 'e7d8']
+Moves evaluations: {-849: 'b4a4', -845: 'e5e6', -862: 'h6h5'}
+Decided centipawn loss from mean 0 and stdev 8: 5.485452145083296
+Target_evaluation: -839.5145478549167
+Chosen move: e5e6
+Move number: 22
+. . . . n . . .
+. . . p k . p .
+. . p . Q . . p
+. . . . . . . .
+. r . . P . . .
+. . . B . P P .
+P . P . K . . P
+. . R . . . . R
+Legal_moves found from human search: ['d7e6', 'e7d8', 'e7f8', 'e7e6']
+Moves evaluations: {-866: 'e7e6', -997: 'd7e6', -2570: 'e7d8'}
+Decided centipawn loss from mean 0 and stdev 8: -0.21730609704007753
+Target_evaluation: -866.21730609704
+Chosen move: e7e6
+Move number: 23
+. . . . n . . .
+. . . p . . p .
+. . p . k . . p
+. . . . . . . .
+. r . . P . . .
+. . . B . P P .
+P . P . K . . P
+. R . . . . . R
+Legal_moves found from human search: ['d7d5', 'g7g5', 'h6h5', 'g7g6', 'e8c7', 'e8f6', 'e8d6', 'b4a4', 'b4b1', 'b4b6', 'b4d4', 'e6e7', 'e6e5', 'e6f6', 'e6f7']
+Moves evaluations: {-867: 'b4a4', -50: 'b4d4', -1081: 'b4b1'}
+Decided centipawn loss from mean 0 and stdev 8: -3.9348859909135547
+Target_evaluation: -53.93488599091356
+Chosen move: b4d4
+Move number: 24
+. R . . n . . .
+. . . p . . p .
+. . p . k . . p
+. . . . . . . .
+. . . r P . . .
+. . . B . P P .
+P . P . K . . P
+. . . . . . . R
+Legal_moves found from human search: ['d7d5', 'g7g5', 'h6h5', 'c6c5', 'e8f6', 'e8c7', 'e8d6', 'd4a4', 'd4b4', 'e6e7', 'e6f6', 'e6e5', 'e6d6']
+Moves evaluations: {-912: 'e8d6', -915: 'e8c7', -918: 'e6e7'}
+Decided centipawn loss from mean 0 and stdev 8: -0.09981389312502757
+Target_evaluation: -912.099813893125
+Chosen move: e8d6
+Move number: 25
+. R . . . . . .
+. . . p . . p .
+. . p n k . . p
+. . . . . . . .
+. . . r P P . .
+. . . B . . P .
+P . P . K . . P
+. . . . . . . R
+Legal_moves found from human search: ['g7g5', 'h6h5', 'g7g6', 'c6c5', 'd6e4', 'd6e8', 'd6c4', 'd6b5', 'd4a4', 'd4b4', 'e6f6', 'e6e7', 'e6f7']
+Moves evaluations: {-931: 'd4a4', -976: 'h6h5', -991: 'd6b5'}
+Decided centipawn loss from mean 0 and stdev 8: 3.0200384410826056
+Target_evaluation: -927.9799615589174
+Chosen move: d4a4
+Move number: 26
+. R . . . . . .
+. . . p . . p .
+. . p n k . . p
+. . . . . . . .
+r . . . P P . .
+. . . B . . P .
+P . P . K . . P
+. . . R . . . .
+Legal_moves found from human search: ['g7g5', 'h6h5', 'g7g6', 'c6c5', 'd6e4', 'd6e8', 'd6c4', 'd6b5', 'a4a2', 'a4a3', 'a4a7', 'e6f6', 'e6e7', 'e6f7']
+Moves evaluations: {-1006: 'g7g5', -1014: 'g7g6', -1018: 'a4a7'}
+Decided centipawn loss from mean 0 and stdev 8: 6.41979422521431
+Target_evaluation: -999.5802057747857
+Chosen move: g7g5
+Move number: 27
+. . . . . . . R
+. . . p . . . .
+. . p n k . . p
+. . . . . . p .
+r . . . P P . .
+. . . B . . P .
+P . P . K . . P
+. . . R . . . .
+Legal_moves found from human search: ['g5f4', 'h6h5', 'g5g4', 'c6c5', 'd6e4', 'd6c4', 'd6e8', 'd6f7', 'a4a2', 'a4a3', 'a4b4', 'a4a8', 'e6f6', 'e6e7', 'e6f7']
+Moves evaluations: {-1164: 'd6f7', -1203: 'd6c4', -1185: 'g5f4'}
+Decided centipawn loss from mean 0 and stdev 8: 1.6520735328484915
+Target_evaluation: -1162.3479264671514
+Chosen move: d6f7
+Move number: 28
+. . . . R . . .
+. . . p . n . .
+. . p . k . . p
+. . . . . . p .
+r . . . P P . .
+. . . B . . P .
+P . P . K . . P
+. . . R . . . .
+Legal_moves found from human search: ['e6f6', 'e6d6']
+Moves evaluations: {-1339: 'e6f6', -1832: 'e6d6'}
+Decided centipawn loss from mean 0 and stdev 8: -17.363077877310378
+Target_evaluation: -1356.3630778773104
+Chosen move: e6f6
+Move number: 29
+. . . . R . . .
+. . . p . n . .
+. . p . . k . p
+. . . . P . p .
+r . . . . P . .
+. . . B . . P .
+P . P . K . . P
+. . . R . . . .
+Legal_moves found from human search: ['f7e5', 'f6g7']
+Moves evaluations: {-1427: 'f6g7', -50: 'f7e5'}
+Decided centipawn loss from mean 0 and stdev 8: -17.638492679002788
+Target_evaluation: -67.63849267900278
+Chosen move: f7e5
+Move number: 30
+. . . . R . . .
+. . . p . . . .
+. . p . . k . p
+. . . . P . p .
+r . . . . . . .
+. . . B . . P .
+P . P . K . . P
+. . . R . . . .
+Legal_moves found from human search: ['f6g7']
+Moves evaluations: {-40: 'f6g7'}
+Decided centipawn loss from mean 0 and stdev 8: -15.769071273243057
+Target_evaluation: -55.76907127324306
+Chosen move: f6g7
+Playing side: BLACK 
+Move number: 1
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P P P P P P
+R . B Q K B N R
+Legal_moves found from human search: ['e7e5', 'd7d5', 'c7c5', 'b7b6', 'g8f6', 'b8c6', 'g8h6']
+Moves evaluations: {-6: 'd7d5', -14: 'e7e5', -20: 'g8f6'}
+Decided centipawn loss from mean 0 and stdev 8: 5.261512051120843
+Target_evaluation: -0.7384879488791567
+Chosen move: d7d5
+Move number: 2
+r n b q k b n r
+p p p . p p p p
+. . . . . . . .
+. . . p . . . .
+. . . . . . . .
+. . N . . N . .
+P P P P P P P P
+R . B Q K B . R
+Legal_moves found from human search: ['c7c5', 'd5d4', 'e7e6', 'g7g6', 'g8f6', 'b8c6', 'b8d7', 'c8g4', 'c8f5', 'c8d7', 'c8e6', 'd8d7', 'd8d6', 'e8d7']
+Moves evaluations: {-10: 'g8f6', -12: 'd5d4', -20: 'c7c5'}
+Decided centipawn loss from mean 0 and stdev 8: -11.700736636162564
+Target_evaluation: -21.700736636162564
+Chosen move: c7c5
+Move number: 3
+r n b q k b n r
+p p . . p p p p
+. . . . . . . .
+. . p p . . . .
+. . . P . . . .
+. . N . . N . .
+P P P . P P P P
+R . B Q K B . R
+Legal_moves found from human search: ['c5d4', 'e7e6', 'g7g6', 'f7f6', 'b8c6', 'g8f6', 'b8d7', 'c8f5', 'c8g4', 'c8d7', 'd8b6', 'd8a5', 'd8c7', 'd8d6', 'e8d7']
+Moves evaluations: {9: 'g8f6', -20: 'c5d4', -47: 'b8c6'}
+Decided centipawn loss from mean 0 and stdev 8: -2.971690376195827
+Target_evaluation: 6.028309623804173
+Chosen move: g8f6
+Move number: 4
+r n b q k b . r
+p p . . p p p p
+. . . . . n . .
+. . P p . . . .
+. . . . . . . .
+. . N . . N . .
+P P P . P P P P
+R . B Q K B . R
+Legal_moves found from human search: ['e7e6', 'd5d4', 'e7e5', 'g7g6', 'b8c6', 'f6e4', 'b8d7', 'f6d7', 'b8a6', 'c8g4', 'c8f5', 'c8d7', 'h8g8', 'd8a5', 'd8c7', 'd8b6', 'e8d7']
+Moves evaluations: {31: 'b8c6', -21: 'e7e6', -65: 'e7e5'}
+Decided centipawn loss from mean 0 and stdev 8: -5.599194120679598
+Target_evaluation: 25.4008058793204
+Chosen move: b8c6
+Move number: 5
+r . b q k b . r
+p p . . p p p p
+. . n . . n . .
+. . P p . . . .
+. . . . . . . .
+. . N Q . N . .
+P P P . P P P P
+R . B . K B . R
+Legal_moves found from human search: ['e7e5', 'e7e6', 'd5d4', 'a7a5', 'f6e4', 'c6b4', 'f6h5', 'f6g4', 'c8g4', 'c8f5', 'c8d7', 'a8b8', 'h8g8', 'd8a5', 'd8c7', 'd8b6', 'e8d7']
+Moves evaluations: {34: 'e7e5', -50: 'd5d4', 24: 'e7e6'}
+Decided centipawn loss from mean 0 and stdev 8: 2.904800194190422
+Target_evaluation: 36.90480019419042
+Chosen move: e7e5
+Move number: 6
+r . b q k b . r
+p p . . . p p p
+. . n . . n . .
+. Q P p p . . .
+. . . . . . . .
+. . N . . N . .
+P P P . P P P P
+R . B . K B . R
+Legal_moves found from human search: ['e5e4', 'd5d4', 'a7a6', 'h7h6', 'f6e4', 'f6h5', 'c8g4', 'f8c5', 'f8e7', 'c8d7', 'a8b8', 'h8g8', 'd8c7', 'd8a5', 'd8e7', 'd8d7', 'e8e7']
+Moves evaluations: {209: 'a7a6', 115: 'c8d7', -50: 'd5d4'}
+Decided centipawn loss from mean 0 and stdev 8: -9.558640342117494
+Target_evaluation: 199.44135965788251
+Chosen move: a7a6
+Move number: 7
+r . b q k b . r
+. p . . . p p p
+p . n . . n . .
+. . P p p . . .
+Q . . . . . . .
+. . N . . N . .
+P P P . P P P P
+R . B . K B . R
+Legal_moves found from human search: ['d5d4', 'e5e4', 'h7h6', 'b7b5', 'f6e4', 'f6d7', 'f6h5', 'f8c5', 'c8g4', 'f8e7', 'c8f5', 'a8b8', 'h8g8', 'd8c7', 'd8e7', 'd8a5', 'd8d7', 'e8e7', 'e8d7']
+Moves evaluations: {151: 'd5d4', 85: 'b7b5', 24: 'd8d7'}
+Decided centipawn loss from mean 0 and stdev 8: 13.553764756681467
+Target_evaluation: 164.55376475668146
+Chosen move: d5d4
+Move number: 8
+r . b q k b . r
+. p . . . p p p
+p . n . . n . .
+. . P . p . . .
+Q . . p . . . .
+. . . . . N . .
+P P P . P P P P
+R . B N K B . R
+Legal_moves found from human search: ['e5e4', 'h7h6', 'h7h5', 'b7b5', 'f6d5', 'f6d7', 'f6e4', 'f6h5', 'c8f5', 'c8g4', 'c8d7', 'f8c5', 'a8b8', 'h8g8', 'a8a7', 'd8d5', 'd8c7', 'd8a5', 'd8e7', 'e8e7', 'e8d7']
+Moves evaluations: {148: 'c8d7', 146: 'e5e4', 83: 'd8d5'}
+Decided centipawn loss from mean 0 and stdev 8: -3.472192730388916
+Target_evaluation: 144.5278072696111
+Chosen move: e5e4
+Move number: 9
+r . b q k b . r
+. p . . . p p p
+p . n . . n . .
+. . P . N . . .
+Q . . p p . . .
+. . . . . . . .
+P P P . P P P P
+R . B N K B . R
+Legal_moves found from human search: ['h7h6', 'h7h5', 'd4d3', 'a6a5', 'f6d5', 'f6g4', 'c8d7', 'c8f5', 'f8c5', 'f8e7', 'a8b8', 'h8g8', 'd8d5', 'd8c7', 'd8a5', 'd8e7', 'e8e7']
+Moves evaluations: {80: 'c8d7', -50: 'd8d5', 8: 'd8c7'}
+Decided centipawn loss from mean 0 and stdev 8: -5.928013648321344
+Target_evaluation: 74.07198635167866
+Chosen move: c8d7
+Move number: 10
+r . . q k b . r
+. p . b . p p p
+p . N . . n . .
+. . P . . . . .
+Q . . p p . . .
+. . . . . . . .
+P P P . P P P P
+R . B N K B . R
+Legal_moves found from human search: ['b7c6', 'd4d3', 'b7b6', 'e4e3', 'f6d5', 'f6g4', 'd7c6', 'f8c5', 'a8c8', 'a8b8', 'd8c8', 'd8c7', 'd8e7']
+Moves evaluations: {110: 'd7c6', -50: 'd8c8', -37: 'd8c7'}
+Decided centipawn loss from mean 0 and stdev 8: 6.293360282117951
+Target_evaluation: 116.29336028211794
+Chosen move: d7c6
+Move number: 11
+r . . q k b . r
+. p . . . p p p
+p . b . . n . .
+. . P . . . . .
+. . . p p . . .
+Q . . . . . . .
+P P P . P P P P
+R . B N K B . R
+Legal_moves found from human search: ['h7h5', 'h7h6', 'd4d3', 'a6a5', 'f6d5', 'f6g4', 'f6d7', 'f6h5', 'f8c5', 'f8e7', 'c6b5', 'f8d6', 'a8c8', 'a8b8', 'd8d5', 'd8a5', 'd8c7', 'd8d7', 'e8d7', 'e8e7']
+Moves evaluations: {117: 'f6d7', 78: 'd8d5', -50: 'f8e7'}
+Decided centipawn loss from mean 0 and stdev 8: -8.172980234575226
+Target_evaluation: 108.82701976542478
+Chosen move: f6d7
+Move number: 12
+r . . q k b . r
+. p . n . p p p
+p . b . . . . .
+. . P . . . . .
+. P . p p . . .
+Q . . . . . . .
+P . P . P P P P
+R . B N K B . R
+Legal_moves found from human search: ['f7f5', 'h7h5', 'a6a5', 'd4d3', 'd7e5', 'd7f6', 'd7b6', 'd7c5', 'c6b5', 'f8e7', 'c6a4', 'c6d5', 'a8c8', 'a8b8', 'd8f6', 'd8g5', 'd8a5', 'd8h4', 'e8e7']
+Moves evaluations: {72: 'a6a5', -50: 'd8f6', -5: 'd7e5'}
+Decided centipawn loss from mean 0 and stdev 8: -2.8178444601752277
+Target_evaluation: 69.18215553982478
+Chosen move: a6a5
+Move number: 13
+r . . q k b . r
+. p . n . p p p
+. . b . . . . .
+p . P . . . . .
+. P . p p . . .
+. . . . . . . .
+P Q P . P P P P
+R . B N K B . R
+Legal_moves found from human search: ['a5b4', 'd4d3', 'h7h6', 'a5a4', 'd7e5', 'd7f6', 'd7c5', 'd7b6', 'c6a4', 'f8e7', 'c6d5', 'a8a6', 'a8b8', 'a8c8', 'd8f6', 'd8g5', 'd8e7', 'd8c8', 'e8e7']
+Moves evaluations: {101: 'a5b4', 23: 'f8e7', -2: 'd8f6'}
+Decided centipawn loss from mean 0 and stdev 8: -7.306700699822986
+Target_evaluation: 93.69329930017702
+Chosen move: a5b4
+Move number: 14
+r . . q k b . r
+. p . n . p p p
+. . b . . . . .
+. . P . . . . .
+. p . Q p . . .
+. . . . . . . .
+P . P . P P P P
+R . B N K B . R
+Legal_moves found from human search: ['f7f5', 'b4b3', 'f7f6', 'h7h5', 'd7c5', 'd7e5', 'd7f6', 'f8c5', 'f8e7', 'c6b5', 'c6a4', 'a8a2', 'a8a4', 'a8a6', 'd8a5', 'd8f6', 'd8c7', 'e8e7']
+Moves evaluations: {102: 'd8a5', 108: 'f8e7', 80: 'd7c5'}
+Decided centipawn loss from mean 0 and stdev 8: -0.15125364666366997
+Target_evaluation: 107.84874635333632
+Chosen move: f8e7
+Move number: 15
+r . . q k . . r
+. p . n b p p p
+. . b . . . . .
+. . P . . . . .
+. p . Q p . . .
+. . . . . . . .
+P B P . P P P P
+R . . N K B . R
+Legal_moves found from human search: ['f7f5', 'b4b3', 'f7f6', 'h7h5', 'd7c5', 'd7e5', 'd7f6', 'd7f8', 'e7c5', 'e7f6', 'c6b5', 'e7h4', 'a8a4', 'a8a2', 'a8a6', 'd8a5', 'd8c7', 'd8c8', 'e8g8', 'e8f8']
+Moves evaluations: {119: 'e7f6', 102: 'f7f6', -16: 'd7f6'}
+Decided centipawn loss from mean 0 and stdev 8: -2.723633301916788
+Target_evaluation: 116.27636669808321
+Chosen move: e7f6
+Move number: 16
+r . . q k . . r
+. p . n . p p p
+. . b . . b . .
+. . P . . . . .
+. Q . . p . . .
+. . . . . . . .
+P B P . P P P P
+R . . N K B . R
+Legal_moves found from human search: ['h7h5', 'h7h6', 'e4e3', 'b7b6', 'd7c5', 'd7e5', 'd7f8', 'd7b8', 'f6b2', 'f6e5', 'c6d5', 'f6h4', 'a8a6', 'a8c8', 'a8a4', 'd8a5', 'd8e7', 'd8c7', 'd8c8', 'e8g8', 'e8f8', 'e8e7']
+Moves evaluations: {89: 'e4e3', 49: 'e8g8', 60: 'f6b2'}
+Decided centipawn loss from mean 0 and stdev 8: -3.9290601728754204
+Target_evaluation: 85.07093982712458
+Chosen move: e4e3
+Move number: 17
+r . . q k . . r
+. p . n . p p p
+. . b . . b . .
+. . P . . . . .
+. Q . . . . . .
+. . . . P . . .
+P B P . P . P P
+R . . N K B . R
+Legal_moves found from human search: ['h7h5', 'b7b5', 'h7h6', 'g7g6', 'd7c5', 'd7e5', 'd7f8', 'd7b8', 'f6h4', 'c6d5', 'c6e4', 'f6b2', 'a8a6', 'a8a4', 'a8c8', 'd8a5', 'd8e7', 'd8c7', 'd8c8', 'e8g8', 'e8f8', 'e8e7']
+Moves evaluations: {160: 'a8a4', 178: 'e8g8', 165: 'f6b2'}
+Decided centipawn loss from mean 0 and stdev 8: 4.353336118516784
+Target_evaluation: 182.35333611851678
+Chosen move: e8g8
+Move number: 18
+r . . q . r k .
+. p . n . p p p
+. . b . . b . .
+. . P . . . . .
+. Q . B . . . .
+. . . . P . . .
+P . P . P . P P
+R . . N K B . R
+Legal_moves found from human search: ['b7b6', 'b7b5', 'g7g6', 'h7h6', 'd7e5', 'd7c5', 'd7b8', 'c6e4', 'c6d5', 'f6d4', 'f6h4', 'a8a6', 'f8e8', 'a8a2', 'd8a5', 'd8e7', 'd8e8', 'g8h8']
+Moves evaluations: {195: 'f8e8', 192: 'f6h4', 197: 'f6d4'}
+Decided centipawn loss from mean 0 and stdev 8: -8.946997171484565
+Target_evaluation: 188.05300282851545
+Chosen move: f6h4
+Move number: 19
+r . . q . r k .
+. p . n . p p p
+. . b . . . . .
+. . P . . . . .
+. Q . B . . . b
+. . . . P . . .
+P . P . P N P P
+R . . . K B . R
+Legal_moves found from human search: ['f7f6', 'b7b6', 'f7f5', 'h7h6', 'd7c5', 'd7f6', 'd7e5', 'c6e4', 'c6d5', 'h4f6', 'h4f2', 'a8a6', 'f8e8', 'a8a2', 'd8a5', 'd8g5', 'd8e7', 'g8h8']
+Moves evaluations: {175: 'f8e8', 149: 'd8e7', 106: 'd7f6'}
+Decided centipawn loss from mean 0 and stdev 8: -1.8893395287418842
+Target_evaluation: 173.11066047125811
+Chosen move: f8e8
+Move number: 20
+r . . q r . k .
+. p . n . p p p
+. . b . . . . .
+. . P . . . . .
+. Q . B . . . b
+. . . . P . . .
+P . P . P N P P
+R . . . K B R .
+Legal_moves found from human search: ['f7f6', 'b7b6', 'h7h6', 'g7g6', 'd7c5', 'd7e5', 'd7f6', 'c6e4', 'c6d5', 'h4f6', 'h4g3', 'a8a6', 'e8e4', 'a8a2', 'd8a5', 'd8g5', 'd8e7', 'g8h8', 'g8f8']
+Moves evaluations: {277: 'd7e5', 131: 'h4f6', 114: 'd8e7'}
+Decided centipawn loss from mean 0 and stdev 8: 6.238229645913098
+Target_evaluation: 283.2382296459131
+Chosen move: d7e5
+Move number: 21
+r . . q r . k .
+. p . . . p p p
+. . b . . . . .
+. . P . n . . .
+. Q . B . . . b
+. . . . P . P .
+P . P . P N . P
+R . . . K B R .
+Legal_moves found from human search: ['h7h5', 'f7f6', 'b7b6', 'f7f5', 'e5c4', 'e5f3', 'e5g6', 'c6e4', 'h4g3', 'c6f3', 'a8a6', 'a8a2', 'a8a4', 'd8d5', 'd8g5', 'd8e7', 'g8h8', 'g8f8']
+Moves evaluations: {267: 'a8a4', -140: 'e5f3', -50: 'd8g5'}
+Decided centipawn loss from mean 0 and stdev 8: 3.135006876299986
+Target_evaluation: 270.1350068763
+Chosen move: a8a4
+Move number: 22
+. . . q r . k .
+. p . . . p p p
+. . b . . . . .
+. . P . n . . .
+r . . B . . . b
+. . Q . P . P .
+P . P . P N . P
+R . . . K B R .
+Legal_moves found from human search: ['h7h5', 'f7f6', 'f7f5', 'g7g6', 'e5c4', 'e5f3', 'e5g6', 'e5g4', 'h4g3', 'h4f6', 'c6e4', 'a4a6', 'a4a2', 'a4a8', 'd8a5', 'd8d5', 'd8e7', 'g8f8', 'g8h8']
+Moves evaluations: {154: 'h4f6', -146: 'e5f3', -347: 'g7g6'}
+Decided centipawn loss from mean 0 and stdev 8: -7.251255152332734
+Target_evaluation: 146.74874484766727
+Chosen move: h4f6
+Move number: 23
+. . . q r . k .
+. p . . . p p p
+. . b . . b . .
+. . P . n . . .
+r . . B . . . .
+. . Q . P . P .
+P . P . P N . P
+. . K R . B R .
+Legal_moves found from human search: ['h7h5', 'h7h6', 'g7g5', 'g7g6', 'e5c4', 'e5g6', 'e5g4', 'e5f3', 'c6e4', 'f6h4', 'f6e7', 'a4a6', 'a4a2', 'a4a8', 'd8a5', 'd8e7', 'd8c8', 'd8c7', 'g8f8', 'g8h8']
+Moves evaluations: {48: 'd8e7', 4: 'a4a2', -12: 'd8c7'}
+Decided centipawn loss from mean 0 and stdev 8: 11.548584473530495
+Target_evaluation: 59.5485844735305
+Chosen move: d8e7
+Move number: 24
+. . . . r . k .
+. p . . q p p p
+. . b . . b . .
+. . P . n . . .
+r . . B . . . .
+. . Q . P . P .
+P . P . P N B P
+. . K R . . R .
+Legal_moves found from human search: ['h7h5', 'h7h6', 'g7g6', 'g7g5', 'e5c4', 'e5g4', 'e5g6', 'c6g2', 'c6e4', 'c6b5', 'e8a8', 'a4a8', 'a4a2', 'a4a6', 'a4a3', 'e7e6', 'e7c7', 'g8f8', 'g8h8']
+Moves evaluations: {75: 'e8a8', 43: 'c6g2', 0: 'a4a2'}
+Decided centipawn loss from mean 0 and stdev 8: -8.897466491647526
+Target_evaluation: 66.10253350835248
+Chosen move: e8a8
+Move number: 25
+r . . . . . k .
+. p . . q p p p
+. . b . . b . .
+. . P . n . . .
+r . . B N . . .
+. . Q . P . P .
+P . P . P . B P
+. . K R . . R .
+Legal_moves found from human search: ['h7h5', 'h7h6', 'g7g6', 'g7g5', 'e5c4', 'e5g4', 'e5g6', 'c6e4', 'c6d5', 'a4a2', 'a8a6', 'a4a6', 'a4a3', 'a8a7', 'a4a7', 'e7e6', 'e7e8', 'g8f8', 'g8h8']
+Moves evaluations: {132: 'a4a3', 17: 'c6e4', -22: 'a4a2'}
+Decided centipawn loss from mean 0 and stdev 8: 2.8592963176729724
+Target_evaluation: 134.85929631767297
+Chosen move: a4a3
+Move number: 26
+r . . . . . k .
+. p . . q p p p
+. . b . . b . .
+. . P . n . . .
+. . . B N . . .
+r . . . P . P .
+P . P Q P . B P
+. . K R . . R .
+Legal_moves found from human search: ['h7h5', 'h7h6', 'g7g6', 'g7g5', 'e5c4', 'e5g4', 'c6e4', 'c6d5', 'a3a2', 'a8a4', 'a3a4', 'a8a6', 'a3a6', 'a8a5', 'a3a5', 'e7e6', 'e7c7', 'g8f8', 'g8h8']
+Moves evaluations: {141: 'c6e4', 102: 'e5c4', 46: 'a3a2'}
+Decided centipawn loss from mean 0 and stdev 8: 6.320765169084077
+Target_evaluation: 147.32076516908407
+Chosen move: c6e4
+Move number: 27
+r . . . . . k .
+. p . . q p p p
+. . . . . b . .
+. . P . n . . .
+. . . B B . . .
+r . . . P . P .
+P . P Q P . . P
+. . K R . . R .
+Legal_moves found from human search: ['h7h5', 'g7g6', 'h7h6', 'b7b5', 'e5c4', 'e5c6', 'e5g4', 'f6g5', 'f6h4', 'a3a2', 'a8a4', 'a3a4', 'a8a5', 'a3a5', 'a8a6', 'a3a6', 'e7e6', 'e7c5', 'g8h8', 'g8f8']
+Moves evaluations: {110: 'e5g4', 117: 'a3a2', 108: 'e5c4'}
+Decided centipawn loss from mean 0 and stdev 8: -2.8947756468746926
+Target_evaluation: 114.10522435312531
+Chosen move: a3a2
+Move number: 28
+r . . . . . k .
+. p . . q p p p
+. . . . . b . .
+. . P B n . . .
+. . . B . . . .
+. . . . P . P .
+r . P Q P . . P
+. . K R . . R .
+Legal_moves found from human search: ['h7h5', 'g7g6', 'h7h6', 'b7b5', 'e5c6', 'e5g4', 'e5c4', 'e5d7', 'f6g5', 'f6h4', 'a8a5', 'a2a5', 'a2a1', 'a8a4', 'a2a4', 'a8a3', 'a2a3', 'e7c7', 'e7e6', 'e7c5', 'g8f8', 'g8h8']
+Moves evaluations: {97: 'a2a3', 67: 'a2a5', 48: 'a2a1'}
+Decided centipawn loss from mean 0 and stdev 8: 8.663683671701419
+Target_evaluation: 105.66368367170142
+Chosen move: a2a3
+Move number: 29
+r . . . . . k .
+. p . . q p p p
+. . . . . b . .
+. . P B n . . .
+. Q . B . . . .
+r . . . P . P .
+. . P . P . . P
+. . K R . . R .
+Legal_moves found from human search: ['h7h5', 'g7g6', 'b7b6', 'h7h6', 'e5c6', 'e5g4', 'e5c4', 'f6g5', 'f6h4', 'a3a2', 'a3a1', 'a8a5', 'a3a5', 'a8a4', 'a3a4', 'e7c7', 'e7e6', 'g8f8', 'g8h8']
+Moves evaluations: {323: 'e5c6', -50: 'a8a4', -40: 'g8h8'}
+Decided centipawn loss from mean 0 and stdev 8: 0.7176010318324213
+Target_evaluation: 323.71760103183243
+Chosen move: e5c6
+Move number: 30
+r . . . . . k .
+. p . . q p p p
+. . B . . b . .
+. . P . . . . .
+. Q . B . . . .
+r . . . P . P .
+. . P . P . . P
+. . K R . . R .
+Legal_moves found from human search: ['b7c6', 'b7b6', 'h7h5', 'f6g5', 'f6d4', 'f6e5', 'a3a1', 'a3a2', 'a8a6', 'a3a6', 'a8a5', 'a3a5', 'e7e6', 'e7e4', 'g8f8', 'g8h8']
+Moves evaluations: {404: 'b7c6', 335: 'f6d4', -61: 'f6g5'}
+Decided centipawn loss from mean 0 and stdev 8: -5.378234963125075
+Target_evaluation: 398.62176503687493
+Chosen move: b7c6
+Playing side: BLACK 
+Move number: 1
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P P P P P P
+R . B Q K B N R
+Legal_moves found from human search: ['e7e5', 'd7d5', 'c7c5', 'b7b6', 'g8f6', 'b8c6', 'g8h6']
+Moves evaluations: {-6: 'd7d5', -11: 'e7e5', -50: 'g8f6'}
+Decided centipawn loss from mean 0 and stdev 8: -2.250982001343292
+Target_evaluation: -8.250982001343292
+Chosen move: d7d5
+Move number: 2
+r n b q k b n r
+p p p . p p p p
+. . . . . . . .
+. . . p . . . .
+. . . . . . . .
+. . N . . N . .
+P P P P P P P P
+R . B Q K B . R
+Legal_moves found from human search: ['c7c5', 'd5d4', 'e7e6', 'g7g6', 'g8f6', 'b8c6', 'b8d7', 'c8g4', 'c8f5', 'c8d7', 'c8e6', 'd8d7', 'd8d6', 'e8d7']
+Moves evaluations: {9: 'd5d4', 7: 'g8f6', -8: 'e7e6'}
+Decided centipawn loss from mean 0 and stdev 8: 0.17039880205442065
+Target_evaluation: 9.17039880205442
+Chosen move: d5d4
+Move number: 3
+r n b q k b n r
+p p p . p p p p
+. . . . . . . .
+. . . . . . . .
+. . . p N . . .
+. . . . . N . .
+P P P P P P P P
+R . B Q K B . R
+Legal_moves found from human search: ['c7c5', 'e7e5', 'g7g6', 'b8c6', 'g8f6', 'b8d7', 'c8f5', 'c8g4', 'c8d7', 'c8e6', 'd8d5', 'd8d7', 'e8d7']
+Moves evaluations: {-1: 'g8f6', -3: 'e7e5', -34: 'd8d5'}
+Decided centipawn loss from mean 0 and stdev 8: -8.335732677960507
+Target_evaluation: -9.335732677960507
+Chosen move: e7e5
+Move number: 4
+r n b q k b n r
+p p p . . p p p
+. . . . . . . .
+. . . . p . . .
+. . . p N . . .
+. . . . P N . .
+P P P P . P P P
+R . B Q K B . R
+Legal_moves found from human search: ['c7c5', 'f7f5', 'd4e3', 'a7a6', 'b8c6', 'g8f6', 'b8d7', 'g8e7', 'c8g4', 'f8d6', 'f8e7', 'c8f5', 'd8d5', 'd8e7', 'd8f6', 'e8e7', 'e8d7']
+Moves evaluations: {-19: 'd8d5', -48: 'd4e3', -35: 'g8f6'}
+Decided centipawn loss from mean 0 and stdev 8: -9.671658106033727
+Target_evaluation: -28.671658106033725
+Chosen move: g8f6
+Move number: 5
+r n b q k b . r
+p p p . . p p p
+. . . . . N . .
+. . . . p . . .
+. . . p . . . .
+. . . . P N . .
+P P P P . P P P
+R . B Q K B . R
+Legal_moves found from human search: ['g7f6', 'd8f6', 'e8e7']
+Moves evaluations: {-18: 'd8f6', -75: 'g7f6', -487: 'e8e7'}
+Decided centipawn loss from mean 0 and stdev 8: -13.599064764474466
+Target_evaluation: -31.599064764474466
+Chosen move: d8f6
+Move number: 6
+r n b . k b . r
+p p p . . p p p
+. . . . . q . .
+. . . . p . . .
+. . . P . . . .
+. . . . . N . .
+P P P P . P P P
+R . B Q K B . R
+Legal_moves found from human search: ['e5e4', 'e5d4', 'g7g6', 'c7c5', 'b8c6', 'b8d7', 'f8d6', 'c8g4', 'f8e7', 'c8f5', 'h8g8', 'f6d8', 'f6g6', 'f6c6', 'f6d6', 'e8d8', 'e8d7']
+Moves evaluations: {-24: 'e5d4', -86: 'e5e4', -202: 'c7c5'}
+Decided centipawn loss from mean 0 and stdev 8: -1.8251186555022532
+Target_evaluation: -25.82511865550225
+Chosen move: e5d4
+Move number: 7
+r n b . k b . r
+p p p . . p p p
+. . . . . q . .
+. B . . . . . .
+. . . p . . . .
+. . . . . N . .
+P P P P . P P P
+R . B Q K . . R
+Legal_moves found from human search: ['c7c6', 'b8c6', 'b8d7', 'c8d7', 'e8e7', 'e8d8']
+Moves evaluations: {-1: 'b8c6', -13: 'c7c6', -34: 'c8d7'}
+Decided centipawn loss from mean 0 and stdev 8: 7.4758505047978705
+Target_evaluation: 6.4758505047978705
+Chosen move: b8c6
+Move number: 8
+r . b . k b . r
+p p p . . p p p
+. . n . . q . .
+. B . . . . . .
+. . . p . . . .
+. . . . . N . .
+P P P P . P P P
+R . B Q . R K .
+Legal_moves found from human search: ['a7a6', 'd4d3', 'h7h6', 'h7h5', 'c8g4', 'f8d6', 'c8d7', 'c8f5', 'h8g8', 'a8b8', 'f6f5', 'f6d8', 'f6g6', 'f6d6', 'e8d7', 'e8d8']
+Moves evaluations: {-8: 'f8d6', -42: 'c8g4', -47: 'h7h6'}
+Decided centipawn loss from mean 0 and stdev 8: 5.425918930585134
+Target_evaluation: -2.5740810694148664
+Chosen move: f8d6
+Move number: 9
+r . b . k . . r
+p p p . . p p p
+. . B b . q . .
+. . . . . . . .
+. . . p . . . .
+. . . . . N . .
+P P P P . P P P
+R . B Q . R K .
+Legal_moves found from human search: ['b7c6', 'c8d7', 'e8f8', 'e8e7']
+Moves evaluations: {32: 'b7c6', -415: 'e8f8', -489: 'e8e7'}
+Decided centipawn loss from mean 0 and stdev 8: -11.333952907675302
+Target_evaluation: 20.666047092324696
+Chosen move: b7c6
+Move number: 10
+r . b . k . . r
+p . p . . p p p
+. . p b . q . .
+. . . . . . . .
+. . . p . . . .
+. . . . . N . .
+P P P P . P P P
+R . B . Q R K .
+Legal_moves found from human search: ['f6e6', 'e8d7', 'e8f8']
+Moves evaluations: {-51: 'e8f8', -80: 'e8d7', -121: 'f6e6'}
+Decided centipawn loss from mean 0 and stdev 8: -6.699883275837426
+Target_evaluation: -57.69988327583742
+Chosen move: e8f8
+Move number: 11
+r . b . . k . r
+p . p . . p p p
+. . p b . q . .
+. . . . . . . .
+. . . p Q . . .
+. . . . . N . .
+P P P P . P P P
+R . B . . R K .
+Legal_moves found from human search: ['c6c5', 'a7a5', 'h7h5', 'h7h6', 'c8g4', 'c8a6', 'c8f5', 'c8d7', 'a8b8', 'f6e6', 'f6f5', 'f6g6', 'f8g8']
+Moves evaluations: {-49: 'c8f5', -56: 'a8b8', -66: 'f6g6'}
+Decided centipawn loss from mean 0 and stdev 8: 1.9094885860489401
+Target_evaluation: -47.09051141395106
+Chosen move: c8f5
+Move number: 12
+r . . . . k . r
+p . p . . p p p
+. . p b . q . .
+. . . . . b . .
+. . . Q . . . .
+. . . . . N . .
+P P P P . P P P
+R . B . . R K .
+Legal_moves found from human search: ['c6c5', 'h7h6', 'a7a5', 'g7g5', 'f5g4', 'f5c2', 'd6h2', 'f5h3', 'a8e8', 'a8d8', 'a8b8', 'h8g8', 'f6d4', 'f6e6', 'f6g6', 'f6e7', 'f8g8', 'f8e8', 'f8e7']
+Moves evaluations: {-12: 'f5c2', -65: 'f6d4', -134: 'a7a5'}
+Decided centipawn loss from mean 0 and stdev 8: 5.763295137276272
+Target_evaluation: -6.236704862723728
+Chosen move: f5c2
+Move number: 13
+r . . . . k . r
+p . p . . p p p
+. . p b . q . .
+. . . . . . . .
+. . . Q . . . .
+. . . . . N . .
+P P b P . P P P
+R . B . R . K .
+Legal_moves found from human search: ['c6c5', 'h7h6', 'a7a5', 'g7g6', 'c2g6', 'c2b1', 'c2d1', 'c2d3', 'a8e8', 'a8d8', 'a8b8', 'f6d4', 'f6f5', 'f6e6', 'f6g6', 'f8g8']
+Moves evaluations: {-25: 'f6d4', -71: 'h7h6', -83: 'a8e8'}
+Decided centipawn loss from mean 0 and stdev 8: 11.94623374324783
+Target_evaluation: -13.05376625675217
+Chosen move: f6d4
+Move number: 14
+r . . . . k . r
+p . p . . p p p
+. . p b . . . .
+. . . . . . . .
+. . . N . . . .
+. . . . . . . .
+P P b P . P P P
+R . B . R . K .
+Legal_moves found from human search: ['c6c5', 'a7a5', 'f7f6', 'h7h5', 'c2b1', 'c2g6', 'c2d3', 'c2d1', 'a8e8', 'a8b8', 'a8d8', 'f8g8']
+Moves evaluations: {-40: 'c2d3', -63: 'c2g6', -383: 'f7f6'}
+Decided centipawn loss from mean 0 and stdev 8: -0.3057398063364455
+Target_evaluation: -40.30573980633645
+Chosen move: c2d3
+Move number: 15
+r . . . . k . r
+p . p . . p p p
+. . N b . . . .
+. . . . . . . .
+. . . . . . . .
+. . . b . . . .
+P P . P . P P P
+R . B . R . K .
+Legal_moves found from human search: ['a7a5', 'a7a6', 'f7f6', 'f7f5', 'd3e2', 'd3f1', 'd3c2', 'd3b5', 'a8e8', 'a8c8', 'a8b8', 'f8g8']
+Moves evaluations: {-33: 'a8e8', -42: 'f7f6', -62: 'd3b5'}
+Decided centipawn loss from mean 0 and stdev 8: 13.834709817606717
+Target_evaluation: -19.165290182393285
+Chosen move: a8e8
+Move number: 16
+. . . . r k . r
+p . p . . p p p
+. . N b . . . .
+. . . . . . . .
+. . . . . . . .
+. . . b R . . .
+P P . P . P P P
+R . B . . . K .
+Legal_moves found from human search: ['a7a5', 'a7a6', 'h7h5', 'f7f6', 'd3e2', 'd3f1', 'd3c2', 'd3b5', 'e8e3', 'e8e5', 'e8c8', 'f8g8']
+Moves evaluations: {-44: 'f7f6', -58: 'h7h5', -76: 'a7a6'}
+Decided centipawn loss from mean 0 and stdev 8: 10.230381867258725
+Target_evaluation: -33.76961813274127
+Chosen move: f7f6
+Move number: 17
+. . . . r k . r
+p . p . . . p p
+. . N b . p . .
+. . . . . . . .
+. . . . . . . .
+. P . b R . . .
+P . . P . P P P
+R . B . . . K .
+Legal_moves found from human search: ['a7a5', 'h7h5', 'a7a6', 'g7g5', 'd3e2', 'd3c2', 'd3b5', 'd3e4', 'e8c8', 'e8e5', 'e8e3', 'f8f7', 'f8g8']
+Moves evaluations: {-37: 'd3e4', -43: 'f8f7', -61: 'e8e3'}
+Decided centipawn loss from mean 0 and stdev 8: -6.695933025575322
+Target_evaluation: -43.69593302557532
+Chosen move: f8f7
+Move number: 18
+. . . . r . . r
+p . p . . k p p
+. . N b . p . .
+. . . . . . . .
+. . . . . . . .
+. P . b R . . .
+P B . P . P P P
+R . . . . . K .
+Legal_moves found from human search: ['a7a5', 'h7h5', 'a7a6', 'g7g5', 'd3b5', 'd3e2', 'd3f1', 'd6f4', 'e8c8', 'e8e3', 'e8b8', 'f7g6', 'f7g8', 'f7f8']
+Moves evaluations: {-47: 'd3b5', -50: 'e8e3', -86: 'd3e2'}
+Decided centipawn loss from mean 0 and stdev 8: -11.609307162286424
+Target_evaluation: -58.60930716228643
+Chosen move: e8e3
+Move number: 19
+. . . . . . . r
+p . p . . k p p
+. . N b . p . .
+. . . . . . . .
+. . . . . . . .
+. P . b P . . .
+P B . . . P P P
+R . . . . . K .
+Legal_moves found from human search: ['a7a5', 'h7h5', 'g7g5', 'a7a6', 'd3b5', 'd3f1', 'd6h2', 'd3c2', 'h8e8', 'h8c8', 'f7e6', 'f7g6', 'f7e8', 'f7g8']
+Moves evaluations: {-110: 'd3b5', -115: 'a7a6', -114: 'f7g6'}
+Decided centipawn loss from mean 0 and stdev 8: 3.664040500010096
+Target_evaluation: -106.3359594999899
+Chosen move: d3b5
+Move number: 20
+. . . . . . . r
+p . p . . k p p
+. . . b . p . .
+. b . . . . . .
+. . . N . . . .
+. P . . P . . .
+P B . . . P P P
+R . . . . . K .
+Legal_moves found from human search: ['c7c5', 'a7a6', 'h7h5', 'a7a5', 'b5d7', 'd6e7', 'b5e8', 'b5a6', 'h8e8', 'h8c8', 'h8b8', 'f7g6', 'f7g8', 'f7e7']
+Moves evaluations: {-69: 'b5d7', -91: 'h8b8', -96: 'a7a6'}
+Decided centipawn loss from mean 0 and stdev 8: 2.65696317276812
+Target_evaluation: -66.34303682723188
+Chosen move: b5d7
+Move number: 21
+. . . . . . . r
+p . p b . k p p
+. . . b . p . .
+. . . . . . . .
+. . . N . . . .
+. P . . P . . .
+P B . . . P P P
+. . R . . . K .
+Legal_moves found from human search: ['c7c5', 'h7h5', 'a7a5', 'g7g6', 'd6e5', 'd7b5', 'd6h2', 'd6b4', 'h8e8', 'h8c8', 'h8b8', 'f7g6', 'f7g8', 'f7e7', 'f7f8']
+Moves evaluations: {-20: 'a7a5', -57: 'c7c5', -62: 'h8b8'}
+Decided centipawn loss from mean 0 and stdev 8: 12.22999224496987
+Target_evaluation: -7.7700077550301305
+Chosen move: a7a5
+Move number: 22
+. . . . . . . r
+. . p b . k p p
+. . N b . p . .
+p . . . . . . .
+. . . . . . . .
+. P . . P . . .
+P B . . . P P P
+. . R . . . K .
+Legal_moves found from human search: ['a5a4', 'h7h5', 'g7g5', 'f6f5', 'd7c6', 'd6h2', 'd7e6', 'h8e8', 'h8c8', 'h8a8', 'f7e6', 'f7g6', 'f7g8', 'f7e8']
+Moves evaluations: {-27: 'a5a4', -41: 'h8a8', -70: 'd7c6'}
+Decided centipawn loss from mean 0 and stdev 8: -6.945401730025004
+Target_evaluation: -33.945401730025004
+Chosen move: a5a4
+Move number: 23
+. . . . . . . r
+. . p b . k p p
+. . N b . p . .
+. . . . . . . .
+p P . . . . . .
+. . . . P . . .
+P B . . . P P P
+. . R . . . K .
+Legal_moves found from human search: ['a4a3', 'h7h5', 'g7g5', 'd7c6', 'd6h2', 'd6b4', 'h8e8', 'h8c8', 'h8a8', 'h8b8', 'f7e6', 'f7g6', 'f7e8', 'f7g8']
+Moves evaluations: {-49: 'a4a3', -57: 'f7e6', -64: 'd7c6'}
+Decided centipawn loss from mean 0 and stdev 8: -2.9604385264895656
+Target_evaluation: -51.96043852648957
+Chosen move: a4a3
+Move number: 24
+. . . . . . . r
+. . p b . k p p
+. . N b . p . .
+. . . . . . . .
+. P . . . . . .
+B . . . P . . .
+P . . . . P P P
+. . R . . . K .
+Legal_moves found from human search: ['h7h5', 'g7g5', 'g7g6', 'f6f5', 'd7c6', 'd6h2', 'h8e8', 'h8a8', 'h8c8', 'f7e6', 'f7g8', 'f7e8', 'f7g6']
+Moves evaluations: {-13: 'h8a8', -50: 'h8c8', -95: 'f7g6'}
+Decided centipawn loss from mean 0 and stdev 8: -13.039008542506465
+Target_evaluation: -26.039008542506465
+Chosen move: h8a8
+Move number: 25
+r . . . . . . .
+. . p b . k p p
+. . . b . p . .
+N . . . . . . .
+. P . . . . . .
+B . . . P . . .
+P . . . . P P P
+. . R . . . K .
+Legal_moves found from human search: ['h7h5', 'g7g5', 'g7g6', 'h7h6', 'd7e6', 'd6h2', 'd6b4', 'a8b8', 'f7e6', 'f7g6', 'f7e7', 'f7f8']
+Moves evaluations: {-21: 'f7e6', -26: 'd7e6', -40: 'f7g6'}
+Decided centipawn loss from mean 0 and stdev 8: -0.2656116008299248
+Target_evaluation: -21.265611600829924
+Chosen move: f7e6
+Move number: 26
+r . . . . . . .
+. . p b . . p p
+. . . b k p . .
+N . . . . . . .
+. P . . . . . .
+B . . . P . . .
+P . . . . P P P
+. . . R . . K .
+Legal_moves found from human search: ['h7h5', 'g7g5', 'g7g6', 'h7h6', 'd7b5', 'd7e8', 'd6h2', 'a8a7', 'a8b8', 'e6e7', 'e6f5', 'e6f7']
+Moves evaluations: {-32: 'g7g5', -38: 'd7b5'}
+Decided centipawn loss from mean 0 and stdev 8: 7.774420719792713
+Target_evaluation: -24.22557928020729
+Chosen move: g7g5
+Move number: 27
+r . . . . . . .
+. . p b . . . p
+. . . b k p . .
+N . . . . . p .
+. P . . . . . .
+B . . R P . . .
+P . . . . P P P
+. . . . . . K .
+Legal_moves found from human search: ['h7h5', 'f6f5', 'g5g4', 'h7h6', 'd7b5', 'd6e7', 'd6e5', 'd6h2', 'a8a6', 'a8b8', 'e6f5', 'e6e7', 'e6e5', 'e6f7']
+Moves evaluations: {-6: 'd7b5', -46: 'd6e5', -55: 'e6e7'}
+Decided centipawn loss from mean 0 and stdev 8: -2.0675695817452677
+Target_evaluation: -8.067569581745268
+Chosen move: d7b5
+Move number: 28
+r . . . . . . .
+. . p . . . . p
+. . . b k p . .
+N b . . . . p .
+. P . . . . . .
+B R . . P . . .
+P . . . . P P P
+. . . . . . K .
+Legal_moves found from human search: ['f6f5', 'h7h5', 'h7h6', 'g5g4', 'b5e2', 'd6e7', 'd6e5', 'b5f1', 'a8a6', 'e6f5', 'e6d5', 'e6d7', 'e6f7']
+Moves evaluations: {-39: 'f6f5', -42: 'd6e5', -58: 'h7h6'}
+Decided centipawn loss from mean 0 and stdev 8: 1.3254488168490137
+Target_evaluation: -37.67455118315099
+Chosen move: f6f5
+Move number: 29
+r . . . . . . .
+. . p . . . . p
+. . . b k . . .
+N b . . . p p .
+. P . . . . . .
+B R . . P . . P
+P . . . . P P .
+. . . . . . K .
+Legal_moves found from human search: ['g5g4', 'h7h6', 'h7h5', 'b5e2', 'b5f1', 'b5a4', 'd6e7', 'a8a6', 'e6d5', 'e6f6', 'e6d7', 'e6e5']
+Moves evaluations: {-29: 'b5a4', -56: 'h7h6', -60: 'b5e2'}
+Decided centipawn loss from mean 0 and stdev 8: 4.32673102758598
+Target_evaluation: -24.67326897241402
+Chosen move: b5a4
+Move number: 30
+r . . . . . . .
+. . p . . . . p
+. . . b k . . .
+N . . . . p p .
+b P . . . . . .
+B . . . P . . P
+P R . . . P P .
+. . . . . . K .
+Legal_moves found from human search: ['h7h5', 'h7h6', 'g5g4', 'c7c5', 'a4b5', 'a4c2', 'd6e7', 'a8b8', 'a8a6', 'e6d5', 'e6f6', 'e6d7', 'e6e5']
+Moves evaluations: {-24: 'h7h5', -25: 'a4b5', -32: 'h7h6'}
+Decided centipawn loss from mean 0 and stdev 8: 3.6194310205972617
+Target_evaluation: -20.38056897940274
+Chosen move: h7h5
+Playing side: BLACK 
+Move number: 1
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P P P P P P
+R . B Q K B N R
+Legal_moves found from human search: ['e7e5', 'd7d5', 'c7c5', 'b7b6', 'g8f6', 'b8c6', 'g8h6']
+Moves evaluations: {-7: 'd7d5', -9: 'e7e5', -17: 'g8f6'}
+Decided centipawn loss from mean 0 and stdev 8: -9.295707496347784
+Target_evaluation: -16.295707496347784
+Chosen move: g8f6
+Move number: 2
+r n b q k b . r
+p p p p p p p p
+. . . . . n . .
+. . . . . . . .
+. . . P . . . .
+. . N . . . . .
+P P P . P P P P
+R . B Q K B N R
+Legal_moves found from human search: ['d7d5', 'c7c5', 'e7e6', 'g7g6', 'b8c6', 'f6d5', 'f6e4', 'f6g4', 'h8g8']
+Moves evaluations: {14: 'd7d5', -20: 'e7e6', -62: 'c7c5'}
+Decided centipawn loss from mean 0 and stdev 8: 13.120710536258775
+Target_evaluation: 27.120710536258777
+Chosen move: d7d5
+Move number: 3
+r n b q k b . r
+p p p . p p p p
+. . . . . n . .
+. . . p . . . .
+. . . P . . . .
+. . N . . N . .
+P P P . P P P P
+R . B Q K B . R
+Legal_moves found from human search: ['c7c5', 'e7e6', 'g7g6', 'c7c6', 'b8c6', 'b8d7', 'f6d7', 'f6e4', 'f6h5', 'c8f5', 'c8g4', 'c8d7', 'h8g8', 'd8d6', 'd8d7', 'e8d7']
+Moves evaluations: {6: 'c7c5', -1: 'e7e6', -12: 'c8f5'}
+Decided centipawn loss from mean 0 and stdev 8: 5.14051367908194
+Target_evaluation: 11.140513679081941
+Chosen move: c7c5
+Move number: 4
+r n b q k b . r
+p p . . p p p p
+. . . . . n . .
+. . p p . . . .
+. . . P . . . .
+. . N . P N . .
+P P P . . P P P
+R . B Q K B . R
+Legal_moves found from human search: ['e7e6', 'g7g6', 'c5d4', 'a7a6', 'b8c6', 'b8d7', 'f6d7', 'f6g4', 'f6h5', 'c8g4', 'c8f5', 'c8d7', 'c8e6', 'h8g8', 'd8b6', 'd8a5', 'd8c7', 'd8d6', 'e8d7']
+Moves evaluations: {7: 'b8c6', 3: 'e7e6', -50: 'c8d7'}
+Decided centipawn loss from mean 0 and stdev 8: 12.744016118201118
+Target_evaluation: 19.744016118201117
+Chosen move: b8c6
+Move number: 5
+r . b q k b . r
+p p . . p p p p
+. . n . . n . .
+. B p p . . . .
+. . . P . . . .
+. . N . P N . .
+P P P . . P P P
+R . B Q K . . R
+Legal_moves found from human search: ['e7e6', 'c5d4', 'a7a6', 'g7g6', 'f6d7', 'f6e4', 'c8g4', 'c8d7', 'c8f5', 'a8b8', 'h8g8', 'd8a5', 'd8b6', 'd8c7', 'd8d6', 'e8d7']
+Moves evaluations: {27: 'e7e6', 5: 'c5d4', 3: 'c8g4'}
+Decided centipawn loss from mean 0 and stdev 8: -5.478148510935338
+Target_evaluation: 21.521851489064662
+Chosen move: e7e6
+Move number: 6
+r . b q k b . r
+p p . . . p p p
+. . n . p n . .
+. B p p . . . .
+. . . P . . . .
+. . N . P N . .
+P P P . . P P P
+R . B Q . R K .
+Legal_moves found from human search: ['a7a6', 'c5d4', 'h7h6', 'b7b6', 'f6d7', 'f6e4', 'c8d7', 'f8e7', 'f8d6', 'h8g8', 'a8b8', 'd8c7', 'd8b6', 'd8a5', 'd8e7', 'e8e7', 'e8d7']
+Moves evaluations: {16: 'c8d7', 2: 'c5d4', -5: 'f8e7'}
+Decided centipawn loss from mean 0 and stdev 8: 7.871418909620672
+Target_evaluation: 23.871418909620672
+Chosen move: c8d7
+Move number: 7
+r . . q k b . r
+p p . b . p p p
+. . B . p n . .
+. . p p . . . .
+. . . P . . . .
+. . N . P N . .
+P P P . . P P P
+R . B Q . R K .
+Legal_moves found from human search: ['b7c6', 'a7a6', 'c5d4', 'b7b6', 'f6g4', 'f6e4', 'd7c6', 'f8d6', 'f8e7', 'a8c8', 'a8b8', 'h8g8', 'd8c7', 'd8b6', 'd8c8', 'd8a5', 'e8e7']
+Moves evaluations: {26: 'd7c6', -33: 'b7c6', -340: 'a7a6'}
+Decided centipawn loss from mean 0 and stdev 8: 1.064006364001513
+Target_evaluation: 27.064006364001514
+Chosen move: d7c6
+Move number: 8
+r . . q k b . r
+p p . . . p p p
+. . b . p n . .
+. . p p . . . .
+P . . P . . . .
+. . N . P N . .
+. P P . . P P P
+R . B Q . R K .
+Legal_moves found from human search: ['a7a6', 'b7b6', 'c5d4', 'g7g5', 'f6d7', 'f6e4', 'f6g8', 'f8e7', 'f8d6', 'c6d7', 'a8c8', 'a8b8', 'h8g8', 'd8c7', 'd8b6', 'd8e7', 'd8a5', 'e8e7', 'e8d7']
+Moves evaluations: {27: 'f8e7', 17: 'f6d7', 15: 'c5d4'}
+Decided centipawn loss from mean 0 and stdev 8: -2.7196481646000397
+Target_evaluation: 24.280351835399962
+Chosen move: f8e7
+Move number: 9
+r . . q k . . r
+p p . . b p p p
+. . b . p n . .
+. . p p . . . .
+P . . P . . . .
+. P N . P N . .
+. . P . . P P P
+R . B Q . R K .
+Legal_moves found from human search: ['c5d4', 'a7a6', 'b7b6', 'a7a5', 'f6d7', 'f6e4', 'f6g4', 'c6d7', 'e7d6', 'a8c8', 'a8b8', 'h8g8', 'd8c7', 'd8a5', 'd8b6', 'd8c8', 'e8g8', 'e8f8', 'e8d7']
+Moves evaluations: {25: 'e8g8', 18: 'f6d7', 16: 'b7b6'}
+Decided centipawn loss from mean 0 and stdev 8: 6.460784851638836
+Target_evaluation: 31.460784851638834
+Chosen move: e8g8
+Move number: 10
+r . . q . r k .
+p p . . b p p p
+. . b . p n . .
+. . p p . . . .
+P . . P . . . .
+B P N . P N . .
+. . P . . P P P
+R . . Q . R K .
+Legal_moves found from human search: ['c5d4', 'b7b6', 'a7a6', 'a7a5', 'f6d7', 'f6e4', 'f6e8', 'f6g4', 'c6d7', 'e7d6', 'c6e8', 'a8c8', 'f8e8', 'a8b8', 'd8a5', 'd8c7', 'd8b6', 'd8e8', 'g8h8']
+Moves evaluations: {48: 'b7b6', 33: 'f6d7', 8: 'c5d4'}
+Decided centipawn loss from mean 0 and stdev 8: 2.1232853924751574
+Target_evaluation: 50.123285392475154
+Chosen move: b7b6
+Move number: 11
+r . . q . r k .
+p . . . b p p p
+. p b . p n . .
+. . p p N . . .
+P . . P . . . .
+B P N . P . . .
+. . P . . P P P
+R . . Q . R K .
+Legal_moves found from human search: ['c5d4', 'a7a5', 'a7a6', 'h7h5', 'f6d7', 'f6e4', 'f6g4', 'f6e8', 'e7d6', 'c6b7', 'c6e8', 'c6d7', 'a8c8', 'f8e8', 'a8b8', 'd8c7', 'd8c8', 'd8b8', 'g8h8']
+Moves evaluations: {40: 'c6b7', 37: 'd8c8', 30: 'd8c7'}
+Decided centipawn loss from mean 0 and stdev 8: 1.3590103040878174
+Target_evaluation: 41.35901030408782
+Chosen move: c6b7
+Move number: 12
+r . . q . r k .
+p b . . b p p p
+. p . . p n . .
+. . p p N . . .
+P . . P . . . .
+B P N . P . . .
+. . P . Q P P P
+R . . . . R K .
+Legal_moves found from human search: ['a7a5', 'a7a6', 'c5d4', 'h7h5', 'f6d7', 'f6e4', 'f6e8', 'f6h5', 'e7d6', 'b7a6', 'b7c6', 'a8c8', 'f8e8', 'a8b8', 'd8c7', 'd8c8', 'd8b8', 'g8h8']
+Moves evaluations: {84: 'a8c8', 48: 'f6d7', 55: 'd8c8'}
+Decided centipawn loss from mean 0 and stdev 8: 0.09537465478944698
+Target_evaluation: 84.09537465478945
+Chosen move: a8c8
+Move number: 13
+. . r q . r k .
+p b . . b p p p
+. p . . p n . .
+. N p p N . . .
+P . . P . . . .
+B P . . P . . .
+. . P . Q P P P
+R . . . . R K .
+Legal_moves found from human search: ['a7a6', 'a7a5', 'c5d4', 'c5c4', 'f6e4', 'f6d7', 'f6e8', 'e7d6', 'b7a6', 'b7c6', 'c8c6', 'c8c7', 'f8e8', 'd8c7', 'g8h8']
+Moves evaluations: {192: 'a7a6', -7: 'a7a5', -24: 'c5d4'}
+Decided centipawn loss from mean 0 and stdev 8: 13.374562949496003
+Target_evaluation: 205.374562949496
+Chosen move: a7a6
+Move number: 14
+. . r q . r k .
+N b . . b p p p
+p p . . p n . .
+. . p p N . . .
+P . . P . . . .
+B P . . P . . .
+. . P . Q P P P
+R . . . . R K .
+Legal_moves found from human search: ['c5d4', 'a6a5', 'b6b5', 'c5c4', 'f6e4', 'f6d7', 'f6e8', 'f6h5', 'e7d6', 'b7a8', 'c8c7', 'c8a8', 'f8e8', 'd8c7', 'g8h8']
+Moves evaluations: {189: 'c8c7', -84: 'd8c7', -109: 'a6a5'}
+Decided centipawn loss from mean 0 and stdev 8: -5.440346433686405
+Target_evaluation: 183.55965356631359
+Chosen move: c8c7
+Move number: 15
+. . . q . r k .
+N b r . b p p p
+p p . . p n . .
+P . p p N . . .
+. . . P . . . .
+B P . . P . . .
+. . P . Q P P P
+R . . . . R K .
+Legal_moves found from human search: ['b6a5', 'b6b5', 'c5d4', 'c5c4', 'f6d7', 'f6e4', 'f6e8', 'e7d6', 'b7c6', 'b7a8', 'c7c8', 'f8e8', 'd8c8', 'd8b8', 'd8e8', 'd8a8', 'g8h8']
+Moves evaluations: {195: 'b6a5', 182: 'b6b5', 34: 'c5d4'}
+Decided centipawn loss from mean 0 and stdev 8: 2.0196564811340068
+Target_evaluation: 197.019656481134
+Chosen move: b6a5
+Move number: 16
+. . . q . r k .
+N b r . b p p p
+p . . . p n . .
+p . P p N . . .
+. . . . . . . .
+B P . . P . . .
+. . P . Q P P P
+R . . . . R K .
+Legal_moves found from human search: ['d5d4', 'a5a4', 'f6e4', 'f6d7', 'f6e8', 'f6g4', 'e7c5', 'b7c6', 'b7a8', 'c7c8', 'c7c5', 'd8c8', 'd8a8', 'd8e8', 'd8b8', 'g8h8']
+Moves evaluations: {214: 'e7c5', 193: 'd8b8', 124: 'a5a4'}
+Decided centipawn loss from mean 0 and stdev 8: -3.6178425733197903
+Target_evaluation: 210.3821574266802
+Chosen move: e7c5
+Move number: 17
+. . . q . r k .
+. b r . . p p p
+p . N . p n . .
+p . b p N . . .
+. . . . . . . .
+B P . . P . . .
+. . P . Q P P P
+R . . . . R K .
+Legal_moves found from human search: ['d5d4', 'a5a4', 'h7h6', 'f6e4', 'f6d7', 'f6e8', 'b7c6', 'c5d6', 'c5a3', 'c7c8', 'c7c6', 'f8e8', 'd8c8', 'd8e7', 'd8d6', 'd8a8', 'g8h8']
+Moves evaluations: {209: 'b7c6', 44: 'd8d6', -172: 'd8a8'}
+Decided centipawn loss from mean 0 and stdev 8: 14.467337468742283
+Target_evaluation: 223.46733746874227
+Chosen move: b7c6
+Move number: 18
+. . . q . r k .
+. . r . . p p p
+p . b . p n . .
+p . B p N . . .
+. . . . . . . .
+. P . . P . . .
+. . P . Q P P P
+R . . . . R K .
+Legal_moves found from human search: ['a5a4', 'f6e4', 'f6d7', 'f6g4', 'c6b5', 'c6e8', 'c6b7', 'c7c8', 'c7b7', 'c7a7', 'd8c8', 'd8e7', 'd8a8', 'd8e8', 'g8h8']
+Moves evaluations: {203: 'c6b5', -118: 'c6b7', -154: 'c6e8'}
+Decided centipawn loss from mean 0 and stdev 8: -4.202377670975845
+Target_evaluation: 198.79762232902416
+Chosen move: c6b5
+Move number: 19
+. . . q . r k .
+. . r . . p p p
+p . . . p n . .
+p b B p N . . .
+. . P . . . . .
+. P . . P . . .
+. . . . Q P P P
+R . . . . R K .
+Legal_moves found from human search: ['d5c4', 'd5d4', 'h7h6', 'f6e4', 'f6d7', 'f6g4', 'f6e8', 'b5e8', 'b5d7', 'c7c5', 'c7b7', 'c7c8', 'd8a8', 'd8e7', 'd8e8', 'd8d6', 'g8h8']
+Moves evaluations: {229: 'c7c5', 197: 'd5c4', -216: 'b5e8'}
+Decided centipawn loss from mean 0 and stdev 8: -1.421967790370737
+Target_evaluation: 227.57803220962927
+Chosen move: c7c5
+Move number: 20
+. . . q . r k .
+. . . . . p p p
+p . . . p n . .
+p P r p N . . .
+. . . . . . . .
+. P . . P . . .
+. . . . Q P P P
+R . . . . R K .
+Legal_moves found from human search: ['a6b5', 'd5d4', 'h7h6', 'f6e4', 'f6g4', 'f6d7', 'c5b5', 'c5c2', 'c5c8', 'd8c7', 'd8d6', 'd8b6', 'd8e7', 'g8h8']
+Moves evaluations: {217: 'a6b5', 177: 'd8c7', 156: 'c5b5'}
+Decided centipawn loss from mean 0 and stdev 8: 2.1894068790934336
+Target_evaluation: 219.18940687909344
+Chosen move: a6b5
+Move number: 21
+. . . q . r k .
+. . . . . p p p
+. . . . p n . .
+p p r p N . . .
+. . . . . . . .
+. P . . P . . .
+. . . . Q P P P
+R . R . . . K .
+Legal_moves found from human search: ['b5b4', 'd5d4', 'h7h6', 'a5a4', 'f6e4', 'f6d7', 'f6e8', 'f6g4', 'c5c8', 'c5c1', 'c5c2', 'c5c3', 'd8c7', 'd8b6', 'd8d6', 'd8e7', 'g8h8']
+Moves evaluations: {220: 'd8d6', 231: 'd8c7'}
+Decided centipawn loss from mean 0 and stdev 8: -2.577636153382674
+Target_evaluation: 228.42236384661732
+Chosen move: d8c7
+Move number: 22
+. . . . . r k .
+. . q . . p p p
+. . . . p n . .
+p p R p N . . .
+. . . . . . . .
+. P . . P . . .
+. . . . Q P P P
+R . . . . . K .
+Legal_moves found from human search: ['b5b4', 'd5d4', 'h7h6', 'a5a4', 'f6e4', 'f6d7', 'f6g4', 'f6e8', 'f8c8', 'f8b8', 'f8d8', 'f8a8', 'c7b6', 'c7e5', 'c7b7', 'g8h8']
+Moves evaluations: {-104: 'c7e5', -635: 'c7b6', -648: 'c7b7'}
+Decided centipawn loss from mean 0 and stdev 8: 2.6276009301409977
+Target_evaluation: -101.372399069859
+Chosen move: c7e5
+Move number: 23
+. . . . . r k .
+. . . . . p p p
+. . . . p n . .
+R p R p q . . .
+. . . . . . . .
+. P . . P . . .
+. . . . Q P P P
+. . . . . . K .
+Legal_moves found from human search: ['b5b4', 'd5d4', 'h7h6', 'h7h5', 'f6e4', 'f6d7', 'f6g4', 'f6e8', 'f8c8', 'f8a8', 'f8b8', 'f8d8', 'e5d6', 'e5a1', 'g8h8']
+Moves evaluations: {-85: 'f6e4', -117: 'b5b4', -50: 'h7h6'}
+Decided centipawn loss from mean 0 and stdev 8: -7.367431375647906
+Target_evaluation: -57.367431375647904
+Chosen move: h7h6
+Move number: 24
+. . . . . r k .
+. . . . . p p .
+. . . . p n . p
+R R . p q . . .
+. . . . . . . .
+. P . . P . . .
+. . . . Q P P P
+. . . . . . K .
+Legal_moves found from human search: ['d5d4', 'g7g5', 'g7g6', 'h6h5', 'f6e4', 'f6g4', 'f6d7', 'f6h7', 'f8c8', 'f8a8', 'f8b8', 'f8d8', 'e5d6', 'e5g5', 'e5a1', 'e5b8', 'g8h8', 'g8h7']
+Moves evaluations: {-99: 'f6e4', -162: 'e5d6', -178: 'f8d8'}
+Decided centipawn loss from mean 0 and stdev 8: -7.224704920926255
+Target_evaluation: -106.22470492092626
+Chosen move: f6e4
+Move number: 25
+. . . . . r k .
+. . . . . p p .
+. . . . p . . p
+R R . p q . . .
+. . . . n . . .
+. P . . P . . .
+. . Q . . P P P
+. . . . . . K .
+Legal_moves found from human search: ['f7f5', 'g7g5', 'd5d4', 'g7g6', 'e4c3', 'e4f6', 'e4d6', 'e4g5', 'f8c8', 'f8a8', 'f8b8', 'e5f6', 'e5d6', 'e5g5', 'e5a1', 'g8h8', 'g8h7']
+Moves evaluations: {-116: 'e4d6', -174: 'g7g6', -216: 'e4f6'}
+Decided centipawn loss from mean 0 and stdev 8: 9.107881574546107
+Target_evaluation: -106.89211842545389
+Chosen move: e4d6
+Move number: 26
+. . . . . r k .
+. . . . . p p .
+. R . n p . . p
+R . . p q . . .
+. . . . . . . .
+. P . . P . . .
+. . Q . . P P P
+. . . . . . K .
+Legal_moves found from human search: ['d5d4', 'g7g6', 'g7g5', 'd6e4', 'd6c8', 'd6b5', 'd6b7', 'f8c8', 'f8a8', 'f8b8', 'e5a1', 'e5f6', 'e5g5', 'g8h8']
+Moves evaluations: {-117: 'f8c8', -50: 'g7g5', -217: 'g7g6'}
+Decided centipawn loss from mean 0 and stdev 8: 1.887338075940992
+Target_evaluation: -48.11266192405901
+Chosen move: g7g5
+Move number: 27
+. . . . . r k .
+. . . . . p . .
+. . R n p . . p
+R . . p q . p .
+. . . . . . . .
+. P . . P . . .
+. . Q . . P P P
+. . . . . . K .
+Legal_moves found from human search: ['g5g4', 'd5d4', 'f7f5', 'h6h5', 'd6e4', 'd6b7', 'd6f5', 'f8a8', 'f8c8', 'f8b8', 'e5a1', 'e5f6', 'g8g7', 'g8h8']
+Moves evaluations: {-197: 'g8g7', -220: 'f8b8', -233: 'g5g4'}
+Decided centipawn loss from mean 0 and stdev 8: -5.75221179597973
+Target_evaluation: -202.75221179597972
+Chosen move: g8g7
+Move number: 28
+. . . . . r . .
+. . . . . p k .
+R . R n p . . p
+. . . p q . p .
+. . . . . . . .
+. P . . P . . .
+. . Q . . P P P
+. . . . . . K .
+Legal_moves found from human search: ['g5g4', 'd5d4', 'f7f5', 'h6h5', 'd6e4', 'd6b5', 'd6f5', 'f8b8', 'f8a8', 'f8c8', 'e5a1', 'e5f6', 'g7g8', 'g7h8']
+Moves evaluations: {-201: 'd6e4', -202: 'd6f5', -326: 'd6b5'}
+Decided centipawn loss from mean 0 and stdev 8: 5.646402212320927
+Target_evaluation: -195.35359778767906
+Chosen move: d6e4
+Move number: 29
+. . . . . r . .
+. . . . . p k .
+R . R . p . . p
+. . . p q . p .
+. . . . n . . .
+. P . . P P . .
+. . Q . . . P P
+. . . . . . K .
+Legal_moves found from human search: ['f7f5', 'd5d4', 'g5g4', 'h6h5', 'e4f6', 'e4d6', 'e4c3', 'e4g3', 'f8a8', 'f8c8', 'f8d8', 'e5a1', 'e5f6', 'e5b2', 'e5b8', 'g7g8', 'g7h7', 'g7h8', 'g7g6']
+Moves evaluations: {-195: 'e4f6', -504: 'e4d6', -519: 'e4g3'}
+Decided centipawn loss from mean 0 and stdev 8: 15.170640480793494
+Target_evaluation: -179.8293595192065
+Chosen move: e4f6
+Move number: 30
+. . . . . r . .
+. . . . . p k .
+R . R . p n . p
+. . . p q . p .
+. . . . . . . .
+. P Q . P P . .
+. . . . . . P P
+. . . . . . K .
+Legal_moves found from human search: ['g5g4', 'd5d4', 'h6h5', 'f6d7', 'f6h5', 'f6e4', 'f6g8', 'f8a8', 'f8c8', 'f8b8', 'e5b8', 'e5c3', 'e5e3', 'g7g8', 'g7h7', 'g7g6']
+Moves evaluations: {-196: 'e5c3', -225: 'f6d7', -252: 'd5d4'}
+Decided centipawn loss from mean 0 and stdev 8: -7.011677530180219
+Target_evaluation: -203.0116775301802
+Chosen move: e5c3
+Playing side: BLACK 
+Move number: 1
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P P P P P P
+R . B Q K B N R
+Legal_moves found from human search: ['e7e5', 'd7d5', 'c7c5', 'b7b6', 'g8f6', 'b8c6', 'g8h6']
+Moves evaluations: {-6: 'd7d5', -14: 'e7e5', -17: 'g8f6'}
+Decided centipawn loss from mean 0 and stdev 8: 8.30906412443419
+Target_evaluation: 2.3090641244341903
+Chosen move: d7d5
+Move number: 2
+r n b q k b n r
+p p p . p p p p
+. . . . . . . .
+. . . p . . . .
+. . . . . . . .
+. . N . . N . .
+P P P P P P P P
+R . B Q K B . R
+Legal_moves found from human search: ['c7c5', 'd5d4', 'e7e6', 'g7g6', 'g8f6', 'b8c6', 'b8d7', 'c8g4', 'c8f5', 'c8d7', 'c8e6', 'd8d7', 'd8d6', 'e8d7']
+Moves evaluations: {5: 'c7c5', -2: 'g8f6', -19: 'd5d4'}
+Decided centipawn loss from mean 0 and stdev 8: 2.6339656139065806
+Target_evaluation: 7.633965613906581
+Chosen move: c7c5
+Move number: 3
+r n b q k b n r
+p p . . p p p p
+. . . . . . . .
+. . p p . . . .
+. . . P . . . .
+. . N . . N . .
+P P P . P P P P
+R . B Q K B . R
+Legal_moves found from human search: ['c5d4', 'e7e6', 'g7g6', 'f7f6', 'b8c6', 'g8f6', 'b8d7', 'c8f5', 'c8g4', 'c8d7', 'd8b6', 'd8a5', 'd8c7', 'd8d6', 'e8d7']
+Moves evaluations: {7: 'g8f6', 3: 'b8c6', -22: 'c5d4'}
+Decided centipawn loss from mean 0 and stdev 8: -7.3730767546830736
+Target_evaluation: -0.37307675468307355
+Chosen move: b8c6
+Move number: 4
+r . b q k b n r
+p p . . p p p p
+. . n . . . . .
+. . p p . . . .
+. . . P . . . .
+. . N . P N . .
+P P P . . P P P
+R . B Q K B . R
+Legal_moves found from human search: ['c5d4', 'e7e6', 'e7e5', 'a7a6', 'g8f6', 'c6b4', 'c6a5', 'c6d4', 'c8g4', 'c8f5', 'c8d7', 'c8e6', 'a8b8', 'd8c7', 'd8a5', 'd8b6', 'd8d6', 'e8d7']
+Moves evaluations: {17: 'g8f6', 9: 'c8g4', 3: 'e7e6'}
+Decided centipawn loss from mean 0 and stdev 8: -5.304320008502924
+Target_evaluation: 11.695679991497077
+Chosen move: c8g4
+Move number: 5
+r . . q k b n r
+p p . . p p p p
+. . n . . . . .
+. . P p . . . .
+. . . . . . b .
+. . N . P N . .
+P P P . . P P P
+R . B Q K B . R
+Legal_moves found from human search: ['e7e6', 'e7e5', 'd5d4', 'a7a6', 'g8f6', 'c6e5', 'c6b4', 'c6a5', 'g4f3', 'g4h5', 'g4f5', 'g4d7', 'a8c8', 'a8b8', 'd8a5', 'd8d7', 'd8c7', 'd8c8', 'e8d7']
+Moves evaluations: {11: 'e7e6', 0: 'g4f3', -57: 'g8f6'}
+Decided centipawn loss from mean 0 and stdev 8: -4.226778586683183
+Target_evaluation: 6.773221413316817
+Chosen move: e7e6
+Move number: 6
+r . . q k b n r
+p p . . . p p p
+. . n . p . . .
+. . P p . . . .
+. . . . . . b .
+. . N . P N . P
+P P P . . P P .
+R . B Q K B . R
+Legal_moves found from human search: ['e6e5', 'a7a6', 'd5d4', 'f7f5', 'g8f6', 'g8e7', 'c6e7', 'c6e5', 'c6b4', 'g4f3', 'g4h5', 'f8c5', 'g4f5', 'a8c8', 'a8b8', 'd8a5', 'd8f6', 'd8c7', 'd8d7', 'e8e7', 'e8d7']
+Moves evaluations: {20: 'g4f3', 10: 'g4h5', -69: 'g4f5'}
+Decided centipawn loss from mean 0 and stdev 8: 8.877694945771744
+Target_evaluation: 28.877694945771744
+Chosen move: g4f3
+Move number: 7
+r . . q k b n r
+p p . . . p p p
+. . n . p . . .
+. . P p . . . .
+. . . . . . . .
+. . N . P Q . P
+P P P . . P P .
+R . B . K B . R
+Legal_moves found from human search: ['e6e5', 'd5d4', 'a7a6', 'f7f5', 'c6e5', 'g8e7', 'c6e7', 'g8f6', 'c6b4', 'f8c5', 'f8e7', 'f8d6', 'a8c8', 'a8b8', 'd8d7', 'd8c7', 'd8a5', 'd8h4', 'e8e7', 'e8d7']
+Moves evaluations: {31: 'f8c5', 18: 'g8f6', 7: 'a8c8'}
+Decided centipawn loss from mean 0 and stdev 8: 16.157077208709566
+Target_evaluation: 47.157077208709566
+Chosen move: f8c5
+Move number: 8
+r . . q k . n r
+p p . . . p p p
+. . n . p . . .
+. . b p . . . .
+. . . . . . . .
+. . N . P . Q P
+P P P . . P P .
+R . B . K B . R
+Legal_moves found from human search: ['d5d4', 'a7a6', 'f7f5', 'h7h6', 'g8e7', 'c6e7', 'g8f6', 'c6e5', 'c6a5', 'c5b4', 'c5e7', 'c5d6', 'c5e3', 'a8c8', 'a8b8', 'd8e7', 'd8f6', 'd8d7', 'd8a5', 'e8f8', 'e8d7']
+Moves evaluations: {39: 'g8f6', 16: 'e8f8', -37: 'd8f6'}
+Decided centipawn loss from mean 0 and stdev 8: -8.04214141848863
+Target_evaluation: 30.95785858151137
+Chosen move: g8f6
+Move number: 9
+r . . q k . . r
+p p . . . p Q p
+. . n . p n . .
+. . b p . . . .
+. . . . . . . .
+. . N . P . . P
+P P P . . P P .
+R . B . K B . R
+Legal_moves found from human search: ['d5d4', 'a7a6', 'h7h6', 'h7h5', 'f6e4', 'c6e5', 'f6h5', 'c6e7', 'c5b4', 'c5e7', 'c5d6', 'c5f8', 'a8c8', 'h8g8', 'd8e7', 'd8d7', 'd8c7', 'd8c8', 'e8e7']
+Moves evaluations: {-16: 'h8g8', -72: 'e8e7', -526: 'c5f8'}
+Decided centipawn loss from mean 0 and stdev 8: -4.736907940717931
+Target_evaluation: -20.73690794071793
+Chosen move: h8g8
+Move number: 10
+r . . q k . r .
+p p . . . p . p
+. . n . p n . Q
+. . b p . . . .
+. . . . . . . .
+. . N . P . . P
+P P P . . P P .
+R . B . K B . R
+Legal_moves found from human search: ['d5d4', 'a7a6', 'b7b6', 'c6e5', 'f6e4', 'c6e7', 'c6a5', 'c5b4', 'c5e7', 'c5f8', 'c5d6', 'g8g5', 'a8c8', 'g8g7', 'g8g2', 'd8e7', 'd8d7', 'd8c7', 'd8b6', 'e8d7', 'e8e7']
+Moves evaluations: {0: 'a7a6', -40: 'a8c8', -24: 'd5d4'}
+Decided centipawn loss from mean 0 and stdev 8: 9.082132456635113
+Target_evaluation: 9.082132456635113
+Chosen move: a7a6
+Move number: 11
+r . . q k . r .
+. p . . . p . p
+p . n . p n . Q
+. . b p . . . .
+. . . . . . . .
+. . N . P . . P
+P P P B . P P .
+R . . . K B . R
+Legal_moves found from human search: ['d5d4', 'b7b5', 'b7b6', 'c6e5', 'f6e4', 'f6h5', 'c6e7', 'c5a7', 'c5e7', 'c5b4', 'c5d6', 'g8g5', 'g8g7', 'g8g6', 'a8c8', 'd8e7', 'd8d7', 'd8c7', 'd8b6', 'e8d7', 'e8e7']
+Moves evaluations: {0: 'g8g6', -60: 'c5e7', -64: 'b7b5'}
+Decided centipawn loss from mean 0 and stdev 8: -6.432194061412307
+Target_evaluation: -6.432194061412307
+Chosen move: g8g6
+Move number: 12
+r . . q k . . .
+. p . . . p . p
+p . n . p n r .
+. . b p . . . .
+. . . . . . . Q
+. . N . P . . P
+P P P B . P P .
+R . . . K B . R
+Legal_moves found from human search: ['d5d4', 'h7h6', 'b7b5', 'h7h5', 'c6e5', 'f6e4', 'c6e7', 'f6h5', 'c5e7', 'c5a7', 'c5b4', 'c5d6', 'g6g8', 'g6g7', 'g6h6', 'a8c8', 'd8e7', 'd8d7', 'd8c7', 'd8d6', 'e8f8', 'e8d7', 'e8e7']
+Moves evaluations: {0: 'c5e7', -50: 'h7h6', -66: 'c5b4'}
+Decided centipawn loss from mean 0 and stdev 8: -9.45596183637173
+Target_evaluation: -9.45596183637173
+Chosen move: c5e7
+Move number: 13
+r . . q k . . .
+. p . . b p . p
+p . n . p n r .
+. . . p . . . .
+. . . . . . . Q
+P . N . P . . P
+. P P B . P P .
+R . . . K B . R
+Legal_moves found from human search: ['d5d4', 'b7b5', 'h7h6', 'h7h5', 'c6e5', 'f6e4', 'c6a5', 'f6d7', 'e7d6', 'e7f8', 'e7c5', 'e7a3', 'g6g8', 'g6g7', 'g6h6', 'g6g5', 'd8d7', 'd8b6', 'd8c7', 'd8c8', 'e8d7', 'e8f8']
+Moves evaluations: {96: 'f6e4', 0: 'h7h6'}
+Decided centipawn loss from mean 0 and stdev 8: 4.8379562128806315
+Target_evaluation: 100.83795621288063
+Chosen move: f6e4
+Move number: 14
+r . . q k . . .
+. p . . b p . Q
+p . n . p . r .
+. . . p . . . .
+. . . . n . . .
+P . N . P . . P
+. P P B . P P .
+R . . . K B . R
+Legal_moves found from human search: ['f7f5', 'b7b5', 'd5d4', 'e6e5', 'e4d2', 'e4c3', 'e4d6', 'c6e5', 'e7f6', 'e7h4', 'e7d6', 'e7f8', 'g6g8', 'g6g2', 'g6h6', 'g6g7', 'd8d7', 'd8c7', 'd8b6', 'd8c8', 'e8f8', 'e8d7']
+Moves evaluations: {93: 'e4d2', -50: 'e4c3', -183: 'e7f8'}
+Decided centipawn loss from mean 0 and stdev 8: -11.959200090725071
+Target_evaluation: 81.04079990927492
+Chosen move: e4d2
+Move number: 15
+r . . q k . . .
+. p . . b p . Q
+p . n . p . r .
+. . . p . . . .
+. . . . . . . .
+P . N . P . . P
+. P P K . P P .
+R . . . . B . R
+Legal_moves found from human search: ['d5d4', 'b7b5', 'f7f5', 'e6e5', 'c6e5', 'c6a5', 'c6d4', 'c6b8', 'e7f6', 'e7f8', 'e7d6', 'e7g5', 'g6g2', 'g6g8', 'g6h6', 'g6g5', 'd8d7', 'd8b6', 'd8c8', 'd8c7', 'e8f8', 'e8d7']
+Moves evaluations: {21: 'd5d4', 9: 'd8b6', -25: 'e7f8'}
+Decided centipawn loss from mean 0 and stdev 8: -7.287515748881014
+Target_evaluation: 13.712484251118987
+Chosen move: d8b6
+Move number: 16
+r . . . k . . .
+. p . . b p . Q
+p q n . p . r .
+. . . p . . . .
+. P . . . . . .
+P . N . P . . P
+. . P K . P P .
+R . . . . B . R
+Legal_moves found from human search: ['e6e5', 'a6a5', 'f7f5', 'd5d4', 'c6e5', 'c6d8', 'c6a7', 'c6b8', 'e7f6', 'e7b4', 'e7f8', 'e7d8', 'g6g2', 'g6g8', 'a8d8', 'g6g7', 'b6d8', 'b6a7', 'b6c7', 'b6b4', 'e8c8', 'e8d7', 'e8f8', 'e8d8']
+Moves evaluations: {187: 'd5d4', 150: 'e7f6', 14: 'e8c8'}
+Decided centipawn loss from mean 0 and stdev 8: 16.20380246364884
+Target_evaluation: 203.20380246364886
+Chosen move: d5d4
+Move number: 17
+r . . . k . . .
+. p . . b p . Q
+p q n . p . r .
+. . . . . . . .
+. P . p . . . .
+P . . . P . . P
+. . P K . P P .
+R . . N . B . R
+Legal_moves found from human search: ['d4e3', 'e6e5', 'f7f5', 'a6a5', 'c6e5', 'c6d8', 'c6b8', 'c6a7', 'e7d8', 'e7f6', 'e7g5', 'e7f8', 'g6g2', 'g6g8', 'a8d8', 'g6g7', 'b6d8', 'b6a7', 'b6c7', 'b6b4', 'e8c8', 'e8d7', 'e8f8', 'e8d8']
+Moves evaluations: {257: 'd4e3', 222: 'e8c8', 105: 'e7f6'}
+Decided centipawn loss from mean 0 and stdev 8: 6.624647064824194
+Target_evaluation: 263.6246470648242
+Chosen move: d4e3
+Move number: 18
+r . . . k . . .
+. p . . b p . Q
+p q n . p . r .
+. . . . . . . .
+. P . . . . . .
+P . . . N . . P
+. . P K . P P .
+R . . . . B . R
+Legal_moves found from human search: ['f7f5', 'e6e5', 'a6a5', 'f7f6', 'c6e5', 'c6d4', 'c6d8', 'c6b8', 'e7g5', 'e7d8', 'e7f8', 'e7f6', 'g6g2', 'g6g8', 'a8d8', 'g6g7', 'b6d8', 'b6b4', 'b6a7', 'e8c8', 'e8f8', 'e8d7', 'e8d8']
+Moves evaluations: {245: 'e8c8', 8: 'a8d8', 22: 'e7f6'}
+Decided centipawn loss from mean 0 and stdev 8: -0.3436415551059487
+Target_evaluation: 244.65635844489404
+Chosen move: e8c8
+Move number: 19
+. . k r . . . .
+. p . . b p . Q
+p q n . p . r .
+. . . . . . . .
+. P . . . . . .
+P . . B N . . P
+. . P K . P P .
+R . . . . . . R
+Legal_moves found from human search: ['a6a5', 'e6e5', 'f7f5', 'f7f6', 'c6e5', 'c6d4', 'c6b8', 'c6a7', 'e7g5', 'e7f6', 'e7b4', 'e7f8', 'd8g8', 'g6g8', 'd8d4', 'g6g2', 'g6h6', 'b6b4', 'b6d4', 'b6c7', 'c8b8', 'c8c7', 'c8d7']
+Moves evaluations: {263: 'e7g5', 13: 'e7f6', -4: 'g6g2'}
+Decided centipawn loss from mean 0 and stdev 8: -5.882315177432125
+Target_evaluation: 257.11768482256787
+Chosen move: e7g5
+Move number: 20
+. . k r . . . .
+. p . . . p . Q
+p q n . p . r .
+. . . . . . b .
+. P . . . . . .
+P . . B N . . P
+. . P . K P P .
+R . . . . . . R
+Legal_moves found from human search: ['e6e5', 'a6a5', 'f7f5', 'f7f6', 'c6e5', 'c6d4', 'c6e7', 'c6a7', 'g5e3', 'g5h4', 'g5f6', 'd8g8', 'g6g8', 'g6h6', 'd8d4', 'g6g7', 'b6c7', 'b6d4', 'c8b8', 'c8c7', 'c8d7']
+Moves evaluations: {307: 'c6d4', 211: 'g5e3', 25: 'g6g8'}
+Decided centipawn loss from mean 0 and stdev 8: -2.9749291419928685
+Target_evaluation: 304.02507085800715
+Chosen move: c6d4
+Move number: 21
+. . k r . . . .
+. p . . . p . Q
+p q . . p . r .
+. . . . . . b .
+. P . n . . . .
+P . . B N . . P
+. . P . . P P .
+R . . K . . . R
+Legal_moves found from human search: ['e6e5', 'f7f5', 'a6a5', 'f7f6', 'd4b5', 'd4c6', 'd4b3', 'd4f5', 'g5e3', 'g5f4', 'g5f6', 'd8g8', 'g6g8', 'g6h6', 'd8d7', 'd8d6', 'b6c7', 'c8b8', 'c8c7']
+Moves evaluations: {414: 'b6c7', 405: 'd4f5', 344: 'g5e3'}
+Decided centipawn loss from mean 0 and stdev 8: 1.6562382452147886
+Target_evaluation: 415.6562382452148
+Chosen move: b6c7
+Move number: 22
+. . k r . . . .
+. p q . . p . Q
+p . . . p . B .
+. . . . . . b .
+. P . n . . . .
+P . . . N . . P
+. . P . . P P .
+R . . K . . . R
+Legal_moves found from human search: ['f7g6', 'f7f5', 'f7f6', 'e6e5', 'd4b5', 'd4c6', 'd4f5', 'd4c2', 'g5e3', 'g5f4', 'g5f6', 'd8g8', 'd8d7', 'd8d6', 'c7f4', 'c7e5', 'c7c2', 'c7c3', 'c8b8', 'c8d7']
+Moves evaluations: {489: 'c7c3', 13: 'g5e3', -86: 'c7e5'}
+Decided centipawn loss from mean 0 and stdev 8: 16.451075692976836
+Target_evaluation: 505.4510756929768
+Chosen move: c7c3
+Move number: 23
+. . k r . . . .
+. p . . . p . Q
+p . . . p . B .
+. . . . . . b .
+. P . n . . . .
+P . q . N . . P
+R . P . . P P .
+. . . K . . . R
+Legal_moves found from human search: ['f7g6', 'f7f5', 'f7f6', 'e6e5', 'd4c6', 'd4b5', 'd4f5', 'd4c2', 'g5e3', 'g5f6', 'd8d7', 'd8g8', 'c3a1', 'c3b4', 'c8b8', 'c8c7', 'c8d7']
+Moves evaluations: {683: 'd4c2', 190: 'g5e3', 121: 'f7g6'}
+Decided centipawn loss from mean 0 and stdev 8: -11.161222096790446
+Target_evaluation: 671.8387779032096
+Chosen move: d4c2
+Move number: 24
+. . k r . . . .
+. p . . . p . Q
+p . . . p . . .
+. . . . . . b .
+. P . . . . . .
+P . q B N . . P
+R . n . . P P .
+. . . K . . . R
+Legal_moves found from human search: ['a6a5', 'b7b5', 'e6e5', 'f7f6', 'c2e3', 'c2e1', 'c2d4', 'c2a3', 'g5e3', 'g5f4', 'g5h4', 'd8d3', 'd8d4', 'd8d7', 'c3d3', 'c3d4', 'c3e5', 'c8b8', 'c8c7']
+Moves evaluations: {1279: 'd8d3', 136: 'c2e3', 0: 'c2d4'}
+Decided centipawn loss from mean 0 and stdev 8: 3.785619600614456
+Target_evaluation: 1282.7856196006144
+Chosen move: d8d3
+Move number: 25
+. . k . . . . .
+. p . . . p . .
+p . . . p . . .
+. . . . . . b .
+. P . . . . . .
+P . q Q N . . P
+R . n . . P P .
+. . . K . . . R
+Legal_moves found from human search: ['f7f5', 'b7b5', 'e6e5', 'a6a5', 'c2e3', 'c2e1', 'c2a3', 'c2d4', 'g5e3', 'g5f4', 'g5d8', 'c3d3', 'c3b2', 'c3e5', 'c8b8', 'c8c7']
+Moves evaluations: {1343: 'c3d3', -481: 'c2e3', -1530: 'c3e5'}
+Decided centipawn loss from mean 0 and stdev 8: 1.9051329907633994
+Target_evaluation: 1344.9051329907634
+Chosen move: c3d3
+Move number: 26
+. . k . . . . .
+. p . . . p . .
+p . . . p . . .
+. . . . . . b .
+. P . . . . . .
+P . . q N . . P
+R . n . . P P .
+. . K . . . . R
+Legal_moves found from human search: ['f7f5', 'f7f6', 'a6a5', 'e6e5', 'c2e3', 'c2d4', 'c2a3', 'c2e1', 'g5e3', 'g5f4', 'g5d8', 'd3e4', 'd3d1', 'd3d8', 'c8d7', 'c8b8', 'c8d8', 'c8c7']
+Moves evaluations: {1393: 'c2a3', 802: 'g5e3', 747: 'c2d4'}
+Decided centipawn loss from mean 0 and stdev 8: 4.671484267557767
+Target_evaluation: 1397.6714842675578
+Chosen move: c2a3
+Move number: 27
+. . k . . . . .
+. p . . . p . .
+p . . . p . . .
+. . . . . . b .
+. P . . . . . .
+R . . q N . . P
+. . . . . P P .
+. . K . . . . R
+Legal_moves found from human search: ['f7f5', 'a6a5', 'f7f6', 'b7b5', 'g5e3', 'g5d8', 'g5e7', 'd3a3', 'd3e4', 'd3d1', 'd3c3', 'c8d7', 'c8b8', 'c8d8', 'c8c7']
+Moves evaluations: {1478: 'd3a3', 781: 'g5e3', 158: 'd3e4'}
+Decided centipawn loss from mean 0 and stdev 8: 0.4212527388143044
+Target_evaluation: 1478.4212527388142
+Chosen move: d3a3
+Move number: 28
+. . k . . . . .
+. p . . . p . .
+p . . . p . . .
+. . . . . . b .
+. P . . . . . .
+q . . . N . . P
+. . K . . P P .
+. . . . . . . R
+Legal_moves found from human search: ['f7f5', 'f7f6', 'a6a5', 'b7b5', 'g5e3', 'g5d8', 'g5e7', 'a3a2', 'a3b4', 'a3a4', 'a3c1', 'c8d7', 'c8c7', 'c8b8', 'c8d8']
+Moves evaluations: {1724: 'a3a2', 841: 'a3b4', 789: 'g5e3'}
+Decided centipawn loss from mean 0 and stdev 8: -0.2225030697642857
+Target_evaluation: 1723.7774969302357
+Chosen move: a3a2
+Move number: 29
+. . k . . . . .
+. p . . . p . .
+p . . . p . . .
+. . . . . . b .
+. P . . . . . .
+. . K . N . . P
+q . . . . P P .
+. . . . . . . R
+Legal_moves found from human search: ['f7f5', 'a6a5', 'f7f6', 'b7b5', 'g5e3', 'g5d8', 'g5e7', 'a2a3', 'a2a1', 'a2b1', 'a2c2', 'c8d7', 'c8b8', 'c8c7', 'c8d8']
+Moves evaluations: {931: 'c8b8', -50: 'b7b5', 914: 'c8c7'}
+Decided centipawn loss from mean 0 and stdev 8: -7.745646231461047
+Target_evaluation: 923.254353768539
+Chosen move: c8b8
+Move number: 30
+. k . . . . . .
+. p . . . p . .
+p . . . p . . .
+. . . . . . b .
+. P . . . . . .
+. . K . . . . P
+q . N . . P P .
+. . . . . . . R
+Legal_moves found from human search: ['e6e5', 'f7f5', 'a6a5', 'b7b6', 'g5d8', 'g5d2', 'g5e7', 'g5c1', 'a2c4', 'a2a1', 'a2b1', 'a2c2', 'b8c7', 'b8a7', 'b8c8']
+Moves evaluations: {1130: 'a6a5', 986: 'b8c7', 975: 'f7f5'}
+Decided centipawn loss from mean 0 and stdev 8: -1.51249803626135
+Target_evaluation: 1128.4875019637386
+Chosen move: a6a5
+Playing side: BLACK 
+Move number: 1
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P P P P P P
+R . B Q K B N R
+Legal_moves found from human search: ['e7e5', 'd7d5', 'c7c5', 'b7b6', 'g8f6', 'b8c6', 'g8h6']
+Moves evaluations: {-2: 'e7e5', -10: 'd7d5', -16: 'g8f6'}
+Decided centipawn loss from mean 0 and stdev 8: -31.286657552940476
+Target_evaluation: -33.286657552940476
+Chosen move: g8f6
+Move number: 2
+r n b q k b . r
+p p p p p p p p
+. . . . . n . .
+. . . . . . . .
+. . . . P . . .
+. . N . . . . .
+P P P P . P P P
+R . B Q K B N R
+Legal_moves found from human search: ['d7d5', 'c7c5', 'g7g6', 'e7e5', 'b8c6', 'f6e4', 'f6g4', 'f6h5', 'h8g8']
+Moves evaluations: {-10: 'e7e5', -21: 'd7d5', -64: 'b8c6'}
+Decided centipawn loss from mean 0 and stdev 8: 10.32993477926071
+Target_evaluation: 0.3299347792607108
+Chosen move: e7e5
+Move number: 3
+r n b q k b . r
+p p p p . p p p
+. . . . . n . .
+. . . . p . . .
+. . . . P . . .
+. . N . . N . .
+P P P P . P P P
+R . B Q K B . R
+Legal_moves found from human search: ['d7d5', 'd7d6', 'g7g6', 'b7b6', 'b8c6', 'f6e4', 'f6g4', 'f6h5', 'f8b4', 'f8c5', 'f8e7', 'f8d6', 'h8g8', 'd8e7', 'e8e7']
+Moves evaluations: {-21: 'b8c6', -9: 'f8b4', -45: 'f8d6'}
+Decided centipawn loss from mean 0 and stdev 8: -6.924542027518164
+Target_evaluation: -15.924542027518164
+Chosen move: b8c6
+Move number: 4
+r . b q k b . r
+p p p p . p p p
+. . n . . n . .
+. . . . p . . .
+. . . P P . . .
+. . N . . N . .
+P P P . . P P P
+R . B Q K B . R
+Legal_moves found from human search: ['e5d4', 'd7d5', 'd7d6', 'h7h6', 'c6d4', 'f6e4', 'c6e7', 'c6b4', 'f8b4', 'f8e7', 'f8d6', 'h8g8', 'a8b8', 'd8e7', 'e8e7']
+Moves evaluations: {0: 'f8b4', -5: 'e5d4', -72: 'c6d4'}
+Decided centipawn loss from mean 0 and stdev 8: 16.97053009580203
+Target_evaluation: 16.97053009580203
+Chosen move: f8b4
+Move number: 5
+r . b q k . . r
+p p p p . p p p
+. . n . . n . .
+. . . P p . . .
+. b . . P . . .
+. . N . . N . .
+P P P . . P P P
+R . B Q K B . R
+Legal_moves found from human search: ['d7d6', 'h7h6', 'c6e7', 'c6d4', 'c6a5', 'f6e4', 'b4c3', 'b4a5', 'b4c5', 'b4e7', 'h8f8', 'a8b8', 'h8g8', 'd8e7', 'e8g8', 'e8f8', 'e8e7']
+Moves evaluations: {10: 'c6e7', -34: 'b4c3', -50: 'f6e4'}
+Decided centipawn loss from mean 0 and stdev 8: -6.382942049610986
+Target_evaluation: 3.6170579503890137
+Chosen move: c6e7
+Move number: 6
+r . b q k . . r
+p p p p n p p p
+. . . . . n . .
+. . . P N . . .
+. b . . P . . .
+. . N . . . . .
+P P P . . P P P
+R . B Q K B . R
+Legal_moves found from human search: ['d7d6', 'c7c6', 'h7h6', 'f6e4', 'e7g6', 'f6g4', 'f6h5', 'b4c3', 'b4a5', 'b4d6', 'b4c5', 'a8b8', 'h8f8', 'e8g8', 'e8f8']
+Moves evaluations: {-10: 'b4c3', -27: 'd7d6', -33: 'e8g8'}
+Decided centipawn loss from mean 0 and stdev 8: 3.495240821326692
+Target_evaluation: -6.504759178673308
+Chosen move: b4c3
+Move number: 7
+r . b q k . . r
+p p p p n p p p
+. . . . . n . .
+. . . P N . . .
+. . . . P . . .
+. . P . . . . .
+P . P . . P P P
+R . B Q K B . R
+Legal_moves found from human search: ['d7d6', 'h7h6', 'h7h5', 'f6e4', 'e7g6', 'f6g4', 'f6h5', 'a8b8', 'h8f8', 'e8g8', 'e8f8']
+Moves evaluations: {-9: 'd7d6', -99: 'e8g8', -149: 'h7h6'}
+Decided centipawn loss from mean 0 and stdev 8: -0.2845101196757068
+Target_evaluation: -9.284510119675707
+Chosen move: d7d6
+Move number: 8
+r . b q k . . r
+p p p . n p p p
+. . . p . n . .
+. B . P N . . .
+. . . . P . . .
+. . P . . . . .
+P . P . . P P P
+R . B Q K . . R
+Legal_moves found from human search: ['f6d7', 'c8d7', 'e8f8']
+Moves evaluations: {-33: 'e8f8', -127: 'f6d7', -50: 'c8d7'}
+Decided centipawn loss from mean 0 and stdev 8: -0.8563505795506452
+Target_evaluation: -33.85635057955064
+Chosen move: e8f8
+Move number: 9
+r . b q . k . r
+p p p . n p p p
+. . . p . n . .
+. B . P . . . .
+. . . . P . . .
+. . P . . N . .
+P . P . . P P P
+R . B Q K . . R
+Legal_moves found from human search: ['a7a6', 'c7c6', 'h7h6', 'b7b6', 'e7g6', 'f6e4', 'f6d7', 'f6h5', 'c8g4', 'c8d7', 'c8f5', 'a8b8', 'h8g8', 'd8e8', 'f8g8']
+Moves evaluations: {-23: 'f6e4', -82: 'c7c6', -176: 'c8g4'}
+Decided centipawn loss from mean 0 and stdev 8: -7.589950082041224
+Target_evaluation: -30.589950082041224
+Chosen move: f6e4
+Move number: 10
+r . b q . k . r
+p p p . n p p p
+. . . p . . . .
+. . . P . . . .
+. . B . n . . .
+. . P . . N . .
+P . P . . P P P
+R . B Q K . . R
+Legal_moves found from human search: ['h7h6', 'c7c5', 'f7f5', 'f7f6', 'e4c3', 'e4c5', 'e4f6', 'e7g6', 'c8g4', 'c8f5', 'c8d7', 'a8b8', 'd8e8', 'f8g8', 'f8e8']
+Moves evaluations: {-1: 'e4c3', -35: 'h7h6', -41: 'c8d7'}
+Decided centipawn loss from mean 0 and stdev 8: -5.029840891108362
+Target_evaluation: -6.029840891108362
+Chosen move: e4c3
+Move number: 11
+r . b q . k . r
+p p p . n p p p
+. . . p . . . .
+. . . P . . . .
+. . B . . . . .
+. . n Q . N . .
+P . P . . P P P
+R . B . K . . R
+Legal_moves found from human search: ['g7g6', 'c7c5', 'f7f6', 'h7h6', 'e7d5', 'c3d5', 'e7f5', 'e7g6', 'c3e4', 'c8f5', 'c8g4', 'c8d7', 'a8b8', 'd8e8', 'd8d7', 'f8g8', 'f8e8']
+Moves evaluations: {-67: 'd8e8', -190: 'e7d5', -221: 'c3d5'}
+Decided centipawn loss from mean 0 and stdev 8: -4.529016742867249
+Target_evaluation: -71.52901674286724
+Chosen move: d8e8
+Move number: 12
+r . b . q k . r
+p p p . n p p p
+. . . p . . . .
+. . . P . . . .
+. . B . . . . .
+. . n Q . N . .
+P . P . . P P P
+R . B . . R K .
+Legal_moves found from human search: ['g7g6', 'b7b6', 'h7h6', 'f7f6', 'e7d5', 'c3d5', 'e7f5', 'e7g6', 'c3e4', 'c8g4', 'c8f5', 'c8d7', 'c8h3', 'a8b8', 'e8d8', 'e8d7', 'f8g8']
+Moves evaluations: {-272: 'e7d5', -296: 'c3d5', -418: 'c8g4'}
+Decided centipawn loss from mean 0 and stdev 8: -1.6708776744855829
+Target_evaluation: -273.6708776744856
+Chosen move: e7d5
+Move number: 13
+r . b . q k . r
+p p p . . p p p
+. . . p . . . .
+. . . B . . . .
+. . . . . . . .
+. . n Q . N . .
+P . P . . P P P
+R . B . . R K .
+Legal_moves found from human search: ['c7c6', 'h7h6', 'g7g6', 'c7c5', 'c3d5', 'c3e2', 'c3b5', 'c3a4', 'c8f5', 'c8g4', 'c8e6', 'c8d7', 'a8b8', 'e8e7', 'e8d8', 'f8g8', 'f8e7']
+Moves evaluations: {-301: 'c3d5', -50: 'c3e2', -503: 'c7c6'}
+Decided centipawn loss from mean 0 and stdev 8: -10.235859677206562
+Target_evaluation: -60.23585967720656
+Chosen move: c3e2
+Move number: 14
+r . b . q k . r
+p p p . . p p p
+. . . p . . . .
+. . . B . . . .
+. . . . . . . .
+. . . Q . N . .
+P . P . n P P P
+R . B . . R . K
+Legal_moves found from human search: ['c7c6', 'c7c5', 'h7h6', 'b7b6', 'e2c3', 'e2c1', 'e2g3', 'e2f4', 'c8g4', 'c8f5', 'c8e6', 'c8d7', 'a8b8', 'e8e7', 'e8d8', 'e8d7', 'f8g8', 'f8e7']
+Moves evaluations: {-372: 'e2c1', -510: 'c8e6', -524: 'c7c6'}
+Decided centipawn loss from mean 0 and stdev 8: -2.496506235378001
+Target_evaluation: -374.496506235378
+Chosen move: e2c1
+Move number: 15
+r . b . q k . r
+p p p . . p p p
+. . . p . . . .
+. . . B . . . .
+. . . . . . . .
+. . . Q . N . .
+P . P . . P P P
+R . R . . . . K
+Legal_moves found from human search: ['c7c6', 'c7c5', 'g7g6', 'h7h6', 'c8g4', 'c8f5', 'c8e6', 'c8d7', 'a8b8', 'e8e7', 'e8d8', 'f8g8', 'f8e7']
+Moves evaluations: {-337: 'e8d8', -348: 'c7c6', -426: 'h7h6'}
+Decided centipawn loss from mean 0 and stdev 8: -5.593142941837544
+Target_evaluation: -342.5931429418375
+Chosen move: c7c6
+Move number: 16
+r . b . q k . r
+p p . . . p p p
+. . p p . . . .
+. . . B . . . .
+. . . . . . . .
+. . . Q . N . .
+P . P . . P P P
+R . . . R . . K
+Legal_moves found from human search: ['c6d5', 'c6c5', 'g7g6', 'g7g5', 'c8g4', 'c8f5', 'c8e6', 'c8d7', 'a8b8', 'e8d8', 'e8e7', 'f8g8']
+Moves evaluations: {-348: 'e8d8', -587: 'c8e6', -960: 'c6d5'}
+Decided centipawn loss from mean 0 and stdev 8: -5.585685411197489
+Target_evaluation: -353.5856854111975
+Chosen move: e8d8
+Move number: 17
+r . b q . k . r
+p p . . . p p p
+. . p p . . . .
+. . . . . . . .
+. . . . . . . .
+. B . Q . N . .
+P . P . . P P P
+R . . . R . . K
+Legal_moves found from human search: ['d6d5', 'h7h6', 'g7g6', 'a7a5', 'c8g4', 'c8f5', 'c8e6', 'c8d7', 'a8b8', 'd8f6', 'd8e7', 'd8c7', 'd8a5', 'f8g8']
+Moves evaluations: {-329: 'c8g4', -343: 'd8f6', -400: 'a7a5'}
+Decided centipawn loss from mean 0 and stdev 8: -10.501307256959223
+Target_evaluation: -339.5013072569592
+Chosen move: d8f6
+Move number: 18
+r . b . . k . r
+p p . . . p p p
+. . p p . q . .
+. . . . . . N .
+. . . . . . . .
+. B . Q . . . .
+P . P . . P P P
+R . . . R . . K
+Legal_moves found from human search: ['h7h6', 'd6d5', 'g7g6', 'a7a5', 'c8f5', 'c8d7', 'c8g4', 'c8e6', 'f6g5', 'f6e7', 'f6f2', 'f6g6', 'f8g8']
+Moves evaluations: {-387: 'c8f5', -653: 'c8d7', -652: 'a7a5'}
+Decided centipawn loss from mean 0 and stdev 8: 4.132569144616249
+Target_evaluation: -382.86743085538376
+Chosen move: c8f5
+Move number: 19
+r . . . . k . r
+p p . . . p p p
+. . p p . q . .
+. . . . . b N .
+. . . . . . . .
+. B . . Q . . .
+P . P . . P P P
+R . . . R . . K
+Legal_moves found from human search: ['h7h6', 'a7a5', 'h7h5', 'd6d5', 'f5d7', 'f5c2', 'f5g6', 'a8e8', 'a8c8', 'a8d8', 'f6g5', 'f6e7', 'f6d8', 'f6g6', 'f8g8']
+Moves evaluations: {-292: 'd6d5', -297: 'f5g6', -596: 'h7h6'}
+Decided centipawn loss from mean 0 and stdev 8: -16.676433366879337
+Target_evaluation: -308.67643336687934
+Chosen move: f5g6
+Move number: 20
+r . . . . k . r
+p p . . . p p p
+. . p p . q b .
+. . . . . . N .
+. . . . . . . .
+. B . . Q . . .
+P . P . . P P P
+. . . R R . . K
+Legal_moves found from human search: ['h7h6', 'd6d5', 'h7h5', 'a7a5', 'g6f5', 'g6h5', 'g6c2', 'a8e8', 'a8d8', 'a8c8', 'f6g5', 'f6e7', 'f6d8', 'f6f2', 'f8g8']
+Moves evaluations: {-316: 'h7h6', -411: 'a8c8', -445: 'a7a5'}
+Decided centipawn loss from mean 0 and stdev 8: -14.504754763102675
+Target_evaluation: -330.50475476310265
+Chosen move: h7h6
+Move number: 21
+r . . . . k . r
+p p . . . p p .
+. . p p . q b p
+. . . . . . . .
+. . . . N . . .
+. B . . Q . . .
+P . P . . P P P
+. . . R R . . K
+Legal_moves found from human search: ['d6d5', 'a7a5', 'b7b6', 'h6h5', 'g6e4', 'g6f5', 'g6h7', 'g6h5', 'a8e8', 'a8d8', 'a8c8', 'f6e7', 'f6e5', 'f6h4', 'f6f5', 'f8g8', 'f8e7']
+Moves evaluations: {-304: 'g6e4', -445: 'f6e7', -495: 'f6e5'}
+Decided centipawn loss from mean 0 and stdev 8: -15.865145141424899
+Target_evaluation: -319.8651451414249
+Chosen move: g6e4
+Move number: 22
+r . . . . k . r
+p p . . . p p .
+. . p p . q . p
+. . . . . . . .
+. . . . Q . . .
+. B . . . . . .
+P . P . . P P P
+. . . R R . . K
+Legal_moves found from human search: ['d6d5', 'g7g6', 'g7g5', 'a7a5', 'a8e8', 'a8d8', 'a8c8', 'f6f2', 'f6c3', 'f6g5', 'f6e7', 'f8g8']
+Moves evaluations: {-315: 'a7a5', -367: 'd6d5', -387: 'f8g8'}
+Decided centipawn loss from mean 0 and stdev 8: -5.497220053667544
+Target_evaluation: -320.49722005366755
+Chosen move: a7a5
+Move number: 23
+r . . . . k . r
+. p . . . p p .
+. . p p . q . p
+p . . . . . . .
+. . . . . . . .
+. B . . Q . . .
+P . P . . P P P
+. . . R R . . K
+Legal_moves found from human search: ['a5a4', 'd6d5', 'b7b5', 'g7g5', 'a8e8', 'a8d8', 'a8c8', 'f6e7', 'f6c3', 'f6g5', 'f6f2', 'f8g8']
+Moves evaluations: {-289: 'g7g5', -301: 'a5a4', -316: 'f8g8'}
+Decided centipawn loss from mean 0 and stdev 8: 2.1408693057825023
+Target_evaluation: -286.85913069421747
+Chosen move: g7g5
+Move number: 24
+r . . . . k . r
+. p . . . p . .
+. Q p p . q . p
+p . . . . . p .
+. . . . . . . .
+. B . . . . . .
+P . P . . P P P
+. . . R R . . K
+Legal_moves found from human search: ['a5a4', 'c6c5', 'd6d5', 'h6h5', 'a8e8', 'a8c8', 'a8d8', 'a8a6', 'f6f2', 'f6c3', 'f6e7', 'f6f4', 'f8g7', 'f8g8']
+Moves evaluations: {-291: 'a5a4', -310: 'f8g7', -367: 'd6d5'}
+Decided centipawn loss from mean 0 and stdev 8: -9.054570644440112
+Target_evaluation: -300.0545706444401
+Chosen move: a5a4
+Move number: 25
+r . . . . k . r
+. Q . . . p . .
+. . p p . q . p
+. . . . . . p .
+p . . . . . . .
+. B . . . . . .
+P . P . . P P P
+. . . R R . . K
+Legal_moves found from human search: ['a4b3', 'd6d5', 'c6c5', 'a4a3', 'a8e8', 'a8b8', 'a8c8', 'a8a7', 'f6f4', 'f6f2', 'f6c3', 'f6e7', 'f8g7', 'f8g8']
+Moves evaluations: {-302: 'f8g7', -572: 'a4b3', -714: 'a8a7'}
+Decided centipawn loss from mean 0 and stdev 8: -5.5960874110614895
+Target_evaluation: -307.5960874110615
+Chosen move: f8g7
+Move number: 26
+r . . . . . . r
+. Q . . . p k .
+. . p p . q . p
+. . . . . . p .
+p . B . . . . .
+. . . . . . . .
+P . P . . P P P
+. . . R R . . K
+Legal_moves found from human search: ['d6d5', 'c6c5', 'a4a3', 'g5g4', 'a8c8', 'h8c8', 'a8b8', 'h8b8', 'a8e8', 'h8e8', 'a8d8', 'h8d8', 'f6f2', 'f6f4', 'f6c3', 'f6e5', 'g7f8', 'g7g6', 'g7h7', 'g7g8']
+Moves evaluations: {-301: 'd6d5', -393: 'a8c8', -410: 'h8e8'}
+Decided centipawn loss from mean 0 and stdev 8: -6.946543727482799
+Target_evaluation: -307.9465437274828
+Chosen move: d6d5
+Move number: 27
+r . . . . . . r
+. Q . . . p k .
+. . p . . q . p
+. . . p . . p .
+p . . . . . . .
+. . . B . . . .
+P . P . . P P P
+. . . R R . . K
+Legal_moves found from human search: ['a4a3', 'g5g4', 'c6c5', 'd5d4', 'a8e8', 'h8e8', 'a8b8', 'h8b8', 'a8c8', 'h8c8', 'a8d8', 'h8d8', 'f6f4', 'f6f2', 'f6c3', 'f6e5', 'g7f8', 'g7g8']
+Moves evaluations: {-292: 'h8b8', -299: 'h8e8', -328: 'a4a3'}
+Decided centipawn loss from mean 0 and stdev 8: 5.40251358254428
+Target_evaluation: -286.59748641745574
+Chosen move: h8b8
+Move number: 28
+r r . . . . . .
+. . Q . . p k .
+. . p . . q . p
+. . . p . . p .
+p . . . . . . .
+. . . B . . . .
+P . P . . P P P
+. . . R R . . K
+Legal_moves found from human search: ['g5g4', 'a4a3', 'c6c5', 'd5d4', 'b8c8', 'b8e8', 'b8b4', 'b8b2', 'f6c3', 'f6d4', 'f6f2', 'f6f4', 'g7f8', 'g7g8', 'g7h8']
+Moves evaluations: {-306: 'b8e8', -320: 'a4a3'}
+Decided centipawn loss from mean 0 and stdev 8: -1.3444304113821415
+Target_evaluation: -307.3444304113821
+Chosen move: b8e8
+Move number: 29
+r . . . r . . .
+. . Q . . p k .
+. . p . . q . p
+. . . p . . p .
+p . . . . . . .
+. . . B . . . .
+P . P . . P P P
+. . . R R . K .
+Legal_moves found from human search: ['g5g4', 'a4a3', 'c6c5', 'h6h5', 'e8e1', 'a8b8', 'e8b8', 'a8c8', 'e8c8', 'e8e7', 'f6c3', 'f6b2', 'f6f2', 'f6e6', 'g7f8', 'g7g8', 'g7h8']
+Moves evaluations: {-338: 'a4a3', -350: 'a8c8', -343: 'e8c8'}
+Decided centipawn loss from mean 0 and stdev 8: -5.345807136521524
+Target_evaluation: -343.3458071365215
+Chosen move: e8c8
+Move number: 30
+r . r . . . . .
+. . . Q . p k .
+. . p . . q . p
+. . . p . . p .
+p . . . . . . .
+. . . B . . . .
+P . P . . P P P
+. . . R R . K .
+Legal_moves found from human search: ['a4a3', 'c6c5', 'g5g4', 'd5d4', 'a8b8', 'c8b8', 'c8c7', 'f6c3', 'f6f4', 'f6b2', 'g7f8', 'g7h8', 'g7g8']
+Moves evaluations: {-354: 'c8b8', -391: 'a4a3', -364: 'g7g8'}
+Decided centipawn loss from mean 0 and stdev 8: -18.382938983624975
+Target_evaluation: -372.38293898362497
+Chosen move: g7g8
+Playing side: BLACK 
+Move number: 1
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P P P P P P
+R . B Q K B N R
+Legal_moves found from human search: ['e7e5', 'd7d5', 'c7c5', 'b7b6', 'g8f6', 'b8c6', 'g8h6']
+Moves evaluations: {-11: 'd7d5', -22: 'e7e5', -15: 'g8f6'}
+Decided centipawn loss from mean 0 and stdev 8: 3.636513062905571
+Target_evaluation: -7.363486937094429
+Chosen move: d7d5
+Move number: 2
+r n b q k b n r
+p p p . p p p p
+. . . . . . . .
+. . . p . . . .
+. . . P . . . .
+. . N . . . . .
+P P P . P P P P
+R . B Q K B N R
+Legal_moves found from human search: ['c7c5', 'e7e5', 'e7e6', 'g8f6', 'b8c6', 'b8d7', 'c8f5', 'c8g4', 'c8d7', 'd8d6', 'd8d7', 'e8d7']
+Moves evaluations: {-4: 'g8f6', -31: 'e7e6', -37: 'c7c5'}
+Decided centipawn loss from mean 0 and stdev 8: 8.495867941831456
+Target_evaluation: 4.495867941831456
+Chosen move: g8f6
+Move number: 3
+r n b q k b . r
+p p p . p p p p
+. . . . . n . .
+. . . p . . . .
+. . . P . . . .
+. . N . . N . .
+P P P . P P P P
+R . B Q K B . R
+Legal_moves found from human search: ['c7c5', 'e7e6', 'g7g6', 'c7c6', 'b8c6', 'b8d7', 'f6d7', 'f6e4', 'f6h5', 'c8f5', 'c8g4', 'c8d7', 'h8g8', 'd8d6', 'd8d7', 'e8d7']
+Moves evaluations: {-9: 'e7e6', -10: 'c8f5', -20: 'c7c5'}
+Decided centipawn loss from mean 0 and stdev 8: -7.147560790426655
+Target_evaluation: -16.147560790426656
+Chosen move: c7c5
+Move number: 4
+r n b q k b . r
+p p . . p p p p
+. . . . . n . .
+. . P p . . . .
+. . . . . . . .
+. . N . . N . .
+P P P . P P P P
+R . B Q K B . R
+Legal_moves found from human search: ['e7e6', 'd5d4', 'e7e5', 'g7g6', 'b8c6', 'f6e4', 'b8d7', 'f6d7', 'b8a6', 'c8g4', 'c8f5', 'c8d7', 'h8g8', 'd8a5', 'd8c7', 'd8b6', 'e8d7']
+Moves evaluations: {27: 'b8c6', 13: 'e7e6', -61: 'e7e5'}
+Decided centipawn loss from mean 0 and stdev 8: 9.449399920236782
+Target_evaluation: 36.449399920236786
+Chosen move: b8c6
+Move number: 5
+r . b q k b . r
+p p . . p p p p
+. . n . . n . .
+. . P p . . . .
+. . . . . . . .
+. . N . . N . .
+P P P B P P P P
+R . . Q K B . R
+Legal_moves found from human search: ['e7e5', 'e7e6', 'd5d4', 'a7a5', 'f6e4', 'f6g4', 'f6h5', 'f6d7', 'c8g4', 'c8f5', 'c8d7', 'a8b8', 'h8g8', 'd8c7', 'd8a5', 'd8b6', 'd8d7', 'e8d7']
+Moves evaluations: {47: 'e7e5', 15: 'c8d7', 8: 'e7e6'}
+Decided centipawn loss from mean 0 and stdev 8: -0.3579438014288471
+Target_evaluation: 46.642056198571154
+Chosen move: e7e5
+Move number: 6
+r . b q k b . r
+p p . . . p p p
+. . n . . n . .
+. . P p p . B .
+. . . . . . . .
+. . N . . N . .
+P P P . P P P P
+R . . Q K B . R
+Legal_moves found from human search: ['d5d4', 'e5e4', 'h7h6', 'f6e4', 'f6g4', 'f6h5', 'c6d4', 'f8c5', 'c8f5', 'f8e7', 'c8g4', 'a8b8', 'h8g8', 'd8a5', 'd8c7', 'd8b6', 'd8d7', 'e8d7', 'e8e7']
+Moves evaluations: {47: 'd5d4', 16: 'e5e4', -50: 'd8a5'}
+Decided centipawn loss from mean 0 and stdev 8: 6.7472484106352635
+Target_evaluation: 53.747248410635265
+Chosen move: d5d4
+Move number: 7
+r . b q k b . r
+p p . . . p p p
+. . n . . n . .
+. . P . p . B .
+. . . p N . . .
+. . . . . N . .
+P P P . P P P P
+R . . Q K B . R
+Legal_moves found from human search: ['h7h6', 'a7a5', 'h7h5', 'f6e4', 'f6d5', 'f6h5', 'f6g4', 'c8f5', 'f8e7', 'c8e6', 'c8g4', 'a8b8', 'd8a5', 'd8d5', 'd8c7', 'e8e7', 'e8d7']
+Moves evaluations: {54: 'c8f5', 24: 'h7h6', 19: 'c8e6'}
+Decided centipawn loss from mean 0 and stdev 8: -5.303168938991888
+Target_evaluation: 48.69683106100811
+Chosen move: c8f5
+Move number: 8
+r . . q k b . r
+p p . . . p p p
+. . n . . n . .
+. . P . p b B .
+. . . p N . . .
+. . . . . . . .
+P P P N P P P P
+R . . Q K B . R
+Legal_moves found from human search: ['h7h6', 'a7a5', 'h7h5', 'd4d3', 'f6e4', 'f6d5', 'f6g4', 'f6h5', 'f5e4', 'f5g6', 'f8e7', 'f5e6', 'a8c8', 'a8b8', 'd8d5', 'd8c7', 'd8d7', 'd8a5', 'e8d7', 'e8e7']
+Moves evaluations: {26: 'f8e7', 18: 'd8d5', 14: 'f5g6'}
+Decided centipawn loss from mean 0 and stdev 8: -14.10166102453062
+Target_evaluation: 11.89833897546938
+Chosen move: f5g6
+Move number: 9
+r . . q k b . r
+p p . . . p p p
+. . n . . n b .
+. . P . p . B .
+. . . p N . . .
+. . P . . . . .
+P P . N P P P P
+R . . Q K B . R
+Legal_moves found from human search: ['h7h6', 'd4c3', 'a7a5', 'h7h5', 'f6e4', 'f6d5', 'f6h5', 'f6g4', 'f8c5', 'f8e7', 'g6e4', 'g6f5', 'a8c8', 'a8b8', 'd8d5', 'd8c7', 'd8d7', 'd8c8', 'e8d7', 'e8e7']
+Moves evaluations: {32: 'd4c3', -20: 'a8c8'}
+Decided centipawn loss from mean 0 and stdev 8: 1.2067544738279505
+Target_evaluation: 33.20675447382795
+Chosen move: d4c3
+Move number: 10
+r . . q k b . r
+p p . . . p p p
+. . n . . n b .
+. . P . p . B .
+. . . . N . . .
+. . P . . . . .
+P . . N P P P P
+R . . Q K B . R
+Legal_moves found from human search: ['h7h6', 'a7a5', 'b7b6', 'h7h5', 'f6e4', 'f6d5', 'f6h5', 'f6g4', 'f8e7', 'f8c5', 'g6e4', 'a8c8', 'a8b8', 'd8c7', 'd8d5', 'd8d7', 'd8a5', 'e8d7', 'e8e7']
+Moves evaluations: {2: 'g6e4', 12: 'f8e7', -63: 'a8b8'}
+Decided centipawn loss from mean 0 and stdev 8: 8.991988364747915
+Target_evaluation: 20.991988364747915
+Chosen move: f8e7
+Move number: 11
+r . . q k . . r
+p p . . b p p p
+. . n . . B b .
+. . P . p . . .
+. . . . N . . .
+. . P . . . . .
+P . . N P P P P
+R . . Q K B . R
+Legal_moves found from human search: ['g7f6', 'h7h6', 'h7h5', 'c6a5', 'c6b8', 'e7f6', 'e7c5', 'g6e4', 'a8c8', 'a8b8', 'd8d5', 'd8a5', 'd8c7', 'e8g8', 'e8f8', 'e8d7']
+Moves evaluations: {12: 'g7f6', -100: 'e7f6', -385: 'e8g8'}
+Decided centipawn loss from mean 0 and stdev 8: 21.38145546927246
+Target_evaluation: 33.38145546927246
+Chosen move: g7f6
+Move number: 12
+r . . q k . . r
+p p . . b p . p
+. . n . . p b .
+. . P . p . . .
+. . . . N . . .
+. Q P . . . . .
+P . . N P P P P
+R . . . K B . R
+Legal_moves found from human search: ['a7a5', 'f6f5', 'h7h5', 'b7b5', 'c6a5', 'e7c5', 'g6e4', 'e7f8', 'a8c8', 'a8b8', 'h8g8', 'd8a5', 'd8c7', 'd8d7', 'd8d5', 'e8g8', 'e8f8']
+Moves evaluations: {20: 'd8c7', 4: 'd8d7', -50: 'c6a5'}
+Decided centipawn loss from mean 0 and stdev 8: -1.9197298642558684
+Target_evaluation: 18.080270135744133
+Chosen move: d8c7
+Move number: 13
+r . . . k . . r
+p p q . b p . p
+. . n N . p b .
+. . P . p . . .
+. . . . . . . .
+. Q P . . . . .
+P . . N P P P P
+R . . . K B . R
+Legal_moves found from human search: ['e7d6', 'e8f8', 'e8d7']
+Moves evaluations: {14: 'e7d6', -21: 'e8f8', -263: 'e8d7'}
+Decided centipawn loss from mean 0 and stdev 8: -18.29854515985007
+Target_evaluation: -4.298545159850072
+Chosen move: e8f8
+Move number: 14
+r . . . . k . r
+p Q q . b p . p
+. . n N . p b .
+. . P . p . . .
+. . . . . . . .
+. . P . . . . .
+P . . N P P P P
+R . . . K B . R
+Legal_moves found from human search: ['a7a5', 'f6f5', 'h7h5', 'e5e4', 'c6a5', 'c6d8', 'c6b8', 'c6d4', 'e7d6', 'g6d3', 'a8b8', 'a8d8', 'a8c8', 'c7b7', 'c7a5', 'c7d7', 'f8g7', 'f8g8']
+Moves evaluations: {-29: 'c7b7', -122: 'e7d6', -591: 'a8c8'}
+Decided centipawn loss from mean 0 and stdev 8: -4.51250122799952
+Target_evaluation: -33.51250122799952
+Chosen move: c7b7
+Move number: 15
+r . . . . k . r
+p N . . b p . p
+. . n . . p b .
+. . P . p . . .
+. . . . . . . .
+. . P . . . . .
+P . . N P P P P
+R . . . K B . R
+Legal_moves found from human search: ['a7a5', 'f6f5', 'h7h5', 'e5e4', 'c6a5', 'c6d8', 'c6b8', 'c6d4', 'e7c5', 'g6h5', 'a8c8', 'a8b8', 'a8d8', 'f8g7', 'f8g8', 'f8e8']
+Moves evaluations: {-37: 'c6d8', -46: 'a8b8', -99: 'f8g7'}
+Decided centipawn loss from mean 0 and stdev 8: -0.9541178835413222
+Target_evaluation: -37.95411788354132
+Chosen move: c6d8
+Move number: 16
+r . . N . k . r
+p . . . b p . p
+. . . . . p b .
+. . P . p . . .
+. . . . . . . .
+. . P . . . . .
+P . . N P P P P
+R . . . K B . R
+Legal_moves found from human search: ['a7a5', 'f6f5', 'h7h5', 'e5e4', 'e7c5', 'e7d8', 'g6d3', 'a8d8', 'a8c8', 'a8b8', 'h8g8', 'f8g7', 'f8e8', 'f8g8']
+Moves evaluations: {-14: 'a8d8', -51: 'e7d8', -376: 'a8c8'}
+Decided centipawn loss from mean 0 and stdev 8: 5.991464989731377
+Target_evaluation: -8.008535010268623
+Chosen move: a8d8
+Move number: 17
+. . . r . k . r
+p . . . b p . p
+. . . . . p b .
+. . P . p . . .
+. . . . . . . .
+. N P . . . . .
+P . . . P P P P
+R . . . K B . R
+Legal_moves found from human search: ['a7a5', 'e5e4', 'f6f5', 'h7h5', 'e7c5', 'g6e4', 'g6b1', 'g6h5', 'd8c8', 'd8b8', 'd8d5', 'd8a8', 'f8g7', 'f8g8', 'f8e8']
+Moves evaluations: {-18: 'd8c8', -21: 'f8g7', -67: 'h7h5'}
+Decided centipawn loss from mean 0 and stdev 8: -13.239129531248054
+Target_evaluation: -31.239129531248054
+Chosen move: f8g7
+Move number: 18
+. . . r . . . r
+p . . . b p k p
+. . . . . p b .
+. . P . p . . .
+. . . . . . . .
+. N P . . . P .
+P . . . P P . P
+R . . . K B . R
+Legal_moves found from human search: ['a7a5', 'h7h5', 'f6f5', 'e5e4', 'e7c5', 'g6e4', 'g6h5', 'g6b1', 'd8c8', 'd8b8', 'd8d5', 'd8a8', 'g7f8', 'g7g8', 'g7h6']
+Moves evaluations: {-16: 'd8c8', -66: 'a7a5', -80: 'g6e4'}
+Decided centipawn loss from mean 0 and stdev 8: 2.691163528944593
+Target_evaluation: -13.308836471055407
+Chosen move: d8c8
+Move number: 19
+. . r . . . . r
+p . . . b p k p
+. . . . . p b .
+. . P . p . . .
+. . . . . . . .
+. N P . . . P B
+P . . . P P . P
+R . . . K . . R
+Legal_moves found from human search: ['a7a5', 'f6f5', 'h7h5', 'e5e4', 'e7c5', 'e7d8', 'g6h5', 'g6e4', 'c8d8', 'h8d8', 'c8c7', 'c8b8', 'g7f8', 'g7g8', 'g7h6']
+Moves evaluations: {-6: 'c8c7', -50: 'f6f5', -159: 'c8d8'}
+Decided centipawn loss from mean 0 and stdev 8: -7.577021759238275
+Target_evaluation: -13.577021759238274
+Chosen move: c8c7
+Move number: 20
+. . . . . . . r
+p . r . b p k p
+. . . . . p b .
+. . P . p . . .
+. . . . . . . .
+. N P . . . P B
+P . . . P P . P
+. . . R K . . R
+Legal_moves found from human search: ['f6f5', 'h7h5', 'a7a5', 'e5e4', 'e7c5', 'g6h5', 'g6e4', 'e7d8', 'h8c8', 'c7c8', 'c7c5', 'g7f8', 'g7g8', 'g7h6']
+Moves evaluations: {-1: 'e7c5', -50: 'g6e4', -76: 'f6f5'}
+Decided centipawn loss from mean 0 and stdev 8: 0.5074445297845553
+Target_evaluation: -0.49255547021544466
+Chosen move: e7c5
+Move number: 21
+. . . . . . . r
+p . r R . p k p
+. . . . . p b .
+. . b . p . . .
+. . . . . . . .
+. N P . . . P B
+P . . . P P . P
+. . . . K . . R
+Legal_moves found from human search: ['a7a5', 'e5e4', 'f6f5', 'h7h5', 'c5b6', 'c5e7', 'c5f8', 'c5f2', 'c7d7', 'h8c8', 'c7c8', 'h8b8', 'c7b7', 'g7g8', 'g7f8', 'g7h6']
+Moves evaluations: {-16: 'c7d7', -50: 'c5b6', -70: 'c7c8'}
+Decided centipawn loss from mean 0 and stdev 8: -6.855959425153122
+Target_evaluation: -22.855959425153124
+Chosen move: c7d7
+Move number: 22
+. . . . . . . r
+p . . B . p k p
+. . . . . p b .
+. . b . p . . .
+. . . . . . . .
+. N P . . . P .
+P . . . P P . P
+. . . . K . . R
+Legal_moves found from human search: ['a7a5', 'h7h5', 'e5e4', 'f6f5', 'c5b6', 'c5e7', 'c5f2', 'c5e3', 'h8d8', 'h8b8', 'h8c8', 'g7f8', 'g7h6', 'g7g8']
+Moves evaluations: {-20: 'c5e7', -26: 'h8b8', -40: 'c5b6'}
+Decided centipawn loss from mean 0 and stdev 8: -3.846074425334269
+Target_evaluation: -23.84607442533427
+Chosen move: h8b8
+Move number: 23
+. r . . . . . .
+p . . B . p k p
+. . . . . p b .
+. . b . p . . .
+. . . . . . . .
+. N P . . . P .
+P . . . P P . P
+. . . . . R K .
+Legal_moves found from human search: ['a7a5', 'h7h5', 'e5e4', 'f6f5', 'c5b6', 'c5e7', 'c5f8', 'c5a3', 'b8b7', 'b8d8', 'b8b3', 'g7h6', 'g7f8', 'g7g8']
+Moves evaluations: {-38: 'c5a3', -52: 'c5e7', -63: 'c5f8'}
+Decided centipawn loss from mean 0 and stdev 8: 6.642503370479245
+Target_evaluation: -31.357496629520753
+Chosen move: c5a3
+Move number: 24
+. r . . . . . .
+p . . B . p k p
+. . . . . p b .
+. . . . p . . .
+. . P . . . . .
+b N . . . . P .
+P . . . P P . P
+. . . . . R K .
+Legal_moves found from human search: ['h7h5', 'a7a5', 'e5e4', 'f6f5', 'a3b2', 'a3b4', 'a3e7', 'a3c1', 'b8b4', 'b8d8', 'b8b7', 'b8b3', 'g7h6', 'g7f8', 'g7g8', 'g7h8']
+Moves evaluations: {-54: 'b8d8', -50: 'b8b7', -62: 'g7f8'}
+Decided centipawn loss from mean 0 and stdev 8: 4.810462029686887
+Target_evaluation: -45.18953797031311
+Chosen move: b8b7
+Move number: 25
+. . . . . . . .
+p r . . . p k p
+. . . . . p b .
+. B . . p . . .
+. . P . . . . .
+b N . . . . P .
+P . . . P P . P
+. . . . . R K .
+Legal_moves found from human search: ['h7h5', 'a7a6', 'e5e4', 'a7a5', 'a3c5', 'a3b2', 'a3e7', 'g6e4', 'b7c7', 'b7e7', 'b7b8', 'g7h6', 'g7f8', 'g7g8', 'g7h8']
+Moves evaluations: {-8: 'b7c7', -34: 'g6e4'}
+Decided centipawn loss from mean 0 and stdev 8: 6.858464286413728
+Target_evaluation: -1.141535713586272
+Chosen move: b7c7
+Move number: 26
+. . . . . . . .
+p . r . . p k p
+. . . . . p b .
+. B . . p . . .
+. . P . . P . .
+b N . . . . P .
+P . . . P . . P
+. . . . . R K .
+Legal_moves found from human search: ['e5f4', 'e5e4', 'h7h5', 'a7a5', 'a3c5', 'a3b2', 'a3e7', 'g6e4', 'c7c4', 'c7c8', 'g7h6', 'g7f8', 'g7g8']
+Moves evaluations: {-9: 'a3e7', -50: 'g6e4', -33: 'e5f4'}
+Decided centipawn loss from mean 0 and stdev 8: -12.839894244516673
+Target_evaluation: -21.83989424451667
+Chosen move: e5f4
+Move number: 27
+. . . . . . . .
+p . r . . p k p
+. . . . . p b .
+. B . . . . . .
+. . P . . P . .
+b N . . . . . .
+P . . . P . . P
+. . . . . R K .
+Legal_moves found from human search: ['h7h5', 'f6f5', 'a7a6', 'a7a5', 'a3b2', 'g6e4', 'a3e7', 'a3b4', 'c7c4', 'c7c8', 'g7h6', 'g7f8', 'g7g8']
+Moves evaluations: {-17: 'g6e4', -29: 'a3b4', -38: 'g7f8'}
+Decided centipawn loss from mean 0 and stdev 8: -10.203890701117512
+Target_evaluation: -27.203890701117512
+Chosen move: a3b4
+Move number: 28
+. . . . . . . .
+p . r . . p k p
+. . . . . p b .
+. B . . . P . .
+. b P . . . . .
+. N . . . . . .
+P . . . P . . P
+. . . . . R K .
+Legal_moves found from human search: ['a7a6', 'h7h5', 'a7a5', 'h7h6', 'g6h5', 'b4c3', 'c7c8', 'c7c5', 'c7e7', 'g7h6', 'g7g8', 'g7f8', 'g7h8']
+Moves evaluations: {-22: 'g6h5', -160: 'a7a6', -280: 'c7e7'}
+Decided centipawn loss from mean 0 and stdev 8: 9.82530500608066
+Target_evaluation: -12.17469499391934
+Chosen move: g6h5
+Move number: 29
+. . . . . . . .
+p . r . . p k p
+. . . . . p . .
+. B . . . P . b
+. b P . . . . .
+. N . . . . . .
+P . . . P K . P
+. . . . . R . .
+Legal_moves found from human search: ['a7a5', 'a7a6', 'h7h6', 'b4e1', 'h5e2', 'b4e7', 'b4c3', 'c7c8', 'c7c5', 'c7c4', 'g7h6', 'g7f8', 'g7g8', 'g7h8']
+Moves evaluations: {-12: 'a7a6', -58: 'g7f8', -68: 'g7h6'}
+Decided centipawn loss from mean 0 and stdev 8: -4.867387252954609
+Target_evaluation: -16.867387252954607
+Chosen move: a7a6
+Move number: 30
+. . . . . . . .
+. . r . . p k p
+p . . . . p . .
+. B . . . P . b
+. b P . . . . .
+. N . . . . . .
+P . . . P K . P
+. . . . . . R .
+Legal_moves found from human search: ['g7h6', 'g7f8', 'g7h8']
+Moves evaluations: {-7: 'g7f8', -50: 'g7h6', -38: 'g7h8'}
+Decided centipawn loss from mean 0 and stdev 8: -13.745623765550128
+Target_evaluation: -20.74562376555013
+Chosen move: g7f8
+Playing side: BLACK 
+Move number: 1
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P P P P P P
+R . B Q K B N R
+Legal_moves found from human search: ['e7e5', 'd7d5', 'c7c5', 'b7b6', 'g8f6', 'b8c6', 'g8h6']
+Moves evaluations: {-16: 'g8f6', -8: 'd7d5', -12: 'e7e5'}
+Decided centipawn loss from mean 0 and stdev 8: -1.4485165423819233
+Target_evaluation: -9.448516542381924
+Chosen move: d7d5
+Move number: 2
+r n b q k b n r
+p p p . p p p p
+. . . . . . . .
+. . . p . . . .
+. . . P . . . .
+. . N . . . . .
+P P P . P P P P
+R . B Q K B N R
+Legal_moves found from human search: ['c7c5', 'e7e5', 'e7e6', 'g8f6', 'b8c6', 'b8d7', 'c8f5', 'c8g4', 'c8d7', 'd8d6', 'd8d7', 'e8d7']
+Moves evaluations: {-2: 'g8f6', -20: 'e7e6', -38: 'c8f5'}
+Decided centipawn loss from mean 0 and stdev 8: -10.132704563243516
+Target_evaluation: -12.132704563243516
+Chosen move: e7e6
+Move number: 3
+r n b q k b n r
+p p p . . p p p
+. . . . p . . .
+. . . p . . . .
+. . . P . . . .
+. . N . . N . .
+P P P . P P P P
+R . B Q K B . R
+Legal_moves found from human search: ['c7c5', 'f7f6', 'c7c6', 'b7b6', 'b8c6', 'g8f6', 'g8e7', 'b8d7', 'f8b4', 'f8d6', 'f8e7', 'd8f6', 'd8e7', 'd8d6', 'e8e7', 'e8d7']
+Moves evaluations: {8: 'g8f6', -14: 'f8b4', -62: 'b8c6'}
+Decided centipawn loss from mean 0 and stdev 8: -2.2612149500750673
+Target_evaluation: 5.738785049924933
+Chosen move: g8f6
+Move number: 4
+r n b q k b . r
+p p p . . p p p
+. . . . p n . .
+. . . p . . . .
+. . . P . . . .
+. . N . P N . .
+P P P . . P P P
+R . B Q K B . R
+Legal_moves found from human search: ['c7c5', 'c7c6', 'b7b6', 'a7a6', 'b8c6', 'b8d7', 'f6d7', 'f6e4', 'f6g4', 'f8d6', 'f8b4', 'f8e7', 'c8d7', 'h8g8', 'd8e7', 'd8d6', 'e8e7', 'e8d7']
+Moves evaluations: {13: 'c7c5', 2: 'f8e7', 0: 'c8d7'}
+Decided centipawn loss from mean 0 and stdev 8: 3.6565195058689155
+Target_evaluation: 16.656519505868914
+Chosen move: c7c5
+Move number: 5
+r n b q k b . r
+p p . . . p p p
+. . . . p n . .
+. . p p . . . .
+. . . P . . . .
+. . N . P N . .
+P P P . B P P P
+R . B Q K . . R
+Legal_moves found from human search: ['b7b6', 'a7a6', 'c5d4', 'c5c4', 'b8c6', 'b8d7', 'f6d7', 'b8a6', 'f6g4', 'f8e7', 'f8d6', 'c8d7', 'h8g8', 'd8c7', 'd8b6', 'd8a5', 'd8e7', 'e8e7', 'e8d7']
+Moves evaluations: {14: 'f8e7', 11: 'c8d7', 8: 'b8c6'}
+Decided centipawn loss from mean 0 and stdev 8: -3.8143189152407273
+Target_evaluation: 10.185681084759272
+Chosen move: c8d7
+Move number: 6
+r n . q k b . r
+p p . b . p p p
+. . . . p n . .
+. . p p . . . .
+. . . P . . . .
+. . N . P N . .
+P P P . B P P P
+R . B Q . R K .
+Legal_moves found from human search: ['b7b6', 'a7a6', 'c5d4', 'h7h6', 'b8c6', 'b8a6', 'f6g4', 'f8d6', 'f8e7', 'd7c6', 'h8g8', 'd8c7', 'd8b6', 'd8c8', 'd8e7', 'e8e7']
+Moves evaluations: {22: 'a7a6', 26: 'b8c6', 10: 'f8d6'}
+Decided centipawn loss from mean 0 and stdev 8: 0.20537583629129333
+Target_evaluation: 26.205375836291292
+Chosen move: b8c6
+Move number: 7
+r . . q k b . r
+p p . b . p p p
+. . n . p n . .
+. . p p . . . .
+. . . P . . . .
+P . N . P N . .
+. P P . B P P P
+R . B Q . R K .
+Legal_moves found from human search: ['a7a6', 'b7b6', 'c5d4', 'c5c4', 'f6e4', 'c6a5', 'c6e7', 'f6g4', 'f8e7', 'f8d6', 'd7c8', 'a8c8', 'a8b8', 'h8g8', 'd8c7', 'd8b6', 'd8e7', 'd8a5', 'e8e7']
+Moves evaluations: {22: 'a8c8', 8: 'a7a6', 0: 'c5d4'}
+Decided centipawn loss from mean 0 and stdev 8: -0.4552441510020421
+Target_evaluation: 21.54475584899796
+Chosen move: a8c8
+Move number: 8
+. . r q k b . r
+p p . b . p p p
+. . n . p n . .
+. . p p N . . .
+. . . P . . . .
+P . N . P . . .
+. P P . B P P P
+R . B Q . R K .
+Legal_moves found from human search: ['c5d4', 'a7a6', 'h7h5', 'b7b6', 'c6e5', 'f6e4', 'c6e7', 'c6a5', 'f8d6', 'f8e7', 'c8c7', 'h8g8', 'c8b8', 'd8c7', 'd8b6', 'd8a5', 'd8e7', 'e8e7']
+Moves evaluations: {42: 'f8e7', 19: 'f8d6', -4: 'c6e5'}
+Decided centipawn loss from mean 0 and stdev 8: -5.402103024920917
+Target_evaluation: 36.59789697507908
+Chosen move: f8e7
+Move number: 9
+. . r q k . . r
+p p . N b p p p
+. . n . p n . .
+. . p p . . . .
+. . . P . . . .
+P . N . P . . .
+. P P . B P P P
+R . B Q . R K .
+Legal_moves found from human search: ['c5d4', 'a7a6', 'h7h5', 'b7b6', 'f6d7', 'c6a5', 'f6e4', 'f6g4', 'e7d6', 'e7f8', 'c8c7', 'd8d7', 'd8b6', 'd8c7', 'd8a5', 'e8d7']
+Moves evaluations: {33: 'd8d7', 36: 'f6d7', -84: 'e8d7'}
+Decided centipawn loss from mean 0 and stdev 8: -9.711551031812878
+Target_evaluation: 26.288448968187122
+Chosen move: d8d7
+Move number: 10
+. . r . k . . r
+p p . q b p p p
+. . n . p n . .
+. . P p . . . .
+. . . . . . . .
+P . N . P . . .
+. P P . B P P P
+R . B Q . R K .
+Legal_moves found from human search: ['a7a6', 'a7a5', 'e6e5', 'd5d4', 'c6e5', 'f6e4', 'c6a5', 'f6g4', 'e7c5', 'e7d8', 'e7d6', 'c8d8', 'h8g8', 'c8c7', 'd7c7', 'd7d8', 'e8g8', 'e8f8']
+Moves evaluations: {43: 'e7c5', -93: 'e8g8', -86: 'c8d8'}
+Decided centipawn loss from mean 0 and stdev 8: 3.620188608042129
+Target_evaluation: 46.62018860804213
+Chosen move: e7c5
+Move number: 11
+. . r . k . . r
+p p . q . p p p
+. . n . p n . .
+. . b p . . . .
+. P . . . . . .
+P . N . P . . .
+. . P . B P P P
+R . B Q . R K .
+Legal_moves found from human search: ['d5d4', 'a7a5', 'a7a6', 'b7b6', 'c6e5', 'f6e4', 'c6e7', 'c5e7', 'c5d6', 'c5b6', 'c5f8', 'c8d8', 'c8c7', 'h8f8', 'd7c7', 'd7e7', 'd7d8', 'd7d6', 'e8g8', 'e8f8', 'e8e7']
+Moves evaluations: {20: 'c5e7', 5: 'c5d6', -8: 'c5f8'}
+Decided centipawn loss from mean 0 and stdev 8: -0.8805702150972328
+Target_evaluation: 19.119429784902767
+Chosen move: c5e7
+Move number: 12
+. . r . k . . r
+p p . q b p p p
+. . n . p n . .
+. P . p . . . .
+. . . . . . . .
+P . N . P . . .
+. . P . B P P P
+R . B Q . R K .
+Legal_moves found from human search: ['a7a6', 'd5d4', 'h7h5', 'b7b6', 'c6a5', 'c6e5', 'c6d8', 'f6e4', 'e7d6', 'e7a3', 'e7c5', 'e7f8', 'c8d8', 'c8c7', 'h8f8', 'd7c7', 'd7d8', 'd7d6', 'e8g8', 'e8f8']
+Moves evaluations: {142: 'c6a5', 91: 'c6e5', 12: 'c6d8'}
+Decided centipawn loss from mean 0 and stdev 8: 1.744456520775577
+Target_evaluation: 143.74445652077557
+Chosen move: c6a5
+Move number: 13
+. . r . k . . r
+p p . q b p p p
+. . . . p n . .
+n P . p . . . .
+. . . Q . . . .
+P . N . P . . .
+. . P . B P P P
+R . B . . R K .
+Legal_moves found from human search: ['a7a6', 'b7b6', 'h7h5', 'a5c4', 'a5b3', 'f6e4', 'a5c6', 'e7a3', 'e7d6', 'e7c5', 'c8d8', 'c8c7', 'c8c5', 'd7c7', 'd7d8', 'd7b5', 'e8g8', 'e8f8']
+Moves evaluations: {147: 'b7b6', -50: 'e7c5', 107: 'd7c7'}
+Decided centipawn loss from mean 0 and stdev 8: -3.2104151575856683
+Target_evaluation: 143.78958484241434
+Chosen move: b7b6
+Move number: 14
+. . r . k . . r
+p . . q b p p p
+. p . . p n . .
+n P . p . . . .
+. . . Q . . . .
+P . N . P . . .
+. . P . B P P P
+R . B R . . K .
+Legal_moves found from human search: ['a7a6', 'h7h5', 'e6e5', 'h7h6', 'a5c4', 'a5b3', 'f6e4', 'a5c6', 'e7a3', 'e7d6', 'e7c5', 'c8d8', 'c8c3', 'c8c5', 'c8c7', 'd7c7', 'd7b7', 'd7d8', 'e8g8', 'e8f8']
+Moves evaluations: {168: 'e7d6', 141: 'e8g8', 158: 'd7c7'}
+Decided centipawn loss from mean 0 and stdev 8: -1.2724330903938383
+Target_evaluation: 166.72756690960617
+Chosen move: e7d6
+Move number: 15
+. . r . k . . r
+p . . q . p p p
+. p . b p n . .
+n P . p . . . .
+. . . Q . . . .
+P . N . P . . .
+. B P . B P P P
+R . . R . . K .
+Legal_moves found from human search: ['a7a6', 'e6e5', 'h7h5', 'h7h6', 'a5c4', 'a5b3', 'f6e4', 'a5b7', 'd6e5', 'd6h2', 'd6e7', 'd6a3', 'c8d8', 'c8c5', 'c8c7', 'c8c3', 'd7c7', 'd7e7', 'd7d8', 'e8g8', 'e8e7', 'e8f8']
+Moves evaluations: {156: 'a5c4', 107: 'e8g8', 122: 'd7c7'}
+Decided centipawn loss from mean 0 and stdev 8: 7.33502055469262
+Target_evaluation: 163.33502055469262
+Chosen move: a5c4
+Move number: 16
+. . r . k . . r
+p . . q . p p p
+. p . b p n . .
+. P . p . . . .
+. . B Q . . . .
+P . N . P . . .
+. B P . . P P P
+R . . R . . K .
+Legal_moves found from human search: ['d5c4', 'a7a6', 'h7h5', 'h7h6', 'f6e4', 'f6g4', 'd6e5', 'd6h2', 'd6c5', 'd6e7', 'c8c4', 'c8c5', 'c8c7', 'c8d8', 'd7c7', 'd7e7', 'd7b7', 'e8g8', 'e8e7', 'e8f8']
+Moves evaluations: {158: 'c8c4', -297: 'd6h2', -304: 'e8g8'}
+Decided centipawn loss from mean 0 and stdev 8: -8.887614624119063
+Target_evaluation: 149.11238537588093
+Chosen move: c8c4
+Move number: 17
+. . . . k . . r
+p . . q . p p p
+. p . b p n . .
+. P . p . . . .
+. . r . . . . .
+P . N Q P . . .
+. B P . . P P P
+R . . R . . K .
+Legal_moves found from human search: ['a7a6', 'e6e5', 'h7h5', 'h7h6', 'f6g4', 'f6e4', 'd6e5', 'd6a3', 'd6e7', 'd6h2', 'c4c5', 'c4c8', 'c4h4', 'c4c7', 'd7c7', 'd7e7', 'd7c8', 'e8g8', 'e8e7', 'e8f8']
+Moves evaluations: {152: 'd7c7', 89: 'f6g4', 74: 'd7c8'}
+Decided centipawn loss from mean 0 and stdev 8: 11.225659063621537
+Target_evaluation: 163.22565906362155
+Chosen move: d7c7
+Move number: 18
+. . . . k . . r
+p . q . . p p p
+. p . b p n . .
+. P . p . . . .
+. . r . . P . .
+P . N Q P . . .
+. B P . . . P P
+R . . R . . K .
+Legal_moves found from human search: ['a7a6', 'e6e5', 'g7g6', 'g7g5', 'f6e4', 'f6g4', 'f6d7', 'f6h5', 'd6a3', 'd6c5', 'd6e7', 'd6f8', 'c4c5', 'c4c3', 'c7e7', 'c7b7', 'c7c5', 'c7c8', 'e8g8', 'e8e7', 'e8f8']
+Moves evaluations: {167: 'e8g8', 132: 'f6g4', 121: 'd6c5'}
+Decided centipawn loss from mean 0 and stdev 8: 5.114146742067896
+Target_evaluation: 172.1141467420679
+Chosen move: e8g8
+Move number: 19
+. . . . . r k .
+p . q . . p p p
+. p . b p n . .
+. P . p . . . .
+. . r . . P . .
+P . . Q P . . .
+. B P . N . P P
+R . . R . . K .
+Legal_moves found from human search: ['e6e5', 'g7g6', 'h7h6', 'a7a6', 'f6e4', 'f6g4', 'f6h5', 'f6d7', 'd6a3', 'd6c5', 'd6e7', 'f8c8', 'c4c5', 'c4a4', 'c4e4', 'c7b7', 'c7c5', 'c7c8', 'c7e7', 'g8h8']
+Moves evaluations: {167: 'f6e4', 140: 'f6d7', 127: 'e6e5'}
+Decided centipawn loss from mean 0 and stdev 8: -20.301408581886157
+Target_evaluation: 146.69859141811384
+Chosen move: f6d7
+Move number: 20
+. . . . . r k .
+p . q n . p p p
+. p . b p . . .
+. P . p . . . .
+. . r N . P . .
+P . . Q P . . .
+. B P . . . P P
+R . . R . . K .
+Legal_moves found from human search: ['e6e5', 'g7g6', 'a7a6', 'f7f5', 'd7c5', 'd7f6', 'd7b8', 'd6c5', 'd6a3', 'd6e7', 'f8c8', 'c4c5', 'c4a4', 'c7b7', 'c7c8', 'c7c5', 'g8h8']
+Moves evaluations: {148: 'd7c5', 132: 'd6c5', 124: 'f8c8'}
+Decided centipawn loss from mean 0 and stdev 8: 1.1045009031135027
+Target_evaluation: 149.1045009031135
+Chosen move: d7c5
+Move number: 21
+. . . . . r k .
+p . q . . p p p
+. p . b p . . .
+. P n p . . . .
+. . r N . P . .
+P . . . P . . .
+. B P Q . . P P
+R . . R . . K .
+Legal_moves found from human search: ['e6e5', 'h7h6', 'g7g6', 'f7f6', 'c5a4', 'c5e4', 'c5d7', 'c5b7', 'd6e7', 'd6f4', 'f8c8', 'c4a4', 'f8d8', 'c7b7', 'c7d7', 'c7c8', 'g8h8']
+Moves evaluations: {173: 'c5e4', 154: 'c5a4', 128: 'f8c8'}
+Decided centipawn loss from mean 0 and stdev 8: -16.620848657048562
+Target_evaluation: 156.37915134295145
+Chosen move: c5a4
+Move number: 22
+. . . . . r k .
+p . q . . p p p
+. p . b p . . .
+. P . p . . . .
+n . r N . P . .
+P . . . P . . .
+. B P Q . . P P
+R R . . . . K .
+Legal_moves found from human search: ['e6e5', 'a7a6', 'h7h6', 'g7g6', 'a4c5', 'a4b2', 'a4c3', 'd6a3', 'd6c5', 'd6e7', 'f8c8', 'c4c5', 'c7d7', 'c7c5', 'c7b7', 'g8h8']
+Moves evaluations: {150: 'd6c5', 137: 'd6e7', 154: 'f8c8'}
+Decided centipawn loss from mean 0 and stdev 8: 2.737785079264159
+Target_evaluation: 156.73778507926417
+Chosen move: f8c8
+Move number: 23
+. . r . . . k .
+p . q . . p p p
+. p N b p . . .
+. P . p . . . .
+n . r . . P . .
+P . . . P . . .
+. B P Q . . P P
+R R . . . . K .
+Legal_moves found from human search: ['a7a6', 'f7f6', 'g7g6', 'a7a5', 'a4b2', 'a4c5', 'a4c3', 'd6c5', 'd6f8', 'c4c6', 'c4c5', 'c4e4', 'c7c6', 'g8h8', 'g8f8']
+Moves evaluations: {154: 'f7f6', 122: 'a4c5', 116: 'a7a6'}
+Decided centipawn loss from mean 0 and stdev 8: -12.403645269531177
+Target_evaluation: 141.59635473046882
+Chosen move: f7f6
+Move number: 24
+. . r . . . k .
+p . q . . . p p
+. p N b p p . .
+. P . p . . . .
+n . r . . P . .
+P . . . P . P .
+. B P Q . . . P
+R R . . . . K .
+Legal_moves found from human search: ['e6e5', 'a7a5', 'a7a6', 'g7g6', 'a4c5', 'a4b2', 'a4c3', 'd6c5', 'd6f8', 'c4c6', 'c4c5', 'c8e8', 'c7c6', 'c7d7', 'g8f7', 'g8h8', 'g8f8']
+Moves evaluations: {164: 'c7d7', 136: 'a7a6', 134: 'c8e8'}
+Decided centipawn loss from mean 0 and stdev 8: -11.478340435287377
+Target_evaluation: 152.52165956471262
+Chosen move: c7d7
+Move number: 25
+. . r . . . k .
+p . . q . . p p
+. p N b p p . .
+. P . p . P . .
+n . r . . . . .
+P . . . P . P .
+. B P Q . . . P
+R R . . . . K .
+Legal_moves found from human search: ['e6f5', 'e6e5', 'a7a5', 'h7h6', 'a4c5', 'a4b2', 'd6c5', 'd6f8', 'd6c7', 'd6e5', 'c8c6', 'c4c6', 'c4c5', 'c8c7', 'c8e8', 'd7c6', 'd7f7', 'd7e8', 'g8f7', 'g8h8', 'g8f8']
+Moves evaluations: {158: 'd6c5', 156: 'c8e8', 154: 'd7f7'}
+Decided centipawn loss from mean 0 and stdev 8: 1.947024684062951
+Target_evaluation: 159.94702468406294
+Chosen move: d6c5
+Move number: 26
+. . r . . . k .
+p . . q . . p p
+. p N . p p . .
+. P b p . P . .
+n . r B . . . .
+P . . . P . P .
+. . P Q . . . P
+R R . . . . K .
+Legal_moves found from human search: ['e6f5', 'e6e5', 'h7h6', 'a7a5', 'a4c3', 'c5d4', 'c5f8', 'c5d6', 'c5a3', 'c8c6', 'c8e8', 'c8c7', 'c4c2', 'd7f7', 'd7e8', 'd7c6', 'g8f7', 'g8h8', 'g8f8']
+Moves evaluations: {168: 'e6f5', 113: 'c5f8', 97: 'c8e8'}
+Decided centipawn loss from mean 0 and stdev 8: -1.9347621682226233
+Target_evaluation: 166.06523783177738
+Chosen move: e6f5
+Move number: 27
+. . r . . . k .
+p . . q . . p p
+. p N . . p . .
+. P B p . p . .
+n . r . . . . .
+P . . . P . P .
+. . P Q . . . P
+R R . . . . K .
+Legal_moves found from human search: ['b6c5', 'h7h6', 'g7g6', 'a4c5', 'a4c3', 'a4b2', 'c4c5', 'c8c6', 'c8e8', 'c4e4', 'd7e6', 'd7c6', 'd7f7', 'g8h8', 'g8f7']
+Moves evaluations: {188: 'c4c5', 111: 'a4c5', 84: 'b6c5'}
+Decided centipawn loss from mean 0 and stdev 8: 7.694700081886196
+Target_evaluation: 195.6947000818862
+Chosen move: c4c5
+Move number: 28
+. . r . . . k .
+p . . q . . p p
+. p N . . p . .
+. P r p . p . .
+n . P . . . . .
+P . . . P . P .
+. . . Q . . . P
+R R . . . . K .
+Legal_moves found from human search: ['d5c4', 'd5d4', 'g7g6', 'f5f4', 'a4c3', 'a4b2', 'c5c4', 'c8c6', 'c5c6', 'c8e8', 'c8d8', 'd7e6', 'd7f7', 'd7c6', 'g8h8', 'g8f7', 'g8f8']
+Moves evaluations: {171: 'c5c4', -50: 'd7e6', 0: 'f5f4'}
+Decided centipawn loss from mean 0 and stdev 8: -2.889458965143106
+Target_evaluation: 168.1105410348569
+Chosen move: c5c4
+Move number: 29
+. . r . . . k .
+p . . q . . p p
+. p N . . p . .
+. P . p . p . .
+n R r . . . . .
+P . . . P . P .
+. . . Q . . . P
+R . . . . . K .
+Legal_moves found from human search: ['g7g6', 'd5d4', 'a7a5', 'h7h6', 'a4c5', 'a4c3', 'a4b2', 'c8c6', 'c4c6', 'c4c5', 'c4c1', 'c8e8', 'd7e6', 'd7e8', 'g8h8', 'g8f7', 'g8f8']
+Moves evaluations: {184: 'd7e6', 131: 'c4c6', 120: 'c8c6'}
+Decided centipawn loss from mean 0 and stdev 8: -0.10386937268868503
+Target_evaluation: 183.89613062731132
+Chosen move: d7e6
+Move number: 30
+. . r . . . k .
+N . . . . . p p
+. p . . q p . .
+. P . p . p . .
+n R r . . . . .
+P . . . P . P .
+. . . Q . . . P
+R . . . . . K .
+Legal_moves found from human search: ['h7h6', 'd5d4', 'g7g6', 'f5f4', 'a4c5', 'a4b2', 'a4c3', 'c8c5', 'c4c5', 'c4b4', 'c4c3', 'c8a8', 'e6e4', 'e6d7', 'e6e5', 'e6e3', 'g8f7', 'g8h8', 'g8f8']
+Moves evaluations: {182: 'c8c5', 181: 'c8a8', 131: 'e6e5'}
+Decided centipawn loss from mean 0 and stdev 8: -11.867554007160289
+Target_evaluation: 170.1324459928397
+Chosen move: c8a8
+Playing side: BLACK 
+Move number: 1
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P P P P P P
+R . B Q K B N R
+Legal_moves found from human search: ['e7e5', 'd7d5', 'c7c5', 'b7b6', 'g8f6', 'b8c6', 'g8h6']
+Moves evaluations: {3: 'd7d5', -5: 'e7e5', -8: 'g8f6'}
+Decided centipawn loss from mean 0 and stdev 8: -4.432425003591888
+Target_evaluation: -1.432425003591888
+Chosen move: e7e5
+Move number: 2
+r n b q k b n r
+p p p p . p p p
+. . . . . . . .
+. . . . p . . .
+. . . . . . . .
+. . N . . N . .
+P P P P P P P P
+R . B Q K B . R
+Legal_moves found from human search: ['e5e4', 'd7d6', 'd7d5', 'b8c6', 'g8f6', 'g8e7', 'f8b4', 'f8e7', 'f8c5', 'f8d6', 'd8f6', 'd8e7', 'e8e7']
+Moves evaluations: {-20: 'b8c6', -50: 'd7d6', -52: 'd7d5'}
+Decided centipawn loss from mean 0 and stdev 8: 3.7794861739746217
+Target_evaluation: -16.22051382602538
+Chosen move: b8c6
+Move number: 3
+r . b q k b n r
+p p p p . p p p
+. . n . . . . .
+. . . . p . . .
+. . . P . . . .
+. . N . . N . .
+P P P . P P P P
+R . B Q K B . R
+Legal_moves found from human search: ['e5d4', 'e5e4', 'd7d6', 'd7d5', 'g8f6', 'g8e7', 'c6e7', 'c6d4', 'c6a5', 'f8b4', 'f8e7', 'f8d6', 'a8b8', 'd8f6', 'd8e7', 'd8h4', 'e8e7']
+Moves evaluations: {-10: 'e5d4', -35: 'c6d4', -68: 'd7d6'}
+Decided centipawn loss from mean 0 and stdev 8: 3.3970775096941783
+Target_evaluation: -6.602922490305822
+Chosen move: e5d4
+Move number: 4
+r . b q k b n r
+p p p p . p p p
+. . n . . . . .
+. . . . . . . .
+. . . N . . . .
+. . N . . . . .
+P P P . P P P P
+R . B Q K B . R
+Legal_moves found from human search: ['d7d5', 'h7h5', 'h7h6', 'd7d6', 'g8f6', 'c6d4', 'g8e7', 'c6e7', 'c6e5', 'f8b4', 'f8c5', 'f8e7', 'f8d6', 'a8b8', 'd8f6', 'd8g5', 'd8h4', 'e8e7']
+Moves evaluations: {0: 'f8c5', -13: 'g8f6', -18: 'f8b4'}
+Decided centipawn loss from mean 0 and stdev 8: 9.52124028644387
+Target_evaluation: 9.52124028644387
+Chosen move: f8c5
+Move number: 5
+r . b q k . n r
+p p p p . p p p
+. . N . . . . .
+. . b . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P . P P P P
+R . B Q K B . R
+Legal_moves found from human search: ['b7c6', 'd7c6', 'b7b6', 'a7a5', 'd7d5', 'g8f6', 'g8e7', 'c5b4', 'c5e7', 'c5b6', 'd8e7', 'd8f6', 'd8h4', 'e8f8']
+Moves evaluations: {-2: 'b7c6', -16: 'd8h4', -43: 'd8f6'}
+Decided centipawn loss from mean 0 and stdev 8: -16.67322542314289
+Target_evaluation: -18.67322542314289
+Chosen move: d8h4
+Move number: 6
+r . b . k . n r
+p p p p . p p p
+. . N . . . . .
+. . b . . . . .
+. . . . . . . q
+. . N . . . P .
+P P P . P P . P
+R . B Q K B . R
+Legal_moves found from human search: ['b7c6', 'd7c6', 'b7b6', 'd7d6', 'a7a5', 'g8f6', 'g8e7', 'g8h6', 'c5b4', 'c5f8', 'c5b6', 'h4e4', 'h4h3', 'h4e7', 'e8f8']
+Moves evaluations: {-1089: 'd7c6', -1125: 'g8e7', -1121: 'g8f6'}
+Decided centipawn loss from mean 0 and stdev 8: 5.5161320264028335
+Target_evaluation: -1083.4838679735972
+Chosen move: d7c6
+Move number: 7
+r . b . k . n r
+p p p . . p p p
+. . p . . . . .
+. . b . . . . .
+. . . . . . . P
+. . N . . . . .
+P P P . P P . P
+R . B Q K B . R
+Legal_moves found from human search: ['h7h5', 'f7f5', 'f7f6', 'b7b6', 'g8f6', 'g8e7', 'g8h6', 'c5b4', 'c5e7', 'c8g4', 'c8e6', 'e8f8', 'e8e7']
+Moves evaluations: {-1097: 'c8e6', -1111: 'g8f6', -1123: 'g8e7'}
+Decided centipawn loss from mean 0 and stdev 8: -7.402795077734493
+Target_evaluation: -1104.4027950777345
+Chosen move: g8f6
+Move number: 8
+r . b . k . . r
+p p p . . p p p
+. . p . . n . .
+. . b . . . . .
+. . . . . B . P
+. . N . . . . .
+P P P . P P . P
+R . . Q K B . R
+Legal_moves found from human search: ['h7h5', 'b7b6', 'b7b5', 'a7a5', 'f6g4', 'f6h5', 'f6d5', 'f6e4', 'c5b4', 'c5e7', 'c8g4', 'c8f5', 'h8g8', 'e8g8', 'e8f8', 'e8e7']
+Moves evaluations: {-1132: 'c8f5', -1139: 'c5e7'}
+Decided centipawn loss from mean 0 and stdev 8: 4.24246333272388
+Target_evaluation: -1127.757536667276
+Chosen move: c8f5
+Move number: 9
+r . . . k . . r
+p p B . . p p p
+. . p . . n . .
+. . b . . b . .
+. . . . . . . P
+. . N . . . . .
+P P P . P P . P
+R . . Q K B . R
+Legal_moves found from human search: ['h7h5', 'b7b5', 'a7a6', 'h7h6', 'f6g4', 'f6e4', 'f6d7', 'f6d5', 'c5b4', 'f5d7', 'f5g6', 'f5c2', 'a8c8', 'a8d8', 'e8g8', 'e8e7', 'e8f8']
+Moves evaluations: {-1097: 'e8g8', -1101: 'a8c8', -1132: 'f5g6'}
+Decided centipawn loss from mean 0 and stdev 8: 2.8989027117839683
+Target_evaluation: -1094.1010972882161
+Chosen move: e8g8
+Move number: 10
+r . . . . r k .
+p p B . . p p p
+. . p . . n . .
+. . b . . b . .
+. . . . . . . P
+. . N . P . . .
+P P P . . P . P
+R . . Q K B . R
+Legal_moves found from human search: ['b7b5', 'h7h5', 'a7a6', 'h7h6', 'f6g4', 'f6e4', 'f6d5', 'f6d7', 'c5b4', 'f5g6', 'c5d6', 'f5g4', 'a8c8', 'f8c8', 'a8e8', 'f8e8', 'a8d8', 'f8d8', 'g8h8']
+Moves evaluations: {-1144: 'f8e8', -1126: 'a8c8'}
+Decided centipawn loss from mean 0 and stdev 8: -2.940827026171542
+Target_evaluation: -1128.9408270261715
+Chosen move: a8c8
+Move number: 11
+. . r . . r k .
+p p . . . p p p
+. . p . . n . .
+. . b . B b . .
+. . . . . . . P
+. . N . P . . .
+P P P . . P . P
+R . . Q K B . R
+Legal_moves found from human search: ['b7b5', 'h7h5', 'a7a5', 'h7h6', 'f6g4', 'f6d7', 'f6e4', 'f6d5', 'c5b4', 'f5g6', 'f5c2', 'c5d6', 'c8d8', 'f8d8', 'c8e8', 'f8e8', 'c8a8', 'g8h8']
+Moves evaluations: {-1194: 'f6d7', -1202: 'f6g4', -1281: 'f8d8'}
+Decided centipawn loss from mean 0 and stdev 8: 6.060806516496816
+Target_evaluation: -1187.9391934835032
+Chosen move: f6d7
+Move number: 12
+. . r . . r k .
+p p . n . p p p
+. . p . . . . .
+. . b . B b . .
+. . . . . . . P
+. . N . P Q . .
+P P P . . P . P
+R . . . K B . R
+Legal_moves found from human search: ['f7f6', 'b7b5', 'a7a5', 'g7g6', 'd7e5', 'd7f6', 'd7b6', 'd7b8', 'c5b4', 'f5g6', 'f5c2', 'c8e8', 'f8e8', 'c8d8', 'f8d8', 'g8h8']
+Moves evaluations: {-1175: 'd7e5', -1204: 'f5g6', -1232: 'f7f6'}
+Decided centipawn loss from mean 0 and stdev 8: 7.265369069188082
+Target_evaluation: -1167.7346309308118
+Chosen move: d7e5
+Move number: 13
+. . r . . r k .
+p p . . . p p p
+. . p . . . . .
+. . b . n Q . .
+. . . . . . . P
+. . N . P . . .
+P P P . . P . P
+R . . . K B . R
+Legal_moves found from human search: ['g7g6', 'f7f6', 'b7b5', 'a7a5', 'e5f3', 'e5g6', 'e5c4', 'e5g4', 'c5b4', 'c5e7', 'c5e3', 'c5d6', 'c8d8', 'f8d8', 'c8e8', 'f8e8', 'c8c7', 'g8h8']
+Moves evaluations: {-1214: 'c8e8', -1228: 'f7f6'}
+Decided centipawn loss from mean 0 and stdev 8: -5.021560093188585
+Target_evaluation: -1219.0215600931886
+Chosen move: c8e8
+Move number: 14
+. . . . r r k .
+p p . . . p p p
+. . p . . . . .
+. . b . n Q . .
+. . . . . . . P
+. . N . P . . .
+P P P . . P . P
+. . K R . B . R
+Legal_moves found from human search: ['g7g6', 'f7f6', 'b7b5', 'e5f3', 'e5g6', 'e5g4', 'e5c4', 'c5b4', 'c5e7', 'c5e3', 'c5d6', 'e8d8', 'e8e7', 'e8e6', 'g8h8']
+Moves evaluations: {-1235: 'g7g6', -1252: 'f7f6', -1247: 'e8e6'}
+Decided centipawn loss from mean 0 and stdev 8: 1.3201474808724927
+Target_evaluation: -1233.6798525191275
+Chosen move: g7g6
+Move number: 15
+. . . . r r k .
+p p . . . p . p
+. . p . . . p .
+. . b . n . . .
+. . . . . Q . P
+. . N . P . . .
+P P P . . P . P
+. . K R . B . R
+Legal_moves found from human search: ['f7f5', 'h7h5', 'f7f6', 'b7b5', 'e5f3', 'e5c4', 'e5g4', 'e5d3', 'c5b4', 'c5e7', 'c5e3', 'c5d6', 'e8d8', 'e8e7', 'e8e6', 'e8c8', 'g8g7', 'g8h8']
+Moves evaluations: {-1217: 'f7f6', -1275: 'e8e6', -1319: 'e8e7'}
+Decided centipawn loss from mean 0 and stdev 8: 6.424766091127402
+Target_evaluation: -1210.5752339088726
+Chosen move: f7f6
+Move number: 16
+. . . . r r k .
+p p . . . . . p
+. . p . . p p .
+. . b . n . . .
+. . . . . Q . P
+. . N . P . . .
+P P P . . P . P
+. K . R . B . R
+Legal_moves found from human search: ['g6g5', 'h7h5', 'f6f5', 'b7b5', 'e5c4', 'e5f3', 'e5g4', 'e5f7', 'c5b4', 'c5e7', 'c5d6', 'c5e3', 'f8f7', 'e8d8', 'e8e7', 'g8h8', 'g8f7', 'g8g7']
+Moves evaluations: {-1191: 'g8g7', -1228: 'b7b5', -1237: 'c5e7'}
+Decided centipawn loss from mean 0 and stdev 8: -11.824825448853636
+Target_evaluation: -1202.8248254488537
+Chosen move: g8g7
+Move number: 17
+. . . . r r . .
+p p . . . . k p
+. . p . . p p .
+. . b . n . . P
+. . . . . Q . .
+. . N . P . . .
+P P P . . P . P
+. K . R . B . R
+Legal_moves found from human search: ['g6g5', 'g6h5', 'b7b5', 'f6f5', 'e5c4', 'e5f7', 'e5f3', 'e5g4', 'c5b4', 'c5e7', 'c5d6', 'c5e3', 'f8f7', 'e8e7', 'e8d8', 'g7h8', 'g7f7', 'g7g8']
+Moves evaluations: {-1254: 'b7b5', -1277: 'f8f7', -1304: 'g7h8'}
+Decided centipawn loss from mean 0 and stdev 8: 2.58035439487804
+Target_evaluation: -1251.419645605122
+Chosen move: b7b5
+Move number: 18
+. . . . r r . .
+p . . . . . k p
+. . p . . p p .
+. p b . n . . P
+. . . . N Q . .
+. . . . P . . .
+P P P . . P . P
+. K . R . B . R
+Legal_moves found from human search: ['g6g5', 'g6h5', 'h7h6', 'a7a5', 'e5c4', 'e5f7', 'e5f3', 'c5e7', 'c5b6', 'c5e3', 'c5b4', 'f8f7', 'e8d8', 'e8c8', 'g7h8', 'g7f7', 'g7g8']
+Moves evaluations: {-1306: 'c5e7', -1354: 'c5b6', -1487: 'g6g5'}
+Decided centipawn loss from mean 0 and stdev 8: -5.90789800838176
+Target_evaluation: -1311.9078980083818
+Chosen move: c5e7
+Move number: 19
+. . . . r r . .
+p . . . b . k p
+. . p . . p p .
+. p . . n . . P
+. . . . N Q . .
+. . . . P . . B
+P P P . . P . P
+. K . R . . . R
+Legal_moves found from human search: ['g6g5', 'h7h6', 'g6h5', 'a7a5', 'e5c4', 'e5f7', 'e7d6', 'e7b4', 'e7d8', 'e7c5', 'e8d8', 'e8c8', 'f8f7', 'g7h8', 'g7f7', 'g7g8']
+Moves evaluations: {-1374: 'a7a5', -1428: 'f8f7', -1469: 'e8d8'}
+Decided centipawn loss from mean 0 and stdev 8: 10.711623062683069
+Target_evaluation: -1363.288376937317
+Chosen move: a7a5
+Move number: 20
+. . . . r r . .
+. . . . b . k p
+. . p . . p p .
+p p . . n . N P
+. . . . . Q . .
+. . . . P . . B
+P P P . . P . P
+. K . R . . . R
+Legal_moves found from human search: ['f6g5', 'g6h5', 'h7h6', 'b5b4', 'e5c4', 'e5f7', 'e5d7', 'e7d6', 'e7c5', 'e7b4', 'e8d8', 'e8c8', 'f8f7', 'e8b8', 'g7h8', 'g7h6', 'g7g8']
+Moves evaluations: {-1432: 'g7h8', -1454: 'f8f7', -1409: 'g7g8'}
+Decided centipawn loss from mean 0 and stdev 8: 3.6869789987150745
+Target_evaluation: -1405.3130210012848
+Chosen move: g7g8
+Move number: 21
+. . . . r r k .
+. . . . b . . p
+. . p . N p p .
+p p . . n . . P
+. . . . . Q . .
+. . . . P . . B
+P P P . . P . P
+. K . R . . . R
+Legal_moves found from human search: ['g6h5', 'b5b4', 'g6g5', 'f6f5', 'e5c4', 'e5f7', 'e5d7', 'e7d6', 'e7b4', 'e7c5', 'f8f7', 'e8c8', 'e8d8', 'g8f7', 'g8h8']
+Moves evaluations: {-1537: 'f8f7', -1612: 'g6g5', -1580: 'g8h8'}
+Decided centipawn loss from mean 0 and stdev 8: 7.744734673810097
+Target_evaluation: -1529.2552653261898
+Chosen move: f8f7
+Move number: 22
+. . . . r . k .
+. . . . b r . p
+. . p . N p p .
+p p . . n . . P
+. . . . Q . . .
+. . . . P . . B
+P P P . . P . P
+. K . R . . . R
+Legal_moves found from human search: ['f6f5', 'g6h5', 'c6c5', 'a5a4', 'e5c4', 'e5d7', 'e7f8', 'e7d6', 'e7b4', 'e7c5', 'e8d8', 'e8c8', 'g8h8']
+Moves evaluations: {-1617: 'e7f8', -1689: 'g6h5', -1679: 'a5a4'}
+Decided centipawn loss from mean 0 and stdev 8: 0.41530869872770687
+Target_evaluation: -1616.5846913012722
+Chosen move: e7f8
+Move number: 23
+. . . . r b k .
+. . . . . r . p
+. . p . N p p .
+p p . . n . . P
+. . . . Q P . .
+. . . . P . . B
+P P P . . . . P
+. K . R . . . R
+Legal_moves found from human search: ['f6f5', 'g6h5', 'a5a4', 'c6c5', 'e5c4', 'e5d7', 'f8c5', 'f8g7', 'f8b4', 'e8e7', 'f7e7', 'e8e6', 'e8c8', 'g8h8']
+Moves evaluations: {-1618: 'f6f5', -1916: 'f7e7', -1908: 'e5c4'}
+Decided centipawn loss from mean 0 and stdev 8: -5.186672035364545
+Target_evaluation: -1623.1866720353646
+Chosen move: f6f5
+Move number: 24
+. . . . r b k .
+. . . . . r . p
+. . p . N . p .
+p p . . Q p . P
+. . . . . P . .
+. . . . P . . B
+P P P . . . . P
+. K . R . . . R
+Legal_moves found from human search: ['b5b4', 'g6h5', 'c6c5', 'a5a4', 'f8g7', 'f8e7', 'f8c5', 'f8b4', 'e8e6', 'e8e7', 'f7e7']
+Moves evaluations: {-1641: 'f8g7', -2175: 'f7e7', -2779: 'a5a4'}
+Decided centipawn loss from mean 0 and stdev 8: 1.6432926117776654
+Target_evaluation: -1639.3567073882223
+Chosen move: f8g7
+Move number: 25
+. . . . r . k .
+. . . . . r b p
+. . p Q N . p .
+p p . . . p . P
+. . . . . P . .
+. . . . P . . B
+P P P . . . . P
+. K . R . . . R
+Legal_moves found from human search: ['c6c5', 'g6h5', 'b5b4', 'a5a4', 'g7f8', 'g7f6', 'g7b2', 'e8e7', 'f7e7', 'e8e6', 'g8h8']
+Moves evaluations: {-2111: 'c6c5', -2201: 'g7f6', -2095: 'b5b4'}
+Decided centipawn loss from mean 0 and stdev 8: -0.9921826646505149
+Target_evaluation: -2095.9921826646505
+Chosen move: b5b4
+Move number: 26
+. . . . r . k .
+. . . . . r b p
+. . p Q N . P .
+p . . . . p . .
+. p . . . P . .
+. . . . P . . B
+P P P . . . . P
+. K . R . . . R
+Legal_moves found from human search: ['h7g6', 'h7h6', 'c6c5', 'a5a4', 'g7f6', 'g7h8', 'g7b2', 'g7f8', 'e8e7', 'f7e7', 'f7f6', 'e8e6', 'g8h8']
+Moves evaluations: {-2580: 'f7f6', -2738: 'h7g6', -41: 'g7f6'}
+Decided centipawn loss from mean 0 and stdev 8: -4.678920043920921
+Target_evaluation: -45.67892004392092
+Chosen move: g7f6
+Move number: 27
+. . . . r . k .
+. . . . . P . p
+. . p Q N b . .
+p . . . . p . .
+. p . . . P . .
+. . . . P . . B
+P P P . . . . P
+. K . R . . . R
+Legal_moves found from human search: ['g8f7', 'g8h8']
+Moves evaluations: {-43: 'g8f7', -49: 'g8h8'}
+Decided centipawn loss from mean 0 and stdev 8: 0.3853591943755636
+Target_evaluation: -42.61464080562444
+Chosen move: g8f7
+Move number: 28
+. . . . r . . .
+. . . Q . k . p
+. . p . N b . .
+p . . . . p . .
+. p . . . P . .
+. . . . P . . B
+P P P . . . . P
+. K . R . . . R
+Legal_moves found from human search: ['f6e7', 'e8e7', 'f7g6', 'f7g8']
+Moves evaluations: {-44: 'e8e7', -46: 'f6e7', -47: 'f7g6'}
+Decided centipawn loss from mean 0 and stdev 8: 4.735837838812217
+Target_evaluation: -39.264162161187784
+Chosen move: e8e7
+Move number: 29
+. . . . . . . .
+. . . Q r k . p
+. . p . . b . .
+p . . . . p N .
+. p . . . P . .
+. . . . P . . B
+P P P . . . . P
+. K . R . . . R
+Legal_moves found from human search: ['f6g5', 'f7g6', 'f7g7', 'f7f8']
+Moves evaluations: {-45: 'f6g5', -50: 'f7g7', -46: 'f7g6'}
+Decided centipawn loss from mean 0 and stdev 8: 3.3613931644640225
+Target_evaluation: -41.63860683553598
+Chosen move: f6g5
+Move number: 30
+. . . . . . . .
+. . . . r k . p
+. . p . . . . .
+p . . . . Q b .
+. p . . . P . .
+. . . . P . . B
+P P P . . . . P
+. K . R . . . R
+Legal_moves found from human search: ['g5f6', 'f7g7', 'f7g8', 'f7e8']
+Moves evaluations: {-46: 'f7g7'}
+Decided centipawn loss from mean 0 and stdev 8: -12.696153275475037
+Target_evaluation: -58.69615327547504
+Chosen move: f7g7

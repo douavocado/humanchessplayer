@@ -1,0 +1,395 @@
+Playing side: WHITE 
+Move number: 2
+rnbqkbnr/pp1ppppp/2p5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2
+r n b q k b n r
+p p . p p p p p
+. . p . . . . .
+. . . . . . . .
+. . . . P . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B N R
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.16630555555555554
+Own time remaining: 59.87
+Standard devation on time allowed: 0.5987
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[10, 6, 6, 1, 4, 7]
+Legal_moves found from human search: ['d2d4', 'c2c4', 'b2b3', 'd2d3', 'c2c3', 'g2g3', 'f2f4', 'b2b4', 'e4e5', 'b1c3', 'g1f3', 'g1e2', 'b1a3', 'f1d3', 'f1c4', 'f1e2', 'f1b5', 'd1f3', 'd1e2', 'd1g4', 'd1h5', 'e1e2']
+Moves evaluations: {95: 'd2d4', 66: 'g1f3', 31: 'c2c3'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -15 and stdev 20: -19.546003361987587
+Target_evaluation: 75.45399663801241
+Chosen move: g1f3, Nf3
+Move number: 5
+r1bqkbnr/pp2pppp/2n5/3p4/3P4/5N2/PPP2PPP/RNBQKB1R w KQkq - 1 5
+r . b q k b n r
+p p . . p p p p
+. . n . . . . .
+. . . p . . . .
+. . . P . . . .
+. . . . . N . .
+P P P . . P P P
+R N B Q K B . R
+Obvious Moves check: {81: 'b1c3', 73: 'c2c3'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but to increase move time variation we play it 
+Chosen move: b1c3, Nc3
+Move number: 6
+r2qkbnr/pp2pppp/2n5/3p4/3P2b1/3B1N2/PPP2PPP/RNBQK2R w KQkq - 3 6
+r . . q k b n r
+p p . . p p p p
+. . n . . . . .
+. . . p . . . .
+. . . P . . b .
+. . . B . N . .
+P P P . . P P P
+R N B Q K . . R
+Obvious Moves check: {38: 'e1g1', 24: 'c2c3'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.16297222222222224
+Own time remaining: 58.67
+Standard devation on time allowed: 0.5867
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[7, 7, 11, 1, 3, 10]
+Legal_moves found from human search: ['c2c3', 'h2h3', 'c2c4', 'b2b3', 'a2a4', 'a2a3', 'b2b4', 'b1c3', 'f3e5', 'f3g5', 'b1d2', 'f3d2', 'b1a3', 'f3h4', 'f3g1', 'd3e2', 'c1e3', 'c1f4', 'c1d2', 'd3b5', 'c1g5', 'd3h7', 'c1h6', 'd3f5', 'd3g6', 'd3a6', 'd1e2', 'e1g1', 'e1f1', 'e1d2', 'e1e2']
+Moves evaluations: {24: 'c2c3', 7: 'c1e3', 17: 'b1d2'}
+Calculation time allowed: 0.9401456661299445
+Decided centipawn loss from mean -15 and stdev 20: -16.43411736006147
+Target_evaluation: 7.565882639938529
+Chosen move: c1e3, Be3
+Move number: 7
+r2qkbnr/pp3ppp/2n1p3/3p4/3P2b1/2PB1N2/PP3PPP/RNBQK2R w KQkq - 0 7
+r . . q k b n r
+p p . . . p p p
+. . n . p . . .
+. . . p . . . .
+. . . P . . b .
+. . P B . N . .
+P P . . . P P P
+R N B Q K . . R
+Obvious Moves check: {25: 'e1g1', 24: 'h2h3'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.1593611111111111
+Own time remaining: 57.37
+Standard devation on time allowed: 0.5737
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[7, 7, 12, 1, 5, 10]
+Legal_moves found from human search: ['h2h3', 'a2a4', 'c3c4', 'g2g3', 'a2a3', 'b2b4', 'h2h4', 'b1d2', 'f3d2', 'f3e5', 'f3g5', 'b1a3', 'f3g1', 'f3h4', 'c1f4', 'c1e3', 'd3e2', 'c1d2', 'c1g5', 'd3c2', 'd3b5', 'd3h7', 'd3g6', 'c1h6', 'd1b3', 'd1a4', 'd1c2', 'd1e2', 'e1g1', 'e1f1', 'e1d2', 'e1e2']
+Moves evaluations: {32: 'c1f4', 23: 'd1b3', -5000: 'e1g1'}
+Calculation time allowed: 0.12434974639083385
+Decided centipawn loss from mean -15 and stdev 20: 10.697680408511587
+Target_evaluation: 42.69768040851159
+Chosen move: c1f4, Bf4
+Found premove! In response to g4f3, Nxf3
+Move number: 8
+r2qk1nr/pp3ppp/2nbp3/3p4/3P2b1/2PB1N2/PP1N1PPP/R1BQK2R w KQkq - 2 8
+r . . q k . n r
+p p . . . p p p
+. . n b p . . .
+. . . p . . . .
+. . . P . . b .
+. . P B . N . .
+P P . N . P P P
+R . B Q K . . R
+Obvious Moves check: {14: 'd1b3', 4: 'h2h3'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.15780555555555556
+Own time remaining: 56.81
+Standard devation on time allowed: 0.5681
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[7, 8, 9, 1, 4, 9]
+Legal_moves found from human search: ['h2h3', 'g2g3', 'c3c4', 'a2a4', 'a2a3', 'b2b4', 'b2b3', 'f3g5', 'd2f1', 'd2b3', 'd2e4', 'f3e5', 'd2c4', 'f3h4', 'd3e2', 'd3c2', 'd3h7', 'd3b5', 'd3b1', 'd3g6', 'd1b3', 'd1c2', 'd1a4', 'd1e2', 'e1g1', 'e1f1', 'e1e2']
+Moves evaluations: {-8: 'h2h3', -10: 'e1g1', -17: 'd2b3'}
+Calculation time allowed: 0.46216214458544613
+Decided centipawn loss from mean -15 and stdev 20: 23.86741309670458
+Target_evaluation: 15.867413096704581
+Chosen move: h2h3, h3
+Found premove! In response to g4f3, Nxf3
+Move number: 10
+r2q1rk1/pp3ppp/2nbpn2/3p4/3P2b1/2PB1N2/PP1N1PPP/R1BQR1K1 w - - 6 10
+r . . q . r k .
+p p . . . p p p
+. . n b p n . .
+. . . p . . . .
+. . . P . . b .
+. . P B . N . .
+P P . N . P P P
+R . B Q R . K .
+Obvious Moves check: {-14: 'd2b3', -41: 'h2h3'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.17178125
+Own time remaining: 54.97
+Standard devation on time allowed: 0.5497
+Phase of game recognised: opening
+Currently this position is blunder prone. 
+Weights Chosen:[3, 2, 2, 3, 5, 2]
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'h2h3': 15, 'g2g3': 14, 'a2a3': 8, 'd2f1': 11, 'f3g5': 21, 'd3c2': 19, 'e1e3': 4, 'e1e2': 4, 'e1f1': 4, 'd1b3': 3, 'd1c2': 3, 'd1e2': 3, 'd1a4': 3, 'g1h1': 6, 'g1f1': 6}
+Legal_moves found from human search: ['h2h3', 'd2f1', 'd1b3', 'd3c2']
+Moves evaluations: {-1: 'h2h3', -11: 'd3c2', -24: 'd1b3'}
+Calculation time allowed: 0.404166617974142
+Decided centipawn loss from mean -15 and stdev 20: -24.413565925041233
+Target_evaluation: -25.413565925041233
+Chosen move: d1b3, Qb3
+Found premove! In response to g4f3, gxf3
+Move number: 11
+r2q1rk1/1p3ppp/p1nbpn2/3p4/3P2b1/2PB1N2/PP3PPP/R1BQRNK1 w - - 0 11
+r . . q . r k .
+. p . . . p p p
+p . n b p n . .
+. . . p . . . .
+. . . P . . b .
+. . P B . N . .
+P P . . . P P P
+R . B Q R N K .
+Obvious Moves check: {3: 'c1d2', -2: 'h2h3'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.16928125
+Own time remaining: 54.17
+Standard devation on time allowed: 0.5417000000000001
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[7, 7, 12, 2, 5, 7]
+Legal_moves found from human search: ['h2h3', 'g2g3', 'a2a4', 'a2a3', 'b2b4', 'c3c4', 'b2b3', 'f1g3', 'f1e3', 'f1d2', 'f3d2', 'f3g5', 'f3e5', 'f3h4', 'c1g5', 'c1d2', 'c1f4', 'c1e3', 'd3c2', 'd3e2', 'd3g6', 'c1h6', 'd3b1', 'e1e2', 'e1e3', 'd1b3', 'd1c2', 'd1e2', 'd1a4', 'd1d2', 'g1h1']
+Moves evaluations: {19: 'c1g5', -18: 'f1e3', -5000: 'h2h3'}
+Calculation time allowed: 0.17099955629859953
+Decided centipawn loss from mean -15 and stdev 20: 19.660113017833673
+Target_evaluation: 38.66011301783367
+Chosen move: c1g5, Bg5
+Found premove! In response to g4f3, Qxf3
+Move number: 12
+r2q1rk1/5ppp/p1nbpn2/1p1p2B1/3P2b1/2PB1N2/PP3PPP/R2QRNK1 w - - 0 12
+r . . q . r k .
+. . . . . p p p
+p . n b p n . .
+. p . p . . B .
+. . . P . . b .
+. . P B . N . .
+P P . . . P P P
+R . . Q R N K .
+Obvious Moves check: {22: 'a2a4', 17: 'f1e3'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but to increase move time variation we play it 
+Chosen move: a2a4, a4
+Found premove! In response to d6g3, fxg3
+Move number: 13
+r2q1rk1/5pp1/p1nbpn1p/1p1p2B1/3P2b1/2PB1NN1/PP3PPP/R2QR1K1 w - - 0 13
+r . . q . r k .
+. . . . . p p .
+p . n b p n . p
+. p . p . . B .
+. . . P . . b .
+. . P B . N N .
+P P . . . P P P
+R . . Q R . K .
+Obvious Moves check: {36: 'g5f6', -31: 'g5d2'}
+Top move is not a take-back. 
+Top move piece is under attack. 
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.1633125
+Own time remaining: 52.26
+Standard devation on time allowed: 0.5226
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[6, 8, 13, 2, 5, 8]
+Legal_moves found from human search: ['h2h3', 'a2a4', 'h2h4', 'a2a3', 'b2b4', 'b2b3', 'f3e5', 'f3h4', 'f3d2', 'g3e4', 'g3f1', 'g5f6', 'g5d2', 'g5h4', 'g5f4', 'd3c2', 'g5c1', 'g5h6', 'g5e3', 'd3e2', 'd3f1', 'd3g6', 'd3b1', 'a1c1', 'e1f1', 'd1b3', 'd1d2', 'd1c1', 'd1c2', 'd1e2', 'g1h1', 'g1f1']
+Moves evaluations: {-24: 'g5d2', -43: 'g5f6', -44: 'g5c1'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -15 and stdev 20: 9.238408625840488
+Target_evaluation: -14.761591374159512
+Chosen move: g5d2, Bd2
+Found premove! In response to d6g3, hxg3
+Move number: 15
+r2q1rk1/5pp1/p3pn1p/np1p4/3P2b1/2PB1NP1/PP1B1PP1/R2QR1K1 w - - 1 15
+r . . q . r k .
+. . . . . p p .
+p . . . p n . p
+n p . p . . . .
+. . . P . . b .
+. . P B . N P .
+P P . B . P P .
+R . . Q R . K .
+Obvious Moves check: {23: 'd1c1', 11: 'd1b1'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.160625
+Own time remaining: 51.4
+Standard devation on time allowed: 0.514
+Phase of game recognised: opening
+Currently this position is blunder prone. 
+Weights Chosen:[3, 2, 2, 3, 5, 2]
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'a2a4': 8, 'b2b4': 9, 'f3e5': 21, 'f3h4': 21, 'd2f4': 11, 'd3c2': 19, 'a1c1': 0, 'e1e5': 4, 'e1e3': 4, 'd1c2': 3, 'd1c1': 3, 'd1b3': 3, 'd1e2': 3, 'd1b1': 3, 'g1h2': 6, 'g1h1': 6}
+Legal_moves found from human search: ['d2f4', 'd1c2', 'd1c1', 'b2b4']
+Moves evaluations: {59: 'd2f4', 55: 'd1c2', 38: 'd1c1'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -15 and stdev 20: -24.41115099463225
+Target_evaluation: 34.58884900536775
+Chosen move: d1c1, Qc1
+Found premove! In response to g4f3, gxf3
+Move number: 17
+r2q1rk1/5pp1/p3pn1p/1p1p4/2nP4/2PB1PP1/PP1B1P2/R1Q1R1K1 w - - 1 17
+r . . q . r k .
+. . . . . p p .
+p . . . p n . p
+. p . p . . . .
+. . n P . . . .
+. . P B . P P .
+P P . B . P . .
+R . Q . R . K .
+Obvious Moves check: {75: 'd2f4', 34: 'a2a4'}
+Top move is not a take-back. 
+Top move piece is under attack. 
+No obvious move, but to increase move time variation we play it 
+Chosen move: d2f4, Bf4
+Move number: 18
+2rq1rk1/5pp1/p3pn1p/1p1p4/2nP1B2/2PB1PP1/PP3P2/R1Q1R1K1 w - - 3 18
+. . r q . r k .
+. . . . . p p .
+p . . . p n . p
+. p . p . . . .
+. . n P . B . .
+. . P B . P P .
+P P . . . P . .
+R . Q . R . K .
+Obvious Moves check: {77: 'b2b3', 32: 'g1g2'}
+Top move is not a take-back. 
+Top move piece is under attack. 
+No obvious move, but to increase move time variation we play it 
+Chosen move: b2b3, b3
+Move number: 19
+2rq1rk1/5pp1/p2npn1p/1p1p4/3P1B2/1PPB1PP1/P4P2/R1Q1R1K1 w - - 1 19
+. . r q . r k .
+. . . . . p p .
+p . . n p n . p
+. p . p . . . .
+. . . P . B . .
+. P P B . P P .
+P . . . . P . .
+R . Q . R . K .
+Obvious Moves check: {92: 'c1b2', 81: 'c1d2'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.14715625000000002
+Own time remaining: 47.09
+Standard devation on time allowed: 0.47090000000000004
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[5, 3, 12, 2, 5, 10]
+Legal_moves found from human search: ['g3g4', 'a2a4', 'a2a3', 'b3b4', 'c3c4', 'f4d6', 'f4e5', 'f4d2', 'f4h6', 'd3c2', 'd3f1', 'd3g6', 'f4e3', 'f4g5', 'e1e2', 'e1e5', 'c1d1', 'c1b2', 'c1e3', 'c1c2', 'c1d2', 'g1g2', 'g1h2', 'g1f1', 'g1h1']
+Moves evaluations: {61: 'f4h6', 93: 'c1d2', 83: 'c1b2'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -15 and stdev 20: -23.804262847882637
+Target_evaluation: 69.19573715211736
+Chosen move: f4h6, Bxh6
+Move number: 20
+2rq1rk1/5p2/p2npn1p/1p1p4/3P4/1PPB1PP1/P4P2/R1Q1R1K1 w - - 0 20
+. . r q . r k .
+. . . . . p . .
+p . . n p n . p
+. p . p . . . .
+. . . P . . . .
+. P P B . P P .
+P . . . . P . .
+R . Q . R . K .
+Obvious Moves check: {0: 'c1h6', -183: 'c1d2'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.16489285714285715
+Own time remaining: 46.17
+Standard devation on time allowed: 0.4617
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[6, 3, 9, 2, 7, 10]
+Legal_moves found from human search: ['g3g4', 'a2a4', 'f3f4', 'a2a3', 'b3b4', 'd3f1', 'd3c2', 'd3b1', 'd3g6', 'd3e2', 'e1e5', 'e1e2', 'c1f4', 'c1h6', 'c1d1', 'c1e3', 'c1b2', 'c1c2', 'c1d2', 'g1g2', 'g1h2', 'g1f1', 'g1h1']
+Moves evaluations: {311: 'c1h6', 0: 'e1e5', -5000: 'g1g2'}
+Calculation time allowed: 0.5421830163768844
+Decided centipawn loss from mean -15 and stdev 20: -10.247985556521794
+Target_evaluation: 300.75201444347823
+Chosen move: c1h6, Qxh6
+Move number: 21
+2rqr1k1/5p2/p2npn1Q/1p1p4/3P4/1PPB1PP1/P4P2/R3R1K1 w - - 1 21
+. . r q r . k .
+. . . . . p . .
+p . . n p n . Q
+. p . p . . . .
+. . . P . . . .
+. P P B . P P .
+P . . . . P . .
+R . . . R . K .
+Obvious Moves check: {403: 'g1g2', 333: 'e1e5'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but to increase move time variation we play it 
+Chosen move: g1g2, Kg2
+Move number: 22
+2rqr1k1/5p2/p3pn1Q/1p1p1n2/3P4/1PPB1PP1/P4PK1/R3R3 w - - 3 22
+. . r q r . k .
+. . . . . p . .
+p . . . p n . Q
+. p . p . n . .
+. . . P . . . .
+. P P B . P P .
+P . . . . P K .
+R . . . R . . .
+Obvious Moves check: {544: 'd3f5', -45: 'h6d2'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.15864285714285714
+Own time remaining: 44.42
+Standard devation on time allowed: 0.44420000000000004
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[6, 3, 7, 3, 9, 11]
+Legal_moves found from human search: ['g3g4', 'a2a4', 'f3f4', 'b3b4', 'a2a3', 'c3c4', 'd3f5', 'd3c2', 'd3f1', 'd3e2', 'e1h1', 'e1e2', 'a1d1', 'e1d1', 'h6f4', 'h6d2', 'h6f6', 'h6h3', 'h6g5', 'h6e3', 'h6h7', 'h6g7', 'g2h2', 'g2g1', 'g2h1', 'g2f1', 'g2h3']
+Moves evaluations: {787: 'd3f5', 4: 'h6g5', -5000: 'h6d2'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -15 and stdev 20: -14.441524389475187
+Target_evaluation: 772.5584756105249
+Chosen move: d3f5, Bxf5
+Move number: 23
+2rqr1k1/5p2/p4n1Q/1p1p1p2/3P4/1PP2PP1/P4PK1/R3R3 w - - 0 23
+. . r q r . k .
+. . . . . p . .
+p . . . . n . Q
+. p . p . p . .
+. . . P . . . .
+. P P . . P P .
+P . . . . P K .
+R . . . R . . .
+Obvious Moves check: {787: 'e1h1', 401: 'e1c1'}
+Top move is not a take-back. 
+Top move piece is under attack. 
+No obvious move, but to increase move time variation we play it 
+Chosen move: e1h1, Rh1

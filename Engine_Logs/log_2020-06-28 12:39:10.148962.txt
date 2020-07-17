@@ -1,0 +1,15 @@
+Playing side: BLACK 
+Move number: 20
+1r1q1rk1/pp5p/3Pbpp1/1B4b1/3Q3P/4P3/PPPB2P1/R4RK1 b - - 0 20
+. r . q . r k .
+p p . . . . . p
+. . . P b p p .
+. B . . . . b .
+. . . Q . . . P
+. . . . P . . .
+P P P B . . P .
+R . . . . R K .
+Analysis Object recieved:  [{'depth': 3, 'seldepth': 3, 'multipv': 1, 'score': PovScore(Cp(-209), BLACK), 'nodes': 323, 'nps': 323000, 'tbhits': 0, 'time': 0.001, 'pv': [Move.from_uci('g5h6'), Move.from_uci('a2a3'), Move.from_uci('a7a6')]}, {'depth': 3, 'seldepth': 3, 'multipv': 2, 'score': PovScore(Cp(-378), BLACK), 'nodes': 323, 'nps': 323000, 'tbhits': 0, 'time': 0.001, 'pv': [Move.from_uci('g5h4'), Move.from_uci('d4h4'), Move.from_uci('d8d6')]}]
+Obvious Moves check: {-209: 'g5h6', -378: 'g5h4'}
+Obvious move found! 
+Chosen move: g5h6, Bh6

@@ -1,0 +1,141 @@
+Playing side: WHITE 
+Move number: 4
+rnb1kbnr/pp1p1ppp/1qp1p3/8/8/1PN5/PBPPPPPP/R2QKBNR w KQkq - 2 4
+r n b . k b n r
+p p . p . p p p
+. q p . p . . .
+. . . . . . . .
+. . . . . . . .
+. P N . . . . .
+P B P P P P P P
+R . . Q K B N R
+Obvious Moves check: {751: 'c3a4', 101: 'e2e4'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[9, 7, 4, 1, 3, 6]
+Legal_moves found from human search: ['e2e3', 'e2e4', 'g2g3', 'd2d4', 'a2a3', 'f2f4', 'd2d3', 'a2a4', 'c3a4', 'c3e4', 'g1f3', 'c3b5', 'c3b1', 'b2a3', 'a1b1', 'd1c1']
+Moves evaluations: {60: 'e2e4', 46: 'g1f3', 14: 'a2a3'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -15 and stdev 20: 0.7226843203431432
+Target_evaluation: 60.72268432034314
+Chosen move: e2e4, e4
+Move number: 6
+rnb1k1nr/pp1p1ppp/1qp1p3/8/8/1PNPb3/PBP2PPP/R2QKBNR w KQkq - 0 6
+r n b . k . n r
+p p . p . p p p
+. q p . p . . .
+. . . . . . . .
+. . . . . . . .
+. P N P b . . .
+P B P . . P P P
+R . . Q K B N R
+Obvious Moves check: {337: 'f2e3', 97: 'c3e4'}
+Top move is not a take-back. 
+Top move piece is under attack. 
+No obvious move, but to increase move time variation we play it 
+Chosen move: f2e3, fxe3
+Move number: 7
+rnb1k2r/pp1p1ppp/1qp1pn2/8/8/1PNPP3/PBP3PP/R2QKBNR w KQkq - 1 7
+r n b . k . . r
+p p . p . p p p
+. q p . p n . .
+. . . . . . . .
+. . . . . . . .
+. P N P P . . .
+P B P . . . P P
+R . . Q K B N R
+Obvious Moves check: {352: 'd1f3', 322: 'd1d2'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but time low so we play it 
+Chosen move: d1f3, Qf3
+Move number: 9
+rnb1k2r/pp1p1ppp/1qp1p3/8/8/1PNPnN2/PBP1Q1PP/R3KB1R w KQkq - 0 9
+r n b . k . . r
+p p . p . p p p
+. q p . p . . .
+. . . . . . . .
+. . . . . . . .
+. P N P n N . .
+P B P . Q . P P
+R . . . K B . R
+Obvious Moves check: {648: 'c3a4', 299: 'd3d4'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but time low so we play it 
+Chosen move: c3a4, Na4
+Found premove! In response to e3f1, Rxf1
+Move number: 10
+rnb1k2r/pp1p1ppp/1qp1p3/8/8/PPNP1N2/1Bn1Q1PP/R3KB1R w KQkq - 0 10
+r n b . k . . r
+p p . p . p p p
+. q p . p . . .
+. . . . . . . .
+. . . . . . . .
+P P N P . N . .
+. B n . Q . P P
+R . . . K B . R
+Obvious Moves check: {502: 'e2c2', -167: 'e1d1'}
+Top move is not a take-back. 
+Obvious move found as currently in premove_mode! 
+Chosen move: e2c2, Qxc2
+Move number: 12
+rnb1k2r/pp3ppp/1qp1p3/8/N2p4/PP1P1N2/1BQ3PP/R3KB1R w KQkq - 0 12
+r n b . k . . r
+p p . . . p p p
+. q p . p . . .
+. . . . . . . .
+N . . p . . . .
+P P . P . N . .
+. B Q . . . P P
+R . . . K B . R
+Obvious Moves check: {1376: 'a4b6', 954: 'b2d4'}
+Top move is not a take-back. 
+Obvious move found as currently in premove_mode! 
+Chosen move: a4b6, Nxb6
+Move number: 13
+rnb1k2r/pp3ppp/2p1p3/q1N5/3p4/PP1P1N2/1BQ3PP/R3KB1R w KQkq - 2 13
+r n b . k . . r
+p p . . . p p p
+. . p . p . . .
+q . N . . . . .
+. . . p . . . .
+P P . P . N . .
+. B Q . . . P P
+R . . . K B . R
+Obvious Moves check: {572: 'b3b4', 559: 'f3d2'}
+Top move is not a take-back. 
+Obvious move found as currently in premove_mode! 
+Chosen move: b3b4, b4
+Move number: 14
+rnb1k2r/pp3ppp/1qp1p3/2N5/1P1p4/P2P1N2/1BQ3PP/R3KB1R w KQkq - 1 14
+r n b . k . . r
+p p . . . p p p
+. q p . p . . .
+. . N . . . . .
+. P . p . . . .
+P . . P . N . .
+. B Q . . . P P
+R . . . K B . R
+Obvious Moves check: {634: 'c2f2', 628: 'b2d4'}
+Top move is not a take-back. 
+Obvious move found as currently in premove_mode! 
+Chosen move: c2f2, Qf2
+Move number: 16
+rnb2rk1/pp3ppp/1q2p3/2p5/1P1p4/PN1P1N2/1B3QPP/R3KB1R w KQ - 0 16
+r n b . . r k .
+p p . . . p p p
+. q . . p . . .
+. . p . . . . .
+. P . p . . . .
+P N . P . N . .
+. B . . . Q P P
+R . . . K B . R
+Obvious Moves check: {632: 'b3c5', 595: 'f2c2'}
+Top move is not a take-back. 
+Obvious move found as currently in premove_mode! 
+Chosen move: b3c5, Nxc5

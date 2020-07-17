@@ -1,0 +1,47 @@
+Playing side: BLACK 
+Move number: 8
+rnbqkb1r/ppp3p1/5n1p/3p1p2/3PpN1P/2P1P3/PP3PP1/RNBQKB1R b KQkq - 2 8
+r n b q k b . r
+p p p . . . p .
+. . . . . n . p
+. . . p . p . .
+. . . P p N . P
+. . P . P . . .
+P P . . . P P .
+R N B Q K B . R
+Obvious Moves check: {-48: 'h8g8', -55: 'e8f7'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[7, 7, 7, 1, 4, 9]
+Legal_moves found from human search: ['c7c6', 'c7c5', 'g7g5', 'a7a5', 'g7g6', 'b7b6', 'a7a6', 'b8c6', 'b8d7', 'f6d7', 'f6g4', 'f6h5', 'f6g8', 'b8a6', 'f8d6', 'f8e7', 'c8d7', 'c8e6', 'f8b4', 'h8g8', 'd8d6', 'd8e7', 'e8f7', 'e8e7', 'e8d7']
+Moves evaluations: {-51: 'b8c6', -60: 'c7c6', -70: 'f8d6'}
+Calculation time allowed: 0.2
+Decided centipawn loss from mean 0 and stdev 4: 2.9557342697941102
+Target_evaluation: -48.04426573020589
+Chosen move: b8c6, Nc6
+Move number: 9
+rnbqk2r/ppp3p1/3b1n1p/3p1p2/3PpN1P/2P1P3/PP2BPP1/RNBQK2R b KQkq - 4 9
+r n b q k . . r
+p p p . . . p .
+. . . b . n . p
+. . . p . p . .
+. . . P p N . P
+. . P . P . . .
+P P . . B P P .
+R N B Q K . . R
+Obvious Moves check: {41: 'e8g8', 12: 'd6f4'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[7, 7, 8, 1, 3, 11]
+Legal_moves found from human search: ['c7c6', 'c7c5', 'g7g5', 'a7a5', 'b7b6', 'h6h5', 'g7g6', 'b8c6', 'b8d7', 'f6d7', 'f6g4', 'f6h5', 'b8a6', 'f6g8', 'c8d7', 'd6f4', 'd6e7', 'c8e6', 'h8g8', 'd8e7', 'e8g8', 'e8f8', 'e8f7', 'e8e7', 'e8d7']
+Moves evaluations: {77: 'd6f4', 34: 'e8f7', 28: 'e8g8'}
+Calculation time allowed: 0.4698398951282517
+Decided centipawn loss from mean 0 and stdev 4: 8.393105573881499
+Target_evaluation: 85.3931055738815
+Chosen move: d6f4, Bxf4

@@ -1,0 +1,97 @@
+Playing side: BLACK 
+Move number: 23
+2rr4/pb4bk/1p2qp1p/n2p2p1/4p3/1PP1BNPP/P1Q1PPB1/2RR2K1 b - - 1 23
+. . r r . . . .
+p b . . . . b k
+. p . . q p . p
+n . . p . . p .
+. . . . p . . .
+. P P . B N P P
+P . Q . P P B .
+. . R R . . K .
+Obvious Moves check: {70: 'f6f5', 41: 'a5c6'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.12817857142857142
+Own time remaining: 35.89
+Standard devation on time allowed: 0.7178
+Phase of game recognised: opening
+Currently this position is bunder prone. 
+Weights Chosen:[2, 2, 2, 3, 3, 6]
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'f6f5': 45, 'a5c4': 32, 'a5c6': 32, 'b7c6': 49, 'c8c3': 58, 'd8d7': 59, 'e6f7': 44, 'e6e8': 44, 'e6d7': 44, 'h7g8': 55, 'h7h8': 55, 'h7g6': 55}
+Sorted probablities worth considering: [0.23406883, 0.29458505]
+Corresponding squares found: ['e4', 'h7']
+Filtered ucis: ['h7g8', 'h7h8', 'h7g6']
+Legal_moves found from human search: ['h7g8', 'h7h8', 'h7g6']
+Moves evaluations: {-38: 'h7g8', -54: 'h7h8', -78: 'h7g6'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -15 and stdev 20: 11.990363229842067
+Target_evaluation: -26.009636770157933
+Chosen move: h7g8, Kg8
+Move number: 24
+2rr4/pb4bk/1p2q2p/n2p1pp1/3Np3/1PP1B1PP/P1Q1PPB1/2RR2K1 b - - 1 24
+. . r r . . . .
+p b . . . . b k
+. p . . q . . p
+n . . p . p p .
+. . . N p . . .
+. P P . B . P P
+P . Q . P P B .
+. . R R . . K .
+Obvious Moves check: {50: 'e6f7', 32: 'e6f6'}
+Top move is not a take-back. 
+Top move piece is under attack. 
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.12142857142857143
+Own time remaining: 34.0
+Standard devation on time allowed: 0.68
+Phase of game recognised: opening
+Currently this position is bunder prone. 
+Weights Chosen:[2, 2, 2, 3, 3, 6]
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'f5f4': 37, 'a5c6': 32, 'a5c4': 32, 'g7d4': 54, 'b7a6': 49, 'c8c3': 58, 'd8e8': 59, 'd8d7': 59, 'e6d7': 44, 'e6g6': 44, 'e6f7': 44, 'h7g8': 55, 'h7h8': 55, 'h7g6': 55}
+Sorted probablities worth considering: [0.23824568, 0.24666259]
+Corresponding squares found: ['f5', 'e6']
+Filtered ucis: ['f5f4', 'e6d7', 'e6g6', 'e6f7']
+Legal_moves found from human search: ['f5f4', 'e6d7', 'e6g6', 'e6f7']
+Moves evaluations: {29: 'e6g6', 6: 'e6f7', -15: 'e6d7'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -15 and stdev 20: -10.169980836197407
+Target_evaluation: 18.830019163802593
+Chosen move: e6g6, Qg6
+Move number: 25
+2rr4/pb4bk/1p4qp/n2p1pp1/3Np3/1PP1B1PP/P2QPPB1/2RR2K1 b - - 3 25
+. . r r . . . .
+p b . . . . b k
+. p . . . . q p
+n . . p . p p .
+. . . N p . . .
+. P P . B . P P
+P . . Q P P B .
+. . R R . . K .
+Obvious Moves check: {29: 'a5c6', 26: 'g7e5'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.12007142857142857
+Own time remaining: 33.62
+Standard devation on time allowed: 0.6724
+Phase of game recognised: opening
+Currently this position is bunder prone. 
+Weights Chosen:[2, 2, 2, 3, 3, 6]
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'f5f4': 37, 'a5c4': 32, 'a5c6': 32, 'g7d4': 54, 'g7e5': 54, 'd8e8': 59, 'd8f8': 59, 'd8d7': 59, 'g6f6': 46, 'g6h5': 46, 'g6f7': 46, 'h7g8': 55, 'h7h8': 55}
+Sorted probablities worth considering: [0.16816692, 0.2129022]
+Corresponding squares found: ['g5', 'd8']
+Filtered ucis: ['d8e8', 'd8f8', 'd8d7']
+Legal_moves found from human search: ['d8e8', 'd8f8', 'd8d7']
+Moves evaluations: {18: 'd8d7', 25: 'd8f8', 6: 'd8e8'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -15 and stdev 20: -1.3150351702581524
+Target_evaluation: 23.684964829741848
+Chosen move: d8f8, Rf8

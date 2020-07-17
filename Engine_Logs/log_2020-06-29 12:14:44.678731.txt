@@ -1,0 +1,627 @@
+Playing side: BLACK 
+Move number: 1
+rnbqkbnr/pppppppp/8/8/8/2N5/PPPPPPPP/R1BQKBNR b KQkq - 1 1
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P P P P P P
+R . B Q K B N R
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 6, 'multipv': 1, 'score': PovScore(Cp(-11), BLACK), 'nodes': 3511, 'nps': 702200, 'tbhits': 0, 'time': 0.005, 'pv': [Move.from_uci('d7d5'), Move.from_uci('d2d4'), Move.from_uci('e7e5'), Move.from_uci('e2e4'), Move.from_uci('d5e4'), Move.from_uci('d4e5'), Move.from_uci('d8d1'), Move.from_uci('e1d1')]}, {'depth': 6, 'seldepth': 6, 'multipv': 2, 'score': PovScore(Cp(-57), BLACK), 'nodes': 3511, 'nps': 702200, 'tbhits': 0, 'time': 0.005, 'pv': [Move.from_uci('g8f6'), Move.from_uci('d2d4'), Move.from_uci('d7d5'), Move.from_uci('c1f4'), Move.from_uci('e7e6'), Move.from_uci('e2e3')]}]
+Obvious Moves check: {-11: 'd7d5', -57: 'g8f6'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[9, 3, 1, 1, 1, 0]
+Legal_moves found from human search: ['e7e5', 'd7d5', 'c7c5', 'b7b6', 'g7g6', 'c7c6', 'b7b5', 'e7e6', 'd7d6', 'g8f6', 'b8c6', 'g8h6']
+Analysis Object recieved:  [{'depth': 15, 'seldepth': 24, 'multipv': 1, 'score': PovScore(Cp(-3), BLACK), 'nodes': 593130, 'nps': 1183892, 'tbhits': 0, 'time': 0.501, 'pv': [Move.from_uci('e7e5'), Move.from_uci('e2e4'), Move.from_uci('g8f6'), Move.from_uci('g1f3'), Move.from_uci('b8c6'), Move.from_uci('f1b5'), Move.from_uci('c6d4'), Move.from_uci('f3d4'), Move.from_uci('e5d4'), Move.from_uci('e4e5'), Move.from_uci('d4c3'), Move.from_uci('e5f6'), Move.from_uci('d8f6'), Move.from_uci('d2c3'), Move.from_uci('c7c6'), Move.from_uci('b5d3')]}, {'depth': 14, 'seldepth': 24, 'multipv': 2, 'score': PovScore(Cp(-22), BLACK), 'nodes': 593130, 'nps': 1183892, 'tbhits': 0, 'time': 0.501, 'pv': [Move.from_uci('d7d5'), Move.from_uci('d2d4'), Move.from_uci('g8f6'), Move.from_uci('g1f3'), Move.from_uci('e7e6'), Move.from_uci('c1g5'), Move.from_uci('f8b4'), Move.from_uci('e2e3'), Move.from_uci('e8g8'), Move.from_uci('f1d3'), Move.from_uci('c7c5'), Move.from_uci('d4c5'), Move.from_uci('b4c5'), Move.from_uci('a2a3'), Move.from_uci('c5d6'), Move.from_uci('c3b5')]}, {'depth': 14, 'seldepth': 24, 'multipv': 3, 'score': PovScore(Cp(-31), BLACK), 'nodes': 593130, 'nps': 1183892, 'tbhits': 0, 'time': 0.501, 'pv': [Move.from_uci('g8f6'), Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('f6d5'), Move.from_uci('g1f3'), Move.from_uci('e7e6'), Move.from_uci('d2d4'), Move.from_uci('f8b4'), Move.from_uci('c1d2'), Move.from_uci('e8g8'), Move.from_uci('c3d5'), Move.from_uci('b4d2'), Move.from_uci('d1d2'), Move.from_uci('e6d5'), Move.from_uci('e1c1'), Move.from_uci('b8c6')], 'upperbound': True}]
+Moves evaluations: {-3: 'e7e5', -22: 'd7d5', -31: 'g8f6'}
+Decided centipawn loss from mean 0 and stdev 4: 0.059736047674867086
+Target_evaluation: -2.940263952325133
+Chosen move: e7e5, e5
+Move number: 2
+rnbqkbnr/pppp1ppp/8/4p3/8/2N2N2/PPPPPPPP/R1BQKB1R b KQkq - 1 2
+r n b q k b n r
+p p p p . p p p
+. . . . . . . .
+. . . . p . . .
+. . . . . . . .
+. . N . . N . .
+P P P P P P P P
+R . B Q K B . R
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 6, 'multipv': 1, 'score': PovScore(Cp(+75), BLACK), 'nodes': 1275, 'nps': 318750, 'tbhits': 0, 'time': 0.004, 'pv': [Move.from_uci('d7d5'), Move.from_uci('f3e5'), Move.from_uci('d5d4'), Move.from_uci('e2e3'), Move.from_uci('d4c3'), Move.from_uci('f1c4')]}, {'depth': 6, 'seldepth': 6, 'multipv': 2, 'score': PovScore(Cp(-4), BLACK), 'nodes': 1275, 'nps': 318750, 'tbhits': 0, 'time': 0.004, 'pv': [Move.from_uci('b8c6'), Move.from_uci('d2d4'), Move.from_uci('e5d4'), Move.from_uci('f3d4'), Move.from_uci('g8f6'), Move.from_uci('d4c6'), Move.from_uci('b7c6')]}]
+Obvious Moves check: {75: 'd7d5', -4: 'b8c6'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[8, 4, 4, 1, 2, 1]
+Legal_moves found from human search: ['e5e4', 'd7d6', 'd7d5', 'f7f6', 'c7c6', 'b7b6', 'c7c5', 'b8c6', 'g8f6', 'g8e7', 'f8b4', 'f8e7', 'f8c5', 'f8d6', 'd8f6', 'd8e7']
+Analysis Object recieved:  [{'depth': 14, 'seldepth': 23, 'multipv': 1, 'score': PovScore(Cp(-18), BLACK), 'nodes': 593899, 'nps': 1180713, 'tbhits': 0, 'time': 0.503, 'pv': [Move.from_uci('d7d5'), Move.from_uci('f3e5'), Move.from_uci('d5d4'), Move.from_uci('c3b1'), Move.from_uci('f8d6'), Move.from_uci('e5c4'), Move.from_uci('g8f6'), Move.from_uci('e2e3'), Move.from_uci('e8g8'), Move.from_uci('f1d3'), Move.from_uci('c7c5'), Move.from_uci('b1a3'), Move.from_uci('d6c7'), Move.from_uci('e1g1'), Move.from_uci('b8c6'), Move.from_uci('a3b5'), Move.from_uci('c7b8'), Move.from_uci('c2c3'), Move.from_uci('d8d5'), Move.from_uci('c3d4')]}, {'depth': 14, 'seldepth': 23, 'multipv': 2, 'score': PovScore(Cp(-21), BLACK), 'nodes': 593899, 'nps': 1180713, 'tbhits': 0, 'time': 0.503, 'pv': [Move.from_uci('b8c6'), Move.from_uci('e2e4')]}, {'depth': 13, 'seldepth': 23, 'multipv': 3, 'score': PovScore(Cp(-56), BLACK), 'nodes': 593899, 'nps': 1180713, 'tbhits': 0, 'time': 0.503, 'pv': [Move.from_uci('d7d6'), Move.from_uci('e2e4'), Move.from_uci('g8f6'), Move.from_uci('d2d4'), Move.from_uci('e5d4'), Move.from_uci('f3d4'), Move.from_uci('f8e7'), Move.from_uci('f1e2'), Move.from_uci('e8g8'), Move.from_uci('c1e3'), Move.from_uci('c8d7'), Move.from_uci('e1g1'), Move.from_uci('b8c6'), Move.from_uci('d4c6'), Move.from_uci('d7c6'), Move.from_uci('f2f3')]}]
+Moves evaluations: {-18: 'd7d5', -21: 'b8c6', -56: 'd7d6'}
+Decided centipawn loss from mean 0 and stdev 4: 5.493174800866674
+Target_evaluation: -12.506825199133326
+Chosen move: d7d5, d5
+Move number: 3
+rnbqkbnr/ppp2ppp/8/3pN3/8/2N5/PPPPPPPP/R1BQKB1R b KQkq - 0 3
+r n b q k b n r
+p p p . . p p p
+. . . . . . . .
+. . . p N . . .
+. . . . . . . .
+. . N . . . . .
+P P P P P P P P
+R . B Q K B . R
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 6, 'multipv': 1, 'score': PovScore(Cp(-18), BLACK), 'nodes': 1118, 'nps': 223600, 'tbhits': 0, 'time': 0.005, 'pv': [Move.from_uci('d5d4'), Move.from_uci('c3b1'), Move.from_uci('f8d6'), Move.from_uci('e5c4'), Move.from_uci('g8f6'), Move.from_uci('e2e3')]}, {'depth': 6, 'seldepth': 6, 'multipv': 2, 'score': PovScore(Cp(-111), BLACK), 'nodes': 1118, 'nps': 223600, 'tbhits': 0, 'time': 0.005, 'pv': [Move.from_uci('g8f6'), Move.from_uci('d2d4'), Move.from_uci('f8d6'), Move.from_uci('c1g5'), Move.from_uci('e8g8'), Move.from_uci('e2e3')]}]
+Obvious Moves check: {-18: 'd5d4', -111: 'g8f6'}
+Top move is not a take-back. 
+Top move piece is under attack. 
+No obvious move found. 
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[7, 4, 7, 1, 3, 1]
+Legal_moves found from human search: ['c7c5', 'f7f6', 'd5d4', 'c7c6', 'b7b6', 'f7f5', 'g7g6', 'g8f6', 'b8c6', 'g8e7', 'f8d6', 'f8b4', 'c8f5', 'c8e6', 'f8e7', 'c8d7', 'c8g4', 'd8f6', 'd8e7', 'd8g5', 'e8e7']
+Analysis Object recieved:  [{'depth': 14, 'seldepth': 21, 'multipv': 1, 'score': PovScore(Cp(-14), BLACK), 'nodes': 575722, 'nps': 1149145, 'tbhits': 0, 'time': 0.501, 'pv': [Move.from_uci('d5d4'), Move.from_uci('c3b1'), Move.from_uci('f8d6'), Move.from_uci('e5f3'), Move.from_uci('c7c5'), Move.from_uci('c2c3'), Move.from_uci('b8c6'), Move.from_uci('e2e3'), Move.from_uci('g8f6'), Move.from_uci('e3d4'), Move.from_uci('c5d4'), Move.from_uci('d1e2'), Move.from_uci('c8e6'), Move.from_uci('f3g5'), Move.from_uci('e8g8'), Move.from_uci('g5e6'), Move.from_uci('f7e6'), Move.from_uci('e2e6'), Move.from_uci('g8h8')]}, {'depth': 14, 'seldepth': 21, 'multipv': 2, 'score': PovScore(Cp(-74), BLACK), 'nodes': 575722, 'nps': 1149145, 'tbhits': 0, 'time': 0.501, 'pv': [Move.from_uci('g8f6'), Move.from_uci('d2d4'), Move.from_uci('f8b4'), Move.from_uci('e2e3'), Move.from_uci('e8g8'), Move.from_uci('c1d2'), Move.from_uci('c7c6'), Move.from_uci('h2h3'), Move.from_uci('b4d6'), Move.from_uci('f1e2'), Move.from_uci('d8c7'), Move.from_uci('e1g1'), Move.from_uci('d6e5'), Move.from_uci('d4e5')]}, {'depth': 14, 'seldepth': 21, 'multipv': 3, 'score': PovScore(Cp(-96), BLACK), 'nodes': 575722, 'nps': 1149145, 'tbhits': 0, 'time': 0.501, 'pv': [Move.from_uci('f8d6'), Move.from_uci('d2d4')]}]
+Moves evaluations: {-14: 'd5d4', -74: 'g8f6', -96: 'f8d6'}
+Decided centipawn loss from mean 0 and stdev 4: 2.944079837756635
+Target_evaluation: -11.055920162243364
+Chosen move: d5d4, d4
+Move number: 4
+rnbqkbnr/ppp2ppp/8/4N3/3p4/8/PPPPPPPP/RNBQKB1R b KQkq - 1 4
+r n b q k b n r
+p p p . . p p p
+. . . . . . . .
+. . . . N . . .
+. . . p . . . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B . R
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 6, 'multipv': 1, 'score': PovScore(Cp(-14), BLACK), 'nodes': 1303, 'nps': 260600, 'tbhits': 0, 'time': 0.005, 'pv': [Move.from_uci('f8d6'), Move.from_uci('e5f3'), Move.from_uci('c7c5'), Move.from_uci('c2c3'), Move.from_uci('b8c6'), Move.from_uci('e2e3')]}, {'depth': 6, 'seldepth': 6, 'multipv': 2, 'score': PovScore(Cp(-37), BLACK), 'nodes': 1303, 'nps': 260600, 'tbhits': 0, 'time': 0.005, 'pv': [Move.from_uci('d8d5'), Move.from_uci('e5f3'), Move.from_uci('b8c6'), Move.from_uci('c2c3'), Move.from_uci('g8f6'), Move.from_uci('c3d4')]}]
+Obvious Moves check: {-14: 'f8d6', -37: 'd8d5'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[7, 4, 7, 1, 3, 1]
+Legal_moves found from human search: ['c7c5', 'f7f6', 'h7h5', 'b7b6', 'a7a6', 'b8c6', 'g8f6', 'g8e7', 'f8d6', 'c8f5', 'c8d7', 'c8g4', 'c8e6', 'f8e7', 'f8c5', 'd8d5', 'd8g5', 'd8f6', 'e8e7']
+Analysis Object recieved:  [{'depth': 14, 'seldepth': 23, 'multipv': 1, 'score': PovScore(Cp(-39), BLACK), 'nodes': 585617, 'nps': 1164248, 'tbhits': 0, 'time': 0.503, 'pv': [Move.from_uci('f8d6'), Move.from_uci('e5c4'), Move.from_uci('g8f6'), Move.from_uci('e2e3'), Move.from_uci('e8g8'), Move.from_uci('f1e2'), Move.from_uci('c7c5'), Move.from_uci('c4d6'), Move.from_uci('d8d6'), Move.from_uci('e1g1'), Move.from_uci('b8c6'), Move.from_uci('d2d3'), Move.from_uci('c8e6'), Move.from_uci('e2f3'), Move.from_uci('a8e8'), Move.from_uci('c1d2'), Move.from_uci('d4e3'), Move.from_uci('d2e3')]}, {'depth': 14, 'seldepth': 23, 'multipv': 2, 'score': PovScore(Cp(-60), BLACK), 'nodes': 585617, 'nps': 1164248, 'tbhits': 0, 'time': 0.503, 'pv': [Move.from_uci('d8f6'), Move.from_uci('e5f3')]}, {'depth': 13, 'seldepth': 23, 'multipv': 3, 'score': PovScore(Cp(-58), BLACK), 'nodes': 585617, 'nps': 1164248, 'tbhits': 0, 'time': 0.503, 'pv': [Move.from_uci('d8d5'), Move.from_uci('e5f3'), Move.from_uci('c8g4'), Move.from_uci('c2c3'), Move.from_uci('c7c5'), Move.from_uci('d2d3'), Move.from_uci('b8c6'), Move.from_uci('e2e4'), Move.from_uci('d4e3'), Move.from_uci('c1e3'), Move.from_uci('e8c8'), Move.from_uci('b1d2'), Move.from_uci('g8f6'), Move.from_uci('f1e2')], 'upperbound': True}]
+Moves evaluations: {-39: 'f8d6', -60: 'd8f6', -58: 'd8d5'}
+Decided centipawn loss from mean 0 and stdev 4: 6.285590864836503
+Target_evaluation: -32.7144091351635
+Chosen move: f8d6, Bd6
+Move number: 5
+rnbqk1nr/ppp2ppp/3b4/8/3p4/5N2/PPPPPPPP/RNBQKB1R b KQkq - 3 5
+r n b q k . n r
+p p p . . p p p
+. . . b . . . .
+. . . . . . . .
+. . . p . . . .
+. . . . . N . .
+P P P P P P P P
+R N B Q K B . R
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 7, 'multipv': 1, 'score': PovScore(Cp(-2), BLACK), 'nodes': 2041, 'nps': 255125, 'tbhits': 0, 'time': 0.008, 'pv': [Move.from_uci('c7c5'), Move.from_uci('e2e3'), Move.from_uci('b8c6'), Move.from_uci('e3d4'), Move.from_uci('c5d4'), Move.from_uci('d1e2'), Move.from_uci('g8e7')]}, {'depth': 6, 'seldepth': 7, 'multipv': 2, 'score': PovScore(Cp(-35), BLACK), 'nodes': 2041, 'nps': 255125, 'tbhits': 0, 'time': 0.008, 'pv': [Move.from_uci('g8f6'), Move.from_uci('c2c3'), Move.from_uci('d4c3'), Move.from_uci('b1c3'), Move.from_uci('e8g8'), Move.from_uci('d2d4')]}]
+Obvious Moves check: {-2: 'c7c5', -35: 'g8f6'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[7, 4, 9, 1, 3, 3]
+Legal_moves found from human search: ['c7c5', 'h7h6', 'h7h5', 'f7f6', 'c7c6', 'd4d3', 'b7b6', 'b8c6', 'g8f6', 'g8e7', 'b8d7', 'c8g4', 'c8f5', 'c8d7', 'd6e7', 'd6h2', 'c8e6', 'd6c5', 'd6e5', 'd6f4', 'd8e7', 'd8f6', 'e8f8', 'e8e7']
+Analysis Object recieved:  [{'depth': 14, 'seldepth': 21, 'multipv': 1, 'score': PovScore(Cp(-20), BLACK), 'nodes': 560466, 'nps': 1116466, 'tbhits': 0, 'time': 0.502, 'pv': [Move.from_uci('c7c5'), Move.from_uci('e2e3'), Move.from_uci('b8c6'), Move.from_uci('f1c4'), Move.from_uci('g8f6'), Move.from_uci('e1g1'), Move.from_uci('e8g8'), Move.from_uci('d2d3'), Move.from_uci('a7a6'), Move.from_uci('c2c3'), Move.from_uci('d4c3'), Move.from_uci('b1c3'), Move.from_uci('b7b5'), Move.from_uci('c4b3'), Move.from_uci('c8e6'), Move.from_uci('e3e4'), Move.from_uci('e6b3'), Move.from_uci('a2b3')]}, {'depth': 14, 'seldepth': 21, 'multipv': 2, 'score': PovScore(Cp(-71), BLACK), 'nodes': 560466, 'nps': 1116466, 'tbhits': 0, 'time': 0.502, 'pv': [Move.from_uci('d8f6'), Move.from_uci('e2e3')]}, {'depth': 13, 'seldepth': 21, 'multipv': 3, 'score': PovScore(Cp(-85), BLACK), 'nodes': 560466, 'nps': 1116466, 'tbhits': 0, 'time': 0.502, 'pv': [Move.from_uci('d6e7'), Move.from_uci('c2c3'), Move.from_uci('c7c5'), Move.from_uci('c3d4'), Move.from_uci('c5d4'), Move.from_uci('e2e4'), Move.from_uci('b8c6'), Move.from_uci('f1c4'), Move.from_uci('g8f6'), Move.from_uci('d2d3'), Move.from_uci('b7b5'), Move.from_uci('c4b3'), Move.from_uci('c8g4'), Move.from_uci('e1g1'), Move.from_uci('e8g8'), Move.from_uci('c1f4')]}]
+Moves evaluations: {-20: 'c7c5', -71: 'd8f6', -85: 'd6e7'}
+Decided centipawn loss from mean 0 and stdev 4: -2.749508220624366
+Target_evaluation: -22.749508220624367
+Chosen move: c7c5, c5
+Move number: 6
+rnbqk1nr/pp3ppp/3b4/2p5/3p4/4PN2/PPPP1PPP/RNBQKB1R b KQkq - 0 6
+r n b q k . n r
+p p . . . p p p
+. . . b . . . .
+. . p . . . . .
+. . . p . . . .
+. . . . P N . .
+P P P P . P P P
+R N B Q K B . R
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 7, 'multipv': 1, 'score': PovScore(Cp(-20), BLACK), 'nodes': 1363, 'nps': 272600, 'tbhits': 0, 'time': 0.005, 'pv': [Move.from_uci('b8c6'), Move.from_uci('f1c4'), Move.from_uci('g8f6'), Move.from_uci('e1g1'), Move.from_uci('e8g8'), Move.from_uci('d2d3')]}, {'depth': 6, 'seldepth': 7, 'multipv': 2, 'score': PovScore(Cp(-23), BLACK), 'nodes': 1363, 'nps': 272600, 'tbhits': 0, 'time': 0.005, 'pv': [Move.from_uci('g8f6'), Move.from_uci('e3d4'), Move.from_uci('e8g8'), Move.from_uci('d4c5'), Move.from_uci('f8e8'), Move.from_uci('f1e2'), Move.from_uci('d6c5')]}]
+Obvious Moves check: {-20: 'b8c6', -23: 'g8f6'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[7, 4, 8, 1, 4, 3]
+Legal_moves found from human search: ['g7g6', 'b7b6', 'd4e3', 'a7a6', 'h7h6', 'f7f5', 'b8c6', 'g8f6', 'g8e7', 'b8d7', 'c8g4', 'c8d7', 'c8f5', 'd6e7', 'd6c7', 'c8e6', 'd6h2', 'd6g3', 'd8c7', 'd8f6', 'd8e7', 'd8a5', 'e8f8', 'e8e7']
+Analysis Object recieved:  [{'depth': 14, 'seldepth': 24, 'multipv': 1, 'score': PovScore(Cp(-27), BLACK), 'nodes': 592898, 'nps': 1169424, 'tbhits': 0, 'time': 0.507, 'pv': [Move.from_uci('b8c6'), Move.from_uci('e3d4'), Move.from_uci('c5d4'), Move.from_uci('f1c4'), Move.from_uci('d8e7'), Move.from_uci('d1e2'), Move.from_uci('e7e2'), Move.from_uci('c4e2'), Move.from_uci('g8f6'), Move.from_uci('b1a3'), Move.from_uci('a7a6'), Move.from_uci('e1g1'), Move.from_uci('d6c7'), Move.from_uci('f1e1'), Move.from_uci('e8g8'), Move.from_uci('h2h3'), Move.from_uci('c8d7'), Move.from_uci('a3c4'), Move.from_uci('f8e8'), Move.from_uci('d2d3')]}, {'depth': 13, 'seldepth': 24, 'multipv': 2, 'score': PovScore(Cp(-51), BLACK), 'nodes': 592898, 'nps': 1169424, 'tbhits': 0, 'time': 0.507, 'pv': [Move.from_uci('g8f6'), Move.from_uci('f1b5'), Move.from_uci('b8c6'), Move.from_uci('e1g1'), Move.from_uci('e8g8'), Move.from_uci('b5c6'), Move.from_uci('b7c6'), Move.from_uci('d2d3'), Move.from_uci('d4e3'), Move.from_uci('c1e3'), Move.from_uci('a8b8'), Move.from_uci('d1c1'), Move.from_uci('h7h6'), Move.from_uci('b1d2'), Move.from_uci('c8e6'), Move.from_uci('h2h3'), Move.from_uci('b8b4')]}, {'depth': 13, 'seldepth': 24, 'multipv': 3, 'score': PovScore(Cp(-81), BLACK), 'nodes': 592898, 'nps': 1169424, 'tbhits': 0, 'time': 0.507, 'pv': [Move.from_uci('a7a6'), Move.from_uci('e3d4'), Move.from_uci('c5d4'), Move.from_uci('f3d4'), Move.from_uci('g8e7'), Move.from_uci('d4b3'), Move.from_uci('e8g8'), Move.from_uci('d2d4'), Move.from_uci('e7f5'), Move.from_uci('f1e2'), Move.from_uci('b8c6'), Move.from_uci('e1g1'), Move.from_uci('f8e8')], 'upperbound': True}]
+Moves evaluations: {-27: 'b8c6', -51: 'g8f6', -81: 'a7a6'}
+Decided centipawn loss from mean 0 and stdev 4: -0.09993102301108223
+Target_evaluation: -27.09993102301108
+Chosen move: b8c6, Nc6
+Move number: 7
+r1bqk1nr/pp3ppp/2nb4/1Bp5/3p4/4PN2/PPPP1PPP/RNBQK2R b KQkq - 2 7
+r . b q k . n r
+p p . . . p p p
+. . n b . . . .
+. B p . . . . .
+. . . p . . . .
+. . . . P N . .
+P P P P . P P P
+R N B Q K . . R
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 8, 'multipv': 1, 'score': PovScore(Cp(+37), BLACK), 'nodes': 3790, 'nps': 473750, 'tbhits': 0, 'time': 0.008, 'pv': [Move.from_uci('g8e7'), Move.from_uci('e3d4'), Move.from_uci('c5d4'), Move.from_uci('e1g1'), Move.from_uci('e8g8'), Move.from_uci('d2d3'), Move.from_uci('a7a6')]}, {'depth': 6, 'seldepth': 8, 'multipv': 2, 'score': PovScore(Cp(-34), BLACK), 'nodes': 3790, 'nps': 473750, 'tbhits': 0, 'time': 0.008, 'pv': [Move.from_uci('c8g4'), Move.from_uci('e3d4'), Move.from_uci('c5d4'), Move.from_uci('e1g1'), Move.from_uci('g8e7'), Move.from_uci('h2h3')]}]
+Obvious Moves check: {37: 'g8e7', -34: 'c8g4'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[7, 2, 8, 1, 4, 3]
+Legal_moves found from human search: ['d4e3', 'a7a6', 'h7h6', 'b7b6', 'f7f5', 'd4d3', 'f7f6', 'g8f6', 'g8e7', 'c8g4', 'c8d7', 'c8f5', 'd6c7', 'd6e7', 'c8e6', 'd6g3', 'd6h2', 'a8b8', 'd8c7', 'd8f6', 'd8a5', 'd8e7', 'e8f8', 'e8e7']
+Analysis Object recieved:  [{'depth': 14, 'seldepth': 20, 'multipv': 1, 'score': PovScore(Cp(-65), BLACK), 'nodes': 574264, 'nps': 1137156, 'tbhits': 0, 'time': 0.505, 'pv': [Move.from_uci('g8f6'), Move.from_uci('b5c6'), Move.from_uci('b7c6'), Move.from_uci('d2d3'), Move.from_uci('e8g8'), Move.from_uci('e1g1'), Move.from_uci('d4e3'), Move.from_uci('c1e3'), Move.from_uci('a8b8'), Move.from_uci('b1d2'), Move.from_uci('b8b2'), Move.from_uci('d2c4'), Move.from_uci('b2b8'), Move.from_uci('f3e5'), Move.from_uci('d6e5')]}, {'depth': 13, 'seldepth': 20, 'multipv': 2, 'score': PovScore(Mate(-0), BLACK), 'nodes': 574264, 'nps': 1137156, 'tbhits': 0, 'time': 0.505, 'pv': [Move.from_uci('d4e3'), Move.from_uci('d2e3'), Move.from_uci('g8f6'), Move.from_uci('b1c3'), Move.from_uci('e8g8'), Move.from_uci('e1g1'), Move.from_uci('c8f5'), Move.from_uci('b5d3'), Move.from_uci('f5d3'), Move.from_uci('c2d3'), Move.from_uci('a7a6'), Move.from_uci('e3e4'), Move.from_uci('b7b5'), Move.from_uci('h2h3'), Move.from_uci('g8h8')]}, {'depth': 13, 'seldepth': 20, 'multipv': 3, 'score': PovScore(Cp(-33), BLACK), 'nodes': 574264, 'nps': 1137156, 'tbhits': 0, 'time': 0.505, 'pv': [Move.from_uci('g8e7'), Move.from_uci('e3d4')]}]
+Moves evaluations: {-65: 'g8f6', -5000: 'd4e3', -33: 'g8e7'}
+Decided centipawn loss from mean 0 and stdev 4: -5.779421215307969
+Target_evaluation: -38.77942121530797
+Chosen move: g8e7, Ne7
+Move number: 8
+r1bqk2r/pp2nppp/2nb4/1Bp5/3P4/5N2/PPPP1PPP/RNBQK2R b KQkq - 0 8
+r . b q k . . r
+p p . . n p p p
+. . n b . . . .
+. B p . . . . .
+. . . P . . . .
+. . . . . N . .
+P P P P . P P P
+R N B Q K . . R
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 6, 'multipv': 1, 'score': PovScore(Cp(-74), BLACK), 'nodes': 1058, 'nps': 211600, 'tbhits': 0, 'time': 0.005, 'pv': [Move.from_uci('c5d4'), Move.from_uci('e1g1'), Move.from_uci('e8g8'), Move.from_uci('d2d3'), Move.from_uci('c8g4'), Move.from_uci('b1d2')]}, {'depth': 6, 'seldepth': 6, 'multipv': 2, 'score': PovScore(Cp(-75), BLACK), 'nodes': 1058, 'nps': 211600, 'tbhits': 0, 'time': 0.005, 'pv': [Move.from_uci('a7a6'), Move.from_uci('d4c5'), Move.from_uci('d6c5'), Move.from_uci('b5c6'), Move.from_uci('e7c6'), Move.from_uci('e1g1')]}]
+Obvious Moves check: {-74: 'c5d4', -75: 'a7a6'}
+Top move is a take-back. 
+Top move piece is under attack. 
+No obvious move found. 
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[6, 3, 7, 1, 2, 3]
+Legal_moves found from human search: ['c5d4', 'a7a6', 'h7h6', 'c5c4', 'g7g5', 'b7b6', 'e7f5', 'e7d5', 'c8g4', 'c8d7', 'c8f5', 'd6c7', 'd6f4', 'c8e6', 'd6h2', 'a8b8', 'd8c7', 'd8a5', 'e8g8', 'e8f8', 'e8d7']
+Analysis Object recieved:  [{'depth': 14, 'seldepth': 22, 'multipv': 1, 'score': PovScore(Cp(-75), BLACK), 'nodes': 552237, 'nps': 1091377, 'tbhits': 0, 'time': 0.506, 'pv': [Move.from_uci('c5d4'), Move.from_uci('e1g1'), Move.from_uci('c8g4'), Move.from_uci('d2d3'), Move.from_uci('g4f3'), Move.from_uci('d1f3'), Move.from_uci('e8g8'), Move.from_uci('g2g3'), Move.from_uci('d8c7'), Move.from_uci('b5a4'), Move.from_uci('c6e5'), Move.from_uci('f3e4'), Move.from_uci('f7f5'), Move.from_uci('a4b3'), Move.from_uci('g8h8'), Move.from_uci('e4e2'), Move.from_uci('c7c5'), Move.from_uci('c2c3'), Move.from_uci('d4c3')]}, {'depth': 14, 'seldepth': 22, 'multipv': 2, 'score': PovScore(Cp(-145), BLACK), 'nodes': 552237, 'nps': 1091377, 'tbhits': 0, 'time': 0.506, 'pv': [Move.from_uci('e8g8'), Move.from_uci('d4c5'), Move.from_uci('d6c5'), Move.from_uci('e1g1'), Move.from_uci('c6d4'), Move.from_uci('f3d4'), Move.from_uci('d8d4'), Move.from_uci('c2c3'), Move.from_uci('d4h4'), Move.from_uci('g2g3'), Move.from_uci('h4g4'), Move.from_uci('d2d4'), Move.from_uci('c5d6'), Move.from_uci('b5c4'), Move.from_uci('g4h3'), Move.from_uci('f1e1'), Move.from_uci('a7a6')]}, {'depth': 14, 'seldepth': 22, 'multipv': 3, 'score': PovScore(Mate(-0), BLACK), 'nodes': 552237, 'nps': 1091377, 'tbhits': 0, 'time': 0.506, 'pv': [Move.from_uci('a7a6'), Move.from_uci('d4c5'), Move.from_uci('d6c5'), Move.from_uci('b5e2'), Move.from_uci('e8g8'), Move.from_uci('e1g1'), Move.from_uci('c5b6'), Move.from_uci('c2c3'), Move.from_uci('e7d5'), Move.from_uci('d2d4'), Move.from_uci('b6c7'), Move.from_uci('e2c4'), Move.from_uci('d5f4')], 'upperbound': True}]
+Moves evaluations: {-75: 'c5d4', -145: 'e8g8', -5000: 'a7a6'}
+Decided centipawn loss from mean 0 and stdev 4: -2.929297964835224
+Target_evaluation: -77.92929796483523
+Chosen move: c5d4, cxd4
+Move number: 9
+r1bqk2r/pp2nppp/2nb4/1B6/3N4/8/PPPP1PPP/RNBQK2R b KQkq - 0 9
+r . b q k . . r
+p p . . n p p p
+. . n b . . . .
+. B . . . . . .
+. . . N . . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K . . R
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 6, 'multipv': 1, 'score': PovScore(Cp(-8), BLACK), 'nodes': 1999, 'nps': 333166, 'tbhits': 0, 'time': 0.006, 'pv': [Move.from_uci('e8g8'), Move.from_uci('d4f3'), Move.from_uci('c8g4'), Move.from_uci('h2h3'), Move.from_uci('g4f3'), Move.from_uci('d1f3')]}, {'depth': 6, 'seldepth': 6, 'multipv': 2, 'score': PovScore(Cp(-16), BLACK), 'nodes': 1999, 'nps': 333166, 'tbhits': 0, 'time': 0.006, 'pv': [Move.from_uci('c8d7'), Move.from_uci('d4f3'), Move.from_uci('a7a6'), Move.from_uci('b5e2'), Move.from_uci('e8g8'), Move.from_uci('d2d4')]}]
+Obvious Moves check: {-8: 'e8g8', -16: 'c8d7'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[5, 3, 9, 1, 2, 3]
+Legal_moves found from human search: ['a7a6', 'g7g6', 'h7h6', 'h7h5', 'f7f6', 'e7g6', 'e7d5', 'c8d7', 'c8g4', 'd6e5', 'd6c5', 'd6h2', 'd6c7', 'c8e6', 'c8f5', 'd6b4', 'a8b8', 'd8c7', 'd8b6', 'e8g8', 'e8f8', 'e8d7']
+Analysis Object recieved:  [{'depth': 14, 'seldepth': 21, 'multipv': 1, 'score': PovScore(Cp(-16), BLACK), 'nodes': 577821, 'nps': 1146470, 'tbhits': 0, 'time': 0.504, 'pv': [Move.from_uci('e8g8')]}, {'depth': 13, 'seldepth': 21, 'multipv': 2, 'score': PovScore(Cp(-81), BLACK), 'nodes': 577821, 'nps': 1146470, 'tbhits': 0, 'time': 0.504, 'pv': [Move.from_uci('d6c7'), Move.from_uci('b5c6'), Move.from_uci('b7c6'), Move.from_uci('d4f3'), Move.from_uci('e8g8'), Move.from_uci('d2d3'), Move.from_uci('d8d6'), Move.from_uci('b1c3'), Move.from_uci('c8f5'), Move.from_uci('h2h3'), Move.from_uci('a8e8'), Move.from_uci('e1g1'), Move.from_uci('e7d5'), Move.from_uci('c3d5'), Move.from_uci('c6d5'), Move.from_uci('f1e1')]}, {'depth': 13, 'seldepth': 21, 'multipv': 3, 'score': PovScore(Cp(-83), BLACK), 'nodes': 577821, 'nps': 1146470, 'tbhits': 0, 'time': 0.504, 'pv': [Move.from_uci('d8c7'), Move.from_uci('b5a4'), Move.from_uci('a7a6'), Move.from_uci('d4c6'), Move.from_uci('b7b5'), Move.from_uci('c6e7'), Move.from_uci('c7e7'), Move.from_uci('d1e2'), Move.from_uci('e7e2'), Move.from_uci('e1e2'), Move.from_uci('b5a4'), Move.from_uci('b1c3'), Move.from_uci('c8b7'), Move.from_uci('f2f3'), Move.from_uci('e8g8'), Move.from_uci('d2d4'), Move.from_uci('a4a3'), Move.from_uci('b2a3')]}]
+Moves evaluations: {-16: 'e8g8', -81: 'd6c7', -83: 'd8c7'}
+Decided centipawn loss from mean 0 and stdev 4: 0.5898798164185498
+Target_evaluation: -15.41012018358145
+Chosen move: e8g8, O-O
+Move number: 10
+r1bq1rk1/pp2nppp/2Nb4/1B6/8/8/PPPP1PPP/RNBQK2R b KQ - 0 10
+r . b q . r k .
+p p . . n p p p
+. . N b . . . .
+. B . . . . . .
+. . . . . . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K . . R
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 7, 'multipv': 1, 'score': PovScore(Cp(-17), BLACK), 'nodes': 821, 'nps': 273666, 'tbhits': 0, 'time': 0.003, 'pv': [Move.from_uci('e7c6'), Move.from_uci('d2d4'), Move.from_uci('d6b4'), Move.from_uci('c2c3'), Move.from_uci('c6d4'), Move.from_uci('b5d3')]}, {'depth': 6, 'seldepth': 7, 'multipv': 2, 'score': PovScore(Cp(-33), BLACK), 'nodes': 821, 'nps': 273666, 'tbhits': 0, 'time': 0.003, 'pv': [Move.from_uci('b7c6'), Move.from_uci('b5e2'), Move.from_uci('f8e8'), Move.from_uci('e1g1'), Move.from_uci('e7f5'), Move.from_uci('e2d3')]}]
+Obvious Moves check: {-17: 'e7c6', -33: 'b7c6'}
+Top move is a take-back. 
+Top move piece is under attack. 
+No obvious move found. 
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[6, 3, 9, 1, 3, 1]
+Legal_moves found from human search: ['b7c6', 'a7a6', 'b7b6', 'a7a5', 'e7c6', 'e7g6', 'e7f5', 'c8d7', 'c8g4', 'd6c5', 'd6c7', 'd6h2', 'c8f5', 'c8e6', 'd6e5', 'f8e8', 'd8c7', 'd8b6', 'g8h8']
+Analysis Object recieved:  [{'depth': 15, 'seldepth': 26, 'multipv': 1, 'score': PovScore(Cp(-41), BLACK), 'nodes': 578697, 'nps': 1155083, 'tbhits': 0, 'time': 0.501, 'pv': [Move.from_uci('e7c6'), Move.from_uci('d2d4')]}, {'depth': 14, 'seldepth': 26, 'multipv': 2, 'score': PovScore(Cp(-44), BLACK), 'nodes': 578697, 'nps': 1155083, 'tbhits': 0, 'time': 0.501, 'pv': [Move.from_uci('b7c6'), Move.from_uci('b5e2'), Move.from_uci('e7f5'), Move.from_uci('b1c3'), Move.from_uci('f8e8'), Move.from_uci('d2d3'), Move.from_uci('f5d4'), Move.from_uci('c1e3'), Move.from_uci('d4f5'), Move.from_uci('c3e4'), Move.from_uci('f5e3'), Move.from_uci('f2e3'), Move.from_uci('f7f5'), Move.from_uci('e4d6'), Move.from_uci('d8d6')]}, {'depth': 14, 'seldepth': 26, 'multipv': 3, 'score': PovScore(Cp(-405), BLACK), 'nodes': 578697, 'nps': 1155083, 'tbhits': 0, 'time': 0.501, 'pv': [Move.from_uci('d8c7'), Move.from_uci('c6e7'), Move.from_uci('c7e7'), Move.from_uci('e1f1'), Move.from_uci('a7a6'), Move.from_uci('b5e2'), Move.from_uci('b7b5'), Move.from_uci('e2f3'), Move.from_uci('c8b7'), Move.from_uci('f3b7'), Move.from_uci('e7b7'), Move.from_uci('d2d3'), Move.from_uci('a8c8'), Move.from_uci('b1c3'), Move.from_uci('d6e5'), Move.from_uci('h2h4'), Move.from_uci('e5c3'), Move.from_uci('b2c3'), Move.from_uci('c8c3'), Move.from_uci('c1e3')]}]
+Moves evaluations: {-41: 'e7c6', -44: 'b7c6', -405: 'd8c7'}
+Decided centipawn loss from mean 0 and stdev 4: 0.38406874146900283
+Target_evaluation: -40.615931258531
+Chosen move: e7c6, Nxc6
+Move number: 11
+r1bq1rk1/pp3ppp/2nb4/1B6/8/8/PPPP1PPP/RNBQ1RK1 b - - 1 11
+r . b q . r k .
+p p . . . p p p
+. . n b . . . .
+. B . . . . . .
+. . . . . . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q . R K .
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 7, 'multipv': 1, 'score': PovScore(Cp(+99), BLACK), 'nodes': 1889, 'nps': 377800, 'tbhits': 0, 'time': 0.005, 'pv': [Move.from_uci('c6d4'), Move.from_uci('b5d3'), Move.from_uci('d8h4'), Move.from_uci('g2g3'), Move.from_uci('h4h3'), Move.from_uci('g1h1')]}, {'depth': 6, 'seldepth': 7, 'multipv': 2, 'score': PovScore(Cp(-12), BLACK), 'nodes': 1889, 'nps': 377800, 'tbhits': 0, 'time': 0.005, 'pv': [Move.from_uci('d8c7'), Move.from_uci('d2d4'), Move.from_uci('d6h2'), Move.from_uci('g1h1'), Move.from_uci('a7a6'), Move.from_uci('b5e2'), Move.from_uci('a6a5')]}]
+Obvious Moves check: {99: 'c6d4', -12: 'd8c7'}
+Top move is not a take-back. 
+Top move piece is under attack. 
+No obvious move found. 
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[5, 4, 10, 1, 4, 1]
+Legal_moves found from human search: ['a7a6', 'h7h6', 'f7f5', 'a7a5', 'h7h5', 'c6d4', 'c6e7', 'c6a5', 'c6e5', 'c8g4', 'c8d7', 'd6h2', 'd6e7', 'c8f5', 'd6c7', 'd6c5', 'd6e5', 'c8e6', 'c8h3', 'f8e8', 'd8f6', 'd8c7', 'd8b6', 'd8h4', 'g8h8']
+Analysis Object recieved:  [{'depth': 14, 'seldepth': 21, 'multipv': 1, 'score': PovScore(Cp(-2), BLACK), 'nodes': 595519, 'nps': 1183934, 'tbhits': 0, 'time': 0.503, 'pv': [Move.from_uci('c6d4'), Move.from_uci('b1c3')]}, {'depth': 13, 'seldepth': 21, 'multipv': 2, 'score': PovScore(Cp(-73), BLACK), 'nodes': 595519, 'nps': 1183934, 'tbhits': 0, 'time': 0.503, 'pv': [Move.from_uci('d8c7'), Move.from_uci('d2d4'), Move.from_uci('d6h2'), Move.from_uci('g1h1'), Move.from_uci('h2f4'), Move.from_uci('c2c3'), Move.from_uci('c8e6'), Move.from_uci('c1f4'), Move.from_uci('c7f4'), Move.from_uci('h1g1'), Move.from_uci('a8d8'), Move.from_uci('b5c6'), Move.from_uci('b7c6'), Move.from_uci('b1d2'), Move.from_uci('e6g4'), Move.from_uci('d1c1')]}, {'depth': 13, 'seldepth': 21, 'multipv': 3, 'score': PovScore(Cp(-75), BLACK), 'nodes': 595519, 'nps': 1183934, 'tbhits': 0, 'time': 0.503, 'pv': [Move.from_uci('d8h4'), Move.from_uci('g2g3'), Move.from_uci('h4d4'), Move.from_uci('b1c3'), Move.from_uci('f8e8'), Move.from_uci('b5c6'), Move.from_uci('b7c6'), Move.from_uci('g1g2'), Move.from_uci('c8b7'), Move.from_uci('f2f3'), Move.from_uci('c6c5'), Move.from_uci('c3b5'), Move.from_uci('d4e5'), Move.from_uci('b5d6'), Move.from_uci('e5d6'), Move.from_uci('d2d3'), Move.from_uci('f7f5'), Move.from_uci('c2c3')]}]
+Moves evaluations: {-2: 'c6d4', -73: 'd8c7', -75: 'd8h4'}
+Decided centipawn loss from mean 0 and stdev 4: 3.4513575745605922
+Target_evaluation: 1.4513575745605922
+Chosen move: c6d4, Nd4
+Move number: 12
+r1bq1rk1/pp3ppp/3b4/1B6/3n4/2N5/PPPP1PPP/R1BQ1RK1 b - - 3 12
+r . b q . r k .
+p p . . . p p p
+. . . b . . . .
+. B . . . . . .
+. . . n . . . .
+. . N . . . . .
+P P P P . P P P
+R . B Q . R K .
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 6, 'multipv': 1, 'score': PovScore(Cp(-13), BLACK), 'nodes': 1293, 'nps': 431000, 'tbhits': 0, 'time': 0.003, 'pv': [Move.from_uci('c8f5'), Move.from_uci('d2d3'), Move.from_uci('d8h4'), Move.from_uci('f2f4'), Move.from_uci('a7a6'), Move.from_uci('b5c4')]}, {'depth': 6, 'seldepth': 6, 'multipv': 2, 'score': PovScore(Cp(-27), BLACK), 'nodes': 1293, 'nps': 431000, 'tbhits': 0, 'time': 0.003, 'pv': [Move.from_uci('d6b8'), Move.from_uci('f1e1'), Move.from_uci('d8d6'), Move.from_uci('g2g3'), Move.from_uci('c8h3'), Move.from_uci('b5d3')]}]
+Obvious Moves check: {-13: 'c8f5', -27: 'd6b8'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[5, 5, 10, 1, 4, 1]
+Legal_moves found from human search: ['f7f5', 'a7a6', 'h7h6', 'b7b6', 'g7g6', 'd4b5', 'd4c2', 'd4e2', 'd4e6', 'd4f5', 'c8g4', 'c8d7', 'c8f5', 'd6e7', 'd6c7', 'd6h2', 'c8e6', 'd6c5', 'd6e5', 'd6b8', 'f8e8', 'd8h4', 'd8f6', 'd8g5', 'd8c7', 'g8h8']
+Analysis Object recieved:  [{'depth': 15, 'seldepth': 26, 'multipv': 1, 'score': PovScore(Cp(+91), BLACK), 'nodes': 608311, 'nps': 1209365, 'tbhits': 0, 'time': 0.503, 'pv': [Move.from_uci('d8h4'), Move.from_uci('g2g3'), Move.from_uci('h4h3'), Move.from_uci('b5e2'), Move.from_uci('f8e8'), Move.from_uci('e2f3'), Move.from_uci('d4f3'), Move.from_uci('d1f3'), Move.from_uci('h3f1'), Move.from_uci('g1f1'), Move.from_uci('c8h3'), Move.from_uci('f3g2'), Move.from_uci('h3g2'), Move.from_uci('f1g2'), Move.from_uci('d6e5'), Move.from_uci('c3d5'), Move.from_uci('a8d8'), Move.from_uci('d5e3'), Move.from_uci('g7g6'), Move.from_uci('d2d3'), Move.from_uci('e5g7'), Move.from_uci('a2a4'), Move.from_uci('d8d7'), Move.from_uci('e3c4'), Move.from_uci('e8e1'), Move.from_uci('c4e3')]}, {'depth': 15, 'seldepth': 26, 'multipv': 2, 'score': PovScore(Mate(-0), BLACK), 'nodes': 608311, 'nps': 1209365, 'tbhits': 0, 'time': 0.503, 'pv': [Move.from_uci('c8f5'), Move.from_uci('b5d3'), Move.from_uci('f5d3'), Move.from_uci('c2d3'), Move.from_uci('d8h4'), Move.from_uci('g2g3'), Move.from_uci('h4h3'), Move.from_uci('c3e4'), Move.from_uci('d6c7'), Move.from_uci('f1e1'), Move.from_uci('f8e8'), Move.from_uci('e1e3'), Move.from_uci('d4f5'), Move.from_uci('e3f3'), Move.from_uci('h3h5'), Move.from_uci('g1h1'), Move.from_uci('h5h3')], 'upperbound': True}, {'depth': 14, 'seldepth': 26, 'multipv': 3, 'score': PovScore(Cp(-13), BLACK), 'nodes': 608311, 'nps': 1209365, 'tbhits': 0, 'time': 0.503, 'pv': [Move.from_uci('d6c7'), Move.from_uci('b5c4'), Move.from_uci('d8d6'), Move.from_uci('g2g3'), Move.from_uci('c8h3'), Move.from_uci('d2d3'), Move.from_uci('a8d8'), Move.from_uci('c4d5'), Move.from_uci('h3f1'), Move.from_uci('g1f1'), Move.from_uci('b7b5'), Move.from_uci('c1e3'), Move.from_uci('d4f5'), Move.from_uci('d5f3'), Move.from_uci('f5e3'), Move.from_uci('f2e3'), Move.from_uci('d6h6'), Move.from_uci('c3d5'), Move.from_uci('h6d6'), Move.from_uci('e3e4')], 'upperbound': True}]
+Moves evaluations: {91: 'd8h4', -5000: 'c8f5', -13: 'd6c7'}
+Decided centipawn loss from mean 0 and stdev 4: -1.7091877638410493
+Target_evaluation: 89.29081223615896
+Chosen move: d8h4, Qh4
+Move number: 13
+r1b2rk1/pp3ppp/3b4/1B6/3n3q/2N3P1/PPPP1P1P/R1BQ1RK1 b - - 0 13
+r . b . . r k .
+p p . . . p p p
+. . . b . . . .
+. B . . . . . .
+. . . n . . . q
+. . N . . . P .
+P P P P . P . P
+R . B Q . R K .
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 7, 'multipv': 1, 'score': PovScore(Cp(+91), BLACK), 'nodes': 906, 'nps': 302000, 'tbhits': 0, 'time': 0.003, 'pv': [Move.from_uci('h4h3'), Move.from_uci('b5e2'), Move.from_uci('f8e8'), Move.from_uci('e2f3'), Move.from_uci('d4f3'), Move.from_uci('d1f3'), Move.from_uci('h3f1'), Move.from_uci('g1f1')]}, {'depth': 6, 'seldepth': 7, 'multipv': 2, 'score': PovScore(Cp(-25), BLACK), 'nodes': 906, 'nps': 302000, 'tbhits': 0, 'time': 0.003, 'pv': [Move.from_uci('h4g4'), Move.from_uci('d1g4'), Move.from_uci('c8g4'), Move.from_uci('b5d3'), Move.from_uci('d4f3'), Move.from_uci('g1h1'), Move.from_uci('f3g5')]}]
+Obvious Moves check: {91: 'h4h3', -25: 'h4g4'}
+Top move is not a take-back. 
+Top move piece is under attack. 
+No obvious move found. 
+Calculating complexity of the position... 
+gmo, mov, pie, mat, own_mat, best_eval: 2472680.039.091
+Complexity calculated: 12.533333333333333
+Time taken to calculate complexity: 0.03724336624145508
+Phase of game recognised: midgame
+This position has been decided not to be blunder prone. 
+Weights Chosen:[7, 4, 6, 4, 10, 1]
+Legal_moves found from human search: ['f7f5', 'a7a6', 'h7h5', 'b7b6', 'g7g6', 'd4c2', 'd4b5', 'd4f3', 'd4f5', 'c8g4', 'c8h3', 'c8d7', 'c8f5', 'd6e7', 'd6c5', 'f8d8', 'f8e8', 'a8b8', 'h4h3', 'h4g5', 'h4d8', 'h4f6', 'h4e4', 'h4h6', 'h4h5', 'h4e7', 'h4g4', 'g8h8']
+Analysis Object recieved:  [{'depth': 15, 'seldepth': 28, 'multipv': 1, 'score': PovScore(Cp(+57), BLACK), 'nodes': 435316, 'nps': 1272853, 'tbhits': 0, 'time': 0.342, 'pv': [Move.from_uci('h4h3'), Move.from_uci('b5e2'), Move.from_uci('f8e8'), Move.from_uci('e2f3'), Move.from_uci('d4f3'), Move.from_uci('d1f3'), Move.from_uci('h3f1'), Move.from_uci('g1f1'), Move.from_uci('c8h3'), Move.from_uci('f3g2'), Move.from_uci('h3g2'), Move.from_uci('f1g2'), Move.from_uci('a7a6'), Move.from_uci('b2b3'), Move.from_uci('a8c8'), Move.from_uci('a2a4'), Move.from_uci('f7f5'), Move.from_uci('c1a3'), Move.from_uci('d6a3'), Move.from_uci('a1a3'), Move.from_uci('g8f7'), Move.from_uci('b3b4'), Move.from_uci('g7g6')]}, {'depth': 15, 'seldepth': 28, 'multipv': 2, 'score': PovScore(Cp(-40), BLACK), 'nodes': 435316, 'nps': 1272853, 'tbhits': 0, 'time': 0.342, 'pv': [Move.from_uci('h4g4'), Move.from_uci('b5e2')]}, {'depth': 14, 'seldepth': 28, 'multipv': 3, 'score': PovScore(Cp(-50), BLACK), 'nodes': 435316, 'nps': 1272853, 'tbhits': 0, 'time': 0.342, 'pv': [Move.from_uci('h4h6'), Move.from_uci('b5e2'), Move.from_uci('f8e8'), Move.from_uci('e2f3'), Move.from_uci('d4f3'), Move.from_uci('d1f3'), Move.from_uci('c8h3'), Move.from_uci('d2d3'), Move.from_uci('h6e6'), Move.from_uci('c1e3'), Move.from_uci('h3f1'), Move.from_uci('a1f1'), Move.from_uci('a7a6'), Move.from_uci('f1e1'), Move.from_uci('b7b5'), Move.from_uci('e3d2'), Move.from_uci('e6g6'), Move.from_uci('c3e4'), Move.from_uci('d6e7')]}]
+Moves evaluations: {57: 'h4h3', -40: 'h4g4', -50: 'h4h6'}
+Decided centipawn loss from mean 0 and stdev 4: 6.867058217236445
+Target_evaluation: 63.86705821723645
+Chosen move: h4h3, Qh3
+Move number: 14
+r1b2rk1/pp3ppp/3b4/8/3n4/2NB2Pq/PPPP1P1P/R1BQ1RK1 b - - 2 14
+r . b . . r k .
+p p . . . p p p
+. . . b . . . .
+. . . . . . . .
+. . . n . . . .
+. . N B . . P q
+P P P P . P . P
+R . B Q . R K .
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 8, 'multipv': 1, 'score': PovScore(Cp(+517), BLACK), 'nodes': 2443, 'nps': 349000, 'tbhits': 0, 'time': 0.007, 'pv': [Move.from_uci('c8g4'), Move.from_uci('f2f3'), Move.from_uci('d6g3'), Move.from_uci('h2g3'), Move.from_uci('h3g3'), Move.from_uci('g1h1'), Move.from_uci('d4f3')]}, {'depth': 6, 'seldepth': 8, 'multipv': 2, 'score': PovScore(Cp(+58), BLACK), 'nodes': 2443, 'nps': 349000, 'tbhits': 0, 'time': 0.007, 'pv': [Move.from_uci('h7h5'), Move.from_uci('d3e4'), Move.from_uci('c8g4'), Move.from_uci('e4g2'), Move.from_uci('g4d1'), Move.from_uci('g2h3')]}]
+Obvious Moves check: {517: 'c8g4', 58: 'h7h5'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Calculating complexity of the position... 
+gmo, mov, pie, mat, own_mat, best_eval: 1462680.039.0544
+Complexity calculated: 6.133333333333334
+Time taken to calculate complexity: 0.037783145904541016
+Phase of game recognised: midgame
+This position has been decided not to be blunder prone. 
+Weights Chosen:[8, 4, 5, 4, 9, 1]
+Legal_moves found from human search: ['g7g6', 'f7f5', 'b7b6', 'b7b5', 'h7h6', 'h7h5', 'd4f3', 'd4c6', 'd4e6', 'd4c2', 'c8g4', 'c8e6', 'd6c5', 'd6e7', 'f8e8', 'f8d8', 'a8b8', 'h3g4', 'h3e6', 'h3h5', 'h3d7', 'h3h6', 'h3h4', 'h3h2', 'h3g2', 'g8h8']
+Analysis Object recieved:  [{'depth': 16, 'seldepth': 30, 'multipv': 1, 'score': PovScore(Cp(+627), BLACK), 'nodes': 536763, 'nps': 1315595, 'tbhits': 0, 'time': 0.408, 'pv': [Move.from_uci('c8g4'), Move.from_uci('d1g4'), Move.from_uci('h3g4'), Move.from_uci('d3e4'), Move.from_uci('f8e8'), Move.from_uci('e4b7'), Move.from_uci('a8b8'), Move.from_uci('b7g2'), Move.from_uci('d4c2'), Move.from_uci('a1b1'), Move.from_uci('c2d4'), Move.from_uci('d2d3'), Move.from_uci('d4e2'), Move.from_uci('c3e2'), Move.from_uci('e8e2'), Move.from_uci('c1e3'), Move.from_uci('g4d7'), Move.from_uci('d3d4'), Move.from_uci('d7f5'), Move.from_uci('b2b3'), Move.from_uci('e2a2'), Move.from_uci('f1c1'), Move.from_uci('a2a3'), Move.from_uci('d4d5'), Move.from_uci('a3b3')]}, {'depth': 16, 'seldepth': 30, 'multipv': 2, 'score': PovScore(Mate(-0), BLACK), 'nodes': 536763, 'nps': 1315595, 'tbhits': 0, 'time': 0.408, 'pv': [Move.from_uci('f8e8'), Move.from_uci('d3e4'), Move.from_uci('c8g4'), Move.from_uci('e4g2'), Move.from_uci('h3g2'), Move.from_uci('g1g2'), Move.from_uci('g4d1'), Move.from_uci('f1d1'), Move.from_uci('d4c2'), Move.from_uci('a1b1'), Move.from_uci('c2e1'), Move.from_uci('g2g1'), Move.from_uci('e1d3'), Move.from_uci('b2b4'), Move.from_uci('a8c8'), Move.from_uci('c1a3'), Move.from_uci('d6e5'), Move.from_uci('g1g2'), Move.from_uci('e5d4'), Move.from_uci('c3b5'), Move.from_uci('d4e5'), Move.from_uci('b5a7'), Move.from_uci('c8c2'), Move.from_uci('a7b5'), Move.from_uci('c2a2')], 'upperbound': True}, {'depth': 15, 'seldepth': 30, 'multipv': 3, 'score': PovScore(Cp(+39), BLACK), 'nodes': 536763, 'nps': 1315595, 'tbhits': 0, 'time': 0.408, 'pv': [Move.from_uci('d6c5'), Move.from_uci('c3d5'), Move.from_uci('c8g4'), Move.from_uci('d5f4'), Move.from_uci('g4d1'), Move.from_uci('f4h3'), Move.from_uci('d1c2'), Move.from_uci('d3c2'), Move.from_uci('d4c2'), Move.from_uci('a1b1'), Move.from_uci('a8d8'), Move.from_uci('h3f4'), Move.from_uci('g7g5'), Move.from_uci('f4e2'), Move.from_uci('f8e8'), Move.from_uci('d2d4'), Move.from_uci('c5b6'), Move.from_uci('c1g5'), Move.from_uci('e8e2')]}]
+Moves evaluations: {627: 'c8g4', -5000: 'f8e8', 39: 'd6c5'}
+Decided centipawn loss from mean 0 and stdev 4: -5.2000463725976935
+Target_evaluation: 621.7999536274023
+Chosen move: c8g4, Bg4
+Move number: 15
+r4rk1/pp3ppp/3b4/8/3n2b1/2N3Pq/PPPPBP1P/R1BQ1RK1 b - - 4 15
+r . . . . r k .
+p p . . . p p p
+. . . b . . . .
+. . . . . . . .
+. . . n . . b .
+. . N . . . P q
+P P P P B P . P
+R . B Q . R K .
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 7, 'multipv': 1, 'score': PovScore(Cp(+1493), BLACK), 'nodes': 1498, 'nps': 374500, 'tbhits': 0, 'time': 0.004, 'pv': [Move.from_uci('g4e2'), Move.from_uci('f2f4'), Move.from_uci('e2d1'), Move.from_uci('f1d1'), Move.from_uci('d4f3'), Move.from_uci('g1f2'), Move.from_uci('f3h2')]}, {'depth': 6, 'seldepth': 7, 'multipv': 2, 'score': PovScore(Cp(+325), BLACK), 'nodes': 1498, 'nps': 374500, 'tbhits': 0, 'time': 0.004, 'pv': [Move.from_uci('d4e2'), Move.from_uci('c3e2'), Move.from_uci('h3h5'), Move.from_uci('e2f4'), Move.from_uci('g4d1'), Move.from_uci('f4h5'), Move.from_uci('d1h5')]}]
+Obvious Moves check: {1493: 'g4e2', 325: 'd4e2'}
+Top move is a take-back. 
+Top move piece is under attack. 
+Obvious move found! 
+Chosen move: g4e2, Bxe2
+Move number: 16
+r4rk1/pp3ppp/3b4/8/3n4/2N3Pq/PPPPQP1P/R1B2RK1 b - - 0 16
+r . . . . r k .
+p p . . . p p p
+. . . b . . . .
+. . . . . . . .
+. . . n . . . .
+. . N . . . P q
+P P P P Q P . P
+R . B . . R K .
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 7, 'multipv': 1, 'score': PovScore(Cp(+660), BLACK), 'nodes': 2304, 'nps': 329142, 'tbhits': 0, 'time': 0.007, 'pv': [Move.from_uci('d4e2'), Move.from_uci('c3e2'), Move.from_uci('f8e8'), Move.from_uci('e2d4'), Move.from_uci('a8d8'), Move.from_uci('d2d3'), Move.from_uci('a7a6')]}, {'depth': 6, 'seldepth': 7, 'multipv': 2, 'score': PovScore(Cp(+235), BLACK), 'nodes': 2304, 'nps': 329142, 'tbhits': 0, 'time': 0.007, 'pv': [Move.from_uci('a8e8'), Move.from_uci('e2d1'), Move.from_uci('f7f5'), Move.from_uci('d2d3'), Move.from_uci('f5f4'), Move.from_uci('c1f4'), Move.from_uci('d6f4')]}]
+Obvious Moves check: {660: 'd4e2', 235: 'a8e8'}
+Top move is a take-back. 
+Top move piece is not under attack. 
+Obvious move found! 
+Chosen move: d4e2, Nxe2+
+Move number: 17
+r4rk1/pp3ppp/3b4/8/8/6Pq/PPPPNP1P/R1B2RK1 b - - 0 17
+r . . . . r k .
+p p . . . p p p
+. . . b . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . P q
+P P P P N P . P
+R . B . . R K .
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 6, 'multipv': 1, 'score': PovScore(Cp(+636), BLACK), 'nodes': 2234, 'nps': 319142, 'tbhits': 0, 'time': 0.007, 'pv': [Move.from_uci('h3e6'), Move.from_uci('e2c3'), Move.from_uci('d6c5'), Move.from_uci('a1b1'), Move.from_uci('a7a6'), Move.from_uci('d2d3')]}, {'depth': 6, 'seldepth': 6, 'multipv': 2, 'score': PovScore(Cp(+603), BLACK), 'nodes': 2234, 'nps': 319142, 'tbhits': 0, 'time': 0.007, 'pv': [Move.from_uci('h3g4'), Move.from_uci('e2c3'), Move.from_uci('f8e8'), Move.from_uci('d2d3'), Move.from_uci('a7a6'), Move.from_uci('c1e3')]}]
+Obvious Moves check: {636: 'h3e6', 603: 'h3g4'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Calculating complexity of the position... 
+gmo, mov, pie, mat, own_mat, best_eval: 12402260.032.4685
+Complexity calculated: 48.888888888888886
+Time taken to calculate complexity: 0.052201271057128906
+Phase of game recognised: midgame
+Currently this position is bunder prone. 
+Weights Chosen:[4, 2, 3, 4, 5, 1]
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'h7h5': 55, 'f7f5': 53, 'b7b5': 49, 'a7a5': 48, 'd6c5': 43, 'd6e5': 43, 'd6e7': 43, 'a8c8': 56, 'f8c8': 61, 'a8e8': 56, 'f8e8': 61, 'a8d8': 56, 'f8d8': 61, 'a8b8': 56, 'f8b8': 61, 'h3g4': 23, 'h3e6': 23, 'h3d7': 23, 'h3f5': 23, 'g8h8': 62}
+Sorted probablities worth considering: [0.15363826, 0.27550498, 0.36200756]
+Corresponding squares found: ['h3', 'd6', 'a8']
+Filtered ucis: ['d6c5', 'd6e5', 'd6e7', 'a8c8', 'a8e8', 'a8d8', 'a8b8', 'h3g4', 'h3e6', 'h3d7', 'h3f5']
+Legal_moves found from human search: ['d6c5', 'd6e5', 'd6e7', 'a8c8', 'a8e8', 'a8d8', 'a8b8', 'h3g4', 'h3e6', 'h3d7', 'h3f5']
+Analysis Object recieved:  [{'depth': 17, 'seldepth': 29, 'multipv': 1, 'score': PovScore(Cp(+1057), BLACK), 'nodes': 1589725, 'nps': 1346083, 'tbhits': 0, 'time': 1.181, 'pv': [Move.from_uci('a8e8'), Move.from_uci('e2d4'), Move.from_uci('f7f5'), Move.from_uci('b2b3'), Move.from_uci('f5f4'), Move.from_uci('c1b2'), Move.from_uci('f4f3'), Move.from_uci('d4f3'), Move.from_uci('f8f3'), Move.from_uci('a1e1'), Move.from_uci('e8e1'), Move.from_uci('f1e1'), Move.from_uci('h3f5'), Move.from_uci('b2d4'), Move.from_uci('f5c2'), Move.from_uci('e1e8'), Move.from_uci('g8f7'), Move.from_uci('e8d8'), Move.from_uci('d6c5'), Move.from_uci('d8d5'), Move.from_uci('c5d4'), Move.from_uci('d5d4')], 'hashfull': 634}, {'depth': 17, 'seldepth': 29, 'multipv': 2, 'score': PovScore(Cp(+774), BLACK), 'nodes': 1589725, 'nps': 1346083, 'tbhits': 0, 'time': 1.181, 'pv': [Move.from_uci('a8c8'), Move.from_uci('d2d4'), Move.from_uci('c8c2'), Move.from_uci('e2f4'), Move.from_uci('h3g4'), Move.from_uci('f4g2'), Move.from_uci('g4e4'), Move.from_uci('b2b3'), Move.from_uci('e4d4'), Move.from_uci('c1e3'), Move.from_uci('d4f6'), Move.from_uci('e3a7'), Move.from_uci('f8a8'), Move.from_uci('g2e3'), Move.from_uci('c2e2'), Move.from_uci('a7b6'), Move.from_uci('a8a2'), Move.from_uci('a1a2'), Move.from_uci('e2a2')], 'hashfull': 634}, {'depth': 17, 'seldepth': 29, 'multipv': 3, 'score': PovScore(Cp(+688), BLACK), 'nodes': 1589725, 'nps': 1346083, 'tbhits': 0, 'time': 1.181, 'pv': [Move.from_uci('h3g4'), Move.from_uci('e2c3')], 'upperbound': True, 'hashfull': 634}]
+Moves evaluations: {1057: 'a8e8', 774: 'a8c8', 688: 'h3g4'}
+Decided centipawn loss from mean -14.22690975763549 and stdev 12.531025350756284: -24.606864105096683
+Target_evaluation: 1032.3931358949033
+Chosen move: a8e8, Rae8
+Move number: 18
+4rrk1/pp3ppp/3b4/8/3N4/6Pq/PPPP1P1P/R1B2RK1 b - - 2 18
+. . . . r r k .
+p p . . . p p p
+. . . b . . . .
+. . . . . . . .
+. . . N . . . .
+. . . . . . P q
+P P P P . P . P
+R . B . . R K .
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 6, 'multipv': 1, 'score': PovScore(Cp(+1057), BLACK), 'nodes': 1003, 'nps': 334333, 'tbhits': 0, 'time': 0.003, 'pv': [Move.from_uci('f7f5'), Move.from_uci('b2b3'), Move.from_uci('f5f4'), Move.from_uci('c1b2'), Move.from_uci('f4f3'), Move.from_uci('d4f3')]}, {'depth': 6, 'seldepth': 6, 'multipv': 2, 'score': PovScore(Cp(+707), BLACK), 'nodes': 1003, 'nps': 334333, 'tbhits': 0, 'time': 0.003, 'pv': [Move.from_uci('e8e5'), Move.from_uci('d4f3'), Move.from_uci('e5f5'), Move.from_uci('f3d4'), Move.from_uci('f5h5'), Move.from_uci('d4f3')]}]
+Obvious Moves check: {1057: 'f7f5', 707: 'e8e5'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Calculating complexity of the position... 
+gmo, mov, pie, mat, own_mat, best_eval: 1432260.032.41057
+Complexity calculated: 4.37962962962963
+Time taken to calculate complexity: 0.036299943923950195
+Phase of game recognised: midgame
+This position has been decided not to be blunder prone. 
+Weights Chosen:[8, 2, 4, 8, 10, 1]
+Legal_moves found from human search: ['g7g6', 'h7h5', 'f7f5', 'h7h6', 'a7a5', 'f7f6', 'a7a6', 'b7b5', 'd6c5', 'd6e5', 'd6b8', 'd6e7', 'e8e4', 'e8e1', 'e8e5', 'e8c8', 'e8d8', 'e8e2', 'e8e7', 'e8a8', 'h3d7', 'h3g4', 'h3f1', 'h3h2', 'h3h5', 'h3c8', 'h3f5', 'h3g2', 'g8h8']
+Analysis Object recieved:  [{'depth': 17, 'seldepth': 28, 'multipv': 1, 'score': PovScore(Cp(+1062), BLACK), 'nodes': 545931, 'nps': 1382103, 'tbhits': 0, 'time': 0.395, 'pv': [Move.from_uci('f7f5')]}, {'depth': 16, 'seldepth': 28, 'multipv': 2, 'score': PovScore(Cp(+901), BLACK), 'nodes': 545931, 'nps': 1382103, 'tbhits': 0, 'time': 0.395, 'pv': [Move.from_uci('e8e5'), Move.from_uci('d2d3'), Move.from_uci('e5h5'), Move.from_uci('d4f3'), Move.from_uci('h3g4'), Move.from_uci('f3e1'), Move.from_uci('f8e8'), Move.from_uci('c1e3'), Move.from_uci('d6g3'), Move.from_uci('f2g3'), Move.from_uci('e8e3'), Move.from_uci('f1f2'), Move.from_uci('h5f5'), Move.from_uci('e1g2'), Move.from_uci('f5f2'), Move.from_uci('g2e3'), Move.from_uci('g4e2'), Move.from_uci('a1f1')]}, {'depth': 16, 'seldepth': 28, 'multipv': 3, 'score': PovScore(Cp(+778), BLACK), 'nodes': 545931, 'nps': 1382103, 'tbhits': 0, 'time': 0.395, 'pv': [Move.from_uci('d6c5'), Move.from_uci('d4f3'), Move.from_uci('h3f5'), Move.from_uci('d2d4'), Move.from_uci('c5b6'), Move.from_uci('c1f4'), Move.from_uci('f5d5'), Move.from_uci('g1g2'), Move.from_uci('e8e2'), Move.from_uci('f1e1'), Move.from_uci('e2c2'), Move.from_uci('e1e5'), Move.from_uci('d5d7'), Move.from_uci('f4e3'), Move.from_uci('c2b2'), Move.from_uci('a2a4'), Move.from_uci('f8e8')]}]
+Moves evaluations: {1062: 'f7f5', 901: 'e8e5', 778: 'd6c5'}
+Decided centipawn loss from mean 0 and stdev 4: -2.6544487865793647
+Target_evaluation: 1059.3455512134205
+Chosen move: f7f5, f5
+Move number: 19
+4rrk1/pp4pp/3b4/5p2/P2N4/6Pq/1PPP1P1P/R1B2RK1 b - - 0 19
+. . . . r r k .
+p p . . . . p p
+. . . b . . . .
+. . . . . p . .
+P . . N . . . .
+. . . . . . P q
+. P P P . P . P
+R . B . . R K .
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 6, 'multipv': 1, 'score': PovScore(Cp(+1232), BLACK), 'nodes': 2532, 'nps': 422000, 'tbhits': 0, 'time': 0.006, 'pv': [Move.from_uci('f5f4'), Move.from_uci('d4f3'), Move.from_uci('f4g3'), Move.from_uci('h2g3'), Move.from_uci('f8f3'), Move.from_uci('c2c3')]}, {'depth': 6, 'seldepth': 6, 'multipv': 2, 'score': PovScore(Cp(+781), BLACK), 'nodes': 2532, 'nps': 422000, 'tbhits': 0, 'time': 0.006, 'pv': [Move.from_uci('f8f6'), Move.from_uci('d2d3'), Move.from_uci('f5f4'), Move.from_uci('d4f3'), Move.from_uci('f4g3'), Move.from_uci('f2g3')]}]
+Obvious Moves check: {1232: 'f5f4', 781: 'f8f6'}
+Top move is not a take-back. 
+Top move piece is under attack. 
+Obvious move found! 
+Chosen move: f5f4, f4
+Move number: 20
+4rrk1/pp4pp/3b4/8/P2N1p2/R5Pq/1PPP1P1P/2B2RK1 b - - 1 20
+. . . . r r k .
+p p . . . . p p
+. . . b . . . .
+. . . . . . . .
+P . . N . p . .
+R . . . . . P q
+. P P P . P . P
+. . B . . R K .
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 8, 'multipv': 1, 'score': PovScore(Cp(+1221), BLACK), 'nodes': 2399, 'nps': 399833, 'tbhits': 0, 'time': 0.006, 'pv': [Move.from_uci('d6a3'), Move.from_uci('b2a3'), Move.from_uci('f4f3'), Move.from_uci('d4f3'), Move.from_uci('f8f3'), Move.from_uci('c2c3')]}, {'depth': 6, 'seldepth': 8, 'multipv': 2, 'score': PovScore(Cp(+997), BLACK), 'nodes': 2399, 'nps': 399833, 'tbhits': 0, 'time': 0.006, 'pv': [Move.from_uci('d6c5'), Move.from_uci('a3d3'), Move.from_uci('f8f6'), Move.from_uci('a4a5'), Move.from_uci('f6h6'), Move.from_uci('d4f3')]}]
+Obvious Moves check: {1221: 'd6a3', 997: 'd6c5'}
+Top move is a take-back. 
+Top move piece is not under attack. 
+Obvious move found! 
+Chosen move: d6a3, Bxa3
+Move number: 21
+4rrk1/pp4pp/8/8/P2N1p2/P5Pq/2PP1P1P/2B2RK1 b - - 0 21
+. . . . r r k .
+p p . . . . p p
+. . . . . . . .
+. . . . . . . .
+P . . N . p . .
+P . . . . . P q
+. . P P . P . P
+. . B . . R K .
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 6, 'multipv': 1, 'score': PovScore(Cp(+1331), BLACK), 'nodes': 1487, 'nps': 371750, 'tbhits': 0, 'time': 0.004, 'pv': [Move.from_uci('f4f3'), Move.from_uci('d4f3'), Move.from_uci('f8f3'), Move.from_uci('c2c3'), Move.from_uci('e8e2'), Move.from_uci('d2d3'), Move.from_uci('f3d3')]}, {'depth': 6, 'seldepth': 6, 'multipv': 2, 'score': PovScore(Cp(+1191), BLACK), 'nodes': 1487, 'nps': 371750, 'tbhits': 0, 'time': 0.004, 'pv': [Move.from_uci('f8f6'), Move.from_uci('c1b2'), Move.from_uci('f4f3'), Move.from_uci('d4f3'), Move.from_uci('f6f3'), Move.from_uci('c2c3')]}]
+Obvious Moves check: {1331: 'f4f3', 1191: 'f8f6'}
+Top move is not a take-back. 
+Top move piece is under attack. 
+No obvious move found. 
+Calculating complexity of the position... 
+gmo, mov, pie, mat, own_mat, best_eval: 1382051.028.91637
+Complexity calculated: 3.3529411764705883
+Time taken to calculate complexity: 0.03590679168701172
+Phase of game recognised: endgame
+This position has been decided not to be blunder prone. 
+Weights Chosen:[10, 3, 3, 17, 15, 4]
+Legal_moves found from human search: ['f4f3', 'f4g3', 'g7g5', 'b7b6', 'h7h5', 'b7b5', 'a7a6', 'a7a5', 'g7g6', 'e8e4', 'f8f6', 'e8e1', 'e8c8', 'e8e2', 'e8e5', 'e8d8', 'e8e7', 'e8e3', 'f8f5', 'f8f7', 'e8a8', 'e8e6', 'e8b8', 'h3g4', 'h3d7', 'h3f1', 'h3h5', 'h3h2', 'h3c8', 'h3f5', 'h3g2', 'h3h6', 'g8h8', 'g8f7']
+Analysis Object recieved:  [{'depth': 24, 'seldepth': 28, 'multipv': 1, 'score': PovScore(Mate(+6), BLACK), 'nodes': 510405, 'nps': 1897416, 'tbhits': 0, 'time': 0.269, 'pv': [Move.from_uci('f4g3'), Move.from_uci('h2g3'), Move.from_uci('e8e5'), Move.from_uci('f1d1'), Move.from_uci('e5h5'), Move.from_uci('f2f3'), Move.from_uci('h3g3'), Move.from_uci('g1f1'), Move.from_uci('h5h2'), Move.from_uci('d2d3'), Move.from_uci('g3f2')]}, {'depth': 24, 'seldepth': 28, 'multipv': 2, 'score': PovScore(Mate(+6), BLACK), 'nodes': 510405, 'nps': 1897416, 'tbhits': 0, 'time': 0.269, 'pv': [Move.from_uci('e8e5'), Move.from_uci('g3f4'), Move.from_uci('f8f6'), Move.from_uci('d4f5'), Move.from_uci('e5f5'), Move.from_uci('f2f3'), Move.from_uci('h3h2'), Move.from_uci('g1h2'), Move.from_uci('f6g6'), Move.from_uci('f1f2'), Move.from_uci('f5h5')]}, {'depth': 24, 'seldepth': 28, 'multipv': 3, 'score': PovScore(Mate(-0), BLACK), 'nodes': 510405, 'nps': 1897416, 'tbhits': 0, 'time': 0.269, 'pv': [Move.from_uci('f4f3'), Move.from_uci('d4f3'), Move.from_uci('f8f3'), Move.from_uci('d2d3'), Move.from_uci('f3f2'), Move.from_uci('g1f2'), Move.from_uci('h3h2'), Move.from_uci('f2f3'), Move.from_uci('h2e2'), Move.from_uci('f3f4'), Move.from_uci('h7h5'), Move.from_uci('f4g5'), Move.from_uci('e2g4')], 'upperbound': True}]
+Moves evaluations: {4400: 'e8e5', -5000: 'f4f3'}
+Decided centipawn loss from mean 0 and stdev 4: 6.7876742959836935
+Target_evaluation: 4406.787674295983
+Chosen move: e8e5, Re5
+Move number: 22
+5rk1/pp4pp/8/4rN2/P4p2/P5Pq/2PP1P1P/2B2RK1 b - - 2 22
+. . . . . r k .
+p p . . . . p p
+. . . . . . . .
+. . . . r N . .
+P . . . . p . .
+P . . . . . P q
+. . P P . P . P
+. . B . . R K .
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 6, 'multipv': 1, 'score': PovScore(Mate(+5), BLACK), 'nodes': 1762, 'nps': 352400, 'tbhits': 0, 'time': 0.005, 'pv': [Move.from_uci('e5f5'), Move.from_uci('g3f4'), Move.from_uci('f5f4'), Move.from_uci('f2f3'), Move.from_uci('f4g4'), Move.from_uci('g1f2')]}, {'depth': 6, 'seldepth': 6, 'multipv': 2, 'score': PovScore(Cp(+1815), BLACK), 'nodes': 1762, 'nps': 352400, 'tbhits': 0, 'time': 0.005, 'pv': [Move.from_uci('f8f5'), Move.from_uci('c1b2'), Move.from_uci('e5e2'), Move.from_uci('d2d3'), Move.from_uci('f4g3'), Move.from_uci('h2g3')]}]
+Obvious Moves check: {4500: 'e5f5', 1815: 'f8f5'}
+Top move is a take-back. 
+Top move piece is not under attack. 
+Obvious move found! 
+Chosen move: e5f5, Rexf5
+Move number: 23
+5rk1/pp4pp/8/5r2/P4P2/P6q/2PP1P1P/2B2RK1 b - - 0 23
+. . . . . r k .
+p p . . . . p p
+. . . . . . . .
+. . . . . r . .
+P . . . . P . .
+P . . . . . . q
+. . P P . P . P
+. . B . . R K .
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 8, 'multipv': 1, 'score': PovScore(Mate(+4), BLACK), 'nodes': 929, 'nps': 309666, 'tbhits': 0, 'time': 0.003, 'pv': [Move.from_uci('f5f4'), Move.from_uci('f2f3'), Move.from_uci('f4g4'), Move.from_uci('g1f2'), Move.from_uci('f8f3'), Move.from_uci('f2e2'), Move.from_uci('h3f1')]}, {'depth': 6, 'seldepth': 8, 'multipv': 2, 'score': PovScore(Mate(+4), BLACK), 'nodes': 929, 'nps': 309666, 'tbhits': 0, 'time': 0.003, 'pv': [Move.from_uci('f8f6'), Move.from_uci('f2f3'), Move.from_uci('h3h2'), Move.from_uci('g1h2'), Move.from_uci('f6g6'), Move.from_uci('f1f2')]}]
+Calculating complexity of the position... 
+gmo, mov, pie, mat, own_mat, best_eval: 1411846.927.92427
+Complexity calculated: 3.1014516129032255
+Time taken to calculate complexity: 0.04501748085021973
+Phase of game recognised: endgame
+This position has been decided not to be blunder prone. 
+Weights Chosen:[8, 3, 3, 20, 17, 4]
+Legal_moves found from human search: ['g7g5', 'b7b6', 'h7h5', 'b7b5', 'a7a5', 'a7a6', 'h7h6', 'f5f4', 'f8f6', 'f5f6', 'f8f7', 'f5f7', 'f8c8', 'f8e8', 'f5h5', 'f8d8', 'f5a5', 'f5c5', 'f5d5', 'f5g5', 'h3g4', 'h3h4', 'h3f3', 'h3h5', 'h3f1', 'h3h2', 'h3h6', 'h3g2', 'g8h8', 'g8f7']
+Analysis Object recieved:  [{'depth': 44, 'seldepth': 12, 'multipv': 1, 'score': PovScore(Mate(+4), BLACK), 'nodes': 719456, 'nps': 2398186, 'tbhits': 0, 'time': 0.3, 'pv': [Move.from_uci('f5f4'), Move.from_uci('f2f3'), Move.from_uci('f4g4'), Move.from_uci('g1f2'), Move.from_uci('f8f3'), Move.from_uci('f2e2'), Move.from_uci('h3f1')]}, {'depth': 43, 'seldepth': 12, 'multipv': 2, 'score': PovScore(Mate(+4), BLACK), 'nodes': 719456, 'nps': 2398186, 'tbhits': 0, 'time': 0.3, 'pv': [Move.from_uci('f8f6'), Move.from_uci('f2f3'), Move.from_uci('h3h2'), Move.from_uci('g1h2'), Move.from_uci('f6g6'), Move.from_uci('f1f2'), Move.from_uci('f5h5')]}, {'depth': 43, 'seldepth': 12, 'multipv': 3, 'score': PovScore(Mate(+4), BLACK), 'nodes': 719456, 'nps': 2398186, 'tbhits': 0, 'time': 0.3, 'pv': [Move.from_uci('f8e8'), Move.from_uci('f1d1'), Move.from_uci('f5f4'), Move.from_uci('f2f3'), Move.from_uci('e8e2'), Move.from_uci('d2d3'), Move.from_uci('h3g2')]}]
+Moves evaluations: {4600: 'f8e8'}
+Decided centipawn loss from mean 0 and stdev 4: 1.7604189889449815
+Target_evaluation: 4601.760418988945
+Chosen move: f8e8, Re8
+Move number: 24
+4r1k1/pp4pp/8/5r2/P4P2/P6q/2PP1P1P/2BR2K1 b - - 2 24
+. . . . r . k .
+p p . . . . p p
+. . . . . . . .
+. . . . . r . .
+P . . . . P . .
+P . . . . . . q
+. . P P . P . P
+. . B R . . K .
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 10, 'multipv': 1, 'score': PovScore(Mate(+3), BLACK), 'nodes': 1001, 'nps': 250250, 'tbhits': 0, 'time': 0.004, 'pv': [Move.from_uci('f5f4'), Move.from_uci('f2f3'), Move.from_uci('e8e2'), Move.from_uci('d2d3'), Move.from_uci('h3g2')]}, {'depth': 6, 'seldepth': 10, 'multipv': 2, 'score': PovScore(Mate(+5), BLACK), 'nodes': 1001, 'nps': 250250, 'tbhits': 0, 'time': 0.004, 'pv': [Move.from_uci('h3g4'), Move.from_uci('g1f1'), Move.from_uci('g4d1'), Move.from_uci('f1g2'), Move.from_uci('d1g4'), Move.from_uci('g2f1'), Move.from_uci('g4h3'), Move.from_uci('f1g1'), Move.from_uci('e8e1')]}]
+Obvious Moves check: {4700: 'f5f4', 4500: 'h3g4'}
+Top move is a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Calculating complexity of the position... 
+gmo, mov, pie, mat, own_mat, best_eval: 7481846.927.92425
+Complexity calculated: 25.416774193548388
+Time taken to calculate complexity: 0.06488966941833496
+Phase of game recognised: endgame
+Currently this position is bunder prone. 
+Weights Chosen:[4, 2, 2, 11, 8, 3]
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'b7b6': 49, 'g7g5': 54, 'h7h5': 55, 'h7h6': 55, 'f5f4': 37, 'f5f6': 37, 'f5f7': 37, 'e8c8': 60, 'e8f8': 60, 'f5f8': 37, 'e8e2': 60, 'e8d8': 60, 'e8e7': 60, 'e8e4': 60, 'f5h5': 37, 'h3g4': 23, 'h3h4': 23, 'h3f3': 23, 'h3h5': 23, 'g8f7': 62, 'g8h8': 62, 'g8f8': 62}
+Sorted probablities worth considering: [0.17682023, 0.30065617, 0.32881832]
+Corresponding squares found: ['h3', 'f5', 'e8']
+Filtered ucis: ['f5f4', 'f5f6', 'f5f7', 'e8c8', 'e8f8', 'f5f8', 'e8e2', 'e8d8', 'e8e7', 'e8e4', 'f5h5', 'h3g4', 'h3h4', 'h3f3', 'h3h5']
+Legal_moves found from human search: ['f5f4', 'f5f6', 'f5f7', 'e8c8', 'e8f8', 'f5f8', 'e8e2', 'e8d8', 'e8e7', 'e8e4', 'f5h5', 'h3g4', 'h3h4', 'h3f3', 'h3h5']
+Analysis Object recieved:  [{'depth': 65, 'seldepth': 10, 'multipv': 1, 'score': PovScore(Mate(+3), BLACK), 'nodes': 2133617, 'nps': 2592487, 'tbhits': 0, 'time': 0.823, 'pv': [Move.from_uci('f5f4'), Move.from_uci('f2f3'), Move.from_uci('e8e2'), Move.from_uci('d2d3'), Move.from_uci('h3g2')]}, {'depth': 65, 'seldepth': 10, 'multipv': 2, 'score': PovScore(Mate(+3), BLACK), 'nodes': 2133617, 'nps': 2592487, 'tbhits': 0, 'time': 0.823, 'pv': [Move.from_uci('f5h5'), Move.from_uci('f4f5'), Move.from_uci('h3h2'), Move.from_uci('g1f1'), Move.from_uci('h2h1')]}, {'depth': 65, 'seldepth': 10, 'multipv': 3, 'score': PovScore(Mate(+4), BLACK), 'nodes': 2133617, 'nps': 2592487, 'tbhits': 0, 'time': 0.823, 'pv': [Move.from_uci('e8e4'), Move.from_uci('d2d3'), Move.from_uci('f5g5'), Move.from_uci('f4g5'), Move.from_uci('e4g4'), Move.from_uci('g1h1'), Move.from_uci('h3f3')]}]
+Moves evaluations: {4700: 'f5h5', 4600: 'e8e4'}
+Decided centipawn loss from mean -17.361454048163175 and stdev 8.190836933238613: -15.508095718715522
+Target_evaluation: 4684.491904281284
+Chosen move: f5h5, Rh5
+Move number: 25
+4r1k1/pp4pp/8/7r/P4P2/P4P1q/2PP3P/2BR2K1 b - - 0 25
+. . . . r . k .
+p p . . . . p p
+. . . . . . . .
+. . . . . . . r
+P . . . . P . .
+P . . . . P . q
+. . P P . . . P
+. . B R . . K .
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 10, 'multipv': 1, 'score': PovScore(Mate(+2), BLACK), 'nodes': 823, 'nps': 274333, 'tbhits': 0, 'time': 0.003, 'pv': [Move.from_uci('e8e2'), Move.from_uci('c2c4'), Move.from_uci('h3g2')]}, {'depth': 6, 'seldepth': 10, 'multipv': 2, 'score': PovScore(Mate(+4), BLACK), 'nodes': 823, 'nps': 274333, 'tbhits': 0, 'time': 0.003, 'pv': [Move.from_uci('h3h2'), Move.from_uci('g1f1'), Move.from_uci('h2h1'), Move.from_uci('f1f2'), Move.from_uci('h5h2'), Move.from_uci('f2g3'), Move.from_uci('h2g2')]}]
+Obvious Moves check: {4800: 'e8e2', 4600: 'h3h2'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Calculating complexity of the position... 
+gmo, mov, pie, mat, own_mat, best_eval: 1421846.927.92400
+Complexity calculated: 3.1770967741935485
+Time taken to calculate complexity: 0.06963491439819336
+Phase of game recognised: endgame
+This position has been decided not to be blunder prone. 
+Weights Chosen:[7, 3, 3, 24, 14, 5]
+Legal_moves found from human search: ['b7b6', 'b7b5', 'a7a5', 'g7g5', 'g7g6', 'h7h6', 'h5f5', 'e8e2', 'h5h4', 'h5d5', 'e8c8', 'e8f8', 'e8d8', 'e8e1', 'e8e3', 'h5c5', 'e8e5', 'h5e5', 'h5g5', 'h5h6', 'e8e4', 'e8e7', 'e8e6', 'h3e6', 'h3f3', 'h3h4', 'h3f5', 'h3d7', 'h3h2', 'h3f1', 'h3c8', 'g8f7', 'g8h8', 'g8f8']
+Analysis Object recieved:  [{'depth': 48, 'seldepth': 8, 'multipv': 1, 'score': PovScore(Mate(+2), BLACK), 'nodes': 647159, 'nps': 2344778, 'tbhits': 0, 'time': 0.276, 'pv': [Move.from_uci('e8e2'), Move.from_uci('c2c4'), Move.from_uci('h3g2')]}, {'depth': 48, 'seldepth': 8, 'multipv': 2, 'score': PovScore(Mate(+3), BLACK), 'nodes': 647159, 'nps': 2344778, 'tbhits': 0, 'time': 0.276, 'pv': [Move.from_uci('h3h2'), Move.from_uci('g1f1'), Move.from_uci('h2g3'), Move.from_uci('f4f5'), Move.from_uci('h5h1')]}, {'depth': 48, 'seldepth': 8, 'multipv': 3, 'score': PovScore(Mate(-0), BLACK), 'nodes': 647159, 'nps': 2344778, 'tbhits': 0, 'time': 0.276, 'pv': [Move.from_uci('h5g5'), Move.from_uci('f4g5'), Move.from_uci('e8e2'), Move.from_uci('c2c4'), Move.from_uci('h3g2')], 'upperbound': True}]
+Moves evaluations: {4800: 'e8e2', 4700: 'h3h2', -5000: 'h5g5'}
+Decided centipawn loss from mean 0 and stdev 4: 1.612439826206841
+Target_evaluation: 4801.612439826207
+Chosen move: e8e2, Re2
+Move number: 26
+6k1/pp4pp/8/7r/P4P2/P4P1q/1BPPr2P/3R2K1 b - - 2 26
+. . . . . . k .
+p p . . . . p p
+. . . . . . . .
+. . . . . . . r
+P . . . . P . .
+P . . . . P . q
+. B P P r . . P
+. . . R . . K .
+Analysis Object recieved:  [{'depth': 6, 'seldepth': 4, 'multipv': 1, 'score': PovScore(Mate(+1), BLACK), 'nodes': 600, 'nps': 300000, 'tbhits': 0, 'time': 0.002, 'pv': [Move.from_uci('h3g2')]}, {'depth': 6, 'seldepth': 4, 'multipv': 2, 'score': PovScore(Mate(+2), BLACK), 'nodes': 600, 'nps': 300000, 'tbhits': 0, 'time': 0.002, 'pv': [Move.from_uci('h3h2'), Move.from_uci('g1f1'), Move.from_uci('h2f2')]}]
+Obvious Moves check: {4900: 'h3g2', 4800: 'h3h2'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Calculating complexity of the position... 
+gmo, mov, pie, mat, own_mat, best_eval: 16411846.927.92450
+Complexity calculated: 49.62322580645161
+Time taken to calculate complexity: 0.027449846267700195
+Phase of game recognised: endgame
+This position has been decided not to be blunder prone. 
+Weights Chosen:[7, 3, 3, 23, 14, 5]
+Legal_moves found from human search: ['g7g6', 'b7b5', 'b7b6', 'g7g5', 'a7a5', 'h7h6', 'h5f5', 'e2g2', 'h5e5', 'e2e5', 'e2e1', 'h5h4', 'e2h2', 'h5d5', 'e2e3', 'h5g5', 'e2d2', 'e2e7', 'h5c5', 'h5h6', 'h5a5', 'h5b5', 'h3f3', 'h3e6', 'h3h2', 'h3h4', 'h3d7', 'h3f5', 'h3g4', 'h3g3', 'h3g2', 'g8f7', 'g8f8', 'g8h8']
+Analysis Object recieved:  [{'depth': 127, 'seldepth': 4, 'multipv': 1, 'score': PovScore(Mate(+1), BLACK), 'nodes': 27675, 'nps': 2515909, 'tbhits': 0, 'time': 0.011, 'pv': [Move.from_uci('h3g2')]}, {'depth': 127, 'seldepth': 4, 'multipv': 2, 'score': PovScore(Mate(+2), BLACK), 'nodes': 27675, 'nps': 2515909, 'tbhits': 0, 'time': 0.011, 'pv': [Move.from_uci('b7b6'), Move.from_uci('b2f6'), Move.from_uci('h3g2')]}, {'depth': 127, 'seldepth': 4, 'multipv': 3, 'score': PovScore(Mate(+2), BLACK), 'nodes': 27675, 'nps': 2515909, 'tbhits': 0, 'time': 0.011, 'pv': [Move.from_uci('g7g6'), Move.from_uci('b2f6'), Move.from_uci('h3g2')]}]
+Moves evaluations: {4900: 'h3g2', 4800: 'g7g6'}
+Decided centipawn loss from mean -18.885545815898034 and stdev 12.653050611152802: -30.47898388710118
+Target_evaluation: 4869.521016112899
+Chosen move: h3g2, Qg2#

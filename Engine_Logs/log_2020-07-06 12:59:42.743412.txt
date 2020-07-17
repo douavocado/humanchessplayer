@@ -1,0 +1,206 @@
+Playing side: WHITE 
+Move number: 4
+rnbqk1nr/pppp1pbp/4p1p1/8/8/5NP1/PPPPPPBP/RNBQK2R w KQkq - 0 4
+r n b q k . n r
+p p p p . p b p
+. . . . p . p .
+. . . . . . . .
+. . . . . . . .
+. . . . . N P .
+P P P P P P B P
+R N B Q K . . R
+AtomicSamurai is in time-scramble mode. 
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[9, 7, 4, 1, 3, 8]
+Legal_moves found from human search: ['d2d4', 'c2c4', 'd2d3', 'e2e4', 'b2b3', 'h2h4', 'c2c3', 'a2a3', 'b1c3', 'f3e5', 'f3d4', 'f3g5', 'b1a3', 'f3h4', 'g2h3', 'g2f1', 'e1g1', 'e1f1']
+Moves evaluations: {40: 'd2d4', 26: 'e1g1'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -15 and stdev 20: 9.305530948823176
+Target_evaluation: 49.305530948823176
+Chosen move: d2d4, d4
+Found premove! In response to d5e4, dxe4
+Move number: 7
+rnbq1rk1/ppp1npbp/4p1p1/3p4/4P3/3P1NP1/PPP2PBP/RNBQ1RK1 w - - 1 7
+r n b q . r k .
+p p p . n p b p
+. . . . p . p .
+. . . p . . . .
+. . . . P . . .
+. . . P . N P .
+P P P . . P B P
+R N B Q . R K .
+Obvious Moves check: {16: 'f1e1', 10: 'e4e5'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but to increase move time variation we play it 
+Chosen move: f1e1, Re1
+Move number: 8
+rnbq1rk1/ppp1np1p/4p1p1/3P4/8/3P1NP1/PbP2PBP/RNBQ1RK1 w - - 0 8
+r n b q . r k .
+p p p . n p . p
+. . . . p . p .
+. . . P . . . .
+. . . . . . . .
+. . . P . N P .
+P b P . . P B P
+R N B Q . R K .
+Obvious Moves check: {395: 'c1b2', -123: 'd5d6'}
+Top move is not a take-back. 
+Top move piece is under attack. 
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Phase of game recognised: opening
+Currently this position is blunder prone. 
+Weights Chosen:[3, 2, 2, 3, 7, 2]
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'c2c4': 10, 'd5e6': 35, 'h2h4': 15, 'b1d2': 1, 'f3d2': 21, 'b1c3': 1, 'c1b2': 2, 'f1e1': 5, 'd1e2': 3, 'd1e1': 3, 'd1d2': 3, 'g1h1': 6}
+Legal_moves found from human search: ['c1b2', 'd5e6', 'b1d2', 'f3d2']
+Moves evaluations: {388: 'c1b2', -5000: 'd5e6', -366: 'b1d2'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -15 and stdev 20: -22.514763231647734
+Target_evaluation: 365.48523676835225
+Chosen move: c1b2, Bxb2
+Move number: 9
+rnbq1rk1/ppp1np1p/6p1/3Pp3/8/3P1NP1/PBP2PBP/RN1Q1RK1 w - - 0 9
+r n b q . r k .
+p p p . n p . p
+. . . . . . p .
+. . . P p . . .
+. . . . . . . .
+. . . P . N P .
+P B P . . P B P
+R N . Q . R K .
+Obvious Moves check: {537: 'b1d2', 531: 'c2c4'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[7, 8, 7, 1, 4, 7]
+Legal_moves found from human search: ['c2c4', 'a2a4', 'h2h4', 'd5d6', 'h2h3', 'd3d4', 'g3g4', 'b1d2', 'f3d2', 'b1c3', 'f3e5', 'b1a3', 'f3g5', 'f3h4', 'f3e1', 'b2e5', 'b2c3', 'b2c1', 'b2a3', 'f1e1', 'd1d2', 'd1c1', 'd1e2', 'g1h1']
+Moves evaluations: {549: 'f3e5', 545: 'c2c4', 503: 'b2a3'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -15 and stdev 20: -3.7288974710397476
+Target_evaluation: 545.2711025289602
+Chosen move: c2c4, c4
+Move number: 10
+rnbq1rk1/ppp1n2p/5pp1/3Pp3/2P5/3P1NP1/PB3PBP/RN1Q1RK1 w - - 0 10
+r n b q . r k .
+p p p . n . . p
+. . . . . p p .
+. . . P p . . .
+. . P . . . . .
+. . . P . N P .
+P B . . . P B P
+R N . Q . R K .
+Obvious Moves check: {545: 'b1c3', 525: 'd3d4'}
+Top move is not a take-back. 
+Obvious move found as currently in premove_mode! 
+Chosen move: b1c3, Nc3
+Found premove in premove mode! d3d4
+Move number: 12
+rnbq1rk1/pp2n2p/5pp1/3pp3/2PP4/2N2NP1/PB3PBP/R2Q1RK1 w - - 0 12
+r n b q . r k .
+p p . . n . . p
+. . . . . p p .
+. . . p p . . .
+. . P P . . . .
+. . N . . N P .
+P B . . . P B P
+R . . Q . R K .
+Obvious Moves check: {580: 'd4e5', 507: 'c4d5'}
+Top move is not a take-back. 
+Obvious move found as currently in premove_mode! 
+Chosen move: d4e5, dxe5
+Found premove in premove mode! e5f6
+Move number: 13
+rnbq1rk1/pp2n2p/6p1/3pp3/2P5/2N2NP1/PB3PBP/R2Q1RK1 w - - 0 13
+r n b q . r k .
+p p . . n . . p
+. . . . . . p .
+. . . p p . . .
+. . P . . . . .
+. . N . . N P .
+P B . . . P B P
+R . . Q . R K .
+Obvious Moves check: {604: 'f3e5', 561: 'c4d5'}
+Top move is a take-back. 
+Obvious move found as currently in time scramble! 
+Chosen move: f3e5, Nxe5
+Found premove in premove mode! c3d5
+Move number: 15
+rnb1qrk1/pp5p/6p1/3NNn2/2P5/6P1/PB3PBP/R2Q1RK1 w - - 1 15
+r n b . q r k .
+p p . . . . . p
+. . . . . . p .
+. . . N N n . .
+. . P . . . . .
+. . . . . . P .
+P B . . . P B P
+R . . Q . R K .
+Obvious Moves check: {1377: 'd5c7', 948: 'd5f4'}
+Top move is not a take-back. 
+Obvious move found as currently in premove_mode! 
+Chosen move: d5c7, Nc7
+Found premove in premove mode! e5g4
+Move number: 17
+rn3rk1/ppN1q2p/4b1p1/5n2/2P3N1/6P1/PB3PBP/R2Q1RK1 w - - 5 17
+r n . . . r k .
+p p N . q . . p
+. . . . b . p .
+. . . . . n . .
+. . P . . . N .
+. . . . . . P .
+P B . . . P B P
+R . . Q . R K .
+Obvious Moves check: {1028: 'g2d5', 990: 'c7a8'}
+Top move is not a take-back. 
+Obvious move found as currently in premove_mode! 
+Chosen move: g2d5, Bd5
+Found premove in premove mode! c7e6
+Move number: 19
+rn3rk1/pp2q2p/4N1p1/5n2/2P5/6P1/PB3PBP/R2Q1RK1 w - - 1 19
+r n . . . r k .
+p p . . q . . p
+. . . . N . p .
+. . . . . n . .
+. . P . . . . .
+. . . . . . P .
+P B . . . P B P
+R . . Q . R K .
+Obvious Moves check: {1534: 'g2d5', 1447: 'd1d5'}
+Top move is not a take-back. 
+Obvious move found as currently in premove_mode! 
+Chosen move: g2d5, Bd5
+Found premove in premove mode! g2d5
+Move number: 21
+rn3r2/pp4kp/5qp1/3B1n2/2P2N2/6P1/PB3P1P/R2Q1RK1 w - - 5 21
+r n . . . r . .
+p p . . . . k p
+. . . . . q p .
+. . . B . n . .
+. . P . . N . .
+. . . . . . P .
+P B . . . P . P
+R . . Q . R K .
+Obvious Moves check: {1622: 'f4e6', 1481: 'b2f6'}
+Top move is not a take-back. 
+Obvious move found as currently in premove_mode! 
+Chosen move: f4e6, Ne6+
+Found premove in premove mode! b2f6
+Move number: 22
+rn3r2/pp5p/4Nqpk/3B1n2/2P5/6P1/PB3P1P/R2Q1RK1 w - - 7 22
+r n . . . r . .
+p p . . . . . p
+. . . . N q p k
+. . . B . n . .
+. . P . . . . .
+. . . . . . P .
+P B . . . P . P
+R . . Q . R K .
+Obvious Moves check: {2627: 'b2f6', 2433: 'd1c1'}
+Top move is not a take-back. 
+Obvious move found as currently in premove_mode! 
+Chosen move: b2f6, Bxf6

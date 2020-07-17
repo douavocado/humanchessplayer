@@ -1,0 +1,4810 @@
+Playing side: BLACK 
+Move number: 1
+rnbqkbnr/pppppppp/8/8/8/2N5/PPPPPPPP/R1BQKBNR b KQkq - 1 1
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P P P P P P
+R . B Q K B N R
+Phase of game recognised: opening
+Legal_moves found from human search: ['e7e5', 'd7d5', 'c7c5', 'b7b6', 'g8f6']
+Moves evaluations: {-4: 'd7d5', -50: 'e7e5', -20: 'g8f6'}
+Decided centipawn loss from mean 0 and stdev 8: 2.2251970816589606
+Target_evaluation: -1.7748029183410394
+Chosen move: d7d5
+Move number: 2
+rnbqkbnr/ppp1pppp/8/3p4/8/2N2N2/PPPPPPPP/R1BQKB1R b KQkq - 1 2
+r n b q k b n r
+p p p . p p p p
+. . . . . . . .
+. . . p . . . .
+. . . . . . . .
+. . N . . N . .
+P P P P P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'd5d4', 'e7e6', 'g7g6', 'g8f6', 'b8c6', 'c8g4', 'c8f5', 'c8d7']
+Moves evaluations: {16: 'd5d4', 15: 'g8f6', 11: 'c7c5'}
+Decided centipawn loss from mean 0 and stdev 8: -1.9332052725210016
+Target_evaluation: 14.066794727478998
+Chosen move: g8f6
+Move number: 3
+rnbqkb1r/ppp1pppp/5n2/3p4/8/2N1PN2/PPPP1PPP/R1BQKB1R b KQkq - 0 3
+r n b q k b . r
+p p p . p p p p
+. . . . . n . .
+. . . p . . . .
+. . . . . . . .
+. . N . P N . .
+P P P P . P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'g7g6', 'e7e6', 'b8c6', 'b8d7', 'f6d7', 'f6e4', 'c8g4', 'c8f5', 'c8d7']
+Moves evaluations: {15: 'c7c5', -2: 'c8d7', -50: 'e7e6'}
+Decided centipawn loss from mean 0 and stdev 8: -3.086172218939493
+Target_evaluation: 11.913827781060506
+Chosen move: c7c5
+Move number: 4
+rnbqkb1r/pp2pppp/5n2/2pp4/3P4/2N1PN2/PPP2PPP/R1BQKB1R b KQkq - 0 4
+r n b q k b . r
+p p . . p p p p
+. . . . . n . .
+. . p p . . . .
+. . . P . . . .
+. . N . P N . .
+P P P . . P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['e7e6', 'g7g6', 'c5d4', 'b8c6', 'b8d7', 'f6d7', 'f6g4', 'c8g4', 'c8f5', 'c8d7', 'd8b6', 'd8a5']
+Moves evaluations: {18: 'b8c6', -50: 'e7e6', -3: 'c8d7'}
+Decided centipawn loss from mean 0 and stdev 8: 12.213709393599464
+Target_evaluation: 30.213709393599466
+Chosen move: b8c6
+Move number: 5
+r1bqkb1r/pp2pppp/2n2n2/1Bpp4/3P4/2N1PN2/PPP2PPP/R1BQK2R b KQkq - 2 5
+r . b q k b . r
+p p . . p p p p
+. . n . . n . .
+. B p p . . . .
+. . . P . . . .
+. . N . P N . .
+P P P . . P P P
+R . B Q K . . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['e7e6', 'c5d4', 'a7a6', 'f6d7', 'c8g4', 'c8d7', 'c8f5', 'd8a5', 'd8b6']
+Moves evaluations: {30: 'e7e6', 0: 'd8b6'}
+Decided centipawn loss from mean 0 and stdev 8: 3.038259652895963
+Target_evaluation: 33.03825965289596
+Chosen move: e7e6
+Move number: 6
+r1bqkb1r/pp3ppp/2n1pn2/1Bpp4/3P4/2N1PN2/PPP2PPP/R1BQ1RK1 b kq - 1 6
+r . b q k b . r
+p p . . . p p p
+. . n . p n . .
+. B p p . . . .
+. . . P . . . .
+. . N . P N . .
+P P P . . P P P
+R . B Q . R K .
+Phase of game recognised: opening
+Legal_moves found from human search: ['a7a6', 'c5d4', 'h7h6', 'f6d7', 'c8d7', 'd8c7', 'd8b6']
+Moves evaluations: {20: 'c8d7', 19: 'h7h6', -4: 'd8c7'}
+Decided centipawn loss from mean 0 and stdev 8: -6.779883136404043
+Target_evaluation: 13.220116863595958
+Chosen move: h7h6
+Move number: 7
+r1bqkb1r/pp3pp1/2n1pn1p/1BppN3/3P4/2N1P3/PPP2PPP/R1BQ1RK1 b kq - 1 7
+r . b q k b . r
+p p . . . p p .
+. . n . p n . p
+. B p p N . . .
+. . . P . . . .
+. . N . P . . .
+P P P . . P P P
+R . B Q . R K .
+Phase of game recognised: opening
+Legal_moves found from human search: ['a7a6', 'c5d4', 'c8d7', 'd8c7', 'd8b6']
+Moves evaluations: {15: 'c8d7', -50: 'd8c7', -17: 'c5d4'}
+Decided centipawn loss from mean 0 and stdev 8: -14.41489088399194
+Target_evaluation: 0.5851091160080593
+Chosen move: c8d7
+Move number: 8
+r2qkb1r/pp1N1pp1/2n1pn1p/1Bpp4/3P4/2N1P3/PPP2PPP/R1BQ1RK1 b kq - 0 8
+r . . q k b . r
+p p . N . p p .
+. . n . p n . p
+. B p p . . . .
+. . . P . . . .
+. . N . P . . .
+P P P . . P P P
+R . B Q . R K .
+Phase of game recognised: opening
+Legal_moves found from human search: ['a7a6', 'c5d4', 'f6d7', 'c6e7', 'c6a5', 'f8d6', 'd8d7', 'd8c7', 'e8e7']
+Moves evaluations: {34: 'd8d7', -23: 'f6d7', -50: 'c5d4'}
+Decided centipawn loss from mean 0 and stdev 8: -8.724467033275559
+Target_evaluation: 25.27553296672444
+Chosen move: d8d7
+Move number: 9
+r3kb1r/pp1q1pp1/2n1pn1p/1Bpp4/P2P4/2N1P3/1PP2PPP/R1BQ1RK1 b kq - 0 9
+r . . . k b . r
+p p . q . p p .
+. . n . p n . p
+. B p p . . . .
+P . . P . . . .
+. . N . P . . .
+. P P . . P P P
+R . B Q . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['a7a6', 'c5d4', 'b7b6', 'g7g5', 'c6e7', 'c6a5', 'f6e4', 'c6b4', 'f8d6', 'a8c8', 'a8d8', 'a8b8', 'd7c7', 'd7d8', 'd7c8']
+Moves evaluations: {67: 'a8c8', 61: 'a7a6', 42: 'f8d6'}
+Decided centipawn loss from mean 0 and stdev 8: 11.838071655078764
+Target_evaluation: 78.83807165507876
+Chosen move: a8c8
+Move number: 10
+2r1kb1r/pp1q1pp1/2n1pn1p/1Bpp4/P2P4/2N1P3/1PPB1PPP/R2Q1RK1 b k - 2 10
+. . r . k b . r
+p p . q . p p .
+. . n . p n . p
+. B p p . . . .
+P . . P . . . .
+. . N . P . . .
+. P P B . P P P
+R . . Q . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['a7a6', 'c5d4', 'b7b6', 'g7g5', 'c6e7', 'c6a5', 'f6e4', 'c6d8', 'c6b4', 'f8d6', 'c8c7', 'c8d8', 'h8g8', 'd7c7', 'd7d8']
+Moves evaluations: {97: 'a7a6', 36: 'c5d4', -50: 'f8d6'}
+Decided centipawn loss from mean 0 and stdev 8: 15.54462249710321
+Target_evaluation: 112.5446224971032
+Chosen move: a7a6
+Move number: 11
+2r1kb1r/1p1q1pp1/p1B1pn1p/2pp4/P2P4/2N1P3/1PPB1PPP/R2Q1RK1 b k - 0 11
+. . r . k b . r
+. p . q . p p .
+p . B . p n . p
+. . p p . . . .
+P . . P . . . .
+. . N . P . . .
+. P P B . P P P
+R . . Q . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['b7c6', 'c5d4', 'c5c4', 'b7b6', 'f6e4', 'f8d6', 'c8c6', 'c8d8', 'c8c7', 'c8b8']
+Moves evaluations: {53: 'c8c6', 15: 'b7c6', -1086: 'f8d6'}
+Decided centipawn loss from mean 0 and stdev 8: -2.7960975160981874
+Target_evaluation: 50.203902483901814
+Chosen move: c8c6
+Move number: 12
+4kb1r/1p1q1pp1/p1r1pn1p/P1pp4/3P4/2N1P3/1PPB1PPP/R2Q1RK1 b k - 0 12
+. . . . k b . r
+. p . q . p p .
+p . r . p n . p
+P . p p . . . .
+. . . P . . . .
+. . N . P . . .
+. P P B . P P P
+R . . Q . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['c5d4', 'g7g5', 'b7b6', 'c5c4', 'f6g4', 'f6e4', 'f8d6', 'c6c8', 'c6c7', 'c6b6', 'd7c7', 'd7c8', 'd7d8']
+Moves evaluations: {74: 'd7c7', 58: 'c5d4', 52: 'f8d6'}
+Decided centipawn loss from mean 0 and stdev 8: 15.782685774965092
+Target_evaluation: 89.78268577496509
+Chosen move: d7c7
+Move number: 13
+4kb1r/1pq2pp1/p1r1pn1p/P1pp4/3P4/2N1PQ2/1PPB1PPP/R4RK1 b k - 2 13
+. . . . k b . r
+. p q . . p p .
+p . r . p n . p
+P . p p . . . .
+. . . P . . . .
+. . N . P Q . .
+. P P B . P P P
+R . . . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['c5d4', 'g7g5', 'c5c4', 'f6d7', 'f6e4', 'f6g8', 'f8e7', 'c6b6', 'c7d8', 'c7d7', 'c7c8', 'c7b6', 'c7e7', 'c7b8', 'c7a5', 'c7d6']
+Moves evaluations: {96: 'c5d4', 94: 'f8e7', 77: 'c7b8'}
+Decided centipawn loss from mean 0 and stdev 8: -5.482048305225455
+Target_evaluation: 90.51795169477454
+Chosen move: f8e7
+Move number: 14
+4k2r/1pq1bpp1/p1r1pn1p/P1pp4/3P4/2N1PQ1P/1PPB1PP1/R4RK1 b k - 0 14
+. . . . k . . r
+. p q . b p p .
+p . r . p n . p
+P . p p . . . .
+. . . P . . . .
+. . N . P Q . P
+. P P B . P P .
+R . . . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['c5d4', 'c5c4', 'g7g5', 'f6d7', 'f6e4', 'f6g8', 'e7d6', 'c6b6', 'c7d8', 'c7c8', 'c7d7', 'c7b6', 'c7a5', 'c7b8', 'e8g8']
+Moves evaluations: {104: 'e8g8', 82: 'c5d4'}
+Decided centipawn loss from mean 0 and stdev 8: 0.6157378260489035
+Target_evaluation: 104.6157378260489
+Chosen move: e8g8
+Move number: 15
+5rk1/1pq1bpp1/p1r1pn1p/P1pp4/3P4/2N1PQ1P/1PPB1PP1/RR4K1 b - - 2 15
+. . . . . r k .
+. p q . b p p .
+p . r . p n . p
+P . p p . . . .
+. . . P . . . .
+. . N . P Q . P
+. P P B . P P .
+R R . . . . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['c5d4', 'c5c4', 'b7b6', 'f6d7', 'f6e4', 'f6h7', 'e7d6', 'f8c8', 'f8d8', 'c6b6', 'f8b8', 'c7d8', 'c7c8', 'c7a5', 'c7d7', 'c7b6', 'c7b8']
+Moves evaluations: {101: 'e7d6', 100: 'f8c8', -50: 'f8d8'}
+Decided centipawn loss from mean 0 and stdev 8: -3.2684569801710093
+Target_evaluation: 97.73154301982899
+Chosen move: f8c8
+Move number: 16
+2r3k1/1pq1bpp1/p1r1pn1p/P1pp4/3P4/2N1PQ1P/1PPB1PP1/R2R2K1 b - - 4 16
+. . r . . . k .
+. p q . b p p .
+p . r . p n . p
+P . p p . . . .
+. . . P . . . .
+. . N . P Q . P
+. P P B . P P .
+R . . R . . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['c5d4', 'c5c4', 'b7b6', 'g7g5', 'f6d7', 'f6e4', 'f6e8', 'e7d6', 'c8d8', 'c6b6', 'c8b8', 'c8f8', 'c7d8', 'c7a5', 'c7b6', 'c7d7', 'c7b8']
+Moves evaluations: {133: 'c5d4', 107: 'c7d8', 104: 'e7d6'}
+Decided centipawn loss from mean 0 and stdev 8: -9.178510628524668
+Target_evaluation: 123.82148937147534
+Chosen move: c5d4
+Move number: 17
+2r3k1/1pq1bpp1/p1r1pn1p/P2p4/3P4/2N2Q1P/1PPB1PP1/R2R2K1 b - - 0 17
+. . r . . . k .
+. p q . b p p .
+p . r . p n . p
+P . . p . . . .
+. . . P . . . .
+. . N . . Q . P
+. P P B . P P .
+R . . R . . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['g7g5', 'b7b6', 'b7b5', 'f6d7', 'f6e4', 'f6e8', 'e7d6', 'e7b4', 'e7f8', 'c6c4', 'c6b6', 'c8d8', 'c8b8', 'c6d6', 'c7d8', 'c7b6', 'c7a5', 'c7d7', 'c7b8']
+Moves evaluations: {136: 'e7b4', -50: 'e7d6', 94: 'c6c4'}
+Decided centipawn loss from mean 0 and stdev 8: -5.896659600876241
+Target_evaluation: 130.10334039912377
+Chosen move: e7b4
+Move number: 18
+2r3k1/1pq2pp1/p1r1pn1p/P2p4/1b1P4/2N2Q1P/1PPB1PP1/RR4K1 b - - 2 18
+. . r . . . k .
+. p q . . p p .
+p . r . p n . p
+P . . p . . . .
+. b . P . . . .
+. . N . . Q . P
+. P P B . P P .
+R R . . . . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['b7b6', 'g7g5', 'h6h5', 'f6d7', 'f6e4', 'f6h7', 'b4e7', 'b4c3', 'b4a5', 'b4d6', 'c6c4', 'c6b6', 'c8d8', 'c8e8', 'c8f8', 'c7d8', 'c7a5', 'c7e7', 'c7d7', 'c7b6', 'c7d6']
+Moves evaluations: {134: 'c7d7', 126: 'c7d8'}
+Decided centipawn loss from mean 0 and stdev 8: -4.6339371856363645
+Target_evaluation: 129.36606281436363
+Chosen move: c7d8
+Move number: 19
+2rq2k1/1p3pp1/p1r1pn1p/P2p4/1b1P4/2N3QP/1PPB1PP1/RR4K1 b - - 4 19
+. . r q . . k .
+. p . . . p p .
+p . r . p n . p
+P . . p . . . .
+. b . P . . . .
+. . N . . . Q P
+. P P B . P P .
+R R . . . . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['g7g5', 'b7b5', 'b7b6', 'f6d7', 'f6h5', 'f6e4', 'b4c3', 'b4e7', 'b4d6', 'b4a5', 'c8c7', 'c6c7', 'c6c4', 'c6b6', 'd8d7', 'd8c7', 'd8b6', 'd8a5', 'd8e7']
+Moves evaluations: {122: 'b4c3', 105: 'g7g5', 79: 'b4d6'}
+Decided centipawn loss from mean 0 and stdev 8: 3.699639563885862
+Target_evaluation: 125.69963956388587
+Chosen move: b4c3
+Move number: 20
+2rq2k1/1p3pp1/p1r1pn1p/P2p4/3P4/2P3QP/2PB1PP1/RR4K1 b - - 0 20
+. . r q . . k .
+. p . . . p p .
+p . r . p n . p
+P . . p . . . .
+. . . P . . . .
+. . P . . . Q P
+. . P B . P P .
+R R . . . . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['b7b6', 'g7g5', 'b7b5', 'f6e4', 'f6d7', 'f6h5', 'c8c7', 'c6c7', 'c6c4', 'c6c3', 'd8c7', 'd8d7', 'd8f8', 'd8e8', 'd8e7']
+Moves evaluations: {122: 'f6e4', 90: 'b7b5', 40: 'c8c7'}
+Decided centipawn loss from mean 0 and stdev 8: 14.524495413313524
+Target_evaluation: 136.52449541331353
+Chosen move: f6e4
+Move number: 21
+2rq2k1/1p3pp1/p1r1p2p/P2p4/3Pn3/2P1Q2P/2PB1PP1/RR4K1 b - - 2 21
+. . r q . . k .
+. p . . . p p .
+p . r . p . . p
+P . . p . . . .
+. . . P n . . .
+. . P . Q . . P
+. . P B . P P .
+R R . . . . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f7f5', 'b7b6', 'f7f6', 'b7b5', 'e4d6', 'e4d2', 'e4c3', 'e4f6', 'c8c7', 'c6c7', 'c6c4', 'c6c3', 'c6b6', 'd8h4', 'd8c7', 'd8a5', 'd8f6', 'd8g5', 'd8d7', 'd8f8']
+Moves evaluations: {131: 'd8c7', 120: 'd8g5', 122: 'c8c7'}
+Decided centipawn loss from mean 0 and stdev 8: 10.002450360615267
+Target_evaluation: 141.00245036061526
+Chosen move: d8c7
+Move number: 22
+2r3k1/1pq2pp1/p1r1p2p/P2p4/3Pn3/R1P1Q2P/2PB1PP1/1R4K1 b - - 4 22
+. . r . . . k .
+. p q . . p p .
+p . r . p . . p
+P . . p . . . .
+. . . P n . . .
+R . P . Q . . P
+. . P B . P P .
+. R . . . . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f7f5', 'b7b6', 'f7f6', 'g7g5', 'e4d6', 'e4d2', 'e4c3', 'e4f6', 'c6b6', 'c6c4', 'c6c3', 'c8b8', 'c7d8', 'c7d7', 'c7a5', 'c7d6']
+Moves evaluations: {140: 'e4d6', 108: 'c6c4', 85: 'c7d7'}
+Decided centipawn loss from mean 0 and stdev 8: 3.566090235837219
+Target_evaluation: 143.5660902358372
+Chosen move: e4d6
+Move number: 23
+2r3k1/1pq2pp1/p1rnp2p/P2p4/3P4/2P1Q2P/R1PB1PP1/1R4K1 b - - 6 23
+. . r . . . k .
+. p q . . p p .
+p . r n p . . p
+P . . p . . . .
+. . . P . . . .
+. . P . Q . . P
+R . P B . P P .
+. R . . . . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['b7b6', 'f7f6', 'b7b5', 'g7g5', 'd6c4', 'd6b5', 'c6b6', 'c8b8', 'c8e8', 'c6c4', 'c7d8', 'c7d7', 'c7a5', 'c7e7']
+Moves evaluations: {150: 'd6c4', 122: 'd6b5', 120: 'c6c4'}
+Decided centipawn loss from mean 0 and stdev 8: -5.086886953664411
+Target_evaluation: 144.91311304633558
+Chosen move: d6c4
+Move number: 24
+2r3k1/1pq2pp1/p1r1p2p/P2p4/2nP1Q2/2P4P/R1PB1PP1/1R4K1 b - - 8 24
+. . r . . . k .
+. p q . . p p .
+p . r . p . . p
+P . . p . . . .
+. . n P . Q . .
+. . P . . . . P
+R . P B . P P .
+. R . . . . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['b7b6', 'g7g5', 'b7b5', 'f7f6', 'c4d2', 'c4d6', 'c4a5', 'c4b6', 'c6b6', 'c8e8', 'c8f8', 'c7d8', 'c7f4', 'c7d7', 'c7a5']
+Moves evaluations: {163: 'c4d2', 128: 'c7d7'}
+Decided centipawn loss from mean 0 and stdev 8: 5.488345808053598
+Target_evaluation: 168.4883458080536
+Chosen move: c4d2
+Move number: 25
+2r3k1/1pq2pp1/p1r1p2p/P2p4/3P4/2P4P/R1PQ1PP1/1R4K1 b - - 0 25
+. . r . . . k .
+. p q . . p p .
+p . r . p . . p
+P . . p . . . .
+. . . P . . . .
+. . P . . . . P
+R . P Q . P P .
+. R . . . . K .
+Phase of game recognised: endgame
+Legal_moves found from human search: ['b7b6', 'g7g5', 'f7f6', 'b7b5', 'g7g6', 'c6c3', 'c6b6', 'c6c4', 'c8b8', 'c8e8', 'c6d6', 'c7d8', 'c7a5', 'c7e7', 'c7d7', 'c7d6', 'g8h7', 'g8h8']
+Moves evaluations: {163: 'c6c3', 116: 'b7b5', -50: 'b7b6'}
+Decided centipawn loss from mean 0 and stdev 8: 6.746017265612267
+Target_evaluation: 169.74601726561227
+Chosen move: c6c3
+Move number: 26
+2r3k1/1pq2pp1/pR2p2p/P2p4/3P4/2r4P/R1PQ1PP1/6K1 b - - 1 26
+. . r . . . k .
+. p q . . p p .
+p R . . p . . p
+P . . p . . . .
+. . . P . . . .
+. . r . . . . P
+R . P Q . P P .
+. . . . . . K .
+Phase of game recognised: endgame
+Legal_moves found from human search: ['f7f6', 'g7g6', 'h6h5', 'g7g5', 'c3c4', 'c3c6', 'c3c2', 'c8d8', 'c8a8', 'c8e8', 'c3a3', 'c8f8', 'c3f3', 'c7c4', 'c7b6', 'c7d8', 'c7e7', 'c7d7', 'c7d6', 'g8h7', 'g8f8']
+Moves evaluations: {231: 'c3c2', 165: 'h6h5', 164: 'c3c4'}
+Decided centipawn loss from mean 0 and stdev 8: -4.012206520649601
+Target_evaluation: 226.9877934793504
+Chosen move: c3c2
+Move number: 27
+2r3k1/1pq2pp1/pR2p2p/P2p4/3P4/7P/R1Q2PP1/6K1 b - - 0 27
+. . r . . . k .
+. p q . . p p .
+p R . . p . . p
+P . . p . . . .
+. . . P . . . .
+. . . . . . . P
+R . Q . . P P .
+. . . . . . K .
+Phase of game recognised: endgame
+Legal_moves found from human search: ['g7g6', 'f7f6', 'h6h5', 'g7g5', 'c8a8', 'c7c2', 'c7d8', 'c7f4', 'c7b6', 'c7d6', 'c7c3', 'c7d7', 'c7e7']
+Moves evaluations: {221: 'c7c2', -545: 'c7d7', -554: 'c7d8'}
+Decided centipawn loss from mean 0 and stdev 8: 0.1726450029623767
+Target_evaluation: 221.17264500296238
+Chosen move: c7c2
+Move number: 28
+2r3k1/1p3pp1/pR2p2p/P2p4/3P4/7P/2R2PP1/6K1 b - - 0 28
+. . r . . . k .
+. p . . . p p .
+p R . . p . . p
+P . . p . . . .
+. . . P . . . .
+. . . . . . . P
+. . R . . P P .
+. . . . . . K .
+Phase of game recognised: endgame
+Legal_moves found from human search: ['f7f6', 'h6h5', 'g7g6', 'g7g5', 'c8c2', 'c8c7', 'c8c3', 'c8c4', 'c8a8', 'c8c6', 'g8f8', 'g8h7']
+Moves evaluations: {241: 'c8c2', -845: 'c8a8', -828: 'c8c4'}
+Decided centipawn loss from mean 0 and stdev 8: 4.93989044003148
+Target_evaluation: 245.9398904400315
+Chosen move: c8c2
+Move number: 29
+6k1/1R3pp1/p3p2p/P2p4/3P4/7P/2r2PP1/6K1 b - - 0 29
+. . . . . . k .
+. R . . . p p .
+p . . . p . . p
+P . . p . . . .
+. . . P . . . .
+. . . . . . . P
+. . r . . P P .
+. . . . . . K .
+Phase of game recognised: endgame
+Legal_moves found from human search: ['f7f6', 'h6h5', 'g7g5', 'g7g6', 'c2c1', 'c2c3', 'c2a2', 'c2c4', 'c2c7', 'c2d2', 'c2c6', 'c2c8', 'g8f8', 'g8h7']
+Moves evaluations: {237: 'c2c1', 236: 'c2a2', 122: 'c2d2'}
+Decided centipawn loss from mean 0 and stdev 8: 3.0526772024172195
+Target_evaluation: 240.05267720241721
+Chosen move: c2c1
+Move number: 30
+6k1/1R3pp1/p3p2p/P2p4/3P4/7P/5PPK/2r5 b - - 2 30
+. . . . . . k .
+. R . . . p p .
+p . . . p . . p
+P . . p . . . .
+. . . P . . . .
+. . . . . . . P
+. . . . . P P K
+. . r . . . . .
+Phase of game recognised: endgame
+Legal_moves found from human search: ['f7f6', 'h6h5', 'g7g5', 'g7g6', 'c1c2', 'c1a1', 'c1c3', 'c1b1', 'c1f1', 'c1d1', 'c1c6', 'c1e1', 'c1c7', 'g8f8', 'g8h7']
+Moves evaluations: {251: 'c1a1', 115: 'g7g5', 112: 'c1d1'}
+Decided centipawn loss from mean 0 and stdev 8: 1.485163429593885
+Target_evaluation: 252.48516342959388
+Chosen move: c1a1
+Playing side: BLACK 
+Move number: 1
+rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . N . .
+P P P P P P P P
+R N B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'g7g6', 'd7d5', 'e7e5', 'g8f6']
+Moves evaluations: {-22: 'd7d5', -13: 'g8f6', -20: 'c7c5'}
+Decided centipawn loss from mean 0 and stdev 8: 0.8320351441404291
+Target_evaluation: -12.167964855859571
+Chosen move: g8f6
+Move number: 2
+rnbqkb1r/pppppppp/5n2/8/8/2N2N2/PPPPPPPP/R1BQKB1R b KQkq - 3 2
+r n b q k b . r
+p p p p p p p p
+. . . . . n . .
+. . . . . . . .
+. . . . . . . .
+. . N . . N . .
+P P P P P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'g7g6', 'd7d5', 'b7b6', 'b8c6', 'f6d5']
+Moves evaluations: {13: 'd7d5', -24: 'b8c6', -28: 'c7c5'}
+Decided centipawn loss from mean 0 and stdev 8: 4.58804772631783
+Target_evaluation: 17.588047726317832
+Chosen move: d7d5
+Move number: 3
+rnbqkb1r/ppp1pppp/5n2/3p4/3P4/2N2N2/PPP1PPPP/R1BQKB1R b KQkq - 0 3
+r n b q k b . r
+p p p . p p p p
+. . . . . n . .
+. . . p . . . .
+. . . P . . . .
+. . N . . N . .
+P P P . P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'e7e6', 'g7g6', 'b8c6', 'b8d7', 'f6d7', 'f6e4', 'c8f5', 'c8g4', 'c8d7']
+Moves evaluations: {19: 'e7e6', 10: 'c8f5'}
+Decided centipawn loss from mean 0 and stdev 8: 4.5499022624589225
+Target_evaluation: 23.54990226245892
+Chosen move: e7e6
+Move number: 4
+rnbqkb1r/ppp2ppp/4pn2/3p4/3P4/2N1PN2/PPP2PPP/R1BQKB1R b KQkq - 0 4
+r n b q k b . r
+p p p . . p p p
+. . . . p n . .
+. . . p . . . .
+. . . P . . . .
+. . N . P N . .
+P P P . . P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'c7c6', 'b7b6', 'b8c6', 'b8d7', 'f6d7', 'f6e4', 'f8d6', 'f8b4', 'f8e7', 'd8e7']
+Moves evaluations: {12: 'c7c5', 2: 'f8e7', -50: 'f8b4'}
+Decided centipawn loss from mean 0 and stdev 8: 12.627233432433373
+Target_evaluation: 24.62723343243337
+Chosen move: c7c5
+Move number: 5
+rnbqkb1r/pp3ppp/4pn2/1Bpp4/3P4/2N1PN2/PPP2PPP/R1BQK2R b KQkq - 1 5
+r n b q k b . r
+p p . . . p p p
+. . . . p n . .
+. B p p . . . .
+. . . P . . . .
+. . N . P N . .
+P P P . . P P P
+R . B Q K . . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['b8c6']
+Moves evaluations: {23: 'b8c6'}
+Decided centipawn loss from mean 0 and stdev 8: -19.443152769454375
+Target_evaluation: 3.5568472305456247
+Chosen move: b8c6
+Move number: 6
+r1bqkb1r/pp3ppp/2n1pn2/1Bpp4/3P4/2N1PN2/PPP2PPP/R1BQ1RK1 b kq - 3 6
+r . b q k b . r
+p p . . . p p p
+. . n . p n . .
+. B p p . . . .
+. . . P . . . .
+. . N . P N . .
+P P P . . P P P
+R . B Q . R K .
+Phase of game recognised: opening
+Legal_moves found from human search: ['a7a6', 'c5d4', 'h7h6', 'f6d7', 'c8d7', 'd8c7', 'd8b6']
+Moves evaluations: {26: 'c8d7', 15: 'h7h6', -3: 'd8c7'}
+Decided centipawn loss from mean 0 and stdev 8: -3.6652329606648535
+Target_evaluation: 22.334767039335148
+Chosen move: c8d7
+Move number: 7
+r2qkb1r/pp1b1ppp/2n1pn2/1Bpp4/3P4/2N1PN2/PPPB1PPP/R2Q1RK1 b kq - 5 7
+r . . q k b . r
+p p . b . p p p
+. . n . p n . .
+. B p p . . . .
+. . . P . . . .
+. . N . P N . .
+P P P B . P P P
+R . . Q . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['a7a6', 'c5d4', 'h7h6', 'c5c4', 'b7b6', 'c6e7', 'f6e4', 'c6a5', 'c6b4', 'c6d4', 'f8d6', 'a8c8', 'd8c7', 'd8b6', 'd8e7', 'd8c8']
+Moves evaluations: {43: 'a7a6', 32: 'h7h6', -50: 'd8c7'}
+Decided centipawn loss from mean 0 and stdev 8: -7.204547992639127
+Target_evaluation: 35.79545200736087
+Chosen move: h7h6
+Move number: 8
+r2qkb1r/pp1b1pp1/2n1pn1p/1Bpp4/3P4/2N1PN2/PPPBQPPP/R4RK1 b kq - 1 8
+r . . q k b . r
+p p . b . p p .
+. . n . p n . p
+. B p p . . . .
+. . . P . . . .
+. . N . P N . .
+P P P B Q P P P
+R . . . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['a7a6', 'c5d4', 'b7b6', 'g7g5', 'c6e7', 'f6e4', 'c6a5', 'c6b4', 'f8d6', 'a8c8', 'a8b8', 'd8c7', 'd8b6', 'd8c8', 'd8e7']
+Moves evaluations: {70: 'a7a6', 43: 'd8c7', 30: 'c5d4'}
+Decided centipawn loss from mean 0 and stdev 8: -3.5238070688407017
+Target_evaluation: 66.4761929311593
+Chosen move: a7a6
+Move number: 9
+r2qkb1r/1p1b1pp1/p1B1pn1p/2pp4/3P4/2N1PN2/PPPBQPPP/R4RK1 b kq - 0 9
+r . . q k b . r
+. p . b . p p .
+p . B . p n . p
+. . p p . . . .
+. . . P . . . .
+. . N . P N . .
+P P P B Q P P P
+R . . . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['b7c6', 'c5d4', 'c5c4', 'b7b5', 'b7b6', 'f6h5', 'd7c6', 'a8c8', 'a8b8', 'd8c7', 'd8b6', 'd8c8', 'd8a5']
+Moves evaluations: {58: 'd7c6', -50: 'b7c6', -356: 'c5d4'}
+Decided centipawn loss from mean 0 and stdev 8: 0.09894934304601981
+Target_evaluation: 58.09894934304602
+Chosen move: d7c6
+Move number: 10
+r2qkb1r/1p3pp1/p1b1pn1p/2pp4/3P4/2N1PN1P/PPPBQPP1/R4RK1 b kq - 0 10
+r . . q k b . r
+. p . . . p p .
+p . b . p n . p
+. . p p . . . .
+. . . P . . . .
+. . N . P N . P
+P P P B Q P P .
+R . . . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['c5d4', 'g7g5', 'c5c4', 'b7b6', 'f6d7', 'f6e4', 'f6h5', 'f8e7', 'f8d6', 'a8c8', 'a8b8', 'h8g8', 'd8c7', 'd8b6', 'd8c8', 'd8e7', 'd8a5']
+Moves evaluations: {75: 'd8c7', 72: 'f8d6', 60: 'f8e7'}
+Decided centipawn loss from mean 0 and stdev 8: 4.314766324540806
+Target_evaluation: 79.31476632454081
+Chosen move: d8c7
+Move number: 11
+r3kb1r/1pq2pp1/p1b1pn1p/2pp4/3P4/2N1PN1P/PPPBQPP1/RR4K1 b kq - 2 11
+r . . . k b . r
+. p q . . p p .
+p . b . p n . p
+. . p p . . . .
+. . . P . . . .
+. . N . P N . P
+P P P B Q P P .
+R R . . . . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['c5d4', 'b7b6', 'g7g5', 'c5c4', 'f6d7', 'f6e4', 'f6h5', 'f8e7', 'f8d6', 'c6d7', 'a8c8', 'a8d8', 'a8b8', 'c7d8', 'c7c8', 'c7b6', 'c7d7', 'c7d6', 'c7e7', 'c7a5', 'c7b8', 'e8c8']
+Moves evaluations: {73: 'f8d6', 62: 'f8e7', 56: 'b7b6'}
+Decided centipawn loss from mean 0 and stdev 8: -13.021612612383048
+Target_evaluation: 59.97838738761695
+Chosen move: f8e7
+Move number: 12
+r3k2r/1pq1bpp1/p1b1pn1p/2Pp4/8/2N1PN1P/PPPBQPP1/RR4K1 b kq - 0 12
+r . . . k . . r
+. p q . b p p .
+p . b . p n . p
+. . P p . . . .
+. . . . . . . .
+. . N . P N . P
+P P P B Q P P .
+R R . . . . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['g7g5', 'e6e5', 'd5d4', 'b7b5', 'f6d7', 'f6e4', 'f6h5', 'e7c5', 'c6d7', 'c6b5', 'a8d8', 'a8b8', 'a8c8', 'h8g8', 'c7c8', 'c7d7', 'c7d8', 'c7a5', 'c7e5', 'e8g8']
+Moves evaluations: {66: 'e7c5', 11: 'e8g8', 6: 'e6e5'}
+Decided centipawn loss from mean 0 and stdev 8: -7.352939889794226
+Target_evaluation: 58.64706011020577
+Chosen move: e7c5
+Move number: 13
+r3k2r/1pq2pp1/p1b1pn1p/2bp4/3N4/2N1P2P/PPPBQPP1/RR4K1 b kq - 1 13
+r . . . k . . r
+. p q . . p p .
+p . b . p n . p
+. . b p . . . .
+. . . N . . . .
+. . N . P . . P
+P P P B Q P P .
+R R . . . . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['b7b5', 'b7b6', 'g7g5', 'f6d7', 'f6e4', 'f6g8', 'c5d4', 'c6d7', 'c5e7', 'c5b4', 'c5d6', 'a8c8', 'a8d8', 'a8b8', 'c7d7', 'c7d8', 'c7c8', 'c7e7', 'c7d6', 'c7e5', 'c7b6', 'e8g8']
+Moves evaluations: {121: 'c6d7', 86: 'e8g8', 72: 'c5d6'}
+Decided centipawn loss from mean 0 and stdev 8: 4.860055027637577
+Target_evaluation: 125.86005502763757
+Chosen move: c6d7
+Move number: 14
+r3k2r/1pqb1pp1/p3pn1p/2bp4/8/1NN1P2P/PPPBQPP1/RR4K1 b kq - 3 14
+r . . . k . . r
+. p q b . p p .
+p . . . p n . p
+. . b p . . . .
+. . . . . . . .
+. N N . P . . P
+P P P B Q P P .
+R R . . . . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['b7b6', 'd5d4', 'b7b5', 'a6a5', 'f6e4', 'f6h5', 'c5e7', 'c5a7', 'd7c6', 'c5d6', 'c5b4', 'c5b6', 'a8c8', 'a8d8', 'a8b8', 'c7c8', 'c7d6', 'c7d8', 'c7e5', 'c7b6', 'c7c6', 'e8g8']
+Moves evaluations: {113: 'c5a7', 117: 'c5b6', 89: 'c5d6'}
+Decided centipawn loss from mean 0 and stdev 8: -1.8059511362800156
+Target_evaluation: 115.19404886371998
+Chosen move: c5b6
+Move number: 15
+r3k2r/1pqb1pp1/pb2pn1p/3p4/P7/1NN1P2P/1PPBQPP1/RR4K1 b kq - 0 15
+r . . . k . . r
+. p q b . p p .
+p b . . p n . p
+. . . p . . . .
+P . . . . . . .
+. N N . P . . P
+. P P B Q P P .
+R R . . . . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['a6a5', 'e6e5', 'd5d4', 'f6e4', 'f6h5', 'd7c6', 'b6a7', 'd7a4', 'd7c8', 'a8c8', 'a8d8', 'a8b8', 'c7c4', 'c7c6', 'c7c8', 'c7d8', 'c7e5', 'c7d6', 'e8g8']
+Moves evaluations: {116: 'e8g8', 99: 'b6a7', 91: 'a8c8'}
+Decided centipawn loss from mean 0 and stdev 8: 12.388621455381212
+Target_evaluation: 128.3886214553812
+Chosen move: e8g8
+Move number: 16
+r4rk1/1pqb1pp1/pb2pn1p/P2p4/8/1NN1P2P/1PPBQPP1/RR4K1 b - - 0 16
+r . . . . r k .
+. p q b . p p .
+p b . . p n . p
+P . . p . . . .
+. . . . . . . .
+. N N . P . . P
+. P P B Q P P .
+R R . . . . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e6e5', 'd5d4', 'f6e4', 'f6h5', 'b6a7', 'd7c6', 'd7b5', 'd7e8', 'd7c8', 'b6a5', 'a8c8', 'f8c8', 'a8d8', 'f8d8', 'a8e8', 'f8e8', 'a8b8', 'f8b8', 'a8a7', 'c7c4', 'c7c8', 'c7c6', 'c7d6', 'c7d8', 'c7e5']
+Moves evaluations: {104: 'b6a7', -233: 'f8c8', -243: 'b6a5'}
+Decided centipawn loss from mean 0 and stdev 8: -2.4208430829294114
+Target_evaluation: 101.57915691707059
+Chosen move: b6a7
+Move number: 17
+r4rk1/bpqb1pp1/p3pn1p/P2p4/8/1NN1P2P/1PPBQPP1/R2R2K1 b - - 2 17
+r . . . . r k .
+b p q b . p p .
+p . . . p n . p
+P . . p . . . .
+. . . . . . . .
+. N N . P . . P
+. P P B Q P P .
+R . . R . . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e6e5', 'd5d4', 'b7b6', 'f6e4', 'f6e8', 'd7c6', 'd7b5', 'd7e8', 'd7c8', 'a7b8', 'd7a4', 'a8c8', 'f8c8', 'a8d8', 'f8d8', 'a8b8', 'f8b8', 'a8e8', 'f8e8', 'c7c8', 'c7c4', 'c7d6', 'c7c6', 'c7d8', 'c7e5', 'c7b8', 'c7b6']
+Moves evaluations: {120: 'a7b8', 112: 'f8e8', 107: 'f8d8'}
+Decided centipawn loss from mean 0 and stdev 8: -5.824388518899713
+Target_evaluation: 114.17561148110029
+Chosen move: f8e8
+Move number: 18
+r3r1k1/bpqb1pp1/p3pn1p/P2p4/8/1NN1P2P/1PP1QPP1/R2RB1K1 b - - 4 18
+r . . . r . k .
+b p q b . p p .
+p . . . p n . p
+P . . p . . . .
+. . . . . . . .
+. N N . P . . P
+. P P . Q P P .
+R . . R B . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e6e5', 'b7b6', 'd5d4', 'f6e4', 'f6h5', 'd7c6', 'd7b5', 'd7c8', 'a7b8', 'd7a4', 'a8c8', 'e8c8', 'a8d8', 'e8d8', 'a8b8', 'e8b8', 'e8f8', 'c7c8', 'c7c4', 'c7d6', 'c7b8', 'c7d8', 'c7c6', 'c7e5', 'c7b6']
+Moves evaluations: {93: 'e8d8', -50: 'a8c8', 89: 'a7b8'}
+Decided centipawn loss from mean 0 and stdev 8: -8.8610722245542
+Target_evaluation: 84.13892777544581
+Chosen move: a7b8
+Move number: 19
+rb2r1k1/1pqb1pp1/p3pn1p/P2p4/5P2/1NN1P2P/1PP1Q1P1/R2RB1K1 b - - 0 19
+r b . . r . k .
+. p q b . p p .
+p . . . p n . p
+P . . p . . . .
+. . . . . P . .
+. N N . P . . P
+. P P . Q . P .
+R . . R B . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e6e5', 'b7b6', 'b7b5', 'f6e4', 'f6h5', 'b8a7', 'd7c6', 'd7b5', 'e8c8', 'e8d8', 'c7c8', 'c7c4', 'c7d6', 'c7b6', 'c7d8', 'c7c6', 'c7f4']
+Moves evaluations: {126: 'e6e5', 35: 'b8a7', 27: 'd7c6'}
+Decided centipawn loss from mean 0 and stdev 8: 8.92160991938443
+Target_evaluation: 134.92160991938442
+Chosen move: e6e5
+Move number: 20
+rb2r1k1/1pqb1pp1/p4n1p/P2Np3/5P2/1N2P2P/1PP1Q1P1/R2RB1K1 b - - 0 20
+r b . . r . k .
+. p q b . p p .
+p . . . . n . p
+P . . N p . . .
+. . . . . P . .
+. N . . P . . P
+. P P . Q . P .
+R . . R B . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e5f4', 'e5e4', 'f6d5', 'f6e4', 'b8a7', 'd7b5', 'd7c6', 'd7e6', 'e8c8', 'e8d8', 'c7c8', 'c7d6', 'c7d8', 'c7c6', 'c7c2', 'c7c4']
+Moves evaluations: {218: 'f6d5', -100: 'c7c6', -317: 'c7d8'}
+Decided centipawn loss from mean 0 and stdev 8: -9.564985733262045
+Target_evaluation: 208.43501426673797
+Chosen move: f6d5
+Move number: 21
+rb2r1k1/1pqb1pp1/p6p/P2Rp3/5P2/1N2P2P/1PP1Q1P1/R3B1K1 b - - 0 21
+r b . . r . k .
+. p q b . p p .
+p . . . . . . p
+P . . R p . . .
+. . . . . P . .
+. N . . P . . P
+. P P . Q . P .
+R . . . B . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e5f4', 'e5e4', 'f7f6', 'f7f5', 'd7b5', 'b8a7', 'd7c6', 'd7e6', 'd7h3', 'e8c8', 'c7c8', 'c7d8', 'c7b6', 'c7c6', 'c7c4', 'c7d6']
+Moves evaluations: {187: 'e5f4', 177: 'd7c6', 127: 'd7b5'}
+Decided centipawn loss from mean 0 and stdev 8: 16.893394714600976
+Target_evaluation: 203.893394714601
+Chosen move: e5f4
+Move number: 22
+rb2r1k1/1pqb1pp1/p6p/P2R4/4Pp2/1N5P/1PP1Q1P1/R3B1K1 b - - 0 22
+r b . . r . k .
+. p q b . p p .
+p . . . . . . p
+P . . R . . . .
+. . . . P p . .
+. N . . . . . P
+. P P . Q . P .
+R . . . B . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f4f3', 'g7g5', 'b7b6', 'b7b5', 'd7b5', 'b8a7', 'd7c6', 'd7e6', 'e8e4', 'e8e5', 'e8e6', 'c7c8', 'c7b6', 'c7d6', 'c7d8', 'c7c2', 'c7c4']
+Moves evaluations: {257: 'd7c6', 242: 'd7b5', 232: 'b8a7'}
+Decided centipawn loss from mean 0 and stdev 8: -0.011451271455796023
+Target_evaluation: 256.98854872854423
+Chosen move: d7c6
+Move number: 23
+rb2r1k1/1pq2pp1/p1b4p/P7/4Pp2/1N5P/1PP1Q1P1/R2RB1K1 b - - 2 23
+r b . . r . k .
+. p q . . p p .
+p . b . . . . p
+P . . . . . . .
+. . . . P p . .
+. N . . . . . P
+. P P . Q . P .
+R . . R B . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f4f3', 'g7g5', 'b7b5', 'b7b6', 'c6b5', 'b8a7', 'c6e4', 'e8e4', 'e8e5', 'e8d8', 'c7c8', 'c7d6', 'c7e5', 'c7e7']
+Moves evaluations: {631: 'e8e4', 302: 'b8a7', 265: 'c6e4'}
+Decided centipawn loss from mean 0 and stdev 8: 0.1788315486306908
+Target_evaluation: 631.1788315486307
+Chosen move: e8e4
+Move number: 24
+rb4k1/1pq2pp1/p1b4p/P7/4rp2/1N5P/1PPQ2P1/R2RB1K1 b - - 1 24
+r b . . . . k .
+. p q . . p p .
+p . b . . . . p
+P . . . . . . .
+. . . . r p . .
+. N . . . . . P
+. P P Q . . P .
+R . . R B . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f4f3', 'g7g5', 'f7f6', 'b7b6', 'c6b5', 'b8a7', 'c6d5', 'e4e2', 'e4e8', 'e4a4', 'e4e7', 'e4e3', 'c7e7', 'c7e5', 'c7d6', 'c7d8']
+Moves evaluations: {693: 'c7e5', 389: 'b8a7', 262: 'e4e8'}
+Decided centipawn loss from mean 0 and stdev 8: 4.649642759356658
+Target_evaluation: 697.6496427593567
+Chosen move: c7e5
+Move number: 25
+rb4k1/1p3pp1/p1b4p/P3q3/4rp2/7P/1PPQ2P1/R1NRB1K1 b - - 3 25
+r b . . . . k .
+. p . . . p p .
+p . b . . . . p
+P . . . q . . .
+. . . . r p . .
+. . . . . . . P
+. P P Q . . P .
+R . N R B . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f4f3', 'g7g5', 'f7f6', 'b7b5', 'c6d5', 'b8a7', 'c6b5', 'b8d6', 'e4e2', 'e4e3', 'e5c5', 'e5g5', 'e5f6', 'e5e6', 'e5e8', 'e5e7', 'e5c7', 'e5f5']
+Moves evaluations: {956: 'f4f3', 499: 'e5f5', -50: 'c6b5'}
+Decided centipawn loss from mean 0 and stdev 8: 9.728059279451346
+Target_evaluation: 965.7280592794514
+Chosen move: f4f3
+Move number: 26
+rb4k1/1p3pp1/p1b4p/P3q3/4r3/5P1P/1PPQ4/R1NRB1K1 b - - 0 26
+r b . . . . k .
+. p . . . p p .
+p . b . . . . p
+P . . . q . . .
+. . . . r . . .
+. . . . . P . P
+. P P Q . . . .
+R . N R B . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['g7g5', 'h6h5', 'f7f5', 'c6b5', 'b8a7', 'e4f4', 'e4e2', 'e5g3', 'e5e6', 'e5c5', 'e5h2', 'e5g5', 'e5b2', 'e5f6', 'e5f5', 'e5e8', 'e5e7', 'e5c7', 'e5h5']
+Moves evaluations: {1123: 'b8a7', 386: 'e4f4', 335: 'h6h5'}
+Decided centipawn loss from mean 0 and stdev 8: -7.091815139772817
+Target_evaluation: 1115.9081848602273
+Chosen move: b8a7
+Move number: 27
+r5k1/bp3pp1/p1b4p/P3q3/4r3/5P1P/1PPQ2K1/R1NRB3 b - - 2 27
+r . . . . . k .
+b p . . . p p .
+p . b . . . . p
+P . . . q . . .
+. . . . r . . .
+. . . . . P . P
+. P P Q . . K .
+R . N R B . . .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['g7g5', 'h6h5', 'f7f5', 'c6b5', 'a7d4', 'c6d5', 'a7e3', 'c6e8', 'e4e2', 'e4f4', 'a8d8', 'a8e8', 'a8c8', 'e4e3', 'e5e6', 'e5c5', 'e5g5', 'e5f6', 'e5b2', 'e5e7', 'e5h2', 'e5e8', 'e5h5', 'e5g3', 'e5f5', 'e5c7', 'e5f4']
+Moves evaluations: {1189: 'e4e3', 970: 'e5f5', 749: 'e5f6'}
+Decided centipawn loss from mean 0 and stdev 8: -3.2498992604242396
+Target_evaluation: 1185.7501007395758
+Chosen move: e4e3
+Move number: 28
+r5k1/bp3pp1/p1b4p/P3q3/8/4rPBP/1PPQ2K1/R1NR4 b - - 4 28
+r . . . . . k .
+b p . . . p p .
+p . b . . . . p
+P . . . q . . .
+. . . . . . . .
+. . . . r P B P
+. P P Q . . K .
+R . N R . . . .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['g7g5', 'h6h5', 'f7f6', 'c6f3', 'c6b5', 'c6d5', 'a7d4', 'c6e8', 'e3e2', 'e3f3', 'a8e8', 'a8d8', 'e3b3', 'e3c3', 'e5g5', 'e5e6', 'e5c5', 'e5g3', 'e5f5', 'e5h5', 'e5f6', 'e5b2', 'e5e7', 'e5e8', 'e5d4', 'e5d5']
+Moves evaluations: {1828: 'e5f5', 1373: 'e5h5', 1190: 'e5f6'}
+Decided centipawn loss from mean 0 and stdev 8: 14.541605054573289
+Target_evaluation: 1842.5416050545732
+Chosen move: e5f5
+Move number: 29
+r5k1/bp3pp1/p1b4p/P4q2/8/4rPBP/1PPQ3K/R1NR4 b - - 6 29
+r . . . . . k .
+b p . . . p p .
+p . b . . . . p
+P . . . . q . .
+. . . . . . . .
+. . . . r P B P
+. P P Q . . . K
+R . N R . . . .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['g7g5', 'h6h5', 'f7f6', 'c6f3', 'c6b5', 'c6d5', 'a7d4', 'e3f3', 'e3e2', 'a8e8', 'e3e8', 'e3c3', 'a8d8', 'e3e5', 'e3b3', 'a8c8', 'f5e6', 'f5h3', 'f5f3', 'f5g6', 'f5c5', 'f5g5', 'f5c2', 'f5e4', 'f5h5', 'f5d5', 'f5d7', 'f5c8', 'f5f6']
+Moves evaluations: {1960: 'f5f3', 1925: 'a8e8', 1540: 'e3f3'}
+Decided centipawn loss from mean 0 and stdev 8: -13.789718331494562
+Target_evaluation: 1946.2102816685053
+Chosen move: f5f3
+Move number: 30
+r5k1/bp3pp1/p1b4p/P7/8/4rqBP/1PP2Q1K/R1NR4 b - - 1 30
+r . . . . . k .
+b p . . . p p .
+p . b . . . . p
+P . . . . . . .
+. . . . . . . .
+. . . . r q B P
+. P P . . Q . K
+R . N R . . . .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['g7g5', 'h6h5', 'c6e4', 'c6b5', 'c6d5', 'e3e4', 'e3e2', 'a8e8', 'e3e8', 'e3b3', 'e3e6', 'e3e5', 'f3f2', 'f3e4', 'f3d1', 'f3f5', 'f3h5', 'f3h1']
+Moves evaluations: {2710: 'f3d1', 1294: 'f3e4', 1083: 'f3h5'}
+Decided centipawn loss from mean 0 and stdev 8: 15.917857051419542
+Target_evaluation: 2725.9178570514196
+Chosen move: f3d1
+Playing side: BLACK 
+Move number: 1
+rnbqkbnr/pppppppp/8/8/8/2N5/PPPPPPPP/R1BQKBNR b KQkq - 1 1
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P P P P P P
+R . B Q K B N R
+Phase of game recognised: opening
+Legal_moves found from human search: ['e7e5', 'd7d5', 'c7c5', 'b7b6', 'g8f6']
+Moves evaluations: {-16: 'd7d5', -27: 'e7e5', -50: 'g8f6'}
+Decided centipawn loss from mean 0 and stdev 8: 0.8594240000844905
+Target_evaluation: -15.140575999915509
+Chosen move: d7d5
+Move number: 2
+rnbqkbnr/ppp1pppp/8/3p4/3P4/2N5/PPP1PPPP/R1BQKBNR b KQkq - 0 2
+r n b q k b n r
+p p p . p p p p
+. . . . . . . .
+. . . p . . . .
+. . . P . . . .
+. . N . . . . .
+P P P . P P P P
+R . B Q K B N R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'e7e5', 'e7e6', 'g8f6', 'b8c6', 'c8f5', 'c8g4', 'c8d7']
+Moves evaluations: {-9: 'g8f6', -50: 'e7e6', -20: 'c8f5'}
+Decided centipawn loss from mean 0 and stdev 8: -7.98709157459954
+Target_evaluation: -16.98709157459954
+Chosen move: c8f5
+Move number: 3
+rn1qkbnr/ppp1pppp/8/3p1b2/3P4/2N1P3/PPP2PPP/R1BQKBNR b KQkq - 0 3
+r n . q k b n r
+p p p . p p p p
+. . . . . . . .
+. . . p . b . .
+. . . P . . . .
+. . N . P . . .
+P P P . . P P P
+R . B Q K B N R
+Phase of game recognised: opening
+Legal_moves found from human search: ['e7e6', 'c7c5', 'c7c6', 'g8f6', 'b8c6', 'f5g6', 'f5c8', 'f5d7', 'f5c2', 'f5d3', 'd8d7']
+Moves evaluations: {14: 'e7e6', 17: 'g8f6', -2: 'b8c6'}
+Decided centipawn loss from mean 0 and stdev 8: -1.9616168040676576
+Target_evaluation: 15.038383195932342
+Chosen move: e7e6
+Move number: 4
+rn1qkbnr/ppp2ppp/4p3/3p1b2/3P4/2NBP3/PPP2PPP/R1BQK1NR b KQkq - 1 4
+r n . q k b n r
+p p p . . p p p
+. . . . p . . .
+. . . p . b . .
+. . . P . . . .
+. . N B P . . .
+P P P . . P P P
+R . B Q K . N R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'h7h5', 'a7a6', 'b8c6', 'g8f6', 'f5d3', 'f5g6', 'f8d6', 'f8b4', 'f8e7', 'f5g4', 'd8d7', 'd8f6']
+Moves evaluations: {14: 'g8f6', 0: 'f8b4', -9: 'f5d3'}
+Decided centipawn loss from mean 0 and stdev 8: -0.771654697049409
+Target_evaluation: 13.228345302950592
+Chosen move: g8f6
+Move number: 5
+rn1qkb1r/ppp2ppp/4pn2/3p1B2/3P4/2N1P3/PPP2PPP/R1BQK1NR b KQkq - 0 5
+r n . q k b . r
+p p p . . p p p
+. . . . p n . .
+. . . p . B . .
+. . . P . . . .
+. . N . P . . .
+P P P . . P P P
+R . B Q K . N R
+Phase of game recognised: opening
+Legal_moves found from human search: ['e6f5', 'g7g6', 'c7c5', 'b8d7', 'f6d7', 'b8c6', 'b8a6', 'f8d6', 'f8b4', 'f8e7', 'd8d7']
+Moves evaluations: {9: 'e6f5', -317: 'c7c5', -347: 'f8b4'}
+Decided centipawn loss from mean 0 and stdev 8: -14.485036971493017
+Target_evaluation: -5.485036971493017
+Chosen move: e6f5
+Move number: 6
+rn1qkb1r/ppp2ppp/5n2/3p1p2/3P4/P1N1P3/1PP2PPP/R1BQK1NR b KQkq - 0 6
+r n . q k b . r
+p p p . . p p p
+. . . . . n . .
+. . . p . p . .
+. . . P . . . .
+P . N . P . . .
+. P P . . P P P
+R . B Q K . N R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'c7c6', 'g7g6', 'b8c6', 'b8d7', 'f6d7', 'f6e4', 'f8d6', 'f8e7', 'f8b4', 'd8d7']
+Moves evaluations: {49: 'c7c6', -50: 'f8d6', 15: 'g7g6'}
+Decided centipawn loss from mean 0 and stdev 8: -9.783202148158184
+Target_evaluation: 39.21679785184182
+Chosen move: c7c6
+Move number: 7
+rn1qkb1r/pp3ppp/2p2n2/3p1p2/3P4/P1NQP3/1PP2PPP/R1B1K1NR b KQkq - 1 7
+r n . q k b . r
+p p . . . p p p
+. . p . . n . .
+. . . p . p . .
+. . . P . . . .
+P . N Q P . . .
+. P P . . P P P
+R . B . K . N R
+Phase of game recognised: opening
+Legal_moves found from human search: ['g7g6', 'c6c5', 'b7b5', 'b8d7', 'f6d7', 'f6e4', 'f8d6', 'f8e7', 'f8b4', 'd8d7']
+Moves evaluations: {41: 'g7g6', 33: 'f6e4', 13: 'd8d7'}
+Decided centipawn loss from mean 0 and stdev 8: -0.1514248898206594
+Target_evaluation: 40.84857511017934
+Chosen move: g7g6
+Move number: 8
+rn1qkb1r/pp3p1p/2p2np1/3p1p2/3P4/P1NQPN2/1PP2PPP/R1B1K2R b KQkq - 1 8
+r n . q k b . r
+p p . . . p . p
+. . p . . n p .
+. . . p . p . .
+. . . P . . . .
+P . N Q P N . .
+. P P . . P P P
+R . B . K . . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h6', 'h7h5', 'a7a5', 'f5f4', 'b8d7', 'f6d7', 'f6e4', 'f6g4', 'f8g7', 'f8d6', 'f8e7', 'f8h6', 'd8e7', 'd8c8', 'd8d7']
+Moves evaluations: {26: 'f6e4', 32: 'b8d7'}
+Decided centipawn loss from mean 0 and stdev 8: -16.499183274626397
+Target_evaluation: 15.500816725373603
+Chosen move: f6e4
+Move number: 9
+rn1qkb1r/pp3p1p/2p3p1/3p1p2/3Pn3/P1NQPN2/1PP2PPP/R1B2RK1 b kq - 3 9
+r n . q k b . r
+p p . . . p . p
+. . p . . . p .
+. . . p . p . .
+. . . P n . . .
+P . N Q P N . .
+. P P . . P P P
+R . B . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h5', 'h7h6', 'a7a5', 'g6g5', 'f5f4', 'e4c3', 'b8d7', 'e4d6', 'e4f6', 'f8g7', 'f8d6', 'f8e7', 'f8h6', 'd8f6', 'd8c8', 'd8e7', 'd8d7', 'd8b6', 'd8c7']
+Moves evaluations: {33: 'f8g7', 24: 'f8d6', 28: 'b8d7'}
+Decided centipawn loss from mean 0 and stdev 8: 12.861989476023494
+Target_evaluation: 45.861989476023496
+Chosen move: f8g7
+Move number: 10
+rn1qk2r/pp3pbp/2p3p1/3p1p2/3Pn3/PPNQPN2/2P2PPP/R1B2RK1 b kq - 0 10
+r n . q k . . r
+p p . . . p b p
+. . p . . . p .
+. . . p . p . .
+. . . P n . . .
+P P N Q P N . .
+. . P . . P P P
+R . B . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h5', 'a7a5', 'g6g5', 'h7h6', 'f5f4', 'e4c3', 'b8d7', 'e4f6', 'e4d6', 'b8a6', 'g7f6', 'd8e7', 'd8f6', 'd8c8', 'd8d7', 'd8a5', 'd8b6', 'd8h4', 'e8g8']
+Moves evaluations: {27: 'b8d7', 23: 'e8g8'}
+Decided centipawn loss from mean 0 and stdev 8: -6.804444038832257
+Target_evaluation: 20.19555596116774
+Chosen move: e8g8
+Move number: 11
+rn1q1rk1/pp3pbp/2p3p1/3p1p2/P2Pn3/1PNQPN2/2P2PPP/R1B2RK1 b - - 0 11
+r n . q . r k .
+p p . . . p b p
+. . p . . . p .
+. . . p . p . .
+P . . P n . . .
+. P N Q P N . .
+. . P . . P P P
+R . B . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['a7a5', 'h7h5', 'h7h6', 'a7a6', 'g6g5', 'e4c3', 'b8d7', 'b8a6', 'e4f6', 'e4d6', 'g7f6', 'g7h8', 'd8e7', 'd8c8', 'd8f6', 'd8b6', 'd8d7', 'd8e8', 'd8h4']
+Moves evaluations: {16: 'b8a6', 14: 'g7f6', 23: 'a7a5'}
+Decided centipawn loss from mean 0 and stdev 8: 11.215644205759258
+Target_evaluation: 34.21564420575926
+Chosen move: a7a5
+Move number: 12
+rn1q1rk1/1p3pbp/2p3p1/p2p1p2/P2Pn3/BPNQPN2/2P2PPP/R4RK1 b - - 1 12
+r n . q . r k .
+. p . . . p b p
+. . p . . . p .
+p . . p . p . .
+P . . P n . . .
+B P N Q P N . .
+. . P . . P P P
+R . . . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h5', 'g6g5', 'h7h6', 'b7b6', 'e4c3', 'b8d7', 'b8a6', 'e4d6', 'e4f6', 'g7f6', 'g7h8', 'f8e8', 'd8e7', 'd8b6', 'd8f6', 'd8c8', 'd8d7', 'd8e8', 'd8c7']
+Moves evaluations: {10: 'f8e8', -10: 'e4d6', -106: 'b8a6'}
+Decided centipawn loss from mean 0 and stdev 8: -6.976134262086693
+Target_evaluation: 3.023865737913307
+Chosen move: f8e8
+Move number: 13
+rn1qr1k1/1p3pbp/2p3p1/p2p1p2/P2Pn3/BPNQP3/2PN1PPP/R4RK1 b - - 3 13
+r n . q r . k .
+. p . . . p b p
+. . p . . . p .
+p . . p . p . .
+P . . P n . . .
+B P N Q P . . .
+. . P N . P P P
+R . . . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h5', 'b7b5', 'f5f4', 'g6g5', 'e4c3', 'b8a6', 'e4d2', 'e4d6', 'b8d7', 'g7f8', 'g7h8', 'a8a6', 'e8e7', 'd8e7', 'd8h4', 'd8f6', 'd8d7', 'd8b6', 'd8c7']
+Moves evaluations: {44: 'b8a6', 16: 'b8d7', 6: 'h7h5'}
+Decided centipawn loss from mean 0 and stdev 8: 8.271847960224944
+Target_evaluation: 52.271847960224946
+Chosen move: b8a6
+Move number: 14
+r2qr1k1/1p3pbp/n1p3p1/p2p1p2/P2PN3/BPNQP3/2P2PPP/R4RK1 b - - 0 14
+r . . q r . k .
+. p . . . p b p
+n . p . . . p .
+p . . p . p . .
+P . . P N . . .
+B P N Q P . . .
+. . P . . P P P
+R . . . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['d5e4', 'f5e4', 'f5f4', 'h7h6', 'b7b6', 'a6b4', 'a6c7', 'g7f8', 'g7h8', 'e8e4', 'e8e7', 'a8c8', 'e8e5', 'd8e7', 'd8b6', 'd8h4', 'd8d7', 'd8c7', 'd8c8']
+Moves evaluations: {54: 'd5e4', 2: 'a6b4', 7: 'f5e4'}
+Decided centipawn loss from mean 0 and stdev 8: 9.363474048049543
+Target_evaluation: 63.36347404804954
+Chosen move: d5e4
+Move number: 15
+r2qr1k1/1p3pbp/n1p3p1/p4p2/P1QPp3/BPN1P3/2P2PPP/R4RK1 b - - 1 15
+r . . q r . k .
+. p . . . p b p
+n . p . . . p .
+p . . . . p . .
+P . Q P p . . .
+B P N . P . . .
+. . P . . P P P
+R . . . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['b7b5', 'h7h5', 'f5f4', 'a6b4', 'a6c7', 'g7f8', 'g7h8', 'g7f6', 'e8e7', 'a8c8', 'a8b8', 'd8d7', 'd8e7', 'd8f6', 'd8d6', 'd8g5', 'd8h4', 'd8c8']
+Moves evaluations: {74: 'f5f4', 57: 'a6c7', -50: 'd8d7'}
+Decided centipawn loss from mean 0 and stdev 8: -5.556884148945807
+Target_evaluation: 68.44311585105419
+Chosen move: f5f4
+Move number: 16
+r2qr1k1/1p3pbp/n1p3p1/p7/P1QPpp2/BPN1P3/2P2PPP/4RRK1 b - - 1 16
+r . . q r . k .
+. p . . . p b p
+n . p . . . p .
+p . . . . . . .
+P . Q P p p . .
+B P N . P . . .
+. . P . . P P P
+. . . . R R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f4e3', 'f4f3', 'b7b5', 'a6b4', 'a6c7', 'g7f8', 'g7h8', 'e8e7', 'a8c8', 'e8e5', 'e8e6', 'd8d7', 'd8g5', 'd8h4', 'd8c8', 'd8d6', 'd8e7', 'd8f6']
+Moves evaluations: {121: 'f4f3', 35: 'a6b4', 2: 'a8c8'}
+Decided centipawn loss from mean 0 and stdev 8: 6.9999862714695285
+Target_evaluation: 127.99998627146952
+Chosen move: f4f3
+Move number: 17
+r2qr1k1/1p3pbp/n1p3p1/p7/P1QPp3/BPN1PpP1/2P2P1P/4RRK1 b - - 0 17
+r . . q r . k .
+. p . . . p b p
+n . p . . . p .
+p . . . . . . .
+P . Q P p . . .
+B P N . P p P .
+. . P . . P . P
+. . . . R R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h5', 'b7b5', 'a6b4', 'a6c7', 'g7f8', 'g7f6', 'e8e7', 'a8c8', 'e8e5', 'e8f8', 'd8d7', 'd8c8', 'd8g5', 'd8e7', 'd8b6', 'd8f6', 'd8d6']
+Moves evaluations: {209: 'd8d7', 205: 'a6c7', 165: 'h7h5'}
+Decided centipawn loss from mean 0 and stdev 8: 12.174625900948618
+Target_evaluation: 221.17462590094863
+Chosen move: d8d7
+Move number: 18
+r3r1k1/1p1q1pbp/n1p3p1/p7/P1QPp3/BPN1PpP1/2P2P1P/4RR1K b - - 2 18
+r . . . r . k .
+. p . q . p b p
+n . p . . . p .
+p . . . . . . .
+P . Q P p . . .
+B P N . P p P .
+. . P . . P . P
+. . . . R R . K
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h5', 'b7b5', 'a6b4', 'a6c7', 'g7f8', 'g7f6', 'a8d8', 'e8d8', 'a8c8', 'e8c8', 'e8e7', 'e8e5', 'e8f8', 'a8b8', 'e8b8', 'd7f5', 'd7c8', 'd7g4', 'd7h3', 'd7e7', 'd7c7', 'd7e6']
+Moves evaluations: {205: 'a6c7', 182: 'h7h5', 154: 'a8b8'}
+Decided centipawn loss from mean 0 and stdev 8: -9.558600254283572
+Target_evaluation: 195.44139974571644
+Chosen move: a6c7
+Move number: 19
+r3r1k1/1pnq1pbp/2p3p1/p7/P1QPp3/1PN1PpP1/1BP2P1P/4RR1K b - - 4 19
+r . . . r . k .
+. p n q . p b p
+. . p . . . p .
+p . . . . . . .
+P . Q P p . . .
+. P N . P p P .
+. B P . . P . P
+. . . . R R . K
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h5', 'b7b5', 'c7d5', 'c7e6', 'g7f8', 'g7f6', 'g7h8', 'a8a6', 'a8d8', 'e8d8', 'e8e7', 'a8c8', 'e8c8', 'e8e6', 'a8b8', 'e8b8', 'e8e5', 'd7f5', 'd7c8', 'd7g4', 'd7d8', 'd7h3', 'd7e6', 'd7d5']
+Moves evaluations: {287: 'b7b5', 204: 'h7h5', 172: 'a8c8'}
+Decided centipawn loss from mean 0 and stdev 8: -3.780237942086626
+Target_evaluation: 283.2197620579134
+Chosen move: b7b5
+Move number: 20
+r3r1k1/2nq1pbp/2p3p1/pP6/2QPp3/1PN1PpP1/1BP2P1P/4RR1K b - - 0 20
+r . . . r . k .
+. . n q . p b p
+. . p . . . p .
+p P . . . . . .
+. . Q P p . . .
+. P N . P p P .
+. B P . . P . P
+. . . . R R . K
+Phase of game recognised: midgame
+Legal_moves found from human search: ['c6b5', 'c6c5', 'c7d5', 'c7b5', 'g7f8', 'g7f6', 'g7h8', 'a8b8', 'e8b8', 'a8c8', 'e8c8', 'a8d8', 'e8d8', 'e8e5', 'e8e6', 'd7f5', 'd7c8', 'd7d8', 'd7d6', 'd7g4', 'd7h3', 'd7e6']
+Moves evaluations: {257: 'c6b5', 45: 'c7b5', 18: 'e8e6'}
+Decided centipawn loss from mean 0 and stdev 8: 0.2880453853746038
+Target_evaluation: 257.28804538537463
+Chosen move: c6b5
+Move number: 21
+r3r1k1/2nq1pbp/6p1/pN6/2QPp3/1P2PpP1/1BP2P1P/4RR1K b - - 0 21
+r . . . r . k .
+. . n q . p b p
+. . . . . . p .
+p N . . . . . .
+. . Q P p . . .
+. P . . P p P .
+. B P . . P . P
+. . . . R R . K
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h5', 'c7b5', 'c7d5', 'g7f8', 'a8a6', 'a8c8', 'e8c8', 'a8b8', 'e8b8', 'a8d8', 'e8d8', 'e8f8', 'd7c8', 'd7f5', 'd7h3', 'd7d5', 'd7d8', 'd7g4', 'd7b5']
+Moves evaluations: {355: 'c7b5', 320: 'e8c8', 168: 'd7b5'}
+Decided centipawn loss from mean 0 and stdev 8: 2.9137488972059917
+Target_evaluation: 357.913748897206
+Chosen move: c7b5
+Move number: 22
+r3r1k1/3q1pbp/6p1/pn6/Q2Pp3/1P2PpP1/1BP2P1P/4RR1K b - - 1 22
+r . . . r . k .
+. . . q . p b p
+. . . . . . p .
+p n . . . . . .
+Q . . P p . . .
+. P . . P p P .
+. B P . . P . P
+. . . . R R . K
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f7f5', 'h7h5', 'b5d6', 'b5c7', 'b5d4', 'g7f8', 'g7f6', 'a8c8', 'e8c8', 'a8a6', 'a8d8', 'e8d8', 'a8a7', 'a8b8', 'e8b8', 'd7d5', 'd7c8', 'd7f5', 'd7b7', 'd7h3', 'd7e6', 'd7c7']
+Moves evaluations: {369: 'e8c8', 366: 'd7f5', 356: 'd7h3'}
+Decided centipawn loss from mean 0 and stdev 8: 3.8560779063400377
+Target_evaluation: 372.85607790634003
+Chosen move: e8c8
+Move number: 23
+r1r3k1/3q1pbp/6p1/pn6/Q1PPp3/1P2PpP1/1B3P1P/4RR1K b - - 0 23
+r . r . . . k .
+. . . q . p b p
+. . . . . . p .
+p n . . . . . .
+Q . P P p . . .
+. P . . P p P .
+. B . . . P . P
+. . . . R R . K
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h5', 'f7f5', 'b5d6', 'b5c7', 'b5c3', 'g7f8', 'g7f6', 'a8a6', 'a8b8', 'c8b8', 'c8d8', 'c8e8', 'a8a7', 'd7f5', 'd7h3', 'd7e6', 'd7b7', 'd7d5', 'd7g4', 'd7c6', 'd7e8']
+Moves evaluations: {361: 'd7h3', 360: 'a8b8', 223: 'c8b8'}
+Decided centipawn loss from mean 0 and stdev 8: -0.4377972984974904
+Target_evaluation: 360.5622027015025
+Chosen move: d7h3
+Move number: 24
+r1r3k1/5pbp/6p1/pn6/Q1PPp3/1P2PpPq/1B3P1P/4R1RK b - - 2 24
+r . r . . . k .
+. . . . . p b p
+. . . . . . p .
+p n . . . . . .
+Q . P P p . . .
+. P . . P p P q
+. B . . . P . P
+. . . . R . R K
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f7f5', 'h7h5', 'b5d6', 'b5c3', 'b5c7', 'g7f8', 'g7f6', 'a8b8', 'c8b8', 'a8a6', 'c8c7', 'c8d8', 'h3d7', 'h3f5', 'h3e6', 'h3h5', 'h3h2', 'h3g4']
+Moves evaluations: {375: 'b5d6', 370: 'b5c7', 362: 'a8b8'}
+Decided centipawn loss from mean 0 and stdev 8: -14.306766567829179
+Target_evaluation: 360.6932334321708
+Chosen move: a8b8
+Move number: 25
+1rr3k1/5pbp/6p1/Qn6/2PPp3/1P2PpPq/1B3P1P/4R1RK b - - 0 25
+. r r . . . k .
+. . . . . p b p
+. . . . . . p .
+Q n . . . . . .
+. . P P p . . .
+. P . . P p P q
+. B . . . P . P
+. . . . R . R K
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f7f5', 'h7h5', 'b5d6', 'b5c3', 'b5c7', 'g7f8', 'g7f6', 'b8a8', 'b8b7', 'c8e8', 'c8d8', 'h3d7', 'h3e6', 'h3f5', 'h3h5']
+Moves evaluations: {385: 'b5c7', 320: 'b5d6', -50: 'h7h5'}
+Decided centipawn loss from mean 0 and stdev 8: 1.2685976944226558
+Target_evaluation: 386.2685976944227
+Chosen move: b5c7
+Move number: 26
+1rr3k1/2n2pbp/6p1/8/Q1PPp3/1P2PpPq/1B3P1P/4R1RK b - - 2 26
+. r r . . . k .
+. . n . . p b p
+. . . . . . p .
+. . . . . . . .
+Q . P P p . . .
+. P . . P p P q
+. B . . . P . P
+. . . . R . R K
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f7f5', 'h7h5', 'c7e6', 'c7e8', 'g7f8', 'g7f6', 'b8b3', 'b8a8', 'c8d8', 'b8b6', 'h3f5', 'h3d7', 'h3e6', 'h3h5', 'h3h2', 'h3g4']
+Moves evaluations: {527: 'c7e8', -50: 'h7h5', 371: 'h3h5'}
+Decided centipawn loss from mean 0 and stdev 8: -6.406950704391899
+Target_evaluation: 520.5930492956081
+Chosen move: c7e8
+Move number: 27
+1rr1n1k1/5pbp/6p1/8/Q1PPp1P1/1P2Pp1q/1B3P1P/4R1RK b - - 0 27
+. r r . n . k .
+. . . . . p b p
+. . . . . . p .
+. . . . . . . .
+Q . P P p . P .
+. P . . P p . q
+. B . . . P . P
+. . . . R . R K
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f7f5', 'h7h5', 'e8d6', 'g7f8', 'b8b3', 'b8a8', 'b8b7', 'b8b4', 'c8d8', 'h3h4', 'h3g4', 'h3h2']
+Moves evaluations: {547: 'h3h4', 487: 'b8a8', 430: 'g7f8'}
+Decided centipawn loss from mean 0 and stdev 8: 2.1863267193275586
+Target_evaluation: 549.1863267193276
+Chosen move: h3h4
+Move number: 28
+1rr1n1k1/5pbp/6p1/8/Q1PPp1Pq/1P2PpR1/1B3P1P/4R2K b - - 2 28
+. r r . n . k .
+. . . . . p b p
+. . . . . . p .
+. . . . . . . .
+Q . P P p . P q
+. P . . P p R .
+. B . . . P . P
+. . . . R . . K
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f7f5', 'h7h5', 'e8d6', 'g7e5', 'g7f6', 'b8b3', 'b8a8', 'b8b6', 'b8b4', 'h4h2', 'h4g5', 'h4d8', 'h4g4', 'h4e7']
+Moves evaluations: {538: 'b8a8', 352: 'h7h5', 344: 'h4e7'}
+Decided centipawn loss from mean 0 and stdev 8: 0.43774246199076705
+Target_evaluation: 538.4377424619908
+Chosen move: b8a8
+Move number: 29
+r1r1n1k1/5pbp/6p1/8/1QPPp1Pq/1P2PpR1/1B3P1P/4R2K b - - 4 29
+r . r . n . k .
+. . . . . p b p
+. . . . . . p .
+. . . . . . . .
+. Q P P p . P q
+. P . . P p R .
+. B . . . P . P
+. . . . R . . K
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f7f5', 'h7h5', 'e8d6', 'g7f8', 'g7f6', 'a8b8', 'c8b8', 'a8a1', 'a8a6', 'a8a2', 'c8d8', 'c8c6', 'h4h2', 'h4d8', 'h4g5']
+Moves evaluations: {439: 'g7f8', 405: 'c8b8', 365: 'a8a2'}
+Decided centipawn loss from mean 0 and stdev 8: -2.842715336187536
+Target_evaluation: 436.15728466381245
+Chosen move: g7f8
+Move number: 30
+r1r1nbk1/5p1p/6p1/2P5/1Q1Pp1Pq/1P2PpR1/1B3P1P/4R2K b - - 0 30
+r . r . n b k .
+. . . . . p . p
+. . . . . . p .
+. . P . . . . .
+. Q . P p . P q
+. P . . P p R .
+. B . . . P . P
+. . . . R . . K
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h5', 'f7f5', 'e8g7', 'e8c7', 'f8e7', 'f8h6', 'a8b8', 'c8b8', 'a8a1', 'c8c6', 'a8a6', 'h4h2', 'h4d8']
+Moves evaluations: {329: 'a8b8', 320: 'c8b8', 300: 'h7h5'}
+Decided centipawn loss from mean 0 and stdev 8: -6.873872965492863
+Target_evaluation: 322.12612703450714
+Chosen move: c8b8
+Playing side: BLACK 
+Move number: 1
+rnbqkbnr/pppppppp/8/8/8/2N5/PPPPPPPP/R1BQKBNR b KQkq - 1 1
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P P P P P P
+R . B Q K B N R
+Phase of game recognised: opening
+Legal_moves found from human search: ['e7e5', 'd7d5', 'c7c5', 'b7b6', 'g8f6']
+Moves evaluations: {-8: 'g8f6', -14: 'd7d5', -17: 'e7e5'}
+Decided centipawn loss from mean 0 and stdev 8: -10.66747199483915
+Target_evaluation: -18.66747199483915
+Chosen move: e7e5
+Move number: 2
+rnbqkbnr/pppp1ppp/8/4p3/8/2N2N2/PPPPPPPP/R1BQKB1R b KQkq - 1 2
+r n b q k b n r
+p p p p . p p p
+. . . . . . . .
+. . . . p . . .
+. . . . . . . .
+. . N . . N . .
+P P P P P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['e5e4', 'd7d6', 'd7d5', 'b8c6', 'g8f6', 'f8b4', 'f8e7', 'f8c5', 'd8f6']
+Moves evaluations: {-25: 'b8c6', -49: 'd7d5', -50: 'd7d6'}
+Decided centipawn loss from mean 0 and stdev 8: -0.6892728317972177
+Target_evaluation: -25.68927283179722
+Chosen move: b8c6
+Move number: 3
+r1bqkbnr/pppp1ppp/2n5/4p3/3P4/2N2N2/PPP1PPPP/R1BQKB1R b KQkq - 0 3
+r . b q k b n r
+p p p p . p p p
+. . n . . . . .
+. . . . p . . .
+. . . P . . . .
+. . N . . N . .
+P P P . P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['e5d4', 'e5e4', 'd7d6', 'd7d5', 'g8f6', 'g8e7', 'c6e7', 'c6d4', 'f8b4', 'f8e7', 'd8f6']
+Moves evaluations: {-1: 'e5d4', -42: 'c6d4', -62: 'd7d6'}
+Decided centipawn loss from mean 0 and stdev 8: 3.6076368969748547
+Target_evaluation: 2.6076368969748547
+Chosen move: e5d4
+Move number: 4
+r1bqkbnr/pppp1ppp/2n5/8/3N4/2N5/PPP1PPPP/R1BQKB1R b KQkq - 0 4
+r . b q k b n r
+p p p p . p p p
+. . n . . . . .
+. . . . . . . .
+. . . N . . . .
+. . N . . . . .
+P P P . P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['d7d5', 'h7h5', 'h7h6', 'g8f6', 'c6d4', 'g8e7', 'c6e7', 'f8b4', 'f8c5', 'f8e7', 'd8f6']
+Moves evaluations: {-6: 'f8c5', -27: 'g8f6'}
+Decided centipawn loss from mean 0 and stdev 8: -12.35193487410069
+Target_evaluation: -18.351934874100692
+Chosen move: g8f6
+Move number: 5
+r1bqkb1r/pppp1ppp/2N2n2/8/8/2N5/PPP1PPPP/R1BQKB1R b KQkq - 0 5
+r . b q k b . r
+p p p p . p p p
+. . N . . n . .
+. . . . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P . P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['b7c6', 'd7c6', 'b7b6', 'd7d5', 'f6g4', 'f8b4', 'f8c5', 'f8e7']
+Moves evaluations: {11: 'b7c6', -44: 'd7c6', -1126: 'f8e7'}
+Decided centipawn loss from mean 0 and stdev 8: -10.221344936919078
+Target_evaluation: 0.7786550630809224
+Chosen move: b7c6
+Move number: 6
+r1bqkb1r/p1pp1ppp/2p2n2/8/3Q4/2N5/PPP1PPPP/R1B1KB1R b KQkq - 1 6
+r . b q k b . r
+p . p p . p p p
+. . p . . n . .
+. . . . . . . .
+. . . Q . . . .
+. . N . . . . .
+P P P . P P P P
+R . B . K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['d7d5', 'c6c5', 'f6g4', 'f6d5', 'f8b4', 'f8e7', 'c8a6', 'f8c5']
+Moves evaluations: {26: 'd7d5', 20: 'f8e7', 8: 'c6c5'}
+Decided centipawn loss from mean 0 and stdev 8: 2.800652373853069
+Target_evaluation: 28.80065237385307
+Chosen move: d7d5
+Move number: 7
+r1bqkb1r/p1p2ppp/2p2n2/3p2B1/3Q4/2N5/PPP1PPPP/R3KB1R b KQkq - 1 7
+r . b q k b . r
+p . p . . p p p
+. . p . . n . .
+. . . p . . B .
+. . . Q . . . .
+. . N . . . . .
+P P P . P P P P
+R . . . K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h6', 'c6c5', 'a7a5', 'f6g4', 'f6e4', 'f8e7', 'c8e6', 'c8f5', 'f8b4', 'c8d7', 'f8d6', 'c8g4', 'a8b8', 'd8d6']
+Moves evaluations: {44: 'f8e7', 35: 'c6c5', 4: 'c8e6'}
+Decided centipawn loss from mean 0 and stdev 8: -3.6699513194374314
+Target_evaluation: 40.33004868056257
+Chosen move: f8e7
+Move number: 8
+r1bqk2r/p1p1bppp/2p2n2/3p2B1/3Q4/2N5/PPP1PPPP/2KR1B1R b kq - 3 8
+r . b q k . . r
+p . p . b p p p
+. . p . . n . .
+. . . p . . B .
+. . . Q . . . .
+. . N . . . . .
+P P P . P P P P
+. . K R . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h6', 'c6c5', 'a7a5', 'f6g4', 'f6e4', 'c8e6', 'c8f5', 'c8d7', 'c8g4', 'c8a6', 'e7b4', 'e7d6', 'a8b8', 'd8d6']
+Moves evaluations: {45: 'h7h6', 37: 'c8e6', 24: 'a8b8'}
+Decided centipawn loss from mean 0 and stdev 8: -16.864304374153466
+Target_evaluation: 28.135695625846534
+Chosen move: a8b8
+Move number: 9
+1rbqk2r/Q1p1bppp/2p2n2/3p2B1/8/2N5/PPP1PPPP/2KR1B1R b k - 0 9
+. r b q k . . r
+Q . p . b p p p
+. . p . . n . .
+. . . p . . B .
+. . . . . . . .
+. . N . . . . .
+P P P . P P P P
+. . K R . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h6', 'd5d4', 'f6g4', 'f6e4', 'c8f5', 'c8e6', 'c8d7', 'c8g4', 'e7b4', 'c8a6', 'e7d6', 'b8b4', 'b8b6', 'b8b2', 'b8a8', 'b8b7', 'd8d6']
+Moves evaluations: {73: 'b8b7', 28: 'c8e6', 0: 'c8d7'}
+Decided centipawn loss from mean 0 and stdev 8: -3.068587365823071
+Target_evaluation: 69.93141263417692
+Chosen move: b8b7
+Move number: 10
+Q1bqk2r/1rp1bppp/2p2n2/3p2B1/8/2N5/PPP1PPPP/2KR1B1R b k - 2 10
+Q . b q k . . r
+. r p . b p p p
+. . p . . n . .
+. . . p . . B .
+. . . . . . . .
+. . N . . . . .
+P P P . P P P P
+. . K R . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h6', 'd5d4', 'f6e4', 'f6g4', 'c8f5', 'c8e6', 'c8g4', 'c8d7', 'e7b4', 'e7d6', 'b7b2', 'b7b6', 'b7b8', 'b7b4', 'b7a7', 'd8d6']
+Moves evaluations: {-24: 'h7h6', -65: 'f6g4', -142: 'b7b6'}
+Decided centipawn loss from mean 0 and stdev 8: -10.111737928872767
+Target_evaluation: -34.11173792887277
+Chosen move: h7h6
+Move number: 11
+Q1bqk2r/1rp1bpp1/2p2n1p/3p4/5B2/2N5/PPP1PPPP/2KR1B1R b k - 1 11
+Q . b q k . . r
+. r p . b p p .
+. . p . . n . p
+. . . p . . . .
+. . . . . B . .
+. . N . . . . .
+P P P . P P P P
+. . K R . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['d5d4', 'g7g5', 'f6h5', 'f6e4', 'f6g4', 'c8f5', 'c8g4', 'c8e6', 'c8d7', 'e7d6', 'e7b4', 'b7b2', 'b7b4', 'b7b6', 'b7a7', 'b7b8']
+Moves evaluations: {-13: 'e7b4', -20: 'e7d6', -67: 'f6h5'}
+Decided centipawn loss from mean 0 and stdev 8: 0.21046406051679137
+Target_evaluation: -12.789535939483208
+Chosen move: e7b4
+Move number: 12
+Q1bqk2r/1rp2pp1/2p2n1p/3p4/Nb3B2/8/PPP1PPPP/2KR1B1R b k - 3 12
+Q . b q k . . r
+. r p . . p p .
+. . p . . n . p
+. . . p . . . .
+N b . . . B . .
+. . . . . . . .
+P P P . P P P P
+. . K R . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['d5d4', 'c6c5', 'f6e4', 'f6h5', 'f6g4', 'b4d6', 'c8d7', 'c8f5', 'c8g4', 'b4f8', 'c8e6', 'b4e7', 'b4e1', 'b7a7', 'b7b6', 'd8e7', 'e8g8']
+Moves evaluations: {-42: 'e8g8', -57: 'b4d6', -97: 'b4e7'}
+Decided centipawn loss from mean 0 and stdev 8: -12.863053485183904
+Target_evaluation: -54.863053485183904
+Chosen move: b4d6
+Move number: 13
+Q1bqk2r/1rp2pp1/2pb1n1p/3p4/N4B2/4P3/PPP2PPP/2KR1B1R b k - 0 13
+Q . b q k . . r
+. r p . . p p .
+. . p b . n . p
+. . . p . . . .
+N . . . . B . .
+. . . . P . . .
+P P P . . P P P
+. . K R . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['c6c5', 'g7g5', 'f6e4', 'f6h5', 'f6g4', 'c8f5', 'c8d7', 'c8g4', 'c8e6', 'd6e7', 'd6e5', 'b7b2', 'b7a7', 'b7b4', 'b7b8', 'b7b6', 'd8e7', 'e8g8']
+Moves evaluations: {-73: 'e8g8', -96: 'g7g5', -102: 'b7b4'}
+Decided centipawn loss from mean 0 and stdev 8: -1.5718869143353094
+Target_evaluation: -74.57188691433531
+Chosen move: e8g8
+Move number: 14
+Q1bq1rk1/1rp2pp1/B1pb1n1p/3p4/N4B2/4P3/PPP2PPP/2KR3R b - - 2 14
+Q . b q . r k .
+. r p . . p p .
+B . p b . n . p
+. . . p . . . .
+N . . . . B . .
+. . . . P . . .
+P P P . . P P P
+. . K R . . . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['c6c5', 'g7g5', 'f6e4', 'f6h5', 'f6g4', 'c8g4', 'c8f5', 'c8e6', 'c8d7', 'd6e7', 'b7b2', 'b7a7', 'b7b4', 'b7b6', 'd8e7', 'd8e8']
+Moves evaluations: {-75: 'b7b4', -233: 'b7b6', -390: 'b7b2'}
+Decided centipawn loss from mean 0 and stdev 8: -3.107485159781733
+Target_evaluation: -78.10748515978173
+Chosen move: b7b4
+Move number: 15
+Q1bq1rk1/2p2pp1/B1pB1n1p/3p4/Nr6/4P3/PPP2PPP/2KR3R b - - 0 15
+Q . b q . r k .
+. . p . . p p .
+B . p B . n . p
+. . . p . . . .
+N r . . . . . .
+. . . . P . . .
+P P P . . P P P
+. . K R . . . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['c7d6', 'c6c5', 'd5d4', 'f6e4', 'f6d7', 'f6e8', 'c8a6', 'c8g4', 'c8f5', 'c8e6', 'f8e8', 'b4a4', 'b4b2', 'b4b6', 'b4b8', 'b4c4', 'd8d6', 'd8e8']
+Moves evaluations: {11: 'c7d6', 0: 'b4a4', -168: 'd8d6'}
+Decided centipawn loss from mean 0 and stdev 8: 5.529214867424292
+Target_evaluation: 16.529214867424294
+Chosen move: c7d6
+Move number: 16
+Q1Bq1rk1/5pp1/2pp1n1p/3p4/Nr6/4P3/PPP2PPP/2KR3R b - - 0 16
+Q . B q . r k .
+. . . . . p p .
+. . p p . n . p
+. . . p . . . .
+N r . . . . . .
+. . . . P . . .
+P P P . . P P P
+. . K R . . . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['c6c5', 'd5d4', 'f6e4', 'f6d7', 'f6g4', 'b4a4', 'b4c4', 'b4b8', 'b4e4', 'b4b2', 'b4b7', 'd8c8', 'd8e7', 'd8b6']
+Moves evaluations: {-133: 'd8c8', -187: 'c6c5', -201: 'b4e4'}
+Decided centipawn loss from mean 0 and stdev 8: 4.083308455634609
+Target_evaluation: -128.9166915443654
+Chosen move: d8c8
+Move number: 17
+2Q2rk1/5pp1/2pp1n1p/3p4/Nr6/4P3/PPP2PPP/2KR3R b - - 0 17
+. . Q . . r k .
+. . . . . p p .
+. . p p . n . p
+. . . p . . . .
+N r . . . . . .
+. . . . P . . .
+P P P . . P P P
+. . K R . . . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['c6c5', 'd5d4', 'f6e4', 'f6d7', 'f6g4', 'b4a4', 'f8c8', 'b4c4', 'b4e4', 'b4b8', 'b4b2', 'b4b7', 'b4b5', 'f8e8']
+Moves evaluations: {-146: 'f8c8', -50: 'b4a4', -1245: 'b4b2'}
+Decided centipawn loss from mean 0 and stdev 8: 7.480761671383337
+Target_evaluation: -42.519238328616666
+Chosen move: b4a4
+Move number: 18
+5rk1/5pp1/2Qp1n1p/3p4/r7/4P3/PPP2PPP/2KR3R b - - 0 18
+. . . . . r k .
+. . . . . p p .
+. . Q p . n . p
+. . . p . . . .
+r . . . . . . .
+. . . . P . . .
+P P P . . P P P
+. . K R . . . R
+Phase of game recognised: endgame
+Legal_moves found from human search: ['d5d4', 'f6e4', 'f6g4', 'f6e8', 'f8c8', 'a4c4', 'f8b8', 'f8a8', 'a4a8', 'a4b4', 'a4a2', 'a4a6', 'f8d8', 'a4g4', 'a4e4', 'f8e8', 'g8h7']
+Moves evaluations: {-921: 'a4a2', -1009: 'a4a8', -2585: 'a4c4'}
+Decided centipawn loss from mean 0 and stdev 8: -14.549145021658287
+Target_evaluation: -935.5491450216583
+Chosen move: a4a2
+Move number: 19
+5rk1/5pp1/2Qp1n1p/3p4/8/4PP2/rPP3PP/2KR3R b - - 0 19
+. . . . . r k .
+. . . . . p p .
+. . Q p . n . p
+. . . p . . . .
+. . . . . . . .
+. . . . P P . .
+r P P . . . P P
+. . K R . . . R
+Phase of game recognised: endgame
+Legal_moves found from human search: ['d5d4', 'f6d7', 'f6h5', 'f6e8', 'f8c8', 'a2a1', 'f8a8', 'a2a8', 'a2b2', 'f8e8', 'f8b8', 'f8d8', 'g8h7']
+Moves evaluations: {-938: 'f8b8', -948: 'a2a8', -937: 'f8a8'}
+Decided centipawn loss from mean 0 and stdev 8: -12.109634885500858
+Target_evaluation: -949.1096348855009
+Chosen move: a2a8
+Move number: 20
+r4rk1/5pp1/3Q1n1p/3p4/8/4PP2/1PP3PP/2KR3R b - - 0 20
+r . . . . r k .
+. . . . . p p .
+. . . Q . n . p
+. . . p . . . .
+. . . . . . . .
+. . . . P P . .
+. P P . . . P P
+. . K R . . . R
+Phase of game recognised: endgame
+Legal_moves found from human search: ['d5d4', 'f6e8', 'f6d7', 'f6e4', 'f6h5', 'a8c8', 'f8c8', 'a8d8', 'f8d8', 'a8e8', 'f8e8', 'a8a6', 'a8b8', 'f8b8', 'a8a2', 'a8a1', 'a8a7', 'a8a5', 'g8h7']
+Moves evaluations: {-965: 'f8e8', -954: 'f8d8', -961: 'a8e8'}
+Decided centipawn loss from mean 0 and stdev 8: -5.493653941239329
+Target_evaluation: -959.4936539412394
+Chosen move: a8e8
+Move number: 21
+4rrk1/5pp1/3Q1n1p/3p4/8/4PP2/1PPK2PP/3R3R b - - 2 21
+. . . . r r k .
+. . . . . p p .
+. . . Q . n . p
+. . . p . . . .
+. . . . . . . .
+. . . . P P . .
+. P P K . . P P
+. . . R . . . R
+Phase of game recognised: endgame
+Legal_moves found from human search: ['d5d4', 'g7g5', 'f6e4', 'f6d7', 'f6h5', 'e8e3', 'e8d8', 'e8a8', 'e8b8', 'e8c8', 'e8e6', 'g8h7']
+Moves evaluations: {-967: 'e8e6', -973: 'e8b8'}
+Decided centipawn loss from mean 0 and stdev 8: -12.220096975734721
+Target_evaluation: -979.2200969757347
+Chosen move: e8b8
+Move number: 22
+1r3rk1/5pp1/3Q1n1p/3p4/8/1P2PP2/2PK2PP/3R3R b - - 0 22
+. r . . . r k .
+. . . . . p p .
+. . . Q . n . p
+. . . p . . . .
+. . . . . . . .
+. P . . P P . .
+. . P K . . P P
+. . . R . . . R
+Phase of game recognised: endgame
+Legal_moves found from human search: ['d5d4', 'g7g5', 'f6e8', 'f6d7', 'f6h5', 'f6e4', 'b8e8', 'f8e8', 'b8d8', 'f8d8', 'b8c8', 'f8c8', 'b8b3', 'b8a8', 'b8b6', 'b8b7', 'g8h7']
+Moves evaluations: {-981: 'b8d8', -1020: 'f6h5'}
+Decided centipawn loss from mean 0 and stdev 8: -3.9941256030658066
+Target_evaluation: -984.9941256030658
+Chosen move: b8d8
+Move number: 23
+3r1rk1/5pp1/5n1p/3p4/1Q6/1P2PP2/2PK2PP/3R3R b - - 2 23
+. . . r . r k .
+. . . . . p p .
+. . . . . n . p
+. . . p . . . .
+. Q . . . . . .
+. P . . P P . .
+. . P K . . P P
+. . . R . . . R
+Phase of game recognised: endgame
+Legal_moves found from human search: ['d5d4', 'g7g5', 'f6d7', 'f6h5', 'f6h7', 'd8e8', 'f8e8', 'd8c8', 'd8a8', 'd8b8', 'g8h7']
+Moves evaluations: {-1000: 'f6h7', -1002: 'd8b8', -1020: 'd8c8'}
+Decided centipawn loss from mean 0 and stdev 8: 1.0439799983202118
+Target_evaluation: -998.9560200016798
+Chosen move: f6h7
+Move number: 24
+3r1rk1/5ppn/7p/3p4/1Q6/1P2PP2/2PK2PP/R6R b - - 4 24
+. . . r . r k .
+. . . . . p p n
+. . . . . . . p
+. . . p . . . .
+. Q . . . . . .
+. P . . P P . .
+. . P K . . P P
+R . . . . . . R
+Phase of game recognised: endgame
+Legal_moves found from human search: ['d5d4', 'h6h5', 'g7g5', 'h7g5', 'd8e8', 'f8e8', 'd8c8', 'd8a8', 'd8b8']
+Moves evaluations: {-1015: 'h7g5', -1045: 'd8b8', -1035: 'd8e8'}
+Decided centipawn loss from mean 0 and stdev 8: 4.501451196056559
+Target_evaluation: -1010.4985488039434
+Chosen move: h7g5
+Move number: 25
+3r1rk1/R4pp1/7p/3p2n1/1Q6/1P2PP2/2PK2PP/7R b - - 6 25
+. . . r . r k .
+R . . . . p p .
+. . . . . . . p
+. . . p . . n .
+. Q . . . . . .
+. P . . P P . .
+. . P K . . P P
+. . . . . . . R
+Phase of game recognised: endgame
+Legal_moves found from human search: ['d5d4', 'h6h5', 'g5e6', 'g5f3', 'g5h3', 'd8e8', 'f8e8', 'd8c8', 'd8b8', 'd8a8', 'g8h7']
+Moves evaluations: {-1008: 'g5e6', -1045: 'd8b8', -1058: 'f8e8'}
+Decided centipawn loss from mean 0 and stdev 8: 1.8166962374009512
+Target_evaluation: -1006.183303762599
+Chosen move: g5e6
+Move number: 26
+3r1rk1/R4pp1/4n2p/3p4/1Q6/1PP1PP2/3K2PP/7R b - - 0 26
+. . . r . r k .
+R . . . . p p .
+. . . . n . . p
+. . . p . . . .
+. Q . . . . . .
+. P P . P P . .
+. . . K . . P P
+. . . . . . . R
+Phase of game recognised: endgame
+Legal_moves found from human search: ['d5d4', 'h6h5', 'g7g5', 'e6g5', 'e6c5', 'e6c7', 'd8b8', 'd8e8', 'f8e8', 'd8c8', 'd8a8', 'g8h7']
+Moves evaluations: {-1050: 'd8b8', -50: 'd8e8', -1070: 'd8a8'}
+Decided centipawn loss from mean 0 and stdev 8: -6.386157676786284
+Target_evaluation: -56.38615767678628
+Chosen move: d8e8
+Move number: 27
+4rrk1/R4pp1/4n2p/3p4/1Q6/1PP1PP2/2K3PP/7R b - - 2 27
+. . . . r r k .
+R . . . . p p .
+. . . . n . . p
+. . . p . . . .
+. Q . . . . . .
+. P P . P P . .
+. . K . . . P P
+. . . . . . . R
+Phase of game recognised: endgame
+Legal_moves found from human search: ['g7g5', 'h6h5', 'd5d4', 'e6c5', 'e6g5', 'e6d8', 'e6c7', 'e8c8', 'e8b8', 'e8a8', 'g8h7']
+Moves evaluations: {-1110: 'e8c8', -1111: 'd5d4', -1114: 'e8b8'}
+Decided centipawn loss from mean 0 and stdev 8: -3.947933515883145
+Target_evaluation: -1113.947933515883
+Chosen move: e8b8
+Move number: 28
+1r3rk1/R4pp1/4n2p/Q2p4/8/1PP1PP2/2K3PP/7R b - - 4 28
+. r . . . r k .
+R . . . . p p .
+. . . . n . . p
+Q . . p . . . .
+. . . . . . . .
+. P P . P P . .
+. . K . . . P P
+. . . . . . . R
+Phase of game recognised: endgame
+Legal_moves found from human search: ['d5d4', 'g7g5', 'h6h5', 'g7g6', 'e6d8', 'e6c5', 'e6c7', 'e6g5', 'b8c8', 'f8c8', 'b8b3', 'b8a8', 'b8d8', 'f8d8', 'b8e8', 'f8e8', 'b8b5', 'b8b6', 'b8b7', 'g8h7']
+Moves evaluations: {-1142: 'b8c8', -1162: 'b8e8', -1156: 'd5d4'}
+Decided centipawn loss from mean 0 and stdev 8: 2.7094745917603014
+Target_evaluation: -1139.2905254082398
+Chosen move: b8c8
+Move number: 29
+2r2rk1/R4pp1/4n2p/3Q4/8/1PP1PP2/2K3PP/7R b - - 0 29
+. . r . . r k .
+R . . . . p p .
+. . . . n . . p
+. . . Q . . . .
+. . . . . . . .
+. P P . P P . .
+. . K . . . P P
+. . . . . . . R
+Phase of game recognised: endgame
+Legal_moves found from human search: ['g7g6', 'g7g5', 'f7f5', 'e6c7', 'e6d8', 'e6c5', 'e6g5', 'c8d8', 'f8d8', 'c8c6', 'c8e8', 'f8e8', 'c8b8', 'c8c3', 'c8a8', 'g8h7']
+Moves evaluations: {-1181: 'g7g6', -1197: 'e6d8', -1211: 'f8d8'}
+Decided centipawn loss from mean 0 and stdev 8: -8.471949862058704
+Target_evaluation: -1189.4719498620586
+Chosen move: e6d8
+Move number: 30
+2rn1rk1/R4pp1/7p/3Q4/8/1PP1PP2/2K3PP/3R4 b - - 2 30
+. . r n . r k .
+R . . . . p p .
+. . . . . . . p
+. . . Q . . . .
+. . . . . . . .
+. P P . P P . .
+. . K . . . P P
+. . . R . . . .
+Phase of game recognised: endgame
+Legal_moves found from human search: ['g7g6', 'g7g5', 'd8e6', 'd8c6', 'c8c3', 'f8e8', 'c8c6', 'g8h8']
+Moves evaluations: {-1208: 'd8c6', -1289: 'd8e6', -1345: 'g8h8'}
+Decided centipawn loss from mean 0 and stdev 8: -6.846645878113316
+Target_evaluation: -1214.8466458781133
+Chosen move: d8c6
+Playing side: BLACK 
+Move number: 1
+rnbqkbnr/pppppppp/8/8/8/2N5/PPPPPPPP/R1BQKBNR b KQkq - 1 1
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P P P P P P
+R . B Q K B N R
+Phase of game recognised: opening
+Legal_moves found from human search: ['e7e5', 'd7d5', 'c7c5', 'b7b6', 'g8f6']
+Moves evaluations: {-2: 'd7d5', -18: 'g8f6', -27: 'e7e5'}
+Decided centipawn loss from mean 0 and stdev 8: -2.5522397470140397
+Target_evaluation: -4.55223974701404
+Chosen move: d7d5
+Move number: 2
+rnbqkbnr/ppp1pppp/8/3p4/3P4/2N5/PPP1PPPP/R1BQKBNR b KQkq - 0 2
+r n b q k b n r
+p p p . p p p p
+. . . . . . . .
+. . . p . . . .
+. . . P . . . .
+. . N . . . . .
+P P P . P P P P
+R . B Q K B N R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'e7e5', 'e7e6', 'g8f6', 'b8c6', 'c8f5', 'c8g4', 'c8d7']
+Moves evaluations: {-8: 'g8f6', -14: 'c8f5', -29: 'e7e6'}
+Decided centipawn loss from mean 0 and stdev 8: -0.014368496626442791
+Target_evaluation: -8.014368496626442
+Chosen move: g8f6
+Move number: 3
+rnbqkb1r/ppp1pppp/5n2/3p4/3P4/2N2N2/PPP1PPPP/R1BQKB1R b KQkq - 2 3
+r n b q k b . r
+p p p . p p p p
+. . . . . n . .
+. . . p . . . .
+. . . P . . . .
+. . N . . N . .
+P P P . P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'e7e6', 'g7g6', 'b8c6', 'b8d7', 'f6d7', 'f6e4', 'c8f5', 'c8g4', 'c8d7']
+Moves evaluations: {10: 'c7c5', -1: 'e7e6', -4: 'c8f5'}
+Decided centipawn loss from mean 0 and stdev 8: -1.4175059045344918
+Target_evaluation: 8.582494095465508
+Chosen move: c7c5
+Move number: 4
+rnbqkb1r/pp2pppp/5n2/2Pp4/8/2N2N2/PPP1PPPP/R1BQKB1R b KQkq - 0 4
+r n b q k b . r
+p p . . p p p p
+. . . . . n . .
+. . P p . . . .
+. . . . . . . .
+. . N . . N . .
+P P P . P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['e7e6', 'd5d4', 'e7e5', 'b8c6', 'f6e4', 'b8d7', 'f6d7', 'c8g4', 'c8f5', 'c8d7', 'd8a5', 'd8c7']
+Moves evaluations: {34: 'b8c6', -17: 'e7e6', -45: 'e7e5'}
+Decided centipawn loss from mean 0 and stdev 8: -4.005536294817588
+Target_evaluation: 29.99446370518241
+Chosen move: b8c6
+Move number: 5
+r1bqkb1r/pp2pppp/2n2n2/2Pp4/8/2N1BN2/PPP1PPPP/R2QKB1R b KQkq - 2 5
+r . b q k b . r
+p p . . p p p p
+. . n . . n . .
+. . P p . . . .
+. . . . . . . .
+. . N . B N . .
+P P P . P P P P
+R . . Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['e7e5', 'e7e6', 'd5d4', 'f6g4', 'f6e4', 'c6a5', 'f6h5', 'c8g4', 'c8f5', 'c8d7', 'd8a5', 'd8c7']
+Moves evaluations: {29: 'c8g4', 16: 'e7e5', 11: 'e7e6'}
+Decided centipawn loss from mean 0 and stdev 8: 8.24004716489225
+Target_evaluation: 37.240047164892246
+Chosen move: c8g4
+Move number: 6
+r2qkb1r/pp2pppp/2n2n2/2Pp4/3B2b1/2N2N2/PPP1PPPP/R2QKB1R b KQkq - 4 6
+r . . q k b . r
+p p . . p p p p
+. . n . . n . .
+. . P p . . . .
+. . . B . . b .
+. . N . . N . .
+P P P . P P P P
+R . . Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['e7e6', 'e7e5', 'c6d4', 'f6e4', 'f6h5', 'g4f3', 'g4f5', 'g4h5', 'g4d7', 'd8a5', 'd8c7']
+Moves evaluations: {45: 'e7e6', 31: 'g4f3', -9: 'f6e4'}
+Decided centipawn loss from mean 0 and stdev 8: -24.036652925061595
+Target_evaluation: 20.963347074938405
+Chosen move: g4f3
+Move number: 7
+r2qkb1r/pp2pppp/2n2B2/2Pp4/8/2N2b2/PPP1PPPP/R2QKB1R b KQkq - 0 7
+r . . q k b . r
+p p . . p p p p
+. . n . . B . .
+. . P p . . . .
+. . . . . . . .
+. . N . . b . .
+P P P . P P P P
+R . . Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['e7f6', 'g7f6', 'e7e6', 'e7e5', 'c6e5', 'f3h5', 'f3g4', 'f3g2', 'd8a5']
+Moves evaluations: {57: 'f3h5', 26: 'f3g4', 20: 'g7f6'}
+Decided centipawn loss from mean 0 and stdev 8: -6.776319577526965
+Target_evaluation: 50.22368042247304
+Chosen move: f3h5
+Move number: 8
+r2qkb1r/pp2pppp/2n5/2Pp3b/7B/2N5/PPP1PPPP/R2QKB1R b KQkq - 2 8
+r . . q k b . r
+p p . . p p p p
+. . n . . . . .
+. . P p . . . b
+. . . . . . . B
+. . N . . . . .
+P P P . P P P P
+R . . Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['e7e6', 'e7e5', 'd5d4', 'c6e5', 'c6d4', 'h5g6', 'h5g4', 'd8a5', 'd8d7']
+Moves evaluations: {54: 'd5d4', -102: 'h5g6', -142: 'd8d7'}
+Decided centipawn loss from mean 0 and stdev 8: -3.87674719897003
+Target_evaluation: 50.12325280102997
+Chosen move: d5d4
+Move number: 9
+r2qkb1r/pp2pppp/2n5/2P4b/3pN2B/8/PPP1PPPP/R2QKB1R b KQkq - 1 9
+r . . q k b . r
+p p . . p p p p
+. . n . . . . .
+. . P . . . . b
+. . . p N . . B
+. . . . . . . .
+P P P . P P P P
+R . . Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['e7e6', 'e7e5', 'a7a5', 'c6e5', 'h5g6', 'h5g4', 'd8d5', 'd8a5']
+Moves evaluations: {52: 'd8d5', 16: 'd8a5', -210: 'h5g6'}
+Decided centipawn loss from mean 0 and stdev 8: 8.316770059699572
+Target_evaluation: 60.31677005969957
+Chosen move: d8d5
+Move number: 10
+r3kb1r/pp2pppp/2n5/2Pq3b/3pN2B/3Q4/PPP1PPPP/R3KB1R b KQkq - 3 10
+r . . . k b . r
+p p . . p p p p
+. . n . . . . .
+. . P q . . . b
+. . . p N . . B
+. . . Q . . . .
+P P P . P P P P
+R . . . K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e7e6', 'e7e5', 'f7f5', 'f7f6', 'g7g5', 'c6e5', 'h5g6', 'h5g4', 'a8d8', 'a8c8', 'd5e4', 'd5e6', 'd5c5', 'd5e5', 'd5d7', 'd5f5']
+Moves evaluations: {81: 'h5g6', 72: 'e7e5', 19: 'f7f5'}
+Decided centipawn loss from mean 0 and stdev 8: -1.8108135603989308
+Target_evaluation: 79.18918643960107
+Chosen move: h5g6
+Move number: 11
+r3kb1r/pp2pppp/2n3b1/2Pq4/3pN2B/3Q1P2/PPP1P1PP/R3KB1R b KQkq - 0 11
+r . . . k b . r
+p p . . p p p p
+. . n . . . b .
+. . P q . . . .
+. . . p N . . B
+. . . Q . P . .
+P P P . P . P P
+R . . . K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e7e6', 'f7f6', 'h7h6', 'f7f5', 'h7h5', 'c6e5', 'c6b4', 'g6e4', 'a8d8', 'a8c8', 'd5c5', 'd5e6', 'd5e5', 'd5d7', 'd5a2', 'd5f5', 'd5c4']
+Moves evaluations: {52: 'f7f5', -50: 'e7e6', -12: 'a8d8'}
+Decided centipawn loss from mean 0 and stdev 8: -17.964050484023236
+Target_evaluation: 34.03594951597677
+Chosen move: f7f5
+Move number: 12
+r3kb1r/pp2p1pp/2n3b1/2Pq1p2/2PpN2B/3Q1P2/PP2P1PP/R3KB1R b KQkq c3 0 12
+r . . . k b . r
+p p . . p . p p
+. . n . . . b .
+. . P q . p . .
+. . P p N . . B
+. . . Q . P . .
+P P . . P . P P
+R . . . K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f5e4', 'e7e6', 'h7h6', 'f5f4', 'c6e5', 'a8d8', 'a8c8', 'd5e5', 'd5c5', 'd5e6', 'd5c4', 'd5d7', 'e8c8']
+Moves evaluations: {91: 'd5d7', 51: 'd5e5', 28: 'd5e6'}
+Decided centipawn loss from mean 0 and stdev 8: -0.9210457135080672
+Target_evaluation: 90.07895428649194
+Chosen move: d5d7
+Move number: 13
+r3kb1r/pp1qp1pp/2n3b1/2P2p2/2Pp3B/3Q1P2/PP1NP1PP/R3KB1R b KQkq - 2 13
+r . . . k b . r
+p p . q p . p p
+. . n . . . b .
+. . P . . p . .
+. . P p . . . B
+. . . Q . P . .
+P P . N P . P P
+R . . . K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e7e5', 'e7e6', 'a7a5', 'c6b4', 'c6e5', 'a8d8', 'a8c8', 'd7c7', 'd7e6']
+Moves evaluations: {101: 'e7e5', -50: 'a7a5', 78: 'e7e6'}
+Decided centipawn loss from mean 0 and stdev 8: -17.587044202600577
+Target_evaluation: 83.41295579739942
+Chosen move: e7e6
+Move number: 14
+r3kb1r/pp1q2pp/2n1p1b1/2P2p2/2Pp3B/1N1Q1P2/PP2P1PP/R3KB1R b KQkq - 1 14
+r . . . k b . r
+p p . q . . p p
+. . n . p . b .
+. . P . . p . .
+. . P p . . . B
+. N . Q . P . .
+P P . . P . P P
+R . . . K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e6e5', 'f5f4', 'a7a5', 'h7h5', 'c6e5', 'c6b4', 'c6e7', 'f8e7', 'f8c5', 'g6f7', 'a8d8', 'a8c8', 'd7c7', 'd7e7', 'd7f7']
+Moves evaluations: {160: 'a7a5', 121: 'f5f4', 115: 'e6e5'}
+Decided centipawn loss from mean 0 and stdev 8: 2.445401448054779
+Target_evaluation: 162.44540144805478
+Chosen move: a7a5
+Move number: 15
+r3kb1r/1p1q2pp/2n1p1b1/p1P2p2/P1Pp3B/1N1Q1P2/1P2P1PP/R3KB1R b KQkq - 0 15
+r . . . k b . r
+. p . q . . p p
+. . n . p . b .
+p . P . . p . .
+P . P p . . . B
+. N . Q . P . .
+. P . . P . P P
+R . . . K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f5f4', 'e6e5', 'h7h5', 'c6b4', 'c6e5', 'c6d8', 'f8e7', 'f8c5', 'a8c8', 'a8d8', 'a8b8', 'd7c7', 'd7f7', 'd7e7']
+Moves evaluations: {151: 'c6b4', 131: 'e6e5', -50: 'f5f4'}
+Decided centipawn loss from mean 0 and stdev 8: 0.04572793273188334
+Target_evaluation: 151.0457279327319
+Chosen move: c6b4
+Move number: 16
+r3kb1r/1p1q2pp/4p1b1/p1P2p2/PnPp3B/1N3P2/1P1QP1PP/R3KB1R b KQkq - 2 16
+r . . . k b . r
+. p . q . . p p
+. . . . p . b .
+p . P . . p . .
+P n P p . . . B
+. N . . . P . .
+. P . Q P . P P
+R . . . K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e6e5', 'f5f4', 'b4c6', 'g6f7', 'f8c5', 'f8e7', 'a8d8', 'a8c8', 'a8a6', 'd7c7', 'd7e7', 'd7f7', 'd7c6', 'd7a4', 'd7d5']
+Moves evaluations: {225: 'f5f4', -50: 'e6e5', 78: 'f8e7'}
+Decided centipawn loss from mean 0 and stdev 8: -2.259944691589799
+Target_evaluation: 222.7400553084102
+Chosen move: f5f4
+Move number: 17
+r3kb1r/1p1q2pp/4p1b1/p1P5/PnPp1p1B/1N3P2/1P1QP1PP/2R1KB1R b Kkq - 1 17
+r . . . k b . r
+. p . q . . p p
+. . . . p . b .
+p . P . . . . .
+P n P p . p . B
+. N . . . P . .
+. P . Q P . P P
+. . R . K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e6e5', 'd4d3', 'h7h6', 'b4c6', 'g6f5', 'g6f7', 'f8c5', 'f8e7', 'g6b1', 'a8d8', 'a8c8', 'a8a6', 'd7f7', 'd7d5', 'd7e7', 'd7c7', 'd7a4']
+Moves evaluations: {243: 'e6e5', 95: 'f8e7', 55: 'd7c7'}
+Decided centipawn loss from mean 0 and stdev 8: -1.1617132216040433
+Target_evaluation: 241.83828677839597
+Chosen move: e6e5
+Move number: 18
+r3kb1r/1p1q2pp/6b1/N1P1p3/PnPp1p1B/5P2/1P1QP1PP/2R1KB1R b Kkq - 0 18
+r . . . k b . r
+. p . q . . p p
+. . . . . . b .
+N . P . p . . .
+P n P p . p . B
+. . . . . P . .
+. P . Q P . P P
+. . R . K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e5e4', 'd4d3', 'h7h5', 'b4c6', 'f8c5', 'g6f5', 'g6f7', 'f8e7', 'g6b1', 'a8a6', 'a8c8', 'a8a5', 'a8d8', 'd7e6', 'd7f5', 'd7c7', 'd7f7', 'd7e7', 'd7a4', 'd7d5', 'd7c6']
+Moves evaluations: {214: 'f8c5', 87: 'd7c7', 80: 'a8a5'}
+Decided centipawn loss from mean 0 and stdev 8: 4.3998288314177385
+Target_evaluation: 218.39982883141775
+Chosen move: f8c5
+Move number: 19
+r3k2r/1p1q2pp/6b1/2b1p3/PnPp1p1B/1N3P2/1P1QP1PP/2R1KB1R b Kkq - 1 19
+r . . . k . . r
+. p . q . . p p
+. . . . . . b .
+. . b . p . . .
+P n P p . p . B
+. N . . . P . .
+. P . Q P . P P
+. . R . K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e5e4', 'h7h5', 'b4c6', 'g6f7', 'g6f5', 'c5a7', 'c5e7', 'c5b6', 'g6b1', 'a8d8', 'a8c8', 'h8f8', 'a8a6', 'd7e6', 'd7f5', 'd7f7', 'd7e7', 'd7d6', 'd7c7', 'd7a4']
+Moves evaluations: {195: 'c5e7', 145: 'd7d6'}
+Decided centipawn loss from mean 0 and stdev 8: 2.6072049182999812
+Target_evaluation: 197.60720491829997
+Chosen move: c5e7
+Move number: 20
+r3k2r/1p1qB1pp/6b1/4p3/PnPp1p2/1N3P2/1P1QP1PP/2R1KB1R b Kkq - 0 20
+r . . . k . . r
+. p . q B . p p
+. . . . . . b .
+. . . . p . . .
+P n P p . p . .
+. N . . . P . .
+. P . Q P . P P
+. . R . K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e5e4', 'h7h5', 'd4d3', 'b4c6', 'g6f5', 'g6f7', 'g6b1', 'a8c8', 'a8a6', 'a8d8', 'd7e7', 'd7e6', 'd7f5', 'd7d6', 'd7d5', 'd7a4', 'd7c6']
+Moves evaluations: {218: 'd7e7', -50: 'b4c6', -766: 'h7h5'}
+Decided centipawn loss from mean 0 and stdev 8: -10.5177344988161
+Target_evaluation: 207.4822655011839
+Chosen move: d7e7
+Move number: 21
+r3k2r/1p2q1pp/6b1/P3p3/1nPp1p2/1N3P2/1P1QP1PP/2R1KB1R b Kkq - 0 21
+r . . . k . . r
+. p . . q . p p
+. . . . . . b .
+P . . . p . . .
+. n P p . p . .
+. N . . . P . .
+. P . Q P . P P
+. . R . K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e5e4', 'd4d3', 'h7h5', 'b4c6', 'b4a6', 'g6f5', 'g6f7', 'g6b1', 'a8d8', 'a8c8', 'h8f8', 'a8a5', 'e7h4', 'e7f6', 'e7e6', 'e7g5', 'e7d6', 'e7d7', 'e8c8']
+Moves evaluations: {211: 'e7h4', 181: 'b4c6', 168: 'a8d8'}
+Decided centipawn loss from mean 0 and stdev 8: 10.91907476691634
+Target_evaluation: 221.91907476691634
+Chosen move: e7h4
+Move number: 22
+r3k2r/1p4pp/6b1/P3p3/1nPp1p1q/1N3P2/1P1QP1PP/2RK1B1R b kq - 2 22
+r . . . k . . r
+. p . . . . p p
+. . . . . . b .
+P . . . p . . .
+. n P p . p . q
+. N . . . P . .
+. P . Q P . P P
+. . R K . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['d4d3', 'e5e4', 'h7h5', 'b4c6', 'b4a6', 'g6f5', 'g6f7', 'g6b1', 'a8d8', 'a8c8', 'h8f8', 'a8a5', 'h4e7', 'h4f2', 'h4g5', 'h4f6', 'h4h2', 'h4d8', 'e8c8', 'e8g8']
+Moves evaluations: {210: 'h4e7', 186: 'b4a6', 168: 'b4c6'}
+Decided centipawn loss from mean 0 and stdev 8: -5.373847144363784
+Target_evaluation: 204.6261528556362
+Chosen move: h4e7
+Move number: 23
+r3k2r/1p2q1pp/6b1/P3p3/1nPp1p2/1N3PP1/1P1QP2P/2RK1B1R b kq - 0 23
+r . . . k . . r
+. p . . q . p p
+. . . . . . b .
+P . . . p . . .
+. n P p . p . .
+. N . . . P P .
+. P . Q P . . P
+. . R K . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e5e4', 'd4d3', 'h7h5', 'b4c6', 'b4a6', 'g6f5', 'g6f7', 'g6b1', 'g6h5', 'a8d8', 'a8c8', 'h8f8', 'a8a5', 'e7f6', 'e7d6', 'e7f7', 'e7h4', 'e7g5', 'e7e6', 'e8c8']
+Moves evaluations: {222: 'a8d8', 172: 'g6h5', 163: 'h8f8'}
+Decided centipawn loss from mean 0 and stdev 8: 7.059185356238775
+Target_evaluation: 229.05918535623877
+Chosen move: a8d8
+Move number: 24
+3rk2r/1p2q1pp/6b1/P3p3/1nPp1p2/1N3PP1/1P1QP2P/2R1KB1R b k - 2 24
+. . . r k . . r
+. p . . q . p p
+. . . . . . b .
+P . . . p . . .
+. n P p . p . .
+. N . . . P P .
+. P . Q P . . P
+. . R . K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['d4d3', 'e5e4', 'h7h5', 'b4c6', 'b4d5', 'g6f5', 'g6f7', 'g6b1', 'd8a8', 'd8d7', 'd8c8', 'd8d6', 'e7f6', 'e7h4', 'e7f7', 'e7d6', 'e7e6', 'e7g5', 'e8g8']
+Moves evaluations: {375: 'e5e4', 332: 'e8g8', 222: 'd4d3'}
+Decided centipawn loss from mean 0 and stdev 8: -4.736287244984255
+Target_evaluation: 370.2637127550157
+Chosen move: e5e4
+Move number: 25
+3rk2r/1p2q1pp/6b1/P1P5/1n1ppp2/1N3PP1/1P1QP2P/2R1KB1R b k - 0 25
+. . . r k . . r
+. p . . q . p p
+. . . . . . b .
+P . P . . . . .
+. n . p p p . .
+. N . . . P P .
+. P . Q P . . P
+. . R . K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e4e3', 'd4d3', 'e4f3', 'h7h5', 'b4d5', 'b4c6', 'g6f7', 'd8d5', 'd8a8', 'd8d7', 'e7e6', 'e7c5', 'e7f7', 'e7f6', 'e7e5', 'e7h4', 'e8g8']
+Moves evaluations: {421: 'b4c6', 318: 'b4d5', 297: 'e8g8'}
+Decided centipawn loss from mean 0 and stdev 8: -3.2097201055336875
+Target_evaluation: 417.7902798944663
+Chosen move: b4c6
+Move number: 26
+3rk2r/1p2q1pp/2n3b1/P1P5/3ppQ2/1N3PP1/1P2P2P/2R1KB1R b k - 0 26
+. . . r k . . r
+. p . . q . p p
+. . n . . . b .
+P . P . . . . .
+. . . p p Q . .
+. N . . . P P .
+. P . . P . . P
+. . R . K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e4f3', 'd4d3', 'h7h6', 'c6e5', 'c6b4', 'g6f7', 'h8f8', 'd8d5', 'd8d7', 'd8a8', 'e7f7', 'e7e6', 'e7d7', 'e7e5', 'e7c5']
+Moves evaluations: {585: 'e4f3', 404: 'h8f8', 322: 'e7e6'}
+Decided centipawn loss from mean 0 and stdev 8: -12.838033813144127
+Target_evaluation: 572.1619661868559
+Chosen move: e4f3
+Move number: 27
+3rk2r/1p2q1pp/2n3b1/P1P5/3p1Q2/1N3pP1/1P2P2P/2RK1B1R b k - 1 27
+. . . r k . . r
+. p . . q . p p
+. . n . . . b .
+P . P . . . . .
+. . . p . Q . .
+. N . . . p P .
+. P . . P . . P
+. . R K . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f3f2', 'h7h6', 'd4d3', 'c6a5', 'c6e5', 'g6f7', 'g6f5', 'g6b1', 'g6e4', 'h8f8', 'd8d5', 'd8d7', 'd8a8', 'e7e6', 'e7e3', 'e7f7', 'e7d7', 'e7e2', 'e7e4', 'e7e5', 'e7f6']
+Moves evaluations: {628: 'h8f8', -50: 'd4d3', 405: 'e7e6'}
+Decided centipawn loss from mean 0 and stdev 8: -0.6558878806840335
+Target_evaluation: 627.3441121193159
+Chosen move: h8f8
+Move number: 28
+3rkr2/1p2q1pp/2n3b1/P1P5/3p3Q/1N3pP1/1P2P2P/2RK1B1R b - - 3 28
+. . . r k r . .
+. p . . q . p p
+. . n . . . b .
+P . P . . . . .
+. . . p . . . Q
+. N . . . p P .
+. P . . P . . P
+. . R K . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f3f2', 'h7h6', 'f3e2', 'c6a5', 'c6e5', 'g6f7', 'g6f5', 'g6h5', 'g6e4', 'f8f5', 'd8d7', 'f8f6', 'd8d5', 'd8d6', 'e7e3', 'e7h4', 'e7f7', 'e7e4', 'e7e6', 'e7d7', 'e7e2', 'e7e5']
+Moves evaluations: {779: 'e7e3', 587: 'e7e5'}
+Decided centipawn loss from mean 0 and stdev 8: 19.37859456056803
+Target_evaluation: 798.378594560568
+Chosen move: e7e3
+Move number: 29
+3rkr2/1p4pp/2n3b1/P1P5/3p3Q/4qpP1/1P1NP2P/2RK1B1R b - - 5 29
+. . . r k r . .
+. p . . . . p p
+. . n . . . b .
+P . P . . . . .
+. . . p . . . Q
+. . . . q p P .
+. P . N P . . P
+. . R K . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f3f2', 'f3e2', 'h7h6', 'c6a5', 'c6e5', 'c6a7', 'g6f5', 'g6f7', 'g6h5', 'd8d7', 'f8f6', 'f8f5', 'd8d5', 'd8a8', 'e3f2', 'e3d2', 'e3h6', 'e3e5', 'e3e6', 'e3g1', 'e3b3']
+Moves evaluations: {810: 'f3e2', 525: 'f8f6'}
+Decided centipawn loss from mean 0 and stdev 8: -4.0446233731086005
+Target_evaluation: 805.9553766268914
+Chosen move: f3e2
+Move number: 30
+3rkr2/1p4pp/2n3b1/P1P5/3p3Q/4q1P1/1P1NB2P/2RK3R b - - 0 30
+. . . r k r . .
+. p . . . . p p
+. . n . . . b .
+P . P . . . . .
+. . . p . . . Q
+. . . . q . P .
+. P . N B . . P
+. . R K . . . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['d4d3', 'h7h6', 'c6a5', 'c6e5', 'c6a7', 'g6f5', 'g6f7', 'g6d3', 'd8d7', 'f8f2', 'd8d5', 'f8f6', 'f8f5', 'f8f3', 'd8a8', 'e3f2', 'e3d2', 'e3h6', 'e3e5', 'e3e2', 'e3g1', 'e3g5', 'e3d3']
+Moves evaluations: {839: 'f8f2', 281: 'd8d7', 256: 'f8f5'}
+Decided centipawn loss from mean 0 and stdev 8: 2.604163549432944
+Target_evaluation: 841.604163549433
+Chosen move: f8f2
+Playing side: BLACK 
+Move number: 1
+rnbqkbnr/pppppppp/8/8/8/2N5/PPPPPPPP/R1BQKBNR b KQkq - 1 1
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P P P P P P
+R . B Q K B N R
+Phase of game recognised: opening
+Legal_moves found from human search: ['e7e5', 'd7d5', 'c7c5', 'b7b6', 'g8f6']
+Moves evaluations: {1: 'd7d5', -2: 'e7e5', -14: 'g8f6'}
+Decided centipawn loss from mean 0 and stdev 8: -1.737063039227682
+Target_evaluation: -0.737063039227682
+Chosen move: e7e5
+Move number: 2
+rnbqkbnr/pppp1ppp/8/4p3/8/2N2N2/PPPPPPPP/R1BQKB1R b KQkq - 1 2
+r n b q k b n r
+p p p p . p p p
+. . . . . . . .
+. . . . p . . .
+. . . . . . . .
+. . N . . N . .
+P P P P P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['e5e4', 'd7d6', 'd7d5', 'b8c6', 'g8f6', 'f8b4', 'f8e7', 'f8c5', 'd8f6']
+Moves evaluations: {-27: 'b8c6', -50: 'd7d5', -43: 'd7d6'}
+Decided centipawn loss from mean 0 and stdev 8: 3.3624283591661603
+Target_evaluation: -23.63757164083384
+Chosen move: b8c6
+Move number: 3
+r1bqkbnr/pppp1ppp/2n5/4p3/3P4/2N2N2/PPP1PPPP/R1BQKB1R b KQkq - 0 3
+r . b q k b n r
+p p p p . p p p
+. . n . . . . .
+. . . . p . . .
+. . . P . . . .
+. . N . . N . .
+P P P . P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['e5d4', 'e5e4', 'd7d6', 'd7d5', 'g8f6', 'g8e7', 'c6e7', 'c6d4', 'f8b4', 'f8e7', 'd8f6']
+Moves evaluations: {1: 'e5d4', -66: 'c6d4', -72: 'f8b4'}
+Decided centipawn loss from mean 0 and stdev 8: -9.45302436873745
+Target_evaluation: -8.45302436873745
+Chosen move: e5d4
+Move number: 4
+r1bqkbnr/pppp1ppp/2n5/8/3N4/2N5/PPP1PPPP/R1BQKB1R b KQkq - 0 4
+r . b q k b n r
+p p p p . p p p
+. . n . . . . .
+. . . . . . . .
+. . . N . . . .
+. . N . . . . .
+P P P . P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['d7d5', 'h7h5', 'h7h6', 'g8f6', 'c6d4', 'g8e7', 'c6e7', 'f8b4', 'f8c5', 'f8e7', 'd8f6']
+Moves evaluations: {10: 'g8f6', -5: 'f8c5', -9: 'f8b4'}
+Decided centipawn loss from mean 0 and stdev 8: -9.298128838642958
+Target_evaluation: 0.7018711613570421
+Chosen move: f8c5
+Move number: 5
+r1bqk1nr/pppp1ppp/2N5/2b5/8/2N5/PPP1PPPP/R1BQKB1R b KQkq - 0 5
+r . b q k . n r
+p p p p . p p p
+. . N . . . . .
+. . b . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P . P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['b7c6', 'd7c6', 'b7b6', 'a7a5', 'd7d5', 'g8f6', 'c5b4', 'c5e7', 'c5b6', 'c5f8', 'd8e7']
+Moves evaluations: {0: 'b7c6', -50: 'd7c6', -1150: 'd8e7'}
+Decided centipawn loss from mean 0 and stdev 8: 1.6467580866406548
+Target_evaluation: 1.6467580866406548
+Chosen move: b7c6
+Move number: 6
+r1bqk1nr/p1pp1ppp/2p5/2b5/8/P1N5/1PP1PPPP/R1BQKB1R b KQkq - 0 6
+r . b q k . n r
+p . p p . p p p
+. . p . . . . .
+. . b . . . . .
+. . . . . . . .
+P . N . . . . .
+. P P . P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['a7a5', 'd7d5', 'd7d6', 'g8f6', 'c5e7', 'c5d4', 'c5b6', 'c8b7', 'c5b4', 'c5f8', 'd8f6', 'e8f8']
+Moves evaluations: {23: 'd7d5', 29: 'g8f6', -18: 'd7d6'}
+Decided centipawn loss from mean 0 and stdev 8: 8.102985696117294
+Target_evaluation: 37.102985696117294
+Chosen move: g8f6
+Move number: 7
+r1bqk2r/p1pp1ppp/2p2n2/2b5/1P6/P1N5/2P1PPPP/R1BQKB1R b KQkq - 0 7
+r . b q k . . r
+p . p p . p p p
+. . p . . n . .
+. . b . . . . .
+. P . . . . . .
+P . N . . . . .
+. . P . P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['a7a5', 'd7d5', 'f6g4', 'f6e4', 'c5e7', 'c5b4', 'c5b6', 'c5d4', 'c5d6', 'c5f8', 'e8g8']
+Moves evaluations: {62: 'c5d6', -50: 'c5e7', -22: 'c5f8'}
+Decided centipawn loss from mean 0 and stdev 8: 14.422726296803301
+Target_evaluation: 76.4227262968033
+Chosen move: c5d6
+Move number: 8
+r1bqk2r/p1pp1ppp/2pb1n2/8/1P1Q4/P1N5/2P1PPPP/R1B1KB1R b KQkq - 2 8
+r . b q k . . r
+p . p p . p p p
+. . p b . n . .
+. . . . . . . .
+. P . Q . . . .
+P . N . . . . .
+. . P . P P P P
+R . B . K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['a7a5', 'h7h6', 'f6g4', 'f6d5', 'd6e7', 'd6e5', 'd6h2', 'c8a6', 'd6f8', 'd6b4', 'e8g8']
+Moves evaluations: {76: 'e8g8', 72: 'a7a5', 48: 'h7h6'}
+Decided centipawn loss from mean 0 and stdev 8: 2.82025245869261
+Target_evaluation: 78.82025245869261
+Chosen move: e8g8
+Move number: 9
+r1bq1rk1/p1pp1ppp/2pb1n2/6B1/1P1Q4/P1N5/2P1PPPP/R3KB1R b KQ - 4 9
+r . b q . r k .
+p . p p . p p p
+. . p b . n . .
+. . . . . . B .
+. P . Q . . . .
+P . N . . . . .
+. . P . P P P P
+R . . . K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h6', 'a7a5', 'c6c5', 'f6g4', 'd6e7', 'd6e5', 'd6h2', 'c8a6', 'd6b4', 'f8e8', 'd8e8']
+Moves evaluations: {22: 'f8e8', 23: 'd6e7', 4: 'h7h6'}
+Decided centipawn loss from mean 0 and stdev 8: -7.122165638977172
+Target_evaluation: 15.877834361022828
+Chosen move: f8e8
+Move number: 10
+r1bqr1k1/p1pp1ppp/2pb1B2/8/1P1Q4/P1N5/2P1PPPP/R3KB1R b KQ - 0 10
+r . b q r . k .
+p . p p . p p p
+. . p b . B . .
+. . . . . . . .
+. P . Q . . . .
+P . N . . . . .
+. . P . P P P P
+R . . . K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['g7f6', 'a7a5', 'h7h6', 'c6c5', 'd6e5', 'c8a6', 'd6h2', 'd6f8', 'd6e7', 'e8e4', 'e8e6', 'a8b8', 'd8f6']
+Moves evaluations: {62: 'g7f6', 31: 'd8f6', -475: 'd6e7'}
+Decided centipawn loss from mean 0 and stdev 8: -4.876538758596467
+Target_evaluation: 57.12346124140353
+Chosen move: g7f6
+Move number: 11
+r1bqr1k1/p1pp1p1p/2pb1p2/8/1P1Q4/P1N5/2P1PPPP/3RKB1R b K - 1 11
+r . b q r . k .
+p . p p . p . p
+. . p b . p . .
+. . . . . . . .
+. P . Q . . . .
+P . N . . . . .
+. . P . P P P P
+. . . R K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['a7a5', 'h7h5', 'f6f5', 'd6e5', 'd6e7', 'd6f8', 'd6h2', 'c8a6', 'd6b4', 'e8e4', 'a8b8', 'e8e6', 'e8e5']
+Moves evaluations: {125: 'f6f5', 87: 'd6e5', 51: 'a7a5'}
+Decided centipawn loss from mean 0 and stdev 8: -12.304904961344201
+Target_evaluation: 112.6950950386558
+Chosen move: f6f5
+Move number: 12
+r1bqr1k1/p1pp1p1p/2pb4/5p2/NP1Q4/P7/2P1PPPP/3RKB1R b K - 1 12
+r . b q r . k .
+p . p p . p . p
+. . p b . . . .
+. . . . . p . .
+N P . Q . . . .
+P . . . . . . .
+. . P . P P P P
+. . . R K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['a7a5', 'f7f6', 'f5f4', 'd6h2', 'd6e5', 'd6e7', 'd6f8', 'c8a6', 'd6b4', 'e8e4', 'a8b8', 'e8e5', 'e8e6', 'd8f6', 'd8h4']
+Moves evaluations: {188: 'a7a5', 146: 'd6e5', 73: 'e8e4'}
+Decided centipawn loss from mean 0 and stdev 8: -3.6888465175412346
+Target_evaluation: 184.31115348245876
+Chosen move: a7a5
+Move number: 13
+r1bqr1k1/2pp1p1p/2pb4/p1N2p2/1P1Q4/P7/2P1PPPP/3RKB1R b K - 1 13
+r . b q r . k .
+. . p p . p . p
+. . p b . . . .
+p . N . . p . .
+. P . Q . . . .
+P . . . . . . .
+. . P . P P P P
+. . . R K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['a5b4', 'f5f4', 'f7f6', 'd6c5', 'd6e5', 'd6f8', 'd6e7', 'd6h2', 'e8e4', 'e8e5', 'a8b8', 'e8e7', 'a8a7', 'e8e2', 'd8g5', 'd8f6']
+Moves evaluations: {370: 'd6e5', -50: 'a5b4', 117: 'e8e5'}
+Decided centipawn loss from mean 0 and stdev 8: 2.431272055865762
+Target_evaluation: 372.43127205586575
+Chosen move: d6e5
+Move number: 14
+r1bqr1k1/2pp1p1p/2p5/p1N1bp2/1P6/P7/2PQPPPP/3RKB1R b K - 3 14
+r . b q r . k .
+. . p p . p . p
+. . p . . . . .
+p . N . b p . .
+. P . . . . . .
+P . . . . . . .
+. . P Q P P P P
+. . . R K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['a5b4', 'd7d5', 'f7f6', 'f5f4', 'c8a6', 'e5f6', 'e5c3', 'e5g7', 'e5h2', 'e5a1', 'e5b2', 'a8b8', 'e8e7', 'd8f6', 'd8h4']
+Moves evaluations: {466: 'd8f6', 259: 'a5b4', 206: 'd8h4'}
+Decided centipawn loss from mean 0 and stdev 8: 9.795578963999064
+Target_evaluation: 475.79557896399905
+Chosen move: d8f6
+Move number: 15
+r1b1r1k1/2pp1p1p/2p2q2/p3bp2/NP6/P7/2PQPPPP/3RKB1R b K - 5 15
+r . b . r . k .
+. . p p . p . p
+. . p . . q . .
+p . . . b p . .
+N P . . . . . .
+P . . . . . . .
+. . P Q P P P P
+. . . R K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['a5b4', 'd7d5', 'c6c5', 'c8a6', 'e5h2', 'e5b2', 'e5d6', 'e5d4', 'e8d8', 'e8e6', 'a8b8', 'f6g7', 'f6h4', 'f6e6', 'f6e7', 'f6g5', 'f6d6']
+Moves evaluations: {585: 'a5b4', 311: 'f6e7', 254: 'f6h4'}
+Decided centipawn loss from mean 0 and stdev 8: -4.141695655635194
+Target_evaluation: 580.8583043443648
+Chosen move: a5b4
+Move number: 16
+r1b1r1k1/2pp1p1p/2p2q2/4bp2/Np3P2/P7/2PQP1PP/3RKB1R b K - 0 16
+r . b . r . k .
+. . p p . p . p
+. . p . . q . .
+. . . . b p . .
+N p . . . P . .
+P . . . . . . .
+. . P Q P . P P
+. . . R K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['b4a3', 'b4b3', 'd7d5', 'c8a6', 'e5c3', 'e5d6', 'e8e6', 'e8d8', 'a8a6', 'f6h4', 'f6g7', 'f6e6', 'f6h8', 'f6e7']
+Moves evaluations: {416: 'e5d6', 375: 'f6h4', 314: 'b4a3'}
+Decided centipawn loss from mean 0 and stdev 8: -3.633880735855095
+Target_evaluation: 412.3661192641449
+Chosen move: e5d6
+Move number: 17
+r1b1r1k1/2pp1p1p/1Npb1q2/5p2/1p3P2/P7/2PQP1PP/3RKB1R b K - 2 17
+r . b . r . k .
+. . p p . p . p
+. N p b . q . .
+. . . . . p . .
+. p . . . P . .
+P . . . . . . .
+. . P Q P . P P
+. . . R K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['c7b6', 'b4a3', 'c6c5', 'd6f8', 'd6c5', 'c8a6', 'e8e4', 'a8a6', 'a8a3', 'e8e6', 'e8d8', 'a8b8', 'e8e2', 'f6h4', 'f6g7', 'f6e7', 'f6e6', 'f6b2', 'f6h8']
+Moves evaluations: {446: 'a8a3', 370: 'c7b6', 313: 'a8b8'}
+Decided centipawn loss from mean 0 and stdev 8: -23.385246338286947
+Target_evaluation: 422.61475366171305
+Chosen move: a8a3
+Move number: 18
+2b1r1k1/2pp1p1p/1Npb1q2/5p2/1p3P2/r5P1/2PQP2P/3RKB1R b K - 0 18
+. . b . r . k .
+. . p p . p . p
+. N p b . q . .
+. . . . . p . .
+. p . . . P . .
+r . . . . . P .
+. . P Q P . . P
+. . . R K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['c7b6', 'c6c5', 'd6c5', 'd6f8', 'c8a6', 'c8b7', 'e8e3', 'a3e3', 'a3a8', 'e8e2', 'e8e4', 'a3a1', 'a3a6', 'e8e6', 'a3a5', 'e8d8', 'a3a2', 'f6e7', 'f6g7', 'f6e6', 'f6h4', 'f6c3', 'f6b2']
+Moves evaluations: {535: 'c7b6', 531: 'c8a6', 433: 'd6c5'}
+Decided centipawn loss from mean 0 and stdev 8: 4.939069546585916
+Target_evaluation: 539.9390695465859
+Chosen move: c7b6
+Move number: 19
+2b1r1k1/3p1p1p/1ppQ1q2/5p2/1p3P2/r5P1/2P1P2P/3RKB1R b K - 0 19
+. . b . r . k .
+. . . p . p . p
+. p p Q . q . .
+. . . . . p . .
+. p . . . P . .
+r . . . . . P .
+. . P . P . . P
+. . . R K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h6', 'b6b5', 'c8a6', 'e8e3', 'a3e3', 'e8e2', 'e8e6', 'e8e4', 'a3a1', 'a3a8', 'a3a5', 'a3a2', 'a3a6', 'e8e7', 'a3a7', 'f6g7', 'f6d6', 'f6e6', 'f6b2', 'f6c3', 'f6h8', 'f6d8', 'f6e7']
+Moves evaluations: {551: 'f6c3', 316: 'f6b2', 310: 'f6d6'}
+Decided centipawn loss from mean 0 and stdev 8: -21.622808988359086
+Target_evaluation: 529.3771910116409
+Chosen move: f6c3
+Move number: 20
+2b1r1k1/3p1p1p/1pp5/5p2/1p3P2/r1q3P1/2PQP2P/3RKB1R b K - 2 20
+. . b . r . k .
+. . . p . p . p
+. p p . . . . .
+. . . . . p . .
+. p . . . P . .
+r . q . . . P .
+. . P Q P . . P
+. . . R K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['d7d5', 'b6b5', 'c6c5', 'd7d6', 'c8a6', 'e8e3', 'a3a1', 'e8e4', 'a3a8', 'e8e2', 'e8e6', 'a3a5', 'e8e7', 'e8e5', 'c3c5', 'c3f6', 'c3d2', 'c3e3', 'c3e5', 'c3g3', 'c3b2', 'c3c4', 'c3a1', 'c3c2']
+Moves evaluations: {318: 'c3c5', 300: 'c3c4', 296: 'c6c5'}
+Decided centipawn loss from mean 0 and stdev 8: -1.7379269256747198
+Target_evaluation: 316.26207307432526
+Chosen move: c3c5
+Move number: 21
+2b1r1k1/3p1p1p/1pp5/2q2p2/1p1Q1P2/r5P1/2P1P2P/3RKB1R b K - 4 21
+. . b . r . k .
+. . . p . p . p
+. p p . . . . .
+. . q . . p . .
+. p . Q . P . .
+r . . . . . P .
+. . P . P . . P
+. . . R K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['d7d5', 'b6b5', 'd7d6', 'c8a6', 'e8e4', 'e8e3', 'a3e3', 'a3a1', 'e8e2', 'a3a2', 'a3a8', 'e8e6', 'a3a5', 'a3a4', 'e8e7', 'a3a6', 'e8d8', 'c5a5', 'c5d4', 'c5e7', 'c5c3', 'c5b5']
+Moves evaluations: {376: 'a3a2', 370: 'c5e7', 359: 'd7d5'}
+Decided centipawn loss from mean 0 and stdev 8: 1.28934992447607
+Target_evaluation: 377.2893499244761
+Chosen move: a3a2
+Move number: 22
+2b1r1k1/3p1p1p/1pp5/2Q2p2/1p3P2/6P1/r1P1P2P/3RKB1R b K - 0 22
+. . b . r . k .
+. . . p . p . p
+. p p . . . . .
+. . Q . . p . .
+. p . . . P . .
+. . . . . . P .
+r . P . P . . P
+. . . R K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['b6c5', 'b6b5', 'd7d5', 'b4b3', 'c8a6', 'e8e2', 'e8e4', 'a2b2', 'e8e6', 'a2a1', 'a2a5', 'a2c2', 'e8e5', 'e8e3', 'a2a8']
+Moves evaluations: {387: 'b6c5', -360: 'e8e2', -1091: 'b4b3'}
+Decided centipawn loss from mean 0 and stdev 8: -16.836514958643296
+Target_evaluation: 370.1634850413567
+Chosen move: b6c5
+Move number: 23
+2b1r1k1/3p1p1p/2p5/2p2p2/1p3P2/6P1/r1P1P2P/2R1KB1R b K - 1 23
+. . b . r . k .
+. . . p . p . p
+. . p . . . . .
+. . p . . p . .
+. p . . . P . .
+. . . . . . P .
+r . P . P . . P
+. . R . K B . R
+Phase of game recognised: endgame
+Legal_moves found from human search: ['c5c4', 'd7d6', 'd7d5', 'b4b3', 'c8a6', 'e8e2', 'e8e4', 'e8e6', 'a2a1', 'a2a3', 'a2b2', 'a2a8', 'e8e3', 'a2a6', 'e8e7', 'a2a5', 'g8f8', 'g8g7']
+Moves evaluations: {395: 'c8a6', 380: 'c5c4', 345: 'd7d5'}
+Decided centipawn loss from mean 0 and stdev 8: 9.34762367542202
+Target_evaluation: 404.347623675422
+Chosen move: c8a6
+Move number: 24
+4r1k1/3p1p1p/b1p5/2p2p2/1p3P2/6P1/r1P1P2P/2RK1B1R b - - 3 24
+. . . . r . k .
+. . . p . p . p
+b . p . . . . .
+. . p . . p . .
+. p . . . P . .
+. . . . . . P .
+r . P . P . . P
+. . R K . B . R
+Phase of game recognised: endgame
+Legal_moves found from human search: ['c5c4', 'd7d5', 'b4b3', 'h7h5', 'a6e2', 'a6b5', 'a6c4', 'e8e2', 'e8e4', 'e8e6', 'e8a8', 'e8e3', 'a2a1', 'e8e5', 'e8c8', 'a2b2', 'e8e7', 'g8g7', 'g8f8']
+Moves evaluations: {420: 'c5c4', 402: 'g8g7', 394: 'd7d5'}
+Decided centipawn loss from mean 0 and stdev 8: -8.70613022578899
+Target_evaluation: 411.29386977421103
+Chosen move: c5c4
+Move number: 25
+4r1k1/3p1p1p/b1p5/5p2/1pp2P2/6P1/r1P1P2P/2RK1BR1 b - - 1 25
+. . . . r . k .
+. . . p . p . p
+b . p . . . . .
+. . . . . p . .
+. p p . . P . .
+. . . . . . P .
+r . P . P . . P
+. . R K . B R .
+Phase of game recognised: endgame
+Legal_moves found from human search: ['d7d5', 'b4b3', 'c4c3', 'd7d6', 'f7f6', 'a6b5', 'e8e2', 'e8e4', 'e8e6', 'a2a3', 'e8a8', 'e8e3', 'a2b2', 'e8c8', 'a2a1', 'g8f8', 'g8g7']
+Moves evaluations: {425: 'b4b3', 430: 'g8g7', 417: 'g8f8'}
+Decided centipawn loss from mean 0 and stdev 8: -1.944387389226219
+Target_evaluation: 428.0556126107738
+Chosen move: g8g7
+Move number: 26
+4r3/3p1pkp/b1p5/5p2/1pp2PP1/8/r1P1P2P/2RK1BR1 b - - 0 26
+. . . . r . . .
+. . . p . p k p
+b . p . . . . .
+. . . . . p . .
+. p p . . P P .
+. . . . . . . .
+r . P . P . . P
+. . R K . B R .
+Phase of game recognised: endgame
+Legal_moves found from human search: ['f5g4', 'b4b3', 'd7d5', 'h7h5', 'f7f6', 'c6c5', 'a6b5', 'e8e2', 'e8e4', 'e8e3', 'a2a3', 'e8a8', 'e8c8', 'e8h8', 'a2a1', 'e8e7', 'e8e6', 'g7f6', 'g7f8', 'g7h8', 'g7h6']
+Moves evaluations: {477: 'b4b3', 401: 'e8e4', 368: 'f5g4'}
+Decided centipawn loss from mean 0 and stdev 8: -0.6839665665300747
+Target_evaluation: 476.3160334334699
+Chosen move: b4b3
+Move number: 27
+4r3/3p1pkp/b1p5/5p2/2p2PP1/1p6/r1PKP2P/2R2BR1 b - - 1 27
+. . . . r . . .
+. . . p . p k p
+b . p . . . . .
+. . . . . p . .
+. . p . . P P .
+. p . . . . . .
+r . P K P . . P
+. . R . . B R .
+Phase of game recognised: endgame
+Legal_moves found from human search: ['b3c2', 'f5g4', 'b3b2', 'd7d5', 'h7h5', 'a6b5', 'e8e2', 'e8e4', 'e8e3', 'e8a8', 'e8h8', 'e8c8', 'e8e7', 'a2a3', 'a2b2', 'e8e5', 'e8d8', 'a2a1', 'g7f6', 'g7f8', 'g7h8', 'g7h6']
+Moves evaluations: {511: 'd7d5', 509: 'f5g4', 462: 'g7f6'}
+Decided centipawn loss from mean 0 and stdev 8: -9.395459264940287
+Target_evaluation: 501.6045407350597
+Chosen move: f5g4
+Move number: 28
+4r3/3p1pkp/b1p5/8/2p2PR1/1p6/r1PKP2P/2R2B2 b - - 0 28
+. . . . r . . .
+. . . p . p k p
+b . p . . . . .
+. . . . . . . .
+. . p . . P R .
+. p . . . . . .
+r . P K P . . P
+. . R . . B . .
+Phase of game recognised: endgame
+Legal_moves found from human search: ['g7f6', 'g7f8']
+Moves evaluations: {536: 'g7f8'}
+Decided centipawn loss from mean 0 and stdev 8: -4.96244006506961
+Target_evaluation: 531.0375599349304
+Chosen move: g7f8
+Move number: 29
+4rk2/3p1p1p/b1p5/8/2p2P2/1p6/r1PKP2P/2R2BR1 b - - 2 29
+. . . . r k . .
+. . . p . p . p
+b . p . . . . .
+. . . . . . . .
+. . p . . P . .
+. p . . . . . .
+r . P K P . . P
+. . R . . B R .
+Phase of game recognised: endgame
+Legal_moves found from human search: ['b3b2', 'd7d5', 'b3c2', 'h7h5', 'f7f5', 'f7f6', 'a6b5', 'e8e2', 'e8e4', 'e8a8', 'e8e3', 'a2b2', 'e8c8', 'a2a3', 'a2c2', 'e8e5']
+Moves evaluations: {643: 'd7d5', 424: 'a6b5', 405: 'e8e4'}
+Decided centipawn loss from mean 0 and stdev 8: 1.1202516371083384
+Target_evaluation: 644.1202516371084
+Chosen move: d7d5
+Move number: 30
+4rk2/5p1p/b1p5/3p4/2p2P2/1p2P3/r1PK3P/2R2BR1 b - - 0 30
+. . . . r k . .
+. . . . . p . p
+b . p . . . . .
+. . . p . . . .
+. . p . . P . .
+. p . . P . . .
+r . P K . . . P
+. . R . . B R .
+Phase of game recognised: endgame
+Legal_moves found from human search: ['b3b2', 'b3c2', 'f7f5', 'c6c5', 'h7h5', 'a6b5', 'e8a8', 'e8e3', 'e8e4', 'a2b2', 'a2c2', 'a2a4', 'e8d8']
+Moves evaluations: {725: 'c6c5', 525: 'a6b5', 440: 'e8e4'}
+Decided centipawn loss from mean 0 and stdev 8: -7.54356760511166
+Target_evaluation: 717.4564323948883
+Chosen move: c6c5
+Playing side: BLACK 
+Move number: 1
+rnbqkbnr/pppppppp/8/8/8/2N5/PPPPPPPP/R1BQKBNR b KQkq - 1 1
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P P P P P P
+R . B Q K B N R
+Phase of game recognised: opening
+Legal_moves found from human search: ['e7e5', 'd7d5', 'c7c5', 'b7b6', 'g8f6']
+Moves evaluations: {10: 'd7d5', -4: 'g8f6', -12: 'e7e5'}
+Decided centipawn loss from mean 0 and stdev 8: -6.30926566041044
+Target_evaluation: 3.69073433958956
+Chosen move: d7d5
+Move number: 2
+rnbqkbnr/ppp1pppp/8/3p4/8/2N2N2/PPPPPPPP/R1BQKB1R b KQkq - 1 2
+r n b q k b n r
+p p p . p p p p
+. . . . . . . .
+. . . p . . . .
+. . . . . . . .
+. . N . . N . .
+P P P P P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'd5d4', 'e7e6', 'g7g6', 'g8f6', 'b8c6', 'c8g4', 'c8f5', 'c8d7']
+Moves evaluations: {26: 'd5d4', 14: 'g8f6', 9: 'c7c5'}
+Decided centipawn loss from mean 0 and stdev 8: -3.816167330474733
+Target_evaluation: 22.183832669525266
+Chosen move: d5d4
+Move number: 3
+rnbqkbnr/ppp1pppp/8/8/3pN3/5N2/PPPPPPPP/R1BQKB1R b KQkq - 1 3
+r n b q k b n r
+p p p . p p p p
+. . . . . . . .
+. . . . . . . .
+. . . p N . . .
+. . . . . N . .
+P P P P P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'e7e5', 'g7g6', 'b8c6', 'g8f6', 'c8f5', 'c8g4', 'c8d7', 'd8d5']
+Moves evaluations: {-9: 'd8d5', -11: 'e7e5', -16: 'g8f6'}
+Decided centipawn loss from mean 0 and stdev 8: -0.07095540280265641
+Target_evaluation: -9.070955402802657
+Chosen move: d8d5
+Move number: 4
+rnb1kbnr/ppp1pppp/8/3q4/3pN3/3P1N2/PPP1PPPP/R1BQKB1R b KQkq - 0 4
+r n b . k b n r
+p p p . p p p p
+. . . . . . . .
+. . . q . . . .
+. . . p N . . .
+. . . P . N . .
+P P P . P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'e7e5', 'f7f6', 'b7b6', 'b8c6', 'g8f6', 'c8f5', 'c8g4', 'c8d7', 'd5d8', 'd5f5', 'd5e6', 'd5h5', 'd5e4', 'd5a5']
+Moves evaluations: {-19: 'e7e5', -50: 'b8c6', -42: 'g8f6'}
+Decided centipawn loss from mean 0 and stdev 8: 13.02938602480449
+Target_evaluation: -5.97061397519551
+Chosen move: e7e5
+Move number: 5
+rnb1kbnr/ppp2ppp/8/3qp3/2PpN3/3P1N2/PP2PPPP/R1BQKB1R b KQkq c3 0 5
+r n b . k b n r
+p p p . . p p p
+. . . . . . . .
+. . . q p . . .
+. . P p N . . .
+. . . P . N . .
+P P . . P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'f7f6', 'f7f5', 'b8c6', 'g8f6', 'f8b4', 'f8e7', 'c8g4', 'f8d6', 'c8f5', 'c8e6', 'd5e6', 'd5d8', 'd5a5']
+Moves evaluations: {-16: 'd5e6', -58: 'd5a5', -60: 'f8b4'}
+Decided centipawn loss from mean 0 and stdev 8: 8.649504130471788
+Target_evaluation: -7.350495869528212
+Chosen move: d5e6
+Move number: 6
+rnb1kbnr/ppp2ppp/4q3/4p3/2PpN3/3PPN2/PP3PPP/R1BQKB1R b KQkq - 0 6
+r n b . k b n r
+p p p . . p p p
+. . . . q . . .
+. . . . p . . .
+. . P p N . . .
+. . . P P N . .
+P P . . . P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'f7f5', 'd4e3', 'b8c6', 'g8f6', 'f8b4', 'f8e7', 'c8d7', 'e6g6', 'e6f5', 'e6e7', 'e6b6', 'e6c6']
+Moves evaluations: {-9: 'c7c5', -25: 'f8b4', -27: 'b8c6'}
+Decided centipawn loss from mean 0 and stdev 8: -0.14867916307293294
+Target_evaluation: -9.148679163072932
+Chosen move: c7c5
+Move number: 7
+rnb1kbnr/pp3ppp/4q3/2p1p3/2PpN3/3PPN2/PP2BPPP/R1BQK2R b KQkq - 1 7
+r n b . k b n r
+p p . . . p p p
+. . . . q . . .
+. . p . p . . .
+. . P p N . . .
+. . . P P N . .
+P P . . B P P P
+R . B Q K . . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['f7f5', 'd4e3', 'b7b6', 'b8c6', 'g8f6', 'f8e7', 'e6g6', 'e6b6', 'e6e7', 'e6f5', 'e6h6', 'e8e7']
+Moves evaluations: {-14: 'b8c6', -27: 'f7f5', -34: 'g8f6'}
+Decided centipawn loss from mean 0 and stdev 8: -4.808367923537272
+Target_evaluation: -18.808367923537272
+Chosen move: b8c6
+Move number: 8
+r1b1kbnr/pp3ppp/2n1q3/2p1p3/2PPN3/3P1N2/PP2BPPP/R1BQK2R b KQkq - 0 8
+r . b . k b n r
+p p . . . p p p
+. . n . q . . .
+. . p . p . . .
+. . P P N . . .
+. . . P . N . .
+P P . . B P P P
+R . B Q K . . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c5d4', 'e5d4', 'f7f5', 'b7b6', 'g8e7', 'c6e7', 'g8f6', 'c6d4', 'f8e7', 'e6g6', 'e6h6', 'e6f5']
+Moves evaluations: {-12: 'c5d4', -77: 'c6d4', -89: 'e5d4'}
+Decided centipawn loss from mean 0 and stdev 8: -10.396766595732243
+Target_evaluation: -22.396766595732245
+Chosen move: c5d4
+Move number: 9
+r1b1kbnr/pp3ppp/2n1q3/4p3/2PpN3/P2P1N2/1P2BPPP/R1BQK2R b KQkq - 0 9
+r . b . k b n r
+p p . . . p p p
+. . n . q . . .
+. . . . p . . .
+. . P p N . . .
+P . . P . N . .
+. P . . B P P P
+R . B Q K . . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['f7f5', 'a7a5', 'h7h6', 'g8f6', 'g8e7', 'c6e7', 'c6a5', 'f8e7', 'c8d7', 'e6g6', 'e6f5', 'e6h6']
+Moves evaluations: {11: 'f7f5', 1: 'h7h6', -18: 'g8f6'}
+Decided centipawn loss from mean 0 and stdev 8: 1.7401644026802057
+Target_evaluation: 12.740164402680206
+Chosen move: f7f5
+Move number: 10
+r1b1kbnr/pp4pp/2n1q3/4ppN1/2PpN3/P2P4/1P2BPPP/R1BQK2R b KQkq - 1 10
+r . b . k b n r
+p p . . . . p p
+. . n . q . . .
+. . . . p p N .
+. . P p N . . .
+P . . P . . . .
+. P . . B P P P
+R . B Q K . . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['f5e4', 'h7h6', 'g8f6', 'g8e7', 'c6e7', 'g8h6', 'c8d7', 'f8e7', 'e6g6', 'e6d7', 'e6h6', 'e8d7']
+Moves evaluations: {9: 'e6d7', -397: 'e6h6', -412: 'f5e4'}
+Decided centipawn loss from mean 0 and stdev 8: 1.6794984488769196
+Target_evaluation: 10.67949844887692
+Chosen move: e6d7
+Move number: 11
+r1b1kbnr/pp1q2pp/2n5/4ppN1/2Pp4/P2P2N1/1P2BPPP/R1BQK2R b KQkq - 3 11
+r . b . k b n r
+p p . q . . p p
+. . n . . . . .
+. . . . p p N .
+. . P p . . . .
+P . . P . . N .
+. P . . B P P P
+R . B Q K . . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['g7g6', 'f5f4', 'g8f6', 'g8e7', 'c6e7', 'g8h6', 'f8e7', 'f8d6', 'd7d8', 'd7f7']
+Moves evaluations: {-5: 'g8f6', -3: 'g7g6', -10: 'f8d6'}
+Decided centipawn loss from mean 0 and stdev 8: -5.535043614039647
+Target_evaluation: -8.535043614039648
+Chosen move: f8d6
+Move number: 12
+r1b1k1nr/pp1q2pp/2nb4/4ppN1/2Pp4/P2P2N1/1P2BPPP/R1BQ1RK1 b kq - 5 12
+r . b . k . n r
+p p . q . . p p
+. . n b . . . .
+. . . . p p N .
+. . P p . . . .
+P . . P . . N .
+. P . . B P P P
+R . B Q . R K .
+Phase of game recognised: opening
+Legal_moves found from human search: ['h7h6', 'f5f4', 'g8f6', 'g8e7', 'c6e7', 'g8h6', 'd6c7', 'd6e7', 'd6c5', 'd7d8', 'd7e7', 'e8f8']
+Moves evaluations: {9: 'g8f6', 0: 'g8e7', -27: 'd6c7'}
+Decided centipawn loss from mean 0 and stdev 8: -16.100270724016347
+Target_evaluation: -7.100270724016347
+Chosen move: g8e7
+Move number: 13
+r1b1k2r/pp1qn1pp/2nb4/4ppNN/2Pp4/P2P4/1P2BPPP/R1BQ1RK1 b kq - 7 13
+r . b . k . . r
+p p . q n . p p
+. . n b . . . .
+. . . . p p N N
+. . P p . . . .
+P . . P . . . .
+. P . . B P P P
+R . B Q . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['g7g6', 'h7h6', 'a7a5', 'e5e4', 'e7g6', 'c6d8', 'c6a5', 'd6c7', 'd6c5', 'h8f8', 'd7d8', 'd7c7']
+Moves evaluations: {-109: 'e7g6', -50: 'c6d8', -384: 'e5e4'}
+Decided centipawn loss from mean 0 and stdev 8: 4.16513267720299
+Target_evaluation: -45.83486732279701
+Chosen move: c6d8
+Move number: 14
+r1bnk2r/pp1qn1Np/3b4/4ppN1/2Pp4/P2P4/1P2BPPP/R1BQ1RK1 b kq - 0 14
+r . b n k . . r
+p p . q n . N p
+. . . b . . . .
+. . . . p p N .
+. . P p . . . .
+P . . P . . . .
+. P . . B P P P
+R . B Q . R K .
+Phase of game recognised: opening
+Legal_moves found from human search: []
+Moves evaluations: {-175: 'e8f8'}
+Decided centipawn loss from mean 0 and stdev 8: -6.118438217535411
+Target_evaluation: -181.1184382175354
+Chosen move: e8f8
+Move number: 15
+r1bn1k1r/pp1qn2p/3b4/4ppNN/2Pp4/P2P4/1P2BPPP/R1BQ1RK1 b - - 2 15
+r . b n . k . r
+p p . q n . . p
+. . . b . . . .
+. . . . p p N N
+. . P p . . . .
+P . . P . . . .
+. P . . B P P P
+R . B Q . R K .
+Phase of game recognised: opening
+Legal_moves found from human search: ['h7h6', 'a7a5', 'd8c6', 'e7c6', 'e7g6', 'd6c7', 'd7e8']
+Moves evaluations: {-146: 'h7h6', -282: 'e7g6', -315: 'd7e8'}
+Decided centipawn loss from mean 0 and stdev 8: 2.4343482189226715
+Target_evaluation: -143.56565178107732
+Chosen move: h7h6
+Move number: 16
+r1bn1k1r/pp1qn3/3b3p/4pp1N/2Pp4/P2P1N2/1P2BPPP/R1BQ1RK1 b - - 1 16
+r . b n . k . r
+p p . q n . . .
+. . . b . . . p
+. . . . p p . N
+. . P p . . . .
+P . . P . N . .
+. P . . B P P P
+R . B Q . R K .
+Phase of game recognised: opening
+Legal_moves found from human search: ['e5e4', 'd8c6', 'e7c6', 'e7g6', 'd6c7', 'd6c5', 'd7c7', 'd7e8']
+Moves evaluations: {-154: 'e7g6', -214: 'd6c7', -224: 'd8c6'}
+Decided centipawn loss from mean 0 and stdev 8: -4.91591511011932
+Target_evaluation: -158.91591511011933
+Chosen move: e7g6
+Move number: 17
+r1bn1k1r/pp1q4/3b2np/4pp1N/2Pp4/P2P1N2/1P1BBPPP/R2Q1RK1 b - - 3 17
+r . b n . k . r
+p p . q . . . .
+. . . b . . n p
+. . . . p p . N
+. . P p . . . .
+P . . P . N . .
+. P . B B P P P
+R . . Q . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f5f4', 'e5e4', 'a7a5', 'd8e6', 'g6f4', 'd8f7', 'd6c7', 'd6e7', 'h8g8', 'd7e8', 'd7g7', 'd7f7', 'd7c7', 'd7e6', 'd7h7', 'd7e7']
+Moves evaluations: {-144: 'd8e6', -50: 'd7e7', -167: 'd7f7'}
+Decided centipawn loss from mean 0 and stdev 8: -2.366756493075997
+Target_evaluation: -52.366756493076
+Chosen move: d7e7
+Move number: 18
+r1bn1k1r/pp2q3/3b2np/4pp1N/2Pp4/P2P1N2/1P1BBPPP/R1Q2RK1 b - - 5 18
+r . b n . k . r
+p p . . q . . .
+. . . b . . n p
+. . . . p p . N
+. . P p . . . .
+P . . P . N . .
+. P . B B P P P
+R . Q . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['a7a5', 'f5f4', 'e5e4', 'd8f7', 'd8e6', 'c8d7', 'c8e6', 'd6c7', 'h8g8', 'e7e8', 'e7f6', 'e7e6', 'e7f7', 'e7g7', 'e7h7', 'e7c7']
+Moves evaluations: {-127: 'f5f4', -141: 'd8f7', -149: 'd8e6'}
+Decided centipawn loss from mean 0 and stdev 8: 14.9950805998149
+Target_evaluation: -112.0049194001851
+Chosen move: f5f4
+Move number: 19
+r1bn1k1r/pp2q3/3b2np/4p2N/1PPp1p2/P2P1N2/3BBPPP/R1Q2RK1 b - - 0 19
+r . b n . k . r
+p p . . q . . .
+. . . b . . n p
+. . . . p . . N
+. P P p . p . .
+P . . P . N . .
+. . . B B P P P
+R . Q . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['a7a5', 'e5e4', 'd8f7', 'd8c6', 'c8g4', 'c8d7', 'c8h3', 'c8f5', 'c8e6', 'h8g8', 'e7e8', 'e7f7', 'e7g7', 'e7e6', 'e7f6', 'e7c7', 'e7h4']
+Moves evaluations: {-128: 'h8g8', -156: 'c8d7', -162: 'e7e6'}
+Decided centipawn loss from mean 0 and stdev 8: -1.8458095300669795
+Target_evaluation: -129.845809530067
+Chosen move: h8g8
+Move number: 20
+r1bn1kr1/pp2q3/3b2np/2P1p2N/1P1p1p2/P2P1N2/3BBPPP/R1Q2RK1 b - - 0 20
+r . b n . k r .
+p p . . q . . .
+. . . b . . n p
+. . P . p . . N
+. P . p . p . .
+P . . P . N . .
+. . . B B P P P
+R . Q . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['a7a5', 'e5e4', 'd8f7', 'd8c6', 'c8g4', 'c8d7', 'd6c7', 'c8h3', 'a8b8', 'e7e8', 'e7e6', 'e7f7', 'e7g7', 'e7h4', 'e7f6', 'e7h7']
+Moves evaluations: {-121: 'd6c7', -504: 'd8f7', -491: 'c8g4'}
+Decided centipawn loss from mean 0 and stdev 8: 6.185127012647928
+Target_evaluation: -114.81487298735208
+Chosen move: d6c7
+Move number: 21
+r1bn1kr1/ppb1q3/6np/2P1p2N/1P1p1p2/P2P1N1P/3BBPP1/R1Q2RK1 b - - 0 21
+r . b n . k r .
+p p b . q . . .
+. . . . . . n p
+. . P . p . . N
+. P . p . p . .
+P . . P . N . P
+. . . B B P P .
+R . Q . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['a7a5', 'b7b6', 'd8f7', 'd8e6', 'c8d7', 'c8h3', 'c8f5', 'c8e6', 'c8g4', 'a8b8', 'e7e8', 'e7f6', 'e7e6', 'e7f7', 'e7g7', 'e7h4']
+Moves evaluations: {-84: 'c8h3', -88: 'c8d7', -108: 'e7f7'}
+Decided centipawn loss from mean 0 and stdev 8: 2.1358517850828416
+Target_evaluation: -81.86414821491717
+Chosen move: c8h3
+Move number: 22
+r2n1kr1/ppb1q3/6np/2P1p2N/1P1p1p2/P2P1N1P/3BBP2/R1Q2RK1 b - - 0 22
+r . . n . k r .
+p p b . q . . .
+. . . . . . n p
+. . P . p . . N
+. P . p . p . .
+P . . P . N . P
+. . . B B P . .
+R . Q . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['a7a5', 'e5e4', 'd8f7', 'd8e6', 'c7a5', 'g8g7', 'e7e8', 'e7e6', 'e7f7', 'e7f6', 'e7h4', 'e7g7']
+Moves evaluations: {-306: 'e5e4', -400: 'e7e6', -405: 'e7f7'}
+Decided centipawn loss from mean 0 and stdev 8: -0.7269830801605095
+Target_evaluation: -306.7269830801605
+Chosen move: e5e4
+Move number: 23
+r2n1kr1/ppb1q3/6np/2P4N/1P1Npp2/P2P3P/3BBP2/R1Q2RK1 b - - 0 23
+r . . n . k r .
+p p b . q . . .
+. . . . . . n p
+. . P . . . . N
+. P . N p p . .
+P . . P . . . P
+. . . B B P . .
+R . Q . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e4d3', 'f4f3', 'e4e3', 'g6h4', 'd8e6', 'd8f7', 'c7e5', 'c7b6', 'g8g7', 'e7g5', 'e7h4', 'e7f7', 'e7e8', 'e7f6', 'e7e5', 'e7d7']
+Moves evaluations: {-58: 'e7h4', -234: 'd8e6', -372: 'e4d3'}
+Decided centipawn loss from mean 0 and stdev 8: -9.857324456436455
+Target_evaluation: -67.85732445643646
+Chosen move: e7h4
+Move number: 24
+r2n1kr1/ppb5/6np/2P4N/1P1NppBq/P2P3P/3B1P2/R1Q2RK1 b - - 2 24
+r . . n . k r .
+p p b . . . . .
+. . . . . . n p
+. . P . . . . N
+. P . N p p B q
+P . . P . . . P
+. . . B . P . .
+R . Q . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e4e3', 'e4d3', 'g6e5', 'd8f7', 'c7e5', 'c7b6', 'g8g7', 'h4g5', 'h4f6', 'h4h3', 'h4g4']
+Moves evaluations: {-130: 'g6e5', -778: 'e4e3', -847: 'c7e5'}
+Decided centipawn loss from mean 0 and stdev 8: -5.788657873753021
+Target_evaluation: -135.788657873753
+Chosen move: g6e5
+Move number: 25
+r2n1kr1/ppb5/2P4p/4n2N/1P1NppBq/P2P3P/3B1P2/R1Q2RK1 b - - 0 25
+r . . n . k r .
+p p b . . . . .
+. . P . . . . p
+. . . . n . . N
+. P . N p p B q
+P . . P . . . P
+. . . B . P . .
+R . Q . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['b7c6', 'e4d3', 'f4f3', 'e4e3', 'd8c6', 'e5c6', 'e5d3', 'd8f7', 'e5f7', 'e5f3', 'e5g4', 'c7b6', 'c7d6', 'g8g5', 'g8g6', 'g8g7', 'h4g5', 'h4e7']
+Moves evaluations: {-44: 'd8c6', -73: 'c7b6', -265: 'b7c6'}
+Decided centipawn loss from mean 0 and stdev 8: -12.540323260125183
+Target_evaluation: -56.540323260125184
+Chosen move: d8c6
+Move number: 26
+r4kr1/ppb5/2n4p/4n2N/1P1NpBBq/P2P3P/5P2/R1Q2RK1 b - - 0 26
+r . . . . k r .
+p p b . . . . .
+. . n . . . . p
+. . . . n . . N
+. P . N p B B q
+P . . P . . . P
+. . . . . P . .
+R . Q . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e4d3', 'e4e3', 'c6d4', 'e5d3', 'e5g6', 'e5g4', 'e5f3', 'c7b6', 'c7d6', 'g8g6', 'g8g7', 'a8d8', 'g8g5', 'h4f6', 'h4h3', 'h4f2', 'h4e7']
+Moves evaluations: {-91: 'e5g4', -341: 'c6d4', -351: 'h4h3'}
+Decided centipawn loss from mean 0 and stdev 8: 0.3171028402036322
+Target_evaluation: -90.68289715979637
+Chosen move: e5g4
+Move number: 27
+r4kr1/ppB5/2n4p/7N/1P1Np1nq/P2P3P/5P2/R1Q2RK1 b - - 0 27
+r . . . . k r .
+p p B . . . . .
+. . n . . . . p
+. . . . . . . N
+. P . N p . n q
+P . . P . . . P
+. . . . . P . .
+R . Q . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e4e3', 'e4d3', 'c6d4', 'c6e5', 'g4e5', 'g4f6', 'g4f2', 'g4e3', 'g8g5', 'g8g7', 'a8c8', 'g8g6', 'h4h3', 'h4f2', 'h4g5']
+Moves evaluations: {0: 'c6d4', -39: 'g4f2', -468: 'g4f6'}
+Decided centipawn loss from mean 0 and stdev 8: 3.4237294106741905
+Target_evaluation: 3.4237294106741905
+Chosen move: c6d4
+Move number: 28
+r4kr1/ppB5/7p/8/1P1np1nq/P2P2NP/5P2/R1Q2RK1 b - - 1 28
+r . . . . k r .
+p p B . . . . .
+. . . . . . . p
+. . . . . . . .
+. P . n p . n q
+P . . P . . N P
+. . . . . P . .
+R . Q . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e4e3', 'e4d3', 'h6h5', 'd4f3', 'g4f6', 'd4e6', 'd4e2', 'd4c2', 'g8g5', 'a8c8', 'a8e8', 'g8g7', 'h4h3', 'h4g5', 'f8e8']
+Moves evaluations: {0: 'h4h3', -74: 'd4f3', -106: 'g8g7'}
+Decided centipawn loss from mean 0 and stdev 8: -12.390843822449966
+Target_evaluation: -12.390843822449966
+Chosen move: h4h3
+Move number: 29
+r4kr1/ppB5/7p/8/1P1npQn1/P2P2Nq/5P2/R4RK1 b - - 1 29
+r . . . . k r .
+p p B . . . . .
+. . . . . . . p
+. . . . . . . .
+. P . n p Q n .
+P . . P . . N q
+. . . . . P . .
+R . . . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: []
+Moves evaluations: {0: 'f8e7', -1362: 'd4f5'}
+Decided centipawn loss from mean 0 and stdev 8: 7.56779112124407
+Target_evaluation: 7.56779112124407
+Chosen move: f8e7
+Move number: 30
+r5r1/ppB1k3/7p/8/1P1nQ1n1/P2P2Nq/5P2/R4RK1 b - - 0 30
+r . . . . . r .
+p p B . k . . .
+. . . . . . . p
+. . . . . . . .
+. P . n Q . n .
+P . . P . . N q
+. . . . . P . .
+R . . . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e7f8']
+Moves evaluations: {-462: 'e7f8'}
+Decided centipawn loss from mean 0 and stdev 8: -7.226845159056773
+Target_evaluation: -469.2268451590568
+Chosen move: e7f8
+Playing side: BLACK 
+Move number: 1
+rnbqkbnr/pppppppp/8/8/8/2N5/PPPPPPPP/R1BQKBNR b KQkq - 1 1
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P P P P P P
+R . B Q K B N R
+Phase of game recognised: opening
+Legal_moves found from human search: ['e7e5', 'd7d5', 'c7c5', 'b7b6', 'g8f6']
+Moves evaluations: {-9: 'd7d5', -16: 'g8f6', -19: 'e7e5'}
+Decided centipawn loss from mean 0 and stdev 8: 10.72821644387468
+Target_evaluation: 1.7282164438746808
+Chosen move: d7d5
+Move number: 2
+rnbqkbnr/ppp1pppp/8/3p4/3P4/2N5/PPP1PPPP/R1BQKBNR b KQkq - 0 2
+r n b q k b n r
+p p p . p p p p
+. . . . . . . .
+. . . p . . . .
+. . . P . . . .
+. . N . . . . .
+P P P . P P P P
+R . B Q K B N R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'e7e5', 'e7e6', 'g8f6', 'b8c6', 'c8f5', 'c8g4', 'c8d7']
+Moves evaluations: {-1: 'g8f6', -11: 'c8f5', -38: 'e7e6'}
+Decided centipawn loss from mean 0 and stdev 8: 3.827055083583867
+Target_evaluation: 2.827055083583867
+Chosen move: g8f6
+Move number: 3
+rnbqkb1r/ppp1pppp/5n2/3p4/3P4/2N2N2/PPP1PPPP/R1BQKB1R b KQkq - 2 3
+r n b q k b . r
+p p p . p p p p
+. . . . . n . .
+. . . p . . . .
+. . . P . . . .
+. . N . . N . .
+P P P . P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'e7e6', 'g7g6', 'b8c6', 'b8d7', 'f6d7', 'f6e4', 'c8f5', 'c8g4', 'c8d7']
+Moves evaluations: {-3: 'c7c5', -50: 'e7e6', -15: 'c8f5'}
+Decided centipawn loss from mean 0 and stdev 8: 11.947829677410393
+Target_evaluation: 8.947829677410393
+Chosen move: c7c5
+Move number: 4
+rnbqkb1r/pp2pppp/5n2/2Pp4/8/2N2N2/PPP1PPPP/R1BQKB1R b KQkq - 0 4
+r n b q k b . r
+p p . . p p p p
+. . . . . n . .
+. . P p . . . .
+. . . . . . . .
+. . N . . N . .
+P P P . P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['e7e6', 'd5d4', 'e7e5', 'b8c6', 'f6e4', 'b8d7', 'f6d7', 'c8g4', 'c8f5', 'c8d7', 'd8a5', 'd8c7']
+Moves evaluations: {0: 'b8c6', -3: 'e7e6', -68: 'e7e5'}
+Decided centipawn loss from mean 0 and stdev 8: -4.751339007888771
+Target_evaluation: -4.751339007888771
+Chosen move: e7e6
+Move number: 5
+rnbqkb1r/pp3ppp/4pn2/2Pp4/1P6/2N2N2/P1P1PPPP/R1BQKB1R b KQkq - 0 5
+r n b q k b . r
+p p . . . p p p
+. . . . p n . .
+. . P p . . . .
+. P . . . . . .
+. . N . . N . .
+P . P . P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['b7b6', 'a7a5', 'd5d4', 'b8c6', 'f6e4', 'b8d7', 'f6d7', 'f8e7', 'd8c7']
+Moves evaluations: {58: 'a7a5', -35: 'b7b6', -39: 'f8e7'}
+Decided centipawn loss from mean 0 and stdev 8: 7.368592778413856
+Target_evaluation: 65.36859277841386
+Chosen move: a7a5
+Move number: 6
+rnbqkb1r/1p3ppp/4pn2/pNPp4/1P6/5N2/P1P1PPPP/R1BQKB1R b KQkq - 1 6
+r n b q k b . r
+. p . . . p p p
+. . . . p n . .
+p N P p . . . .
+. P . . . . . .
+. . . . . N . .
+P . P . P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['a5b4', 'b7b6', 'b8c6', 'b8a6', 'f6e4', 'f8e7', 'c8d7', 'd8e7']
+Moves evaluations: {90: 'a5b4', 75: 'c8d7', 0: 'f8e7'}
+Decided centipawn loss from mean 0 and stdev 8: -0.06134206039164753
+Target_evaluation: 89.93865793960835
+Chosen move: a5b4
+Move number: 7
+rnbqkb1r/1p3ppp/4pn2/1NPp4/1p3B2/5N2/P1P1PPPP/R2QKB1R b KQkq - 1 7
+r n b q k b . r
+. p . . . p p p
+. . . . p n . .
+. N P p . . . .
+. p . . . B . .
+. . . . . N . .
+P . P . P P P P
+R . . Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['b7b6', 'e6e5', 'b8c6', 'b8a6', 'f6e4', 'f8c5', 'f8e7', 'd8a5']
+Moves evaluations: {124: 'b8a6', -106: 'e6e5', -162: 'f8c5'}
+Decided centipawn loss from mean 0 and stdev 8: 14.682405162656824
+Target_evaluation: 138.68240516265683
+Chosen move: b8a6
+Move number: 8
+r1bqkb1r/1p3ppp/n2Npn2/2Pp4/1p3B2/5N2/P1P1PPPP/R2QKB1R b KQkq - 3 8
+r . b q k b . r
+. p . . . p p p
+n . . N p n . .
+. . P p . . . .
+. p . . . B . .
+. . . . . N . .
+P . P . P P P P
+R . . Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['e8e7']
+Moves evaluations: {-239: 'e8e7'}
+Decided centipawn loss from mean 0 and stdev 8: -12.123849650559558
+Target_evaluation: -251.12384965055955
+Chosen move: e8e7
+Move number: 9
+r1bq1b1r/1p2kppp/n2Npn2/2PpN3/1p3B2/8/P1P1PPPP/R2QKB1R b KQ - 5 9
+r . b q . b . r
+. p . . k p p p
+n . . N p n . .
+. . P p N . . .
+. p . . . B . .
+. . . . . . . .
+P . P . P P P P
+R . . Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['b4b3', 'a6c5', 'f6e4', 'a6c7', 'd8a5']
+Moves evaluations: {-186: 'd8a5', -266: 'a6c5', -431: 'f6e4'}
+Decided centipawn loss from mean 0 and stdev 8: -2.2316928607361715
+Target_evaluation: -188.23169286073616
+Chosen move: d8a5
+Move number: 10
+r1b2b1r/1p2kppp/n1PNpn2/q2pN3/1p3B2/8/P1P1PPPP/R2QKB1R b KQ - 0 10
+r . b . . b . r
+. p . . k p p p
+n . P N p n . .
+q . . p N . . .
+. p . . . B . .
+. . . . . . . .
+P . P . P P P P
+R . . Q K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['b7c6', 'b4b3', 'b7b5', 'f6e4', 'f6e8', 'a6c5', 'f6h5', 'a5d8', 'a5b6', 'a5a3', 'a5c7']
+Moves evaluations: {-201: 'b4b3', -349: 'a6c5', -387: 'f6e4'}
+Decided centipawn loss from mean 0 and stdev 8: -8.938486594376036
+Target_evaluation: -209.93848659437603
+Chosen move: b4b3
+Move number: 11
+r1b2b1r/1p2kppp/n1PNpn2/q2pN3/8/1p6/P1PBPPPP/R2QKB1R b KQ - 1 11
+r . b . . b . r
+. p . . k p p p
+n . P N p n . .
+q . . p N . . .
+. . . . . . . .
+. p . . . . . .
+P . P B P P P P
+R . . Q K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['b3b2', 'b3a2', 'b7c6', 'b3c2', 'a6c5', 'f6e8', 'a6b8', 'a6c7', 'f6e4', 'a8b8', 'a5c7', 'a5d8', 'a5a3', 'a5b6', 'a5c3']
+Moves evaluations: {-145: 'a5c7', -182: 'a5b6', -394: 'b3c2'}
+Decided centipawn loss from mean 0 and stdev 8: -23.412301505360727
+Target_evaluation: -168.41230150536072
+Chosen move: a5b6
+Move number: 12
+r1b2b1r/1p2kppp/nqPNpn2/3pN3/8/1P6/2PBPPPP/R2QKB1R b KQ - 0 12
+r . b . . b . r
+. p . . k p p p
+n q P N p n . .
+. . . p N . . .
+. . . . . . . .
+. P . . . . . .
+. . P B P P P P
+R . . Q K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['b7c6', 'd5d4', 'a6c5', 'f6e8', 'f6e4', 'a6b8', 'a6c7', 'a8b8', 'b6c7', 'b6a5', 'b6c6', 'b6c5', 'b6d8', 'b6a7']
+Moves evaluations: {-292: 'b7c6', -454: 'f6e4', -464: 'b6c7'}
+Decided centipawn loss from mean 0 and stdev 8: -3.2301071646706685
+Target_evaluation: -295.23010716467064
+Chosen move: b7c6
+Move number: 13
+r1b2b1r/4kppp/nqpNpn2/B2pN3/8/1P6/2P1PPPP/R2QKB1R b KQ - 1 13
+r . b . . b . r
+. . . . k p p p
+n q p N p n . .
+B . . p N . . .
+. . . . . . . .
+. P . . . . . .
+. . P . P P P P
+R . . Q K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['c6c5', 'h7h6', 'a6c5', 'f6e4', 'f6e8', 'a6b4', 'c8d7', 'a8b8', 'b6a5', 'b6c7', 'b6d8', 'b6b7', 'b6c5', 'b6a7', 'b6b8']
+Moves evaluations: {-302: 'b6c5', -543: 'b6a5', -675: 'b6b8'}
+Decided centipawn loss from mean 0 and stdev 8: -13.978550602741477
+Target_evaluation: -315.97855060274145
+Chosen move: b6c5
+Move number: 14
+r1b2b1r/4kNpp/n1p1pn2/B1qpN3/8/1P6/2P1PPPP/R2QKB1R b KQ - 0 14
+r . b . . b . r
+. . . . k N p p
+n . p . p n . .
+B . q p N . . .
+. . . . . . . .
+. P . . . . . .
+. . P . P P P P
+R . . Q K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['d5d4', 'h7h6', 'f6e4', 'a6b4', 'f6d7', 'c8b7', 'a8b8', 'c5a5', 'c5d6', 'c5c3', 'c5b4', 'c5a3', 'c5f2', 'c5c2']
+Moves evaluations: {285: 'a6b4', -272: 'f6e4', -378: 'c8b7'}
+Decided centipawn loss from mean 0 and stdev 8: -4.0905167349979825
+Target_evaluation: 280.909483265002
+Chosen move: a6b4
+Move number: 15
+r1b2b1r/4kNpp/2p1pn2/B1qpN3/Rn6/1P6/2P1PPPP/3QKB1R b K - 2 15
+r . b . . b . r
+. . . . k N p p
+. . p . p n . .
+B . q p N . . .
+R n . . . . . .
+. P . . . . . .
+. . P . P P P P
+. . . Q K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h6', 'h7h5', 'f6e4', 'b4a2', 'f6e8', 'f6d7', 'b4c2', 'c8d7', 'a8b8', 'a8a7', 'c5a5', 'c5d6', 'c5c3', 'c5b6']
+Moves evaluations: {204: 'b4c2', -397: 'c5a5', -399: 'c5c3'}
+Decided centipawn loss from mean 0 and stdev 8: 21.862029361178546
+Target_evaluation: 225.86202936117854
+Chosen move: b4c2
+Move number: 16
+r1b2b1r/4kNpp/2p1pn2/B1qpN3/R7/1P6/2nKPPPP/3Q1B1R b - - 1 16
+r . b . . b . r
+. . . . k N p p
+. . p . p n . .
+B . q p N . . .
+R . . . . . . .
+. P . . . . . .
+. . n K P P P P
+. . . Q . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['d5d4', 'h7h6', 'c2d4', 'c2a1', 'f6e4', 'c2a3', 'c2b4', 'c2e3', 'c8d7', 'a8b8', 'a8a7', 'c5d6', 'c5b4', 'c5f2', 'c5a5', 'c5c3', 'c5b6']
+Moves evaluations: {251: 'f6e4', 0: 'c2e3', -193: 'd5d4'}
+Decided centipawn loss from mean 0 and stdev 8: -0.8170342335172384
+Target_evaluation: 250.18296576648277
+Chosen move: f6e4
+Move number: 17
+r1b2b1r/4kNpp/2p1p3/B1qpN3/4R3/1P6/2nKPPPP/3Q1B1R b - - 0 17
+r . b . . b . r
+. . . . k N p p
+. . p . p . . .
+B . q p N . . .
+. . . . R . . .
+. P . . . . . .
+. . n K P P P P
+. . . Q . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['d5e4', 'd5d4', 'h7h6', 'c2d4', 'c2a3', 'c2a1', 'a8b8', 'a8a7', 'c5f2', 'c5a5', 'c5d6', 'c5a3', 'c5b4', 'c5b6']
+Moves evaluations: {271: 'd5e4', 0: 'c5a5', -562: 'c5f2'}
+Decided centipawn loss from mean 0 and stdev 8: 1.4148380637458458
+Target_evaluation: 272.41483806374583
+Chosen move: d5e4
+Move number: 18
+r1b2b1r/4kNpp/2p1p3/B1q1N3/4p3/1P6/2QKPPPP/5B1R b - - 0 18
+r . b . . b . r
+. . . . k N p p
+. . p . p . . .
+B . q . N . . .
+. . . . p . . .
+. P . . . . . .
+. . Q K P P P P
+. . . . . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h6', 'h7h5', 'c8d7', 'a8a7', 'a8b8', 'c5d5', 'c5e5', 'c5f2', 'c5b4', 'c5a5', 'c5c2', 'c5d6', 'c5d4']
+Moves evaluations: {200: 'c5d5', 199: 'c5a5', 2: 'c5c2'}
+Decided centipawn loss from mean 0 and stdev 8: 9.5186995114478
+Target_evaluation: 209.5186995114478
+Chosen move: c5d5
+Move number: 19
+r1b2b1r/4kNpp/2p1p3/B2qN3/4p3/1P2K3/2Q1PPPP/5B1R b - - 2 19
+r . b . . b . r
+. . . . k N p p
+. . p . p . . .
+B . . q N . . .
+. . . . p . . .
+. P . . K . . .
+. . Q . P P P P
+. . . . . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['c6c5', 'h7h5', 'c8d7', 'a8b8', 'a8a7', 'a8a6', 'd5e5', 'd5a5', 'd5b3', 'd5c5', 'd5d6', 'd5d1']
+Moves evaluations: {-158: 'a8a7', -335: 'c8d7', -258: 'a8a6'}
+Decided centipawn loss from mean 0 and stdev 8: 9.99362267149095
+Target_evaluation: -148.00637732850905
+Chosen move: a8a7
+Move number: 20
+2b2b1N/r3k1pp/2p1p3/B2qN3/4p3/1P2K3/2Q1PPPP/5B1R b - - 0 20
+. . b . . b . N
+r . . . k . p p
+. . p . p . . .
+B . . q N . . .
+. . . . p . . .
+. P . . K . . .
+. . Q . P P P P
+. . . . . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['c6c5', 'g7g5', 'c8d7', 'a7b7', 'a7a8', 'd5e5', 'd5a5', 'd5d6', 'd5c5', 'd5b3']
+Moves evaluations: {-149: 'd5e5', -602: 'a7b7', -634: 'c8d7'}
+Decided centipawn loss from mean 0 and stdev 8: 3.451676579293575
+Target_evaluation: -145.54832342070642
+Chosen move: d5e5
+Move number: 21
+2b2b1N/r3k1pp/2p1p3/4q3/1B2p3/1P2K3/2Q1PPPP/5B1R b - - 1 21
+. . b . . b . N
+r . . . k . p p
+. . p . p . . .
+. . . . q . . .
+. B . . p . . .
+. P . . K . . .
+. . Q . P P P P
+. . . . . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e7e8']
+Moves evaluations: {0: 'e7e8'}
+Decided centipawn loss from mean 0 and stdev 8: 3.0950175519185312
+Target_evaluation: 3.0950175519185312
+Chosen move: e7e8
+Move number: 22
+2b1kb1N/r5pp/2Q1p3/4q3/1B2p3/1P2K3/4PPPP/5B1R b - - 0 22
+. . b . k b . N
+r . . . . . p p
+. . Q . p . . .
+. . . . q . . .
+. B . . p . . .
+. P . . K . . .
+. . . . P P P P
+. . . . . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: []
+Moves evaluations: {73: 'c8d7', -686: 'e8d8', -981: 'a7d7'}
+Decided centipawn loss from mean 0 and stdev 8: 3.495046980197221
+Target_evaluation: 76.49504698019722
+Chosen move: c8d7
+Move number: 23
+4kb1N/r2b2pp/1Q2p3/4q3/1B2p3/1P2K3/4PPPP/5B1R b - - 2 23
+. . . . k b . N
+r . . b . . p p
+. Q . . p . . .
+. . . . q . . .
+. B . . p . . .
+. P . . K . . .
+. . . . P P P P
+. . . . . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h5', 'g7g5', 'f8b4', 'd7b5', 'd7c6', 'd7c8', 'a7b7', 'a7a1', 'a7a6', 'e5g5', 'e5a1', 'e5b8', 'e5f6', 'e5d5', 'e5c3', 'e5c7']
+Moves evaluations: {183: 'e5g5', -50: 'f8b4', -56: 'a7a1'}
+Decided centipawn loss from mean 0 and stdev 8: -5.801282658049359
+Target_evaluation: 177.19871734195064
+Chosen move: e5g5
+Move number: 24
+4kb1N/r2b2pp/1Q2p3/6q1/1B2pP2/1P2K3/4P1PP/5B1R b - f3 0 24
+. . . . k b . N
+r . . b . . p p
+. Q . . p . . .
+. . . . . . q .
+. B . . p P . .
+. P . . K . . .
+. . . . P . P P
+. . . . . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h5', 'e4f3', 'f8b4', 'd7b5', 'd7c6', 'd7c8', 'a7b7', 'a7a1', 'a7a6', 'g5d8', 'g5h4', 'g5f4', 'g5g6', 'g5g3', 'g5f6', 'g5d5', 'g5e7']
+Moves evaluations: {185: 'e4f3', -50: 'a7b7', -849: 'g5d8'}
+Decided centipawn loss from mean 0 and stdev 8: 8.904038444845863
+Target_evaluation: 193.90403844484587
+Chosen move: e4f3
+Move number: 25
+4kb1N/r2b2pp/1Q2p3/6q1/1B6/1P3K2/4P1PP/5B1R b - - 0 25
+. . . . k b . N
+r . . b . . p p
+. Q . . p . . .
+. . . . . . q .
+. B . . . . . .
+. P . . . K . .
+. . . . P . P P
+. . . . . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h5', 'h7h6', 'f8b4', 'd7b5', 'd7c6', 'a7b7', 'a7a6', 'a7a1', 'g5h5', 'g5e5', 'g5d5', 'g5d8', 'g5g6', 'g5h4', 'g5f5', 'g5d2', 'g5g2', 'g5c1', 'g5f6', 'g5e7', 'g5e3']
+Moves evaluations: {236: 'g5d5', 40: 'g5f5', 0: 'g5f6'}
+Decided centipawn loss from mean 0 and stdev 8: 1.7031284831019444
+Target_evaluation: 237.70312848310195
+Chosen move: g5d5
+Move number: 26
+4kb1N/r2b2pp/1Q2p3/3q4/1B2P3/1P3K2/6PP/5B1R b - - 0 26
+. . . . k b . N
+r . . b . . p p
+. Q . . p . . .
+. . . q . . . .
+. B . . P . . .
+. P . . . K . .
+. . . . . . P P
+. . . . . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h6', 'e6e5', 'f8b4', 'd7c6', 'd7c8', 'd7b5', 'a7b7', 'a7a1', 'a7a8', 'a7a6', 'd5d1', 'd5e4', 'd5e5', 'd5h5', 'd5b7', 'd5d3', 'd5b3', 'd5g5']
+Moves evaluations: {233: 'd5b3', 0: 'd5d1', -228: 'd5b7'}
+Decided centipawn loss from mean 0 and stdev 8: -1.2381116954034284
+Target_evaluation: 231.76188830459657
+Chosen move: d5b3
+Move number: 27
+4kb1N/r2b2pp/1Q2p3/8/1B2PK2/1q6/6PP/5B1R b - - 1 27
+. . . . k b . N
+r . . b . . p p
+. Q . . p . . .
+. . . . . . . .
+. B . . P K . .
+. q . . . . . .
+. . . . . . P P
+. . . . . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e6e5', 'h7h6', 'f8b4', 'd7c6', 'f8e7', 'd7b5', 'a7a4', 'a7b7', 'a7a6', 'b3b4', 'b3a2', 'b3d1', 'b3a4', 'b3a3', 'b3c4', 'b3b2', 'b3b1']
+Moves evaluations: {1425: 'e6e5', 722: 'f8b4', 195: 'b3b4'}
+Decided centipawn loss from mean 0 and stdev 8: -1.451994678705415
+Target_evaluation: 1423.5480053212946
+Chosen move: e6e5
+Move number: 28
+4kb1N/r2b2pp/1Q6/4K3/1B2P3/1q6/6PP/5B1R b - - 0 28
+. . . . k b . N
+r . . b . . p p
+. Q . . . . . .
+. . . . K . . .
+. B . . P . . .
+. q . . . . . .
+. . . . . . P P
+. . . . . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['g7g5', 'h7h6', 'f8b4', 'd7c6', 'd7c8', 'd7b5', 'f8e7', 'f8c5', 'a7a6', 'a7b7', 'a7a1', 'b3b4', 'b3a3', 'b3a2', 'b3g8', 'b3a4', 'b3d1', 'b3c3', 'b3b2', 'b3c4']
+Moves evaluations: {2742: 'f8b4', 69: 'b3b2', 42: 'b3b4'}
+Decided centipawn loss from mean 0 and stdev 8: -9.24337811397019
+Target_evaluation: 2732.7566218860297
+Chosen move: f8b4
+Move number: 29
+1Q2k2N/r2b2pp/8/4K3/1b2P3/1q6/6PP/5B1R b - - 1 29
+. Q . . k . . N
+r . . b . . p p
+. . . . . . . .
+. . . . K . . .
+. b . . P . . .
+. q . . . . . .
+. . . . . . P P
+. . . . . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: []
+Moves evaluations: {40: 'e8e7', -818: 'd7c8'}
+Decided centipawn loss from mean 0 and stdev 8: -5.653444113895848
+Target_evaluation: 34.346555886104156
+Chosen move: e8e7
+Move number: 30
+7N/Q2bk1pp/8/4K3/1b2P3/1q6/6PP/5B1R b - - 0 30
+. . . . . . . N
+Q . . b k . p p
+. . . . . . . .
+. . . . K . . .
+. b . . P . . .
+. q . . . . . .
+. . . . . . P P
+. . . . . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h6', 'h7h5', 'b4c5', 'b4a3', 'b3a3', 'b3b2', 'b3g8', 'b3b1', 'b3d1', 'b3e3', 'b3c3', 'b3a4']
+Moves evaluations: {896: 'b3d1', 0: 'b3c3'}
+Decided centipawn loss from mean 0 and stdev 8: -9.695987492348786
+Target_evaluation: 886.3040125076512
+Chosen move: b3d1
+Playing side: BLACK 
+Move number: 1
+rnbqkbnr/pppppppp/8/8/8/2N5/PPPPPPPP/R1BQKBNR b KQkq - 1 1
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P P P P P P
+R . B Q K B N R
+Phase of game recognised: opening
+Legal_moves found from human search: ['e7e5', 'd7d5', 'c7c5', 'b7b6', 'g8f6']
+Moves evaluations: {0: 'd7d5', -3: 'e7e5', -8: 'g8f6'}
+Decided centipawn loss from mean 0 and stdev 8: 10.257275175945862
+Target_evaluation: 10.257275175945862
+Chosen move: d7d5
+Move number: 2
+rnbqkbnr/ppp1pppp/8/3p4/8/2N2N2/PPPPPPPP/R1BQKB1R b KQkq - 1 2
+r n b q k b n r
+p p p . p p p p
+. . . . . . . .
+. . . p . . . .
+. . . . . . . .
+. . N . . N . .
+P P P P P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'd5d4', 'e7e6', 'g7g6', 'g8f6', 'b8c6', 'c8g4', 'c8f5', 'c8d7']
+Moves evaluations: {6: 'g8f6', -1: 'e7e6', -6: 'd5d4'}
+Decided centipawn loss from mean 0 and stdev 8: -0.8114407957668772
+Target_evaluation: 5.188559204233123
+Chosen move: g8f6
+Move number: 3
+rnbqkb1r/ppp1pppp/5n2/3p4/3P4/2N2N2/PPP1PPPP/R1BQKB1R b KQkq - 0 3
+r n b q k b . r
+p p p . p p p p
+. . . . . n . .
+. . . p . . . .
+. . . P . . . .
+. . N . . N . .
+P P P . P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'e7e6', 'g7g6', 'b8c6', 'b8d7', 'f6d7', 'f6e4', 'c8f5', 'c8g4', 'c8d7']
+Moves evaluations: {6: 'e7e6', -5: 'c8f5'}
+Decided centipawn loss from mean 0 and stdev 8: 17.494455487089304
+Target_evaluation: 23.494455487089304
+Chosen move: e7e6
+Move number: 4
+rnbqkb1r/ppp2ppp/4pn2/3p4/3P4/2N1PN2/PPP2PPP/R1BQKB1R b KQkq - 0 4
+r n b q k b . r
+p p p . . p p p
+. . . . p n . .
+. . . p . . . .
+. . . P . . . .
+. . N . P N . .
+P P P . . P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'c7c6', 'b7b6', 'b8c6', 'b8d7', 'f6d7', 'f6e4', 'f8d6', 'f8b4', 'f8e7', 'd8e7']
+Moves evaluations: {11: 'f8e7', -50: 'c7c5', 6: 'b8d7'}
+Decided centipawn loss from mean 0 and stdev 8: 8.609077569084253
+Target_evaluation: 19.609077569084253
+Chosen move: f8e7
+Move number: 5
+rnbqk2r/ppp1bppp/4pn2/3p4/3P4/2NBPN2/PPP2PPP/R1BQK2R b KQkq - 2 5
+r n b q k . . r
+p p p . b p p p
+. . . . p n . .
+. . . p . . . .
+. . . P . . . .
+. . N B P N . .
+P P P . . P P P
+R . B Q K . . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'c7c6', 'b7b6', 'b8c6', 'b8d7', 'f6d7', 'f6g4', 'c8d7', 'e7d6', 'e7b4', 'e8g8']
+Moves evaluations: {15: 'c7c5', 9: 'e8g8', -50: 'b7b6'}
+Decided centipawn loss from mean 0 and stdev 8: 0.23591944394687123
+Target_evaluation: 15.235919443946871
+Chosen move: c7c5
+Move number: 6
+rnbqk2r/pp2bppp/4pn2/2pp4/3P4/2NBPN2/PPP2PPP/R1BQ1RK1 b kq - 1 6
+r n b q k . . r
+p p . . b p p p
+. . . . p n . .
+. . p p . . . .
+. . . P . . . .
+. . N B P N . .
+P P P . . P P P
+R . B Q . R K .
+Phase of game recognised: opening
+Legal_moves found from human search: ['b7b6', 'a7a6', 'c5d4', 'b8c6', 'b8d7', 'f6d7', 'f6g4', 'c8d7', 'd8b6', 'd8c7', 'e8g8']
+Moves evaluations: {18: 'e8g8', 5: 'b7b6', -9: 'b8d7'}
+Decided centipawn loss from mean 0 and stdev 8: 16.300291276484383
+Target_evaluation: 34.30029127648439
+Chosen move: e8g8
+Move number: 7
+rnbq1rk1/pp2bppp/4pn2/2Pp4/8/2NBPN2/PPP2PPP/R1BQ1RK1 b - - 0 7
+r n b q . r k .
+p p . . b p p p
+. . . . p n . .
+. . P p . . . .
+. . . . . . . .
+. . N B P N . .
+P P P . . P P P
+R . B Q . R K .
+Phase of game recognised: opening
+Legal_moves found from human search: ['b7b6', 'a7a6', 'a7a5', 'b8c6', 'b8d7', 'f6d7', 'b8a6', 'e7c5', 'd8c7', 'd8a5']
+Moves evaluations: {22: 'b8d7', -13: 'e7c5', -52: 'b8c6'}
+Decided centipawn loss from mean 0 and stdev 8: -5.7133627612491695
+Target_evaluation: 16.28663723875083
+Chosen move: b8d7
+Move number: 8
+r1bq1rk1/pp1nbppp/4pn2/2Pp4/1P6/2NBPN2/P1P2PPP/R1BQ1RK1 b - - 0 8
+r . b q . r k .
+p p . n b p p p
+. . . . p n . .
+. . P p . . . .
+. P . . . . . .
+. . N B P N . .
+P . P . . P P P
+R . B Q . R K .
+Phase of game recognised: opening
+Legal_moves found from human search: ['b7b6', 'a7a5', 'e6e5', 'd7c5', 'd7e5', 'f6e4', 'd8c7']
+Moves evaluations: {68: 'a7a5', -54: 'e6e5', -110: 'd8c7'}
+Decided centipawn loss from mean 0 and stdev 8: -0.13526880699003263
+Target_evaluation: 67.86473119300997
+Chosen move: a7a5
+Move number: 9
+r1bq1rk1/1p1nbppp/2P1pn2/p2p4/1P6/2NBPN2/P1P2PPP/R1BQ1RK1 b - - 0 9
+r . b q . r k .
+. p . n b p p p
+. . P . p n . .
+p . . p . . . .
+. P . . . . . .
+. . N B P N . .
+P . P . . P P P
+R . B Q . R K .
+Phase of game recognised: opening
+Legal_moves found from human search: ['b7c6', 'a5b4', 'b7b6', 'd7b6', 'd7e5', 'd7b8', 'e7b4', 'd8c7']
+Moves evaluations: {109: 'b7c6', 2: 'd7b6', 0: 'd7b8'}
+Decided centipawn loss from mean 0 and stdev 8: 6.387473717885087
+Target_evaluation: 115.38747371788509
+Chosen move: b7c6
+Move number: 10
+r1bq1rk1/3nbppp/2p1pn2/pP1p4/8/2NBPN2/P1P2PPP/R1BQ1RK1 b - - 0 10
+r . b q . r k .
+. . . n b p p p
+. . p . p n . .
+p P . p . . . .
+. . . . . . . .
+. . N B P N . .
+P . P . . P P P
+R . B Q . R K .
+Phase of game recognised: opening
+Legal_moves found from human search: ['c6c5', 'c6b5', 'd7b6', 'd7c5', 'd7e5', 'c8b7', 'c8a6', 'e7d6', 'd8b6']
+Moves evaluations: {93: 'c6c5', -50: 'c8b7', 42: 'c6b5'}
+Decided centipawn loss from mean 0 and stdev 8: -1.816480534301432
+Target_evaluation: 91.18351946569857
+Chosen move: c6c5
+Move number: 11
+r1bq1rk1/3nbppp/4pn2/pPpp4/P7/2NBPN2/2P2PPP/R1BQ1RK1 b - - 0 11
+r . b q . r k .
+. . . n b p p p
+. . . . p n . .
+p P p p . . . .
+P . . . . . . .
+. . N B P N . .
+. . P . . P P P
+R . B Q . R K .
+Phase of game recognised: opening
+Legal_moves found from human search: ['c5c4', 'e6e5', 'd7b6', 'd7e5', 'c8b7', 'd8c7']
+Moves evaluations: {125: 'c8b7', 93: 'd7b6'}
+Decided centipawn loss from mean 0 and stdev 8: 5.134654768538285
+Target_evaluation: 130.1346547685383
+Chosen move: c8b7
+Move number: 12
+r2q1rk1/1b1nbppp/4pn2/pPpp4/P7/B1NBPN2/2P2PPP/R2Q1RK1 b - - 2 12
+r . . q . r k .
+. b . n b p p p
+. . . . p n . .
+p P p p . . . .
+P . . . . . . .
+B . N B P N . .
+. . P . . P P P
+R . . Q . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['c5c4', 'e6e5', 'd7b6', 'd7e5', 'f6e8', 'e7d6', 'a8c8', 'a8b8', 'f8e8', 'd8c7', 'd8b6', 'd8c8']
+Moves evaluations: {136: 'f8e8', 132: 'd8c7', -50: 'c5c4'}
+Decided centipawn loss from mean 0 and stdev 8: 5.509061001698753
+Target_evaluation: 141.50906100169874
+Chosen move: f8e8
+Move number: 13
+r2qr1k1/1b1nbppp/4pn2/pPpp4/P7/2NBPN2/1BP2PPP/R2Q1RK1 b - - 4 13
+r . . q r . k .
+. b . n b p p p
+. . . . p n . .
+p P p p . . . .
+P . . . . . . .
+. . N B P N . .
+. B P . . P P P
+R . . Q . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e6e5', 'c5c4', 'd7b6', 'd7e5', 'd7f8', 'e7d6', 'e7f8', 'a8b8', 'a8c8', 'd8c7', 'd8b6']
+Moves evaluations: {142: 'd8c7', 131: 'c5c4', 130: 'e7d6'}
+Decided centipawn loss from mean 0 and stdev 8: -0.1459816337395328
+Target_evaluation: 141.85401836626048
+Chosen move: d8c7
+Move number: 14
+r3r1k1/1bqnbppp/4pn2/pPpp4/P7/2N1PN2/1BP1BPPP/R2Q1RK1 b - - 6 14
+r . . . r . k .
+. b q n b p p p
+. . . . p n . .
+p P p p . . . .
+P . . . . . . .
+. . N . P N . .
+. B P . B P P P
+R . . Q . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e6e5', 'c5c4', 'h7h6', 'd7b6', 'd7e5', 'f6e4', 'e7d6', 'e7f8', 'a8d8', 'e8d8', 'a8b8', 'e8b8', 'a8c8', 'e8c8', 'e8f8', 'c7b6', 'c7b8', 'c7c8', 'c7d8', 'c7d6']
+Moves evaluations: {142: 'e7d6', 136: 'e6e5', 114: 'a8d8'}
+Decided centipawn loss from mean 0 and stdev 8: -1.5033993711073532
+Target_evaluation: 140.49660062889265
+Chosen move: e7d6
+Move number: 15
+r3r1k1/1bqn1ppp/3bpn2/pPpp4/P7/4PN2/1BP1BPPP/RN1Q1RK1 b - - 8 15
+r . . . r . k .
+. b q n . p p p
+. . . b p n . .
+p P p p . . . .
+P . . . . . . .
+. . . . P N . .
+. B P . B P P P
+R N . Q . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e6e5', 'c5c4', 'd7b6', 'd7e5', 'f6e4', 'd6f8', 'd6e7', 'a8b8', 'e8b8', 'a8d8', 'e8d8', 'a8c8', 'e8c8', 'a8a7', 'c7b8', 'c7b6', 'c7c8']
+Moves evaluations: {118: 'c5c4', 109: 'e6e5', 108: 'a8d8'}
+Decided centipawn loss from mean 0 and stdev 8: 5.174669239233097
+Target_evaluation: 123.1746692392331
+Chosen move: c5c4
+Move number: 16
+r3r1k1/1bqn1ppp/3bpn2/pP1p4/P1p5/2N1PN2/1BP1BPPP/R2Q1RK1 b - - 1 16
+r . . . r . k .
+. b q n . p p p
+. . . b p n . .
+p P . p . . . .
+P . p . . . . .
+. . N . P N . .
+. B P . B P P P
+R . . Q . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e6e5', 'h7h6', 'd7c5', 'd7b6', 'd7e5', 'f6e4', 'd6b4', 'd6f8', 'd6e7', 'd6a3', 'b7c6', 'a8b8', 'e8b8', 'a8c8', 'e8c8', 'a8d8', 'e8d8', 'e8f8', 'a8a7', 'c7b6', 'c7b8', 'c7c8']
+Moves evaluations: {152: 'e6e5', 145: 'd7b6', 138: 'd6b4'}
+Decided centipawn loss from mean 0 and stdev 8: -0.6563372096500014
+Target_evaluation: 151.34366279035
+Chosen move: e6e5
+Move number: 17
+r3r1k1/1bqn1ppp/3b1n2/pP1pp3/P1p5/2N1PN1P/1BP1BPP1/R2Q1RK1 b - - 0 17
+r . . . r . k .
+. b q n . p p p
+. . . b . n . .
+p P . p p . . .
+P . p . . . . .
+. . N . P N . P
+. B P . B P P .
+R . . Q . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e5e4', 'd5d4', 'h7h6', 'd7c5', 'd7b6', 'd7f8', 'd6b4', 'd6f8', 'a8b8', 'e8b8', 'a8d8', 'e8d8', 'a8c8', 'e8c8', 'e8e6', 'c7b6', 'c7c8', 'c7c5']
+Moves evaluations: {162: 'd6b4', 144: 'a8d8', 148: 'd7b6'}
+Decided centipawn loss from mean 0 and stdev 8: 6.383527014483246
+Target_evaluation: 168.38352701448324
+Chosen move: d6b4
+Move number: 18
+r3r1k1/1bqn1ppp/5n2/pP1pp3/Pbp5/2N1PN1P/1BP1BPP1/RQ3RK1 b - - 2 18
+r . . . r . k .
+. b q n . p p p
+. . . . . n . .
+p P . p p . . .
+P b p . . . . .
+. . N . P N . P
+. B P . B P P .
+R Q . . . R K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e5e4', 'd5d4', 'h7h6', 'd7c5', 'd7b6', 'd7f8', 'b4c3', 'b4f8', 'b4d6', 'a8c8', 'e8c8', 'a8b8', 'e8b8', 'e8e6', 'a8d8', 'e8d8', 'a8a6', 'c7c5', 'c7b6', 'c7c8', 'c7d6']
+Moves evaluations: {163: 'a8d8', 150: 'd7b6', 158: 'a8c8'}
+Decided centipawn loss from mean 0 and stdev 8: 5.480591123270404
+Target_evaluation: 168.48059112327041
+Chosen move: a8d8
+Move number: 19
+3rr1k1/1bqn1ppp/5n2/pP1pp3/Pbp5/2N1PN1P/1BP1BPP1/RQ1R2K1 b - - 4 19
+. . . r r . k .
+. b q n . p p p
+. . . . . n . .
+p P . p p . . .
+P b p . . . . .
+. . N . P N . P
+. B P . B P P .
+R Q . R . . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e5e4', 'd5d4', 'h7h6', 'd7c5', 'd7b6', 'd7f8', 'b4c3', 'b4f8', 'b4d6', 'b7c8', 'd8a8', 'e8e6', 'd8c8', 'c7c5', 'c7b6', 'c7c8']
+Moves evaluations: {166: 'd7b6', 145: 'h7h6', -50: 'd8c8'}
+Decided centipawn loss from mean 0 and stdev 8: 5.7999446111261115
+Target_evaluation: 171.7999446111261
+Chosen move: d7b6
+Move number: 20
+3rr1k1/1bq2ppp/1n3n2/pP1pp3/Pbp5/4PN1P/NBP1BPP1/RQ1R2K1 b - - 6 20
+. . . r r . k .
+. b q . . p p p
+. n . . . n . .
+p P . p p . . .
+P b p . . . . .
+. . . . P N . P
+N B P . B P P .
+R Q . R . . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e5e4', 'd5d4', 'h7h6', 'b6a4', 'f6e4', 'b6d7', 'f6d7', 'b6c8', 'b4f8', 'b4d6', 'b7c8', 'b4d2', 'b7a8', 'd8d6', 'd8c8', 'd8d7', 'c7e7', 'c7c5', 'c7c8', 'c7d6']
+Moves evaluations: {206: 'b4d6', 172: 'b4f8', 80: 'd5d4'}
+Decided centipawn loss from mean 0 and stdev 8: 5.471555681345294
+Target_evaluation: 211.4715556813453
+Chosen move: b4d6
+Move number: 21
+3rr1k1/1bq2ppp/1n1b1n2/pP1pp3/P1p5/4PN1P/1BP1BPP1/RQNR2K1 b - - 8 21
+. . . r r . k .
+. b q . . p p p
+. n . b . n . .
+p P . p p . . .
+P . p . . . . .
+. . . . P N . P
+. B P . B P P .
+R Q N R . . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e5e4', 'h7h6', 'd5d4', 'b6a4', 'f6e4', 'b6d7', 'f6d7', 'd6b4', 'd6f8', 'b7c8', 'd8a8', 'd8c8', 'e8e6', 'd8d7', 'c7e7', 'c7c8', 'c7c5', 'c7b8']
+Moves evaluations: {244: 'd5d4', 161: 'f6e4', 147: 'd8a8'}
+Decided centipawn loss from mean 0 and stdev 8: 10.734046896862177
+Target_evaluation: 254.73404689686217
+Chosen move: d5d4
+Move number: 22
+3rr1k1/1bq2ppp/1n1b1n2/pP2p3/P1pP4/5N1P/1BP1BPP1/RQNR2K1 b - - 0 22
+. . . r r . k .
+. b q . . p p p
+. n . b . n . .
+p P . . p . . .
+P . p P . . . .
+. . . . . N . P
+. B P . B P P .
+R Q N R . . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e5e4', 'e5d4', 'h7h6', 'b6d5', 'f6d5', 'b6a4', 'b6d7', 'f6d7', 'f6e4', 'f6h5', 'b7e4', 'd6b4', 'b7f3', 'b7d5', 'b7a8', 'b7c8', 'd6f8', 'd8c8', 'd8a8', 'd8b8', 'c7e7', 'c7c8']
+Moves evaluations: {249: 'b7f3', 137: 'f6d7'}
+Decided centipawn loss from mean 0 and stdev 8: -9.900133218859475
+Target_evaluation: 239.09986678114052
+Chosen move: b7f3
+Move number: 23
+3rr1k1/2q2ppp/1n1b1n2/pP2p3/P1pP4/5B1P/1BP2PP1/RQNR2K1 b - - 0 23
+. . . r r . k .
+. . q . . p p p
+. n . b . n . .
+p P . . p . . .
+P . p P . . . .
+. . . . . B . P
+. B P . . P P .
+R Q N R . . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e5d4', 'e5e4', 'h7h6', 'b6a4', 'b6d5', 'f6d5', 'b6d7', 'f6d7', 'f6e4', 'd6b4', 'd6f8', 'd6e7', 'd8c8', 'd8b8', 'd8a8', 'e8e6', 'c7b8', 'c7e7', 'c7c8']
+Moves evaluations: {266: 'e5e4', -33: 'h7h6', -48: 'e5d4'}
+Decided centipawn loss from mean 0 and stdev 8: 8.355676417210471
+Target_evaluation: 274.3556764172105
+Chosen move: e5e4
+Move number: 24
+3rr1k1/2q2ppp/1n1b1n2/pP6/P1pPp1B1/7P/1BP2PP1/RQNR2K1 b - - 1 24
+. . . r r . k .
+. . q . . p p p
+. n . b . n . .
+p P . . . . . .
+P . p P p . B .
+. . . . . . . P
+. B P . . P P .
+R Q N R . . K .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h6', 'h7h5', 'b6d5', 'f6d5', 'b6a4', 'f6g4', 'd6b4', 'd6h2', 'd6g3', 'd6f4', 'd6f8', 'd8b8', 'd8c8', 'd8a8', 'e8e7', 'c7e7', 'c7c8', 'c7b7']
+Moves evaluations: {548: 'd6h2', 520: 'f6g4', 408: 'c7e7'}
+Decided centipawn loss from mean 0 and stdev 8: 3.6318321276285106
+Target_evaluation: 551.6318321276285
+Chosen move: d6h2
+Move number: 25
+3rr1k1/2q2ppp/1n3n2/pP6/P1pPp1B1/7P/1BP2PPb/RQNR3K b - - 3 25
+. . . r r . k .
+. . q . . p p p
+. n . . . n . .
+p P . . . . . .
+P . p P p . B .
+. . . . . . . P
+. B P . . P P b
+R Q N R . . . K
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h6', 'h7h5', 'b6d5', 'f6d5', 'b6a4', 'f6g4', 'h2e5', 'h2g3', 'h2f4', 'd8d5', 'd8d6', 'd8c8', 'e8e7', 'd8d4', 'd8b8', 'c7f4', 'c7d6', 'c7e7', 'c7c8', 'c7c6', 'c7g3', 'c7b7']
+Moves evaluations: {554: 'f6g4', -50: 'b6d5', 186: 'd8d5'}
+Decided centipawn loss from mean 0 and stdev 8: 3.906188439852539
+Target_evaluation: 557.9061884398525
+Chosen move: f6g4
+Move number: 26
+3rr1k1/2q2ppp/1n6/pP6/P1pPp1P1/8/1BP2PPb/RQNR3K b - - 0 26
+. . . r r . k .
+. . q . . p p p
+. n . . . . . .
+p P . . . . . .
+P . p P p . P .
+. . . . . . . .
+. B P . . P P b
+R Q N R . . . K
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f7f6', 'h7h6', 'f7f5', 'b6d5', 'b6a4', 'h2e5', 'h2f4', 'h2g3', 'd8c8', 'd8d6', 'd8d5', 'd8d4', 'd8a8', 'c7f4', 'c7d6', 'c7c8', 'c7e7', 'c7c6', 'c7d7']
+Moves evaluations: {308: 'c7d6', 274: 'c7f4', 243: 'b6d5'}
+Decided centipawn loss from mean 0 and stdev 8: -7.183246304689637
+Target_evaluation: 300.81675369531035
+Chosen move: c7d6
+Move number: 27
+3rr1k1/5ppp/1n1q4/pP6/P1pPp1P1/6P1/1BP2P1b/RQNR3K b - - 0 27
+. . . r r . k .
+. . . . . p p p
+. n . q . . . .
+p P . . . . . .
+P . p P p . P .
+. . . . . . P .
+. B P . . P . b
+R Q N R . . . K
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f7f6', 'f7f5', 'h7h6', 'b6d5', 'b6a4', 'h2g3', 'd8c8', 'd8a8', 'e8e5', 'd8b8', 'd6g6', 'd6e6', 'd6d5', 'd6h6', 'd6d7', 'd6c7', 'd6a3', 'd6b4', 'd6f6', 'd6f8', 'd6e7', 'd6c6']
+Moves evaluations: {830: 'h2g3', 577: 'd6h6', 568: 'd6f6'}
+Decided centipawn loss from mean 0 and stdev 8: -1.470609971185893
+Target_evaluation: 828.5293900288141
+Chosen move: h2g3
+Move number: 28
+3rr1k1/5ppp/1n1q4/pP6/P1pPp1P1/6P1/1BP5/RQNR3K b - - 0 28
+. . . r r . k .
+. . . . . p p p
+. n . q . . . .
+p P . . . . . .
+P . p P p . P .
+. . . . . . P .
+. B P . . . . .
+R Q N R . . . K
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f7f6', 'f7f5', 'h7h6', 'b6d5', 'b6a4', 'd8a8', 'd8c8', 'e8e5', 'e8e7', 'd6g6', 'd6g3', 'd6e6', 'd6h6', 'd6d5', 'd6d7', 'd6c7', 'd6b4', 'd6a3', 'd6f6', 'd6f8', 'd6e7']
+Moves evaluations: {1102: 'd6g3', 483: 'b6d5', 370: 'd6f6'}
+Decided centipawn loss from mean 0 and stdev 8: -9.062025669968206
+Target_evaluation: 1092.9379743300317
+Chosen move: d6g3
+Move number: 29
+3rr1k1/5ppp/1n6/pP6/P1pPp1P1/6q1/1BP1N3/RQ1R3K b - - 1 29
+. . . r r . k .
+. . . . . p p p
+. n . . . . . .
+p P . . . . . .
+P . p P p . P .
+. . . . . . q .
+. B P . N . . .
+R Q . R . . . K
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f7f6', 'f7f5', 'e4e3', 'b6a4', 'b6d5', 'd8c8', 'd8a8', 'd8d6', 'd8d4', 'd8d5', 'g3h3', 'g3g4', 'g3h4', 'g3c7', 'g3h2', 'g3f2', 'g3e3', 'g3f4', 'g3g2', 'g3f3', 'g3d6']
+Moves evaluations: {41: 'g3h3', 40: 'g3f3', 1633: 'g3h4'}
+Decided centipawn loss from mean 0 and stdev 8: -4.0331274872276355
+Target_evaluation: 1628.9668725127724
+Chosen move: g3h4
+Move number: 30
+3rr1k1/5ppp/1n6/pP6/P1pPp1Pq/8/1BP1N1K1/RQ1R4 b - - 3 30
+. . . r r . k .
+. . . . . p p p
+. n . . . . . .
+p P . . . . . .
+P . p P p . P q
+. . . . . . . .
+. B P . N . K .
+R Q . R . . . .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f7f6', 'f7f5', 'c4c3', 'b6d5', 'b6a4', 'd8d4', 'd8c8', 'd8a8', 'd8d6', 'd8d5', 'h4g4', 'h4g5', 'h4h2', 'h4h3', 'h4h6']
+Moves evaluations: {1746: 'h4g4', -50: 'd8d6', 737: 'b6d5'}
+Decided centipawn loss from mean 0 and stdev 8: -14.844081254237567
+Target_evaluation: 1731.1559187457624
+Chosen move: h4g4
+Playing side: BLACK 
+Move number: 1
+rnbqkbnr/pppppppp/8/8/8/2N5/PPPPPPPP/R1BQKBNR b KQkq - 1 1
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P P P P P P
+R . B Q K B N R
+Phase of game recognised: opening
+Legal_moves found from human search: ['e7e5', 'd7d5', 'c7c5', 'b7b6', 'g8f6']
+Moves evaluations: {-14: 'd7d5', -17: 'e7e5', -29: 'g8f6'}
+Decided centipawn loss from mean 0 and stdev 8: 2.9089499423373004
+Target_evaluation: -11.091050057662699
+Chosen move: d7d5
+Move number: 2
+rnbqkbnr/ppp1pppp/8/3p4/8/2N2N2/PPPPPPPP/R1BQKB1R b KQkq - 1 2
+r n b q k b n r
+p p p . p p p p
+. . . . . . . .
+. . . p . . . .
+. . . . . . . .
+. . N . . N . .
+P P P P P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'd5d4', 'e7e6', 'g7g6', 'g8f6', 'b8c6', 'c8g4', 'c8f5', 'c8d7']
+Moves evaluations: {13: 'd5d4', -6: 'c7c5', -11: 'e7e6'}
+Decided centipawn loss from mean 0 and stdev 8: 8.936941606767013
+Target_evaluation: 21.936941606767014
+Chosen move: d5d4
+Move number: 3
+rnbqkbnr/ppp1pppp/8/8/3pN3/5N2/PPPPPPPP/R1BQKB1R b KQkq - 1 3
+r n b q k b n r
+p p p . p p p p
+. . . . . . . .
+. . . . . . . .
+. . . p N . . .
+. . . . . N . .
+P P P P P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'e7e5', 'g7g6', 'b8c6', 'g8f6', 'c8f5', 'c8g4', 'c8d7', 'd8d5']
+Moves evaluations: {-25: 'd8d5', -32: 'g8f6'}
+Decided centipawn loss from mean 0 and stdev 8: 3.1082626785956307
+Target_evaluation: -21.89173732140437
+Chosen move: d8d5
+Move number: 4
+rnb1kbnr/ppp1pppp/8/3q4/3pN3/3P1N2/PPP1PPPP/R1BQKB1R b KQkq - 0 4
+r n b . k b n r
+p p p . p p p p
+. . . . . . . .
+. . . q . . . .
+. . . p N . . .
+. . . P . N . .
+P P P . P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'e7e5', 'f7f6', 'b7b6', 'b8c6', 'g8f6', 'c8f5', 'c8g4', 'c8d7', 'd5d8', 'd5f5', 'd5e6', 'd5h5', 'd5e4', 'd5a5']
+Moves evaluations: {-39: 'e7e5', -51: 'b8c6', -64: 'g8f6'}
+Decided centipawn loss from mean 0 and stdev 8: 9.508087839234875
+Target_evaluation: -29.491912160765125
+Chosen move: e7e5
+Move number: 5
+rnb1kbnr/ppp2ppp/8/3qp3/2PpN3/3P1N2/PP2PPPP/R1BQKB1R b KQkq c3 0 5
+r n b . k b n r
+p p p . . p p p
+. . . . . . . .
+. . . q p . . .
+. . P p N . . .
+. . . P . N . .
+P P . . P P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'f7f6', 'f7f5', 'b8c6', 'g8f6', 'f8b4', 'f8e7', 'c8g4', 'f8d6', 'c8f5', 'c8e6', 'd5e6', 'd5d8', 'd5a5']
+Moves evaluations: {-23: 'd5e6', -37: 'f8b4', -39: 'd5a5'}
+Decided centipawn loss from mean 0 and stdev 8: 16.187194535205048
+Target_evaluation: -6.812805464794952
+Chosen move: d5e6
+Move number: 6
+rnb1kbnr/ppp2ppp/4q3/4p3/2PpN3/3PPN2/PP3PPP/R1BQKB1R b KQkq - 0 6
+r n b . k b n r
+p p p . . p p p
+. . . . q . . .
+. . . . p . . .
+. . P p N . . .
+. . . P P N . .
+P P . . . P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'f7f5', 'd4e3', 'b8c6', 'g8f6', 'f8b4', 'f8e7', 'c8d7', 'e6g6', 'e6f5', 'e6e7', 'e6b6', 'e6c6']
+Moves evaluations: {-11: 'c7c5', -18: 'f7f5', -25: 'b8c6'}
+Decided centipawn loss from mean 0 and stdev 8: -8.735386156284678
+Target_evaluation: -19.735386156284676
+Chosen move: f7f5
+Move number: 7
+rnb1kbnr/ppp3pp/4q3/4ppN1/2Pp4/3PPN2/PP3PPP/R1BQKB1R b KQkq - 1 7
+r n b . k b n r
+p p p . . . p p
+. . . . q . . .
+. . . . p p N .
+. . P p . . . .
+. . . P P N . .
+P P . . . P P P
+R . B Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'h7h6', 'd4e3', 'b8c6', 'g8f6', 'f8b4', 'c8d7', 'f8e7', 'e6g6', 'e6e7', 'e6f6', 'e6d7']
+Moves evaluations: {-7: 'f8b4', -30: 'e6f6', -50: 'e6e7'}
+Decided centipawn loss from mean 0 and stdev 8: -10.266213449020437
+Target_evaluation: -17.266213449020437
+Chosen move: f8b4
+Move number: 8
+rnb1k1nr/ppp3pp/4q3/4ppN1/1bPp4/3PPN2/PP1B1PPP/R2QKB1R b KQkq - 3 8
+r n b . k . n r
+p p p . . . p p
+. . . . q . . .
+. . . . p p N .
+. b P p . . . .
+. . . P P N . .
+P P . B . P P P
+R . . Q K B . R
+Phase of game recognised: opening
+Legal_moves found from human search: ['c7c5', 'h7h6', 'a7a5', 'g8f6', 'b8c6', 'b4d2', 'b4e7', 'c8d7', 'b4d6', 'b4c3', 'e6g6', 'e6e7', 'e6f6', 'e6d5', 'e8f8']
+Moves evaluations: {0: 'b4d2', -50: 'e6e7', -348: 'e6f6'}
+Decided centipawn loss from mean 0 and stdev 8: -8.151981045021648
+Target_evaluation: -8.151981045021648
+Chosen move: b4d2
+Move number: 9
+rnb1k1nr/ppp3pp/4q3/4ppN1/2Pp4/3PPN2/PP1Q1PPP/R3KB1R b KQkq - 0 9
+r n b . k . n r
+p p p . . . p p
+. . . . q . . .
+. . . . p p N .
+. . P p . . . .
+. . . P P N . .
+P P . Q . P P P
+R . . . K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['c7c5', 'h7h6', 'd4e3', 'a7a5', 'e5e4', 'b7b6', 'g8f6', 'b8c6', 'b8d7', 'e6g6', 'e6e7', 'e6d6', 'e6f6', 'e6d5', 'e6b6', 'e6d7', 'e8f8']
+Moves evaluations: {-29: 'e6d6', -50: 'e6f6', -57: 'e6e7'}
+Decided centipawn loss from mean 0 and stdev 8: 4.166053824399285
+Target_evaluation: -24.833946175600715
+Chosen move: e6d6
+Move number: 10
+rnb1k1nr/ppp3pp/3q4/4ppN1/2PP4/3P1N2/PP1Q1PPP/R3KB1R b KQkq - 0 10
+r n b . k . n r
+p p p . . . p p
+. . . q . . . .
+. . . . p p N .
+. . P P . . . .
+. . . P . N . .
+P P . Q . P P P
+R . . . K B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['e5d4', 'e5e4', 'h7h6', 'c7c5', 'b7b6', 'c7c6', 'g8f6', 'b8c6', 'b8d7', 'c8d7', 'd6g6', 'd6e7', 'd6d8', 'd6c6', 'd6f8', 'd6b4', 'd6f6', 'd6d4', 'd6h6', 'd6b6', 'd6e6']
+Moves evaluations: {-27: 'e5d4', -238: 'h7h6', -257: 'c7c5'}
+Decided centipawn loss from mean 0 and stdev 8: 9.779600725188113
+Target_evaluation: -17.22039927481189
+Chosen move: e5d4
+Move number: 11
+rnb1k1nr/ppp3pp/3q4/5pN1/2Pp4/3P1N2/PP1Q1PPP/2KR1B1R b kq - 1 11
+r n b . k . n r
+p p p . . . p p
+. . . q . . . .
+. . . . . p N .
+. . P p . . . .
+. . . P . N . .
+P P . Q . P P P
+. . K R . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h6', 'c7c5', 'a7a5', 'g7g6', 'g8f6', 'b8c6', 'g8e7', 'c8d7', 'd6g6', 'd6e7', 'd6c6', 'd6d8', 'd6f8', 'd6b4', 'd6c5', 'd6f6', 'd6a3', 'd6d7', 'd6b6', 'd6f4', 'd6e6', 'e8f8']
+Moves evaluations: {-46: 'b8c6', -47: 'h7h6', -50: 'g8e7'}
+Decided centipawn loss from mean 0 and stdev 8: -16.346820881495574
+Target_evaluation: -62.346820881495574
+Chosen move: g8e7
+Move number: 12
+rnb1k2r/ppp1n1pp/3q4/5p2/2Pp4/3P1N1N/PP1Q1PPP/2KR1B1R b kq - 3 12
+r n b . k . . r
+p p p . n . p p
+. . . q . . . .
+. . . . . p . .
+. . P p . . . .
+. . . P . N . N
+P P . Q . P P P
+. . K R . B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['c7c5', 'a7a5', 'g7g6', 'h7h6', 'b8c6', 'e7c6', 'e7g6', 'b8d7', 'c8d7', 'h8f8', 'd6g6', 'd6c6', 'd6d8', 'd6e6', 'd6f6', 'd6b4', 'd6f4', 'd6a3', 'd6c5', 'd6d7', 'e8g8']
+Moves evaluations: {-36: 'c7c5', -50: 'b8c6', -54: 'e8g8'}
+Decided centipawn loss from mean 0 and stdev 8: -2.206530841433506
+Target_evaluation: -38.206530841433505
+Chosen move: c7c5
+Move number: 13
+rnb1k2r/pp2n1pp/3q4/2p2p2/2Pp4/3P1N1N/PP1Q1PPP/2K1RB1R b kq - 1 13
+r n b . k . . r
+p p . . n . p p
+. . . q . . . .
+. . p . . p . .
+. . P p . . . .
+. . . P . N . N
+P P . Q . P P P
+. . K . R B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['g7g6', 'f5f4', 'h7h6', 'b7b6', 'b8c6', 'c8d7', 'd6g6', 'd6c6', 'd6e6', 'd6d8', 'd6f6', 'd6c7', 'd6f4', 'd6b6', 'd6d7', 'e8g8']
+Moves evaluations: {-33: 'b8c6', -56: 'e8g8', -78: 'd6f6'}
+Decided centipawn loss from mean 0 and stdev 8: 7.010008958601955
+Target_evaluation: -25.989991041398046
+Chosen move: b8c6
+Move number: 14
+r1b1k2r/pp2n1pp/2nq4/2p2p2/2Pp1Q2/3P1N1N/PP3PPP/2K1RB1R b kq - 3 14
+r . b . k . . r
+p p . . n . p p
+. . n q . . . .
+. . p . . p . .
+. . P p . Q . .
+. . . P . N . N
+P P . . . P P P
+. . K . R B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['g7g6', 'b7b6', 'a7a5', 'a7a6', 'c6d8', 'c8d7', 'h8f8', 'd6g6', 'd6f4', 'd6d8', 'd6f6', 'd6e6', 'd6c7', 'd6d5', 'e8g8']
+Moves evaluations: {-25: 'd6d8', -59: 'd6f6', -101: 'd6f4'}
+Decided centipawn loss from mean 0 and stdev 8: -0.3554307901923007
+Target_evaluation: -25.3554307901923
+Chosen move: d6d8
+Move number: 15
+r1bqk2r/pp2n1pp/2n5/2p2p2/2Pp1Q2/3P1N1N/PP3PPP/1K2RB1R b kq - 5 15
+r . b q k . . r
+p p . . n . p p
+. . n . . . . .
+. . p . . p . .
+. . P p . Q . .
+. . . P . N . N
+P P . . . P P P
+. K . . R B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['g7g6', 'h7h6', 'a7a5', 'c6e5', 'c8d7', 'h8f8', 'd8c7', 'd8d6', 'e8g8']
+Moves evaluations: {-28: 'e8g8', -66: 'h7h6', -73: 'a7a5'}
+Decided centipawn loss from mean 0 and stdev 8: 2.643608017295416
+Target_evaluation: -25.356391982704583
+Chosen move: e8g8
+Move number: 16
+r1bq1rk1/pp2n1pp/2n5/2p1Np2/2Pp1Q2/3P3N/PP3PPP/1K2RB1R b - - 7 16
+r . b q . r k .
+p p . . n . p p
+. . n . . . . .
+. . p . N p . .
+. . P p . Q . .
+. . . P . . . N
+P P . . . P P P
+. K . . R B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['a7a5', 'a7a6', 'b7b6', 'h7h6', 'c6e5', 'e7g6', 'c6a5', 'c8e6', 'f8f6', 'f8e8', 'd8c7', 'd8d6', 'd8e8']
+Moves evaluations: {-45: 'c6e5', -89: 'a7a5', -90: 'h7h6'}
+Decided centipawn loss from mean 0 and stdev 8: 0.4395985210460046
+Target_evaluation: -44.560401478954
+Chosen move: c6e5
+Move number: 17
+r1bq1rk1/pp2n1pp/8/2p1Qp2/2Pp4/3P3N/PP3PPP/1K2RB1R b - - 0 17
+r . b q . r k .
+p p . . n . p p
+. . . . . . . .
+. . p . Q p . .
+. . P p . . . .
+. . . P . . . N
+P P . . . P P P
+. K . . R B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['g7g6', 'f5f4', 'b7b6', 'a7a5', 'e7g6', 'c8d7', 'f8e8', 'f8f6', 'd8d7', 'd8d6', 'd8b6', 'd8c7']
+Moves evaluations: {-58: 'e7g6', -253: 'f8e8', -50: 'c8d7'}
+Decided centipawn loss from mean 0 and stdev 8: 12.073204240701003
+Target_evaluation: -37.926795759299
+Chosen move: c8d7
+Move number: 18
+r2q1rk1/pp1bQ1pp/8/2p2p2/2Pp4/3P3N/PP3PPP/1K2RB1R b - - 0 18
+r . . q . r k .
+p p . b Q . p p
+. . . . . . . .
+. . p . . p . .
+. . P p . . . .
+. . . P . . . N
+P P . . . P P P
+. K . . R B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f5f4', 'h7h6', 'a7a5', 'g7g6', 'd7c6', 'd7a4', 'd7e8', 'f8e8', 'f8f6', 'f8f7', 'd8e7', 'd8b6', 'd8c8']
+Moves evaluations: {-352: 'd8e7', -400: 'f8e8', -50: 'd7c6'}
+Decided centipawn loss from mean 0 and stdev 8: 20.185815328320892
+Target_evaluation: -29.814184671679108
+Chosen move: d7c6
+Move number: 19
+r2q1rk1/pp4pp/2b5/2Q2p2/2Pp4/3P3N/PP3PPP/1K2RB1R b - - 0 19
+r . . q . r k .
+p p . . . . p p
+. . b . . . . .
+. . Q . . p . .
+. . P p . . . .
+. . . P . . . N
+P P . . . P P P
+. K . . R B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f5f4', 'a7a5', 'b7b6', 'g7g6', 'c6f3', 'c6g2', 'c6d7', 'c6e8', 'f8f6', 'f8e8', 'a8c8', 'd8f6', 'd8h4', 'd8d7', 'd8e8', 'd8d6', 'd8g5', 'd8e7', 'd8a5']
+Moves evaluations: {-437: 'f8e8', -473: 'd8h4', -50: 'a8c8'}
+Decided centipawn loss from mean 0 and stdev 8: 11.055569279419418
+Target_evaluation: -38.944430720580584
+Chosen move: a8c8
+Move number: 20
+2rq1rk1/Qp4pp/2b5/5p2/2Pp4/3P3N/PP3PPP/1K2RB1R b - - 0 20
+. . r q . r k .
+Q p . . . . p p
+. . b . . . . .
+. . . . . p . .
+. . P p . . . .
+. . . P . . . N
+P P . . . P P P
+. K . . R B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f5f4', 'g7g6', 'g7g5', 'c6f3', 'c6d7', 'c6g2', 'c6e8', 'f8f6', 'f8e8', 'c8a8', 'd8f6', 'd8d6', 'd8g5', 'd8e8', 'd8d7', 'd8h4', 'd8a5']
+Moves evaluations: {-506: 'd8d6', -518: 'd8h4', -509: 'f5f4'}
+Decided centipawn loss from mean 0 and stdev 8: 9.126834469674645
+Target_evaluation: -496.87316553032537
+Chosen move: d8d6
+Move number: 21
+2r2rk1/Qp4pp/2bq4/2P2p2/3p4/3P3N/PP3PPP/1K2RB1R b - - 0 21
+. . r . . r k .
+Q p . . . . p p
+. . b q . . . .
+. . P . . p . .
+. . . p . . . .
+. . . P . . . N
+P P . . . P P P
+. K . . R B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f5f4', 'g7g6', 'h7h6', 'c6b5', 'c6f3', 'c6g2', 'c6d7', 'c8a8', 'c8e8', 'f8e8', 'c8d8', 'f8d8', 'c8c7', 'f8f6', 'd6c5', 'd6d5', 'd6g6', 'd6f6', 'd6d7', 'd6f4', 'd6d8', 'd6e7', 'd6e5']
+Moves evaluations: {-459: 'd6f6', -465: 'd6d5', -474: 'd6d7'}
+Decided centipawn loss from mean 0 and stdev 8: 8.915114873336373
+Target_evaluation: -450.0848851266636
+Chosen move: d6f6
+Move number: 22
+2r2rk1/1p4pp/2b2q2/Q1P2p2/3p4/3P3N/PP3PPP/1K2RB1R b - - 2 22
+. . r . . r k .
+. p . . . . p p
+. . b . . q . .
+Q . P . . p . .
+. . . p . . . .
+. . . P . . . N
+P P . . . P P P
+. K . . R B . R
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f5f4', 'g7g6', 'g7g5', 'c6b5', 'c6f3', 'c6d7', 'c6g2', 'c8a8', 'c8e8', 'f8e8', 'c8d8', 'f8d8', 'c8c7', 'f6g5', 'f6g6', 'f6e6', 'f6f7', 'f6d8']
+Moves evaluations: {-479: 'f5f4', -485: 'f8d8', -506: 'c8a8'}
+Decided centipawn loss from mean 0 and stdev 8: 20.352416307748243
+Target_evaluation: -458.64758369225177
+Chosen move: f5f4
+Move number: 23
+2r2rk1/1p4pp/2b2q2/Q1P5/3p1p2/3P3N/PP3PPP/1K2RBR1 b - - 1 23
+. . r . . r k .
+. p . . . . p p
+. . b . . q . .
+Q . P . . . . .
+. . . p . p . .
+. . . P . . . N
+P P . . . P P P
+. K . . R B R .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['h7h6', 'g7g5', 'g7g6', 'c6b5', 'c6f3', 'c6d5', 'c6d7', 'c8a8', 'c8e8', 'f8e8', 'c8d8', 'f8d8', 'f6g5', 'f6f7', 'f6g6', 'f6e6', 'f6f5']
+Moves evaluations: {-493: 'c6d5', -523: 'c8a8'}
+Decided centipawn loss from mean 0 and stdev 8: 0.7893687463113762
+Target_evaluation: -492.21063125368863
+Chosen move: c6d5
+Move number: 24
+2r2rk1/1p4pp/5q2/Q1Pb4/3p1p2/P2P3N/1P3PPP/1K2RBR1 b - - 0 24
+. . r . . r k .
+. p . . . . p p
+. . . . . q . .
+Q . P b . . . .
+. . . p . p . .
+P . . P . . . N
+. P . . . P P P
+. K . . R B R .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['g7g6', 'h7h6', 'f4f3', 'd5c6', 'd5b3', 'd5g2', 'd5f3', 'c8e8', 'f8e8', 'c8c5', 'c8a8', 'c8d8', 'f8d8', 'c8c6', 'c8b8', 'f6c6', 'f6g6', 'f6g5', 'f6e6', 'f6f5', 'f6f7', 'f6h6']
+Moves evaluations: {-484: 'f6c6', -539: 'c8e8', -518: 'f8e8'}
+Decided centipawn loss from mean 0 and stdev 8: 6.838596402492064
+Target_evaluation: -477.16140359750796
+Chosen move: f6c6
+Move number: 25
+2r2rk1/1p4pp/2q5/Q1Pb4/3p1p2/P2P3N/1P3PPP/1KR2BR1 b - - 2 25
+. . r . . r k .
+. p . . . . p p
+. . q . . . . .
+Q . P b . . . .
+. . . p . p . .
+P . . P . . . N
+. P . . . P P P
+. K R . . B R .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f4f3', 'g7g5', 'h7h6', 'd5b3', 'd5g2', 'd5f3', 'c8e8', 'f8e8', 'c8a8', 'f8f5', 'f8f6', 'f8f7', 'c8d8', 'f8d8', 'c6c5', 'c6d7', 'c6g6', 'c6e6', 'c6e8', 'c6b5', 'c6f6', 'c6a6']
+Moves evaluations: {-514: 'c6e6', -508: 'c6d7', -531: 'c8a8'}
+Decided centipawn loss from mean 0 and stdev 8: 9.376362640638096
+Target_evaluation: -498.6236373593619
+Chosen move: c6d7
+Move number: 26
+2r2rk1/1p1q2pp/8/2Pb4/1Q1p1p2/P2P3N/1P3PPP/1KR2BR1 b - - 4 26
+. . r . . r k .
+. p . q . . p p
+. . . . . . . .
+. . P b . . . .
+. Q . p . p . .
+P . . P . . . N
+. P . . . P P P
+. K R . . B R .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f4f3', 'h7h6', 'g7g5', 'd5c6', 'd5g2', 'd5b3', 'd5f3', 'c8e8', 'f8e8', 'c8c6', 'f8f5', 'c8d8', 'f8d8', 'c8b8', 'c8c5', 'd7f5', 'd7e6', 'd7e8', 'd7d8', 'd7e7', 'd7f7', 'd7b5', 'd7c7', 'd7a4']
+Moves evaluations: {-565: 'd7f7', -577: 'c8c6', -584: 'c8d8'}
+Decided centipawn loss from mean 0 and stdev 8: 10.928255801152858
+Target_evaluation: -554.0717441988471
+Chosen move: d7f7
+Move number: 27
+2r2rk1/1p3qpp/8/2Pb4/3Q1p2/P2P3N/1P3PPP/1KR2BR1 b - - 0 27
+. . r . . r k .
+. p . . . q p p
+. . . . . . . .
+. . P b . . . .
+. . . Q . p . .
+P . . P . . . N
+. P . . . P P P
+. K R . . B R .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['g7g5', 'f4f3', 'h7h6', 'd5g2', 'd5c6', 'd5b3', 'd5f3', 'c8c6', 'c8d8', 'f8d8', 'c8e8', 'f8e8', 'c8a8', 'f7g6', 'f7e7', 'f7e6', 'f7e8', 'f7f5']
+Moves evaluations: {-593: 'c8d8', -637: 'h7h6', -639: 'c8e8'}
+Decided centipawn loss from mean 0 and stdev 8: -2.666299570103904
+Target_evaluation: -595.6662995701039
+Chosen move: c8d8
+Move number: 28
+3r1rk1/1p3qpp/8/2Pb4/1Q3p2/P2P3N/1P3PPP/1KR2BR1 b - - 2 28
+. . . r . r k .
+. p . . . q p p
+. . . . . . . .
+. . P b . . . .
+. Q . . . p . .
+P . . P . . . N
+. P . . . P P P
+. K R . . B R .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f4f3', 'h7h6', 'g7g5', 'd5c6', 'd5g2', 'd5b3', 'd8e8', 'f8e8', 'd8d7', 'd8c8', 'd8a8', 'f7g6', 'f7e7', 'f7e8', 'f7f6']
+Moves evaluations: {-634: 'd8a8', -635: 'd8e8', -641: 'f7f6'}
+Decided centipawn loss from mean 0 and stdev 8: 13.503325053062609
+Target_evaluation: -620.4966749469374
+Chosen move: d8a8
+Move number: 29
+r4rk1/1p3qpp/8/2Pb4/1Q3p2/P2P3N/1P3PPP/1K2RBR1 b - - 4 29
+r . . . . r k .
+. p . . . q p p
+. . . . . . . .
+. . P b . . . .
+. Q . . . p . .
+P . . P . . . N
+. P . . . P P P
+. K . . R B R .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f4f3', 'h7h6', 'g7g5', 'd5c6', 'd5g2', 'd5f3', 'a8e8', 'f8e8', 'a8c8', 'f8c8', 'a8a6', 'a8d8', 'f8d8', 'a8b8', 'f8b8', 'f7g6', 'f7f6', 'f7f5', 'f7d7', 'f7e8']
+Moves evaluations: {-655: 'h7h6', -666: 'd5c6', -665: 'f4f3'}
+Decided centipawn loss from mean 0 and stdev 8: -3.4179888374591427
+Target_evaluation: -658.4179888374591
+Chosen move: h7h6
+Move number: 30
+r4rk1/1p3qp1/7p/2PbR3/1Q3p2/P2P3N/1P3PPP/1K3BR1 b - - 1 30
+r . . . . r k .
+. p . . . q p .
+. . . . . . . p
+. . P b R . . .
+. Q . . . p . .
+P . . P . . . N
+. P . . . P P P
+. K . . . B R .
+Phase of game recognised: midgame
+Legal_moves found from human search: ['f4f3', 'b7b6', 'g7g5', 'd5g2', 'd5b3', 'd5c6', 'a8d8', 'f8d8', 'a8c8', 'f8c8', 'a8e8', 'f8e8', 'a8a6', 'a8b8', 'f8b8', 'f7g6', 'f7f6', 'f7e8', 'f7d7']
+Moves evaluations: {-670: 'd5c6', -647: 'f8e8'}
+Decided centipawn loss from mean 0 and stdev 8: -5.101824567164941
+Target_evaluation: -652.101824567165
+Chosen move: f8e8

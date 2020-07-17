@@ -1,0 +1,547 @@
+Playing side: WHITE 
+Move number: 1
+rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . P . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B N R
+Obvious Moves check: {-61: 'b8c6', -77: 'e7e5'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[11, 5, 3, 1, 3, 6]
+Legal_moves found from human search: ['e7e5', 'd7d5', 'c7c5', 'g7g6', 'e7e6', 'b7b6', 'a7a6', 'd7d6', 'f7f5', 'h7h5', 'b7b5', 'g8f6', 'b8c6', 'g8h6']
+Moves evaluations: {-17: 'e7e5', -65: 'e7e6', -76: 'c7c5'}
+Calculation time allowed: 0.5070131631666479
+Decided centipawn loss from mean 0 and stdev 4: 0.2746671912360879
+Target_evaluation: -16.725332808763913
+Chosen move: e7e5, e5
+Move number: 2
+rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPPNPPP/RNBQKB1R b KQkq - 1 2
+r n b q k b n r
+p p . p p p p p
+. . . . . . . .
+. . p . . . . .
+. . . . P . . .
+. . . . . . . .
+P P P P N P P P
+R N B Q K B . R
+Obvious Moves check: {-60: 'e7e5', -70: 'b8c6'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[10, 5, 3, 1, 4, 6]
+Legal_moves found from human search: ['g7g6', 'd7d5', 'e7e5', 'e7e6', 'd7d6', 'b7b5', 'a7a6', 'b7b6', 'h7h5', 'b8c6', 'g8f6', 'd8c7', 'd8b6', 'd8a5']
+Moves evaluations: {-7: 'g8f6', -25: 'd7d5', -57: 'e7e6'}
+Calculation time allowed: 0.2
+Decided centipawn loss from mean 0 and stdev 4: -3.8622371222282177
+Target_evaluation: -10.862237122228217
+Chosen move: g8f6, Nf6
+Move number: 3
+rnbqkbnr/pp2pppp/3p4/2p5/2P1P3/8/PP1PNPPP/RNBQKB1R b KQkq - 0 3
+r n b q k b n r
+p p . . p p p p
+. . . p . . . .
+. . p . . . . .
+. . P . P . . .
+. . . . . . . .
+P P . P N P P P
+R N B Q K B . R
+Obvious Moves check: {14: 'g8f6', -16: 'd8a5'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[9, 6, 6, 1, 4, 7]
+Legal_moves found from human search: ['e7e5', 'g7g6', 'a7a6', 'e7e6', 'd6d5', 'b7b5', 'f7f5', 'b7b6', 'h7h5', 'b8c6', 'g8f6', 'b8d7', 'g8h6', 'c8d7', 'c8g4', 'c8e6', 'c8f5', 'd8a5', 'd8b6', 'd8c7', 'e8d7']
+Moves evaluations: {29: 'g8f6', -5000: 'e7e5', -10: 'b8c6'}
+Calculation time allowed: 0.2
+Decided centipawn loss from mean 0 and stdev 4: 0.6717181099034275
+Target_evaluation: 29.671718109903427
+Chosen move: g8f6, Nf6
+Move number: 4
+r1bqkbnr/pp2pppp/2np4/2p5/2PPP3/8/PP2NPPP/RNBQKB1R b KQkq - 0 4
+r . b q k b n r
+p p . . p p p p
+. . n p . . . .
+. . p . . . . .
+. . P P P . . .
+. . . . . . . .
+P P . . N P P P
+R N B Q K B . R
+Obvious Moves check: {-16: 'e7e5', -17: 'c5d4'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[10, 7, 6, 1, 4, 7]
+Legal_moves found from human search: ['c5d4', 'e7e6', 'e7e5', 'd6d5', 'a7a6', 'g7g6', 'h7h5', 'f7f5', 'h7h6', 'g8f6', 'c6d4', 'c6b4', 'c6a5', 'c6e5', 'c8g4', 'c8d7', 'c8f5', 'c8e6', 'c8h3', 'a8b8', 'd8a5', 'd8c7', 'd8b6', 'e8d7']
+Moves evaluations: {-18: 'e7e5', -11: 'c5d4', -32: 'c6d4'}
+Calculation time allowed: 0.2
+Decided centipawn loss from mean 0 and stdev 4: -5.315706252983542
+Target_evaluation: -16.315706252983542
+Chosen move: e7e5, e5
+Move number: 5
+r1bqkbnr/pp2pppp/2np4/8/2PNP3/8/PP3PPP/RNBQKB1R b KQkq - 0 5
+r . b q k b n r
+p p . . p p p p
+. . n p . . . .
+. . . . . . . .
+. . P N P . . .
+. . . . . . . .
+P P . . . P P P
+R N B Q K B . R
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[9, 7, 6, 1, 4, 7]
+Legal_moves found from human search: ['e7e5', 'g7g6', 'e7e6', 'a7a6', 'd6d5', 'h7h5', 'f7f5', 'h7h6', 'a7a5', 'c6d4', 'g8f6', 'c6e5', 'c6a5', 'c6b4', 'c8g4', 'c8d7', 'c8e6', 'a8b8', 'd8a5', 'd8c7', 'd8b6', 'e8d7']
+Moves evaluations: {-25: 'e7e5', -30: 'g7g6', -39: 'g8f6'}
+Calculation time allowed: 0.5050459997296873
+Decided centipawn loss from mean 0 and stdev 4: -0.09539259931480633
+Target_evaluation: -25.095392599314806
+Chosen move: e7e5, e5
+Move number: 6
+r1bqkb1r/pp2pppp/2np1n2/8/2PNP3/2N5/PP3PPP/R1BQKB1R b KQkq - 2 6
+r . b q k b . r
+p p . . p p p p
+. . n p . n . .
+. . . . . . . .
+. . P N P . . .
+. . N . . . . .
+P P . . . P P P
+R . B Q K B . R
+Obvious Moves check: {-37: 'g7g6', -40: 'e7e5'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[8, 9, 6, 1, 4, 7]
+Legal_moves found from human search: ['e7e5', 'e7e6', 'g7g6', 'a7a6', 'd6d5', 'h7h6', 'h7h5', 'c6d4', 'f6e4', 'c6e5', 'f6d7', 'f6g4', 'c6a5', 'c6b4', 'f6h5', 'f6g8', 'c8g4', 'c8d7', 'c8e6', 'a8b8', 'd8a5', 'd8c7', 'd8b6', 'e8d7']
+Moves evaluations: {-25: 'c6d4', -38: 'g7g6', -49: 'e7e5'}
+Calculation time allowed: 0.544038789126871
+Decided centipawn loss from mean 0 and stdev 4: -3.8146201736432954
+Target_evaluation: -28.814620173643295
+Chosen move: c6d4, Nxd4
+Move number: 7
+r1bqkb1r/pp2pp1p/2np1np1/8/2PNP3/2N5/PP2BPPP/R1BQK2R b KQkq - 1 7
+r . b q k b . r
+p p . . p p . p
+. . n p . n p .
+. . . . . . . .
+. . P N P . . .
+. . N . . . . .
+P P . . B P P P
+R . B Q K . . R
+Obvious Moves check: {-27: 'c6d4', -38: 'f8g7'}
+Top move is not a take-back. 
+Top move piece is under attack. 
+No obvious move found. 
+Phase of game recognised: opening
+This position has been decided not to be blunder prone. 
+Weights Chosen:[8, 9, 7, 1, 4, 7]
+Legal_moves found from human search: ['a7a6', 'e7e5', 'h7h5', 'e7e6', 'd6d5', 'b7b6', 'h7h6', 'c6d4', 'f6e4', 'f6d7', 'c6e5', 'c6a5', 'f6g4', 'f6h5', 'c6b4', 'f8g7', 'c8d7', 'c8g4', 'c8e6', 'f8h6', 'a8b8', 'd8a5', 'd8c7', 'd8b6', 'd8d7', 'e8d7']
+Moves evaluations: {-32: 'c6d4', -43: 'h7h5', -45: 'f8g7'}
+Calculation time allowed: 0.7872495208176603
+Decided centipawn loss from mean 0 and stdev 4: 1.8557310441349324
+Target_evaluation: -30.14426895586507
+Chosen move: c6d4, Nxd4
+Move number: 9
+r1bq1rk1/pp2ppbp/2np1np1/8/2PNP3/2N1B3/PP2BPPP/R2Q1RK1 b - - 5 9
+r . b q . r k .
+p p . . p p b p
+. . n p . n p .
+. . . . . . . .
+. . P N P . . .
+. . N . B . . .
+P P . . B P P P
+R . . Q . R K .
+Obvious Moves check: {-50: 'c8d7', -60: 'f6d7'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Calculating complexity of the position... 
+gmo, mov, pie, mat, own_mat, best_eval: 18;36;30;88.20000000000002;44.1;-56
+Complexity calculated: 97.20000000000002
+Efficient mobility calculated: 47.22222222222222
+Time taken to calculate complexity and eff_mob: 0.08593034744262695
+Mean time from chisquare: 0.0655682828058577
+Easy and hard factors: 50.167093566569335; 71.66727652367048
+Phase of game recognised: midgame
+This position has been decided not to be blunder prone. 
+Weights Chosen:[8, 6, 5, 4, 6, 7]
+Legal_moves found from human search: ['a7a6', 'e7e5', 'b7b6', 'e7e6', 'a7a5', 'h7h6', 'h7h5', 'd6d5', 'c6d4', 'f6d7', 'f6e4', 'c6e5', 'f6g4', 'c6a5', 'c8d7', 'c8g4', 'c8e6', 'c8h3', 'f8e8', 'a8b8', 'd8a5', 'd8c7', 'd8b6', 'd8d7', 'd8e8', 'g8h8']
+Moves evaluations: {-49: 'f6d7', -5000: 'c8d7', -68: 'h7h5'}
+Calculation time allowed: 2.8805868757190836
+Decided centipawn loss from mean -2.5 and stdev 5: 1.0713578536247126
+Target_evaluation: -47.92864214637529
+Chosen move: f6d7, Nd7
+Move number: 10
+r1bq1rk1/1p2ppbp/p1np1np1/8/2PNP3/2N1BP2/PP2B1PP/R2Q1RK1 b - - 0 10
+r . b q . r k .
+. p . . p p b p
+p . n p . n p .
+. . . . . . . .
+. . P N P . . .
+. . N . B P . .
+P P . . B . P P
+R . . Q . R K .
+Obvious Moves check: {-63: 'f6d7', -75: 'c8d7'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Calculating complexity of the position... 
+gmo, mov, pie, mat, own_mat, best_eval: 18;37;30;88.20000000000002;44.1;-62
+Complexity calculated: 99.90000000000002
+Efficient mobility calculated: 45.945945945945944
+Time taken to calculate complexity and eff_mob: 0.1036684513092041
+Mean time from chisquare: 0.07530099694507554
+Easy and hard factors: 52.70326766512038; 75.2903823787434
+Phase of game recognised: midgame
+This position has been decided not to be blunder prone. 
+Weights Chosen:[7, 6, 5, 4, 6, 7]
+Legal_moves found from human search: ['b7b5', 'e7e5', 'e7e6', 'h7h6', 'h7h5', 'b7b6', 'a6a5', 'c6d4', 'c6e5', 'f6d7', 'c6a5', 'f6e8', 'f6h5', 'c8d7', 'c8e6', 'c8h3', 'c8g4', 'f8e8', 'a8b8', 'a8a7', 'd8c7', 'd8a5', 'd8b6', 'd8d7', 'd8e8', 'g8h8']
+Moves evaluations: {-56: 'c6d4', -63: 'f6d7', -72: 'h7h5'}
+Calculation time allowed: 8.69741761395122
+Decided centipawn loss from mean -2.5 and stdev 5: -2.615066424203133
+Target_evaluation: -58.615066424203135
+Chosen move: c6d4, Nxd4
+Move number: 12
+r1b2rk1/1pq1ppbp/p2p1np1/8/2PBP3/2N2P2/PP1QB1PP/R4RK1 b - - 0 12
+r . b . . r k .
+. p q . p p b p
+p . . p . n p .
+. . . . . . . .
+. . P B P . . .
+. . N . . P . .
+P P . Q B . P P
+R . . . . R K .
+Obvious Moves check: {-78: 'c8e6', -92: 'e7e5'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Calculating complexity of the position... 
+gmo, mov, pie, mat, own_mat, best_eval: 18;35;28;82.0;41.0;-77
+Complexity calculated: 88.2
+Efficient mobility calculated: 48.57142857142857
+Time taken to calculate complexity and eff_mob: 0.1381092071533203
+Mean time from chisquare: 0.0925081978822616
+Easy and hard factors: 42.11755166230218; 60.16793094614598
+Phase of game recognised: midgame
+This position has been decided not to be blunder prone. 
+Weights Chosen:[7, 4, 5, 5, 8, 7]
+Legal_moves found from human search: ['e7e5', 'b7b5', 'b7b6', 'h7h5', 'e7e6', 'h7h6', 'a6a5', 'f6h5', 'f6d7', 'f6e8', 'c8e6', 'c8d7', 'c8h3', 'g7h6', 'f8d8', 'a8b8', 'f8e8', 'c7c4', 'c7b6', 'c7c5', 'c7a5', 'c7d8', 'c7c6', 'g8h8']
+Moves evaluations: {-63: 'c8e6', -81: 'c8d7'}
+Calculation time allowed: 4.529254247140307
+Decided centipawn loss from mean -2.5 and stdev 5: -1.1067134969967087
+Target_evaluation: -64.1067134969967
+Chosen move: c8e6, Be6
+Move number: 13
+r4rk1/1pq1ppbp/p2pbnp1/8/2PBP3/2N2P2/PP1QB1PP/R1R3K1 b - - 2 13
+r . . . . r k .
+. p q . p p b p
+p . . p b n p .
+. . . . . . . .
+. . P B P . . .
+. . N . . P . .
+P P . Q B . P P
+R . R . . . K .
+Obvious Moves check: {-62: 'a8c8', -65: 'f6d7'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Calculating complexity of the position... 
+gmo, mov, pie, mat, own_mat, best_eval: 15;41;28;82.0;41.0;-35
+Complexity calculated: 86.1
+Efficient mobility calculated: 34.146341463414636
+Time taken to calculate complexity and eff_mob: 0.09654998779296875
+Mean time from chisquare: 0.09972376718103226
+Easy and hard factors: 40.32973205535015; 57.613902936214494
+Phase of game recognised: midgame
+This position has been decided not to be blunder prone. 
+Weights Chosen:[6, 4, 5, 7, 8, 7]
+Legal_moves found from human search: ['b7b5', 'h7h5', 'b7b6', 'a6a5', 'd6d5', 'h7h6', 'f6h5', 'f6d7', 'f6e8', 'e6c4', 'g7h6', 'e6d7', 'g7h8', 'a8c8', 'f8c8', 'a8d8', 'f8d8', 'a8b8', 'f8b8', 'a8e8', 'f8e8', 'c7b6', 'c7a5', 'c7c4', 'c7b8', 'c7c5', 'c7c8', 'c7d7', 'c7d8', 'g8h8']
+Moves evaluations: {-35: 'f6d7', -44: 'c7a5', -5000: 'a8c8'}
+Calculation time allowed: 6.535007987946833
+Decided centipawn loss from mean -2.5 and stdev 5: 2.486220382790779
+Target_evaluation: -32.513779617209224
+Chosen move: f6d7, Nd7
+Move number: 14
+r4rk1/1pqnppbp/p2pb1p1/8/2P1P3/2N1BP2/PP1QB1PP/R1R3K1 b - - 4 14
+r . . . . r k .
+. p q n p p b p
+p . . p b . p .
+. . . . . . . .
+. . P . P . . .
+. . N . B P . .
+P P . Q B . P P
+R . R . . . K .
+Obvious Moves check: {-44: 'c7a5', -65: 'c7d8'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Calculating complexity of the position... 
+gmo, mov, pie, mat, own_mat, best_eval: 18;43;28;82.0;41.0;-35
+Complexity calculated: 108.36
+Efficient mobility calculated: 39.53488372093023
+Time taken to calculate complexity and eff_mob: 0.07533574104309082
+Mean time from chisquare: 0.10591892743038007
+Easy and hard factors: 61.007588340935754; 87.15369762990822
+Phase of game recognised: midgame
+This position has been decided not to be blunder prone. 
+Weights Chosen:[7, 4, 6, 7, 8, 7]
+Legal_moves found from human search: ['f7f5', 'b7b5', 'a6a5', 'b7b6', 'f7f6', 'h7h6', 'h7h5', 'd7e5', 'd7c5', 'd7b6', 'd7f6', 'e6c4', 'g7c3', 'g7h8', 'g7e5', 'g7d4', 'a8c8', 'f8c8', 'a8d8', 'f8d8', 'a8b8', 'f8b8', 'a8e8', 'f8e8', 'c7c4', 'c7b6', 'c7a5', 'c7c8', 'c7b8', 'c7c5', 'c7c6', 'c7d8', 'g8h8']
+Moves evaluations: {-25: 'c7a5', -62: 'a6a5', -63: 'c7d8'}
+Calculation time allowed: 8.547366281456645
+Decided centipawn loss from mean -2.5 and stdev 5: -5.4517663492366335
+Target_evaluation: -30.451766349236635
+Chosen move: c7a5, Qa5
+Move number: 15
+r4rk1/1p1nppbp/p2pb1p1/q7/2P1P3/P1N1BP2/1P1QB1PP/R1R3K1 b - - 0 15
+r . . . . r k .
+. p . n p p b p
+p . . p b . p .
+q . . . . . . .
+. . P . P . . .
+P . N . B P . .
+. P . Q B . P P
+R . R . . . K .
+Obvious Moves check: {-21: 'f8c8', -30: 'a8c8'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Calculating complexity of the position... 
+gmo, mov, pie, mat, own_mat, best_eval: 12;48;28;82.0;41.0;-3
+Complexity calculated: 80.64
+Efficient mobility calculated: 22.916666666666668
+Time taken to calculate complexity and eff_mob: 0.10426592826843262
+Mean time from chisquare: 0.11106950145809523
+Easy and hard factors: 35.84351550843036; 51.205022154900504
+Phase of game recognised: midgame
+This position has been decided not to be blunder prone. 
+Weights Chosen:[7, 4, 6, 7, 11, 7]
+Legal_moves found from human search: ['f7f5', 'b7b5', 'f7f6', 'b7b6', 'h7h6', 'g6g5', 'd7e5', 'd7c5', 'd7f6', 'd7b6', 'e6c4', 'g7c3', 'g7e5', 'g7h8', 'g7f6', 'a8c8', 'f8c8', 'a8d8', 'f8d8', 'a8e8', 'f8e8', 'a8b8', 'f8b8', 'a5b6', 'a5b4', 'a5d8', 'a5c7', 'a5a3', 'a5e5', 'a5c5', 'g8h8']
+Moves evaluations: {-12: 'f8c8', -19: 'a8c8', -58: 'a5d8'}
+Calculation time allowed: 6.516250788120956
+Decided centipawn loss from mean -2.5 and stdev 5: 7.778625424310839
+Target_evaluation: -4.221374575689161
+Chosen move: f8c8, Rfc8
+Move number: 16
+r1r3k1/1p1nppbp/p2pb1p1/q7/1PP1P3/P1N1BP2/3QB1PP/R1R3K1 b - - 0 16
+r . r . . . k .
+. p . n p p b p
+p . . p b . p .
+q . . . . . . .
+. P P . P . . .
+P . N . B P . .
+. . . Q B . P P
+R . R . . . K .
+Obvious Moves check: {7: 'a5d8', -60: 'a5e5'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Calculating complexity of the position... 
+gmo, mov, pie, mat, own_mat, best_eval: 4;51;28;82.0;41.0;1
+Complexity calculated: 28.56
+Efficient mobility calculated: 5.882352941176471
+Time taken to calculate complexity and eff_mob: 0.08531379699707031
+eff_mob low, but decided to blunder anyway trying to miss a tactic. 
+Mean time from chisquare: 0.11518072856146785
+Easy and hard factors: 5.533302707700821; 7.904718153858316
+Phase of game recognised: midgame
+Currently this position is blunder prone. 
+Weights Chosen:[3, 3, 3, 3, 3, 6]
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'f7f5': 53, 'b7b5': 49, 'd7e5': 51, 'd7f8': 51, 'd7b6': 51, 'e6c4': 44, 'g7c3': 54, 'g7e5': 54, 'c8c6': 58, 'c8c4': 58, 'c8d8': 58, 'a5b4': 32, 'a5a3': 32, 'a5b6': 32, 'g8f8': 62, 'g8h8': 62}
+Legal_moves found from human search: ['a5b4', 'a5a3', 'e6c4', 'c8c4']
+Moves evaluations: {-971: 'e6c4', -1052: 'c8c4', -1092: 'a5b4'}
+Calculation time allowed: 1.4468112653594107
+Decided centipawn loss from mean -2.5 and stdev 5: -10.97338532411248
+Target_evaluation: -981.9733853241124
+Chosen move: e6c4, Bxc4
+Move number: 17
+r1r3k1/1p1nppbp/p2p2p1/P7/2b1P3/P1N1BP2/3QB1PP/R1R3K1 b - - 0 17
+r . r . . . k .
+. p . n p p b p
+p . . p . . p .
+P . . . . . . .
+. . b . P . . .
+P . N . B P . .
+. . . Q B . P P
+R . R . . . K .
+Obvious Moves check: {-971: 'c4e2', -1011: 'a8b8'}
+Top move is not a take-back. 
+Top move piece is under attack. 
+No obvious move found. 
+Calculating complexity of the position... 
+gmo, mov, pie, mat, own_mat, best_eval: 1;41;26;71.1;31.1;-971
+Complexity calculated: 6.09265273311897
+Efficient mobility calculated: 0.0
+Time taken to calculate complexity and eff_mob: 0.07825136184692383
+Mean time from chisquare: 0.11828110084084305
+Easy and hard factors: 0.3429819215395552; 0.489974173627936
+Phase of game recognised: midgame
+This position has been decided not to be blunder prone. 
+Weights Chosen:[8, 4, 7, 7, 4, 8]
+Legal_moves found from human search: ['b7b5', 'e7e5', 'e7e6', 'f7f5', 'h7h6', 'd6d5', 'b7b6', 'h7h5', 'd7e5', 'd7f6', 'd7c5', 'd7f8', 'c4b5', 'c4b3', 'c4e2', 'g7c3', 'c4a2', 'c4e6', 'c8c6', 'c8c7', 'c8c5', 'a8b8', 'c8b8', 'c8d8', 'g8f8', 'g8h8']
+Moves evaluations: {-971: 'c4e2', -1102: 'd7e5', -1120: 'c4e6'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -2.5 and stdev 5: 2.9018908383770983
+Target_evaluation: -968.0981091616229
+Chosen move: c4e2, Bxe2
+Move number: 18
+r1r3k1/1p1nppbp/p2p2p1/P7/4P3/P3BP2/3QN1PP/R1R3K1 b - - 0 18
+r . r . . . k .
+. p . n p p b p
+p . . p . . p .
+P . . . . . . .
+. . . . P . . .
+P . . . B P . .
+. . . Q N . P P
+R . R . . . K .
+Obvious Moves check: {-789: 'g7a1', -1101: 'g8h8'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Calculating complexity of the position... 
+gmo, mov, pie, mat, own_mat, best_eval: 1;40;24;64.1;27.6;-789
+Complexity calculated: 5.57391304347826
+Efficient mobility calculated: 0.0
+Time taken to calculate complexity and eff_mob: 0.0735924243927002
+Mean time from chisquare: 0.1204169178389248
+Easy and hard factors: 0.2922187000970747; 0.4174552858529639
+Phase of game recognised: midgame
+This position has been decided not to be blunder prone. 
+Weights Chosen:[8, 4, 5, 9, 4, 8]
+Legal_moves found from human search: ['e7e6', 'b7b5', 'e7e5', 'f7f5', 'd6d5', 'b7b6', 'h7h5', 'd7e5', 'd7c5', 'd7f6', 'd7f8', 'g7e5', 'g7b2', 'g7f6', 'g7c3', 'c8c1', 'c8c6', 'c8c4', 'a8b8', 'c8b8', 'c8d8', 'c8c7', 'c8c2', 'g8f8', 'g8h8']
+Moves evaluations: {-1049: 'd7e5', -1078: 'd7c5', -1105: 'c8d8'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -2.5 and stdev 5: -0.4201121781595867
+Target_evaluation: -1049.4201121781596
+Chosen move: d7e5, Ne5
+Move number: 19
+r1R3k1/1p2ppbp/p2p2p1/P3n3/4P3/P3BP2/3QN1PP/R5K1 b - - 0 19
+r . R . . . k .
+. p . . p p b p
+p . . p . . p .
+P . . . n . . .
+. . . . P . . .
+P . . . B P . .
+. . . Q N . P P
+R . . . . . K .
+Obvious Moves check: {-1014: 'a8c8', -2245: 'g7f8'}
+Top move is a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Calculating complexity of the position... 
+gmo, mov, pie, mat, own_mat, best_eval: 1;2;23;58.6;22.1;-1042
+Complexity calculated: 0.30493212669683256
+Efficient mobility calculated: 0.0
+Time taken to calculate complexity and eff_mob: 0.012017965316772461
+Mean time from chisquare: 0.12164756952565897
+Easy and hard factors: 0.0015638150659473492; 0.0022340215227819277
+Phase of game recognised: midgame
+This position has been decided not to be blunder prone. 
+Weights Chosen:[3, 3, 3, 3, 4, 6]
+Legal_moves found from human search: ['a8c8']
+Moves evaluations: {-1121: 'a8c8'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -2.5 and stdev 5: -2.935325311056465
+Target_evaluation: -1123.9353253110564
+Chosen move: a8c8, Rxc8
+Move number: 20
+2r3k1/1p2ppbp/p2p2p1/P3n3/4P3/P3BP2/3QN1PP/2R3K1 b - - 1 20
+. . r . . . k .
+. p . . p p b p
+p . . p . . p .
+P . . . n . . .
+. . . . P . . .
+P . . . B P . .
+. . . Q N . P P
+. . R . . . K .
+Calculating complexity of the position... 
+gmo, mov, pie, mat, own_mat, best_eval: 2;33;22;53.1;22.1;-1037
+Complexity calculated: 8.72185520361991
+Efficient mobility calculated: 3.0303030303030303
+Time taken to calculate complexity and eff_mob: 0.07389354705810547
+Mean time from chisquare: 0.12204152134938738
+Easy and hard factors: 0.65420767430642; 0.9345823918663144
+Phase of game recognised: midgame
+This position has been decided not to be blunder prone. 
+Weights Chosen:[7, 4, 4, 9, 4, 8]
+Legal_moves found from human search: ['f7f5', 'b7b5', 'e7e6', 'f7f6', 'd6d5', 'g6g5', 'e5c4', 'e5c6', 'e5d7', 'e5d3', 'g7f6', 'g7h6', 'c8c1', 'c8c4', 'c8c6', 'c8d8', 'c8c2', 'c8c7', 'c8c3', 'c8a8', 'g8f8', 'g8h8']
+Moves evaluations: {-1255: 'c8c4', -1289: 'c8d8', -1368: 'c8a8'}
+Calculation time allowed: 2.6615334653579863
+Decided centipawn loss from mean -2.5 and stdev 5: -4.541460106873975
+Target_evaluation: -1259.541460106874
+Chosen move: c8c4, Rc4
+Move number: 21
+6k1/1p2ppbp/p2p2p1/P3n3/2R1P3/P3BP2/3QN1PP/6K1 b - - 0 21
+. . . . . . k .
+. p . . p p b p
+p . . p . . p .
+P . . . n . . .
+. . R . P . . .
+P . . . B P . .
+. . . Q N . P P
+. . . . . . K .
+Obvious Moves check: {-1006: 'e5c4', -1678: 'e5c6'}
+Top move is a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Calculating complexity of the position... 
+gmo, mov, pie, mat, own_mat, best_eval: 1;21;21;47.6;16.6;-1089
+Complexity calculated: 3.1613855421686745
+Efficient mobility calculated: 0.0
+Time taken to calculate complexity and eff_mob: 0.08620834350585938
+Mean time from chisquare: 0.1216729535002369
+Easy and hard factors: 0.10529290237737463; 0.15041843196767804
+Phase of game recognised: endgame
+This position has been decided not to be blunder prone. 
+Weights Chosen:[9, 7, 5, 3, 3, 8]
+Legal_moves found from human search: ['b7b5', 'f7f5', 'e7e6', 'd6d5', 'h7h5', 'g6g5', 'f7f6', 'b7b6', 'e5c4', 'e5c6', 'e5d7', 'e5d3', 'e5f3', 'e5g4', 'g7f6', 'g8f8', 'g8h8']
+Moves evaluations: {-1375: 'e5c4', -1895: 'e5c6', -2204: 'h7h5'}
+Calculation time allowed: 2.097213487568153
+Decided centipawn loss from mean -2.5 and stdev 5: 3.2637905782922525
+Target_evaluation: -1371.7362094217078
+Chosen move: e5c4, Nxc4
+Move number: 22
+6k1/1p2ppbp/p2p2p1/P7/2n1P3/P2QBP2/4N1PP/6K1 b - - 1 22
+. . . . . . k .
+. p . . p p b p
+p . . p . . p .
+P . . . . . . .
+. . n . P . . .
+P . . Q B P . .
+. . . . N . P P
+. . . . . . K .
+Obvious Moves check: {-1094: 'c4a5', -1168: 'c4b2'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move found. 
+Calculating complexity of the position... 
+gmo, mov, pie, mat, own_mat, best_eval: 1;28;20;42.1;16.6;-1006
+Complexity calculated: 3.550602409638554
+Efficient mobility calculated: 0.0
+Time taken to calculate complexity and eff_mob: 0.06890153884887695
+Mean time from chisquare: 0.12061899490769887
+Easy and hard factors: 0.12976672441495432; 0.18538103487850616
+Phase of game recognised: endgame
+This position has been decided not to be blunder prone. 
+Weights Chosen:[10, 7, 9, 3, 3, 8]
+Legal_moves found from human search: ['b7b5', 'e7e6', 'e7e5', 'f7f5', 'd6d5', 'b7b6', 'h7h5', 'f7f6', 'c4e5', 'c4e3', 'c4a5', 'c4b2', 'c4a3', 'c4d2', 'g7e5', 'g7b2', 'g7f6', 'g7c3', 'g7h8', 'g7f8', 'g7h6', 'g8f8', 'g8h8']
+Moves evaluations: {-1195: 'c4a5', -1395: 'c4e3', -1423: 'd6d5'}
+Calculation time allowed: 0.5095108566302642
+Decided centipawn loss from mean -2.5 and stdev 5: -3.529552859132098
+Target_evaluation: -1198.529552859132
+Chosen move: c4a5, Nxa5

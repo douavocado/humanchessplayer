@@ -1,0 +1,380 @@
+Playing side: BLACK 
+Move number: 31
+2B2k2/7p/1p3pp1/1p2n3/8/P7/1PP3PP/1K6 b - - 5 31
+. . B . . k . .
+. . . . . . . p
+. p . . . p p .
+. p . . n . . .
+. . . . . . . .
+P . . . . . . .
+. P P . . . P P
+. K . . . . . .
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.1185
+Own time remaining: 33.18
+Standard devation on time allowed: 0.3318
+Phase of game recognised: opening
+Currently this position is bunder prone. 
+Weights Chosen:[2, 2, 2, 3, 3, 2]
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'f6f5': 45, 'h7h5': 55, 'e5f7': 36, 'e5c4': 36, 'f8e7': 61, 'f8f7': 61}
+Sorted probablities worth considering: [0.21272936, 0.22283047, 0.47330686]
+Corresponding squares found: ['b5', 'e5', 'f8']
+Filtered ucis: ['e5f7', 'e5c4', 'f8e7', 'f8f7']
+Legal_moves found from human search: ['e5f7', 'e5c4', 'f8e7', 'f8f7']
+Moves evaluations: {-31: 'e5c4', -58: 'f8e7', -72: 'f8f7'}
+Calculation time allowed: 0.15170393994837122
+Decided centipawn loss from mean -15 and stdev 20: 39.42296359410668
+Target_evaluation: 8.422963594106683
+Chosen move: e5c4, Nc4
+Move number: 32
+5k2/5n1p/Bp3pp1/1p6/8/P7/1PP3PP/1K6 b - - 7 32
+. . . . . k . .
+. . . . . n . p
+B p . . . p p .
+. p . . . . . .
+. . . . . . . .
+P . . . . . . .
+. P P . . . P P
+. K . . . . . .
+Obvious Moves check: {-54: 'f7d6', -70: 'h7h6'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but time low so we play itChosen move: f7d6, Nd6
+Move number: 33
+5k2/7p/Bp1n1pp1/1p6/8/PP6/2P3PP/1K6 b - - 0 33
+. . . . . k . .
+. . . . . . . p
+B p . n . p p .
+. p . . . . . .
+. . . . . . . .
+P P . . . . . .
+. . P . . . P P
+. K . . . . . .
+Obvious Moves check: {-18: 'd6e4', -33: 'f8f7'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but time low so we play itChosen move: d6e4, Ne4
+Move number: 34
+8/4k2p/Bp1n1pp1/1p6/8/PP6/1KP3PP/8 b - - 2 34
+. . . . . . . .
+. . . . k . . p
+B p . n . p p .
+. p . . . . . .
+. . . . . . . .
+P P . . . . . .
+. K P . . . P P
+. . . . . . . .
+Obvious Moves check: {8: 'e7d7', -4: 'e7d8'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but time low so we play itChosen move: e7d7, Kd7
+Move number: 35
+8/3k3p/Bp1n1pp1/1p6/8/PPK5/2P3PP/8 b - - 4 35
+. . . . . . . .
+. . . k . . . p
+B p . n . p p .
+. p . . . . . .
+. . . . . . . .
+P P K . . . . .
+. . P . . . P P
+. . . . . . . .
+Obvious Moves check: {-48: 'd7c6', -86: 'd7d8'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but time low so we play itChosen move: d7c6, Kc6
+Move number: 36
+8/7p/Bpkn1pp1/1p6/1K6/PP6/2P3PP/8 b - - 6 36
+. . . . . . . .
+. . . . . . . p
+B p k n . p p .
+. p . . . . . .
+. K . . . . . .
+P P . . . . . .
+. . P . . . P P
+. . . . . . . .
+Obvious Moves check: {-94: 'h7h5', -95: 'f6f5'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but time low so we play itChosen move: h7h5, h5
+Move number: 37
+8/7p/Bpkn2p1/1p3p2/1K6/PP4P1/2P4P/8 b - - 0 37
+. . . . . . . .
+. . . . . . . p
+B p k n . . p .
+. p . . . p . .
+. K . . . . . .
+P P . . . . P .
+. . P . . . . P
+. . . . . . . .
+Obvious Moves check: {-92: 'g6g5', -102: 'h7h5'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but time low so we play itChosen move: g6g5, g5
+Move number: 39
+8/7p/Bpkn4/5pp1/K7/1P4P1/2P4P/8 b - - 0 39
+. . . . . . . .
+. . . . . . . p
+B p k n . . . .
+. . . . . p p .
+K . . . . . . .
+. P . . . . P .
+. . P . . . . P
+. . . . . . . .
+Obvious Moves check: {18: 'c6c5', 14: 'f5f4'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but time low so we play itChosen move: c6c5, Kc5
+Move number: 41
+8/7p/Bpkn4/8/1K3p2/1P6/2P4P/8 b - - 1 41
+. . . . . . . .
+. . . . . . . p
+B p k n . . . .
+. . . . . . . .
+. K . . . p . .
+. P . . . . . .
+. . P . . . . P
+. . . . . . . .
+Obvious Moves check: {170: 'f4f3', 118: 'b6b5'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but time low so we play itChosen move: f4f3, f3
+Move number: 42
+8/7p/Bpkn4/8/8/1PK2p2/2P4P/8 b - - 1 42
+. . . . . . . .
+. . . . . . . p
+B p k n . . . .
+. . . . . . . .
+. . . . . . . .
+. P K . . p . .
+. . P . . . . P
+. . . . . . . .
+Obvious Moves check: {214: 'b6b5', 80: 'f3f2'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but time low so we play itChosen move: b6b5, b5
+Move number: 43
+8/7p/B1kn4/1p6/3K4/1P3p2/2P4P/8 b - - 1 43
+. . . . . . . .
+. . . . . . . p
+B . k n . . . .
+. p . . . . . .
+. . . K . . . .
+. P . . . p . .
+. . P . . . . P
+. . . . . . . .
+Obvious Moves check: {998: 'f3f2', 232: 'c6b6'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but time low so we play itChosen move: f3f2, f2
+Move number: 44
+8/7p/Bk1n4/1p6/8/1P2Kp2/2P4P/8 b - - 3 44
+. . . . . . . .
+. . . . . . . p
+B k . n . . . .
+. p . . . . . .
+. . . . . . . .
+. P . . K p . .
+. . P . . . . P
+. . . . . . . .
+Obvious Moves check: {235: 'b6a6', 223: 'f3f2'}
+Top move is a take-back. 
+Top move piece is not under attack. 
+No obvious move, but time low so we play itChosen move: b6a6, Kxa6
+Move number: 45
+8/7p/k2n4/1p6/8/1P3K2/2P4P/8 b - - 0 45
+. . . . . . . .
+. . . . . . . p
+k . . n . . . .
+. p . . . . . .
+. . . . . . . .
+. P . . . K . .
+. . P . . . . P
+. . . . . . . .
+Obvious Moves check: {252: 'b5b4', 245: 'a6b6'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but time low so we play itChosen move: b5b4, b4
+Move number: 47
+8/7p/3n4/1pk1K3/8/1P6/2P4P/8 b - - 4 47
+. . . . . . . .
+. . . . . . . p
+. . . n . . . .
+. p k . K . . .
+. . . . . . . .
+. P . . . . . .
+. . P . . . . P
+. . . . . . . .
+Obvious Moves check: {270: 'b5b4', 219: 'd6f7'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but time low so we play itChosen move: b5b4, b4
+Move number: 48
+8/7p/3n1K2/2k5/1p6/1P6/2P4P/8 b - - 1 48
+. . . . . . . .
+. . . . . . . p
+. . . n . K . .
+. . k . . . . .
+. p . . . . . .
+. P . . . . . .
+. . P . . . . P
+. . . . . . . .
+Obvious Moves check: {237: 'h7h6', 226: 'c5b5'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but time low so we play itChosen move: h7h6, h6
+Move number: 49
+8/6Kp/3n4/8/1p1k4/1P6/2P4P/8 b - - 3 49
+. . . . . . . .
+. . . . . . K p
+. . . n . . . .
+. . . . . . . .
+. p . k . . . .
+. P . . . . . .
+. . P . . . . P
+. . . . . . . .
+Obvious Moves check: {242: 'd4c3', 219: 'h7h5'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but time low so we play itChosen move: d4c3, Kc3
+Move number: 50
+8/8/3n2K1/7p/1p1k4/1P6/2P4P/8 b - - 1 50
+. . . . . . . .
+. . . . . . . .
+. . . n . . K .
+. . . . . . . p
+. p . k . . . .
+. P . . . . . .
+. . P . . . . P
+. . . . . . . .
+Obvious Moves check: {280: 'h5h4', 219: 'd4c3'}
+Top move is not a take-back. 
+Top move piece is under attack. 
+No obvious move, but time low so we play itChosen move: h5h4, h4
+Move number: 51
+8/8/3n4/6K1/1p1k3p/1P6/2P4P/8 b - - 1 51
+. . . . . . . .
+. . . . . . . .
+. . . n . . . .
+. . . . . . K .
+. p . k . . . p
+. P . . . . . .
+. . P . . . . P
+. . . . . . . .
+Obvious Moves check: {217: 'd4c3', 214: 'h4h3'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but time low so we play itChosen move: d4c3, Kc3
+Move number: 52
+8/8/3n4/8/1p1k2K1/1P5p/2P4P/8 b - - 1 52
+. . . . . . . .
+. . . . . . . .
+. . . n . . . .
+. . . . . . . .
+. p . k . . K .
+. P . . . . . p
+. . P . . . . P
+. . . . . . . .
+Obvious Moves check: {214: 'd4c3', 154: 'd6f7'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but time low so we play itChosen move: d4c3, Kc3
+Move number: 54
+8/8/3n4/8/1p4K1/1P6/2k4P/8 b - - 1 54
+. . . . . . . .
+. . . . . . . .
+. . . n . . . .
+. . . . . . . .
+. p . . . . K .
+. P . . . . . .
+. . k . . . . P
+. . . . . . . .
+Obvious Moves check: {318: 'c2b3', 295: 'd6f7'}
+Top move is a take-back. 
+Top move piece is not under attack. 
+No obvious move, but time low so we play itChosen move: c2b3, Kxb3
+Move number: 55
+8/8/3n4/8/1p4KP/1k6/8/8 b - - 0 55
+. . . . . . . .
+. . . . . . . .
+. . . n . . . .
+. . . . . . . .
+. p . . . . K P
+. k . . . . . .
+. . . . . . . .
+. . . . . . . .
+Obvious Moves check: {359: 'b3c3', 351: 'b3c2'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but time low so we play itChosen move: b3c3, Kc3
+Move number: 56
+8/8/3n4/7P/1pk3K1/8/8/8 b - - 0 56
+. . . . . . . .
+. . . . . . . .
+. . . n . . . .
+. . . . . . . P
+. p k . . . K .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+Obvious Moves check: {424: 'd6f7', 387: 'b4b3'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but time low so we play itChosen move: d6f7, Nf7
+Move number: 57
+8/8/3n3P/8/2k3K1/1p6/8/8 b - - 0 57
+. . . . . . . .
+. . . . . . . .
+. . . n . . . P
+. . . . . . . .
+. . k . . . K .
+. p . . . . . .
+. . . . . . . .
+. . . . . . . .
+Obvious Moves check: {370: 'd6f7', 346: 'd6e4'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but time low so we play itChosen move: d6f7, Nf7
+Move number: 58
+8/7P/3n4/8/2k3K1/8/1p6/8 b - - 0 58
+. . . . . . . .
+. . . . . . . P
+. . . n . . . .
+. . . . . . . .
+. . k . . . K .
+. . . . . . . .
+. p . . . . . .
+. . . . . . . .
+Obvious Moves check: {1126: 'd6f7', 183: 'b2b1q'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but time low so we play itChosen move: d6f7, Nf7
+Move number: 59
+8/5n1P/8/5K2/2k5/8/1p6/8 b - - 2 59
+. . . . . . . .
+. . . . . n . P
+. . . . . . . .
+. . . . . K . .
+. . k . . . . .
+. . . . . . . .
+. p . . . . . .
+. . . . . . . .
+Obvious Moves check: {5393: 'b2b1q', 1032: 'f7h8'}
+Top move is not a take-back. 
+Top move piece is not under attack. 
+No obvious move, but time low so we play itChosen move: b2b1q, b1=Q+
+Move number: 61
+7n/6KP/8/8/2k5/8/8/1q6 b - - 1 61
+. . . . . . . n
+. . . . . . K P
+. . . . . . . .
+. . . . . . . .
+. . k . . . . .
+. . . . . . . .
+. . . . . . . .
+. q . . . . . .
+Obvious Moves check: {5093: 'h8f7', 1076: 'b1b8'}
+Top move is not a take-back. 
+Top move piece is under attack. 
+Obvious move found! 
+Chosen move: h8f7, Nf7

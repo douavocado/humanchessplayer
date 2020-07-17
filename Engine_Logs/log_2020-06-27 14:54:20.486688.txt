@@ -1,0 +1,41 @@
+Playing side: BLACK 
+Move number: 1
+rnbqkbnr/pppppppp/8/8/8/2N5/PPPPPPPP/R1BQKBNR b KQkq - 1 1
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . N . . . . .
+P P P P P P P P
+R . B Q K B N R
+Analysis Object recieved:  [{'depth': 4, 'seldepth': 4, 'multipv': 1, 'score': PovScore(Cp(+54), BLACK), 'nodes': 807, 'nps': 403500, 'tbhits': 0, 'time': 0.002, 'pv': [Move.from_uci('d7d5'), Move.from_uci('e2e3'), Move.from_uci('e7e5'), Move.from_uci('b2b3')]}, {'depth': 4, 'seldepth': 4, 'multipv': 2, 'score': PovScore(Cp(-42), BLACK), 'nodes': 807, 'nps': 403500, 'tbhits': 0, 'time': 0.002, 'pv': [Move.from_uci('g8f6'), Move.from_uci('g1f3'), Move.from_uci('d7d5'), Move.from_uci('d2d4')]}]
+Obvious Moves check: {54: 'd7d5', -42: 'g8f6'}
+No obvious move found. 
+Phase of game recognised: opening
+Legal_moves found from human search: ['e7e5', 'd7d5', 'c7c5', 'b7b6', 'g8f6']
+Analysis Object recieved:  [{'depth': 17, 'seldepth': 24, 'multipv': 1, 'score': PovScore(Cp(-3), BLACK), 'nodes': 1338993, 'nps': 1332331, 'tbhits': 0, 'time': 1.005, 'pv': [Move.from_uci('d7d5'), Move.from_uci('d2d4'), Move.from_uci('g8f6'), Move.from_uci('c1f4'), Move.from_uci('e7e6'), Move.from_uci('e2e3'), Move.from_uci('f8b4'), Move.from_uci('f1d3'), Move.from_uci('c7c5'), Move.from_uci('d4c5'), Move.from_uci('b8d7'), Move.from_uci('g1f3'), Move.from_uci('e8g8'), Move.from_uci('e1g1'), Move.from_uci('d7c5'), Move.from_uci('a2a3'), Move.from_uci('b4c3'), Move.from_uci('b2c3'), Move.from_uci('a7a6')], 'hashfull': 532}, {'depth': 17, 'seldepth': 24, 'multipv': 2, 'score': PovScore(Cp(-17), BLACK), 'nodes': 1338993, 'nps': 1332331, 'tbhits': 0, 'time': 1.005, 'pv': [Move.from_uci('e7e5'), Move.from_uci('e2e4')], 'hashfull': 532}, {'depth': 16, 'seldepth': 24, 'multipv': 3, 'score': PovScore(Cp(-14), BLACK), 'nodes': 1338993, 'nps': 1332331, 'tbhits': 0, 'time': 1.005, 'pv': [Move.from_uci('g8f6'), Move.from_uci('e2e4'), Move.from_uci('e7e5'), Move.from_uci('f1c4'), Move.from_uci('b8c6'), Move.from_uci('g1f3'), Move.from_uci('f8c5'), Move.from_uci('e1g1'), Move.from_uci('d7d6'), Move.from_uci('a2a3'), Move.from_uci('a7a6'), Move.from_uci('d2d3'), Move.from_uci('e8g8'), Move.from_uci('c1d2'), Move.from_uci('c8d7'), Move.from_uci('c3d5'), Move.from_uci('c5a7'), Move.from_uci('g1h1'), Move.from_uci('f6d5'), Move.from_uci('e4d5')], 'upperbound': True, 'hashfull': 532}]
+Moves evaluations: {-3: 'd7d5', -17: 'e7e5', -14: 'g8f6'}
+Decided centipawn loss from mean -10 and stdev 8: -23.40330938273431
+Target_evaluation: -26.40330938273431
+Chosen move: e7e5, e5
+Move number: 2
+rnbqkbnr/pppp1ppp/8/4p3/8/2N2N2/PPPPPPPP/R1BQKB1R b KQkq - 1 2
+r n b q k b n r
+p p p p . p p p
+. . . . . . . .
+. . . . p . . .
+. . . . . . . .
+. . N . . N . .
+P P P P P P P P
+R . B Q K B . R
+Analysis Object recieved:  [{'depth': 4, 'seldepth': 4, 'multipv': 1, 'score': PovScore(Cp(-6), BLACK), 'nodes': 400, 'nps': 400000, 'tbhits': 0, 'time': 0.001, 'pv': [Move.from_uci('d7d5'), Move.from_uci('f3e5'), Move.from_uci('d5d4'), Move.from_uci('e2e4'), Move.from_uci('d4c3')]}, {'depth': 4, 'seldepth': 4, 'multipv': 2, 'score': PovScore(Cp(-41), BLACK), 'nodes': 400, 'nps': 400000, 'tbhits': 0, 'time': 0.001, 'pv': [Move.from_uci('e5e4'), Move.from_uci('c3e4'), Move.from_uci('d7d5'), Move.from_uci('e4g3')]}]
+Obvious Moves check: {-6: 'd7d5', -41: 'e5e4'}
+No obvious move found. 
+Phase of game recognised: opening
+Legal_moves found from human search: ['e5e4', 'd7d6', 'd7d5', 'b8c6', 'g8f6', 'f8b4', 'f8e7', 'f8c5', 'd8f6']
+Analysis Object recieved:  [{'depth': 16, 'seldepth': 24, 'multipv': 1, 'score': PovScore(Cp(-13), BLACK), 'nodes': 1145562, 'nps': 1138729, 'tbhits': 0, 'time': 1.006, 'pv': [Move.from_uci('b8c6'), Move.from_uci('e2e4'), Move.from_uci('g8f6'), Move.from_uci('f1b5'), Move.from_uci('c6d4'), Move.from_uci('f3e5'), Move.from_uci('c7c6'), Move.from_uci('b5e2'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('f6d5'), Move.from_uci('c3d5'), Move.from_uci('d8d5'), Move.from_uci('e5f3'), Move.from_uci('d4e2'), Move.from_uci('d1e2'), Move.from_uci('d5e6'), Move.from_uci('d2d3'), Move.from_uci('f8e7'), Move.from_uci('c2c3')], 'hashfull': 491}, {'depth': 16, 'seldepth': 24, 'multipv': 2, 'score': PovScore(Cp(-18), BLACK), 'nodes': 1145562, 'nps': 1138729, 'tbhits': 0, 'time': 1.006, 'pv': [Move.from_uci('d7d5')], 'hashfull': 491}, {'depth': 15, 'seldepth': 24, 'multipv': 3, 'score': PovScore(Cp(-51), BLACK), 'nodes': 1145562, 'nps': 1138729, 'tbhits': 0, 'time': 1.006, 'pv': [Move.from_uci('d7d6'), Move.from_uci('e2e4'), Move.from_uci('g8f6'), Move.from_uci('d2d4'), Move.from_uci('e5d4'), Move.from_uci('f3d4'), Move.from_uci('c8d7'), Move.from_uci('c1e3'), Move.from_uci('b8c6'), Move.from_uci('d4c6'), Move.from_uci('d7c6'), Move.from_uci('f1d3'), Move.from_uci('d6d5'), Move.from_uci('e4d5'), Move.from_uci('f6d5'), Move.from_uci('e1g1'), Move.from_uci('d5e3'), Move.from_uci('f2e3'), Move.from_uci('a7a6')], 'hashfull': 491}]
+Moves evaluations: {-13: 'b8c6', -18: 'd7d5', -51: 'd7d6'}
+Decided centipawn loss from mean -10 and stdev 8: -13.02763037655841
+Target_evaluation: -26.02763037655841
+Chosen move: d7d5, d5
