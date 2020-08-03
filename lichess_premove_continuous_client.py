@@ -24,17 +24,19 @@ import time
 #USERNAME = 'gmdolmatov'
 #USERNAME = 'imcsabalogh'
 #USERNAME = 'JXu2019'
-USERNAME = 'Moment_of_Inertia'
+USERNAME = 'suddenly_hopeful'
+#USERNAME = 'Moment_of_Inertia'
 #USERNAME = 'jamyyos'
 #USERNAME = 'jeremythecheramie'
 #USERNAME = 'CrazyCucumber999'
+#USERNAME = 'StinkosMachos909'
 
 class GameFinder:
-    ''' During idle phases, we are scanning a prticuar username to see if any active
+    ''' During idle phases, we are scanning a particuar username to see if any active
         games are present, hence avoiding starting/restarting the script. '''
     def __init__(self, username):
         self.username = username
-        self.client = LichessClient()
+        self.client = LichessClient(shadow_mode=False)
     
     def run(self):
         profile_url = 'https://lichess.org/@/'+self.username+'/playing'
@@ -62,13 +64,13 @@ class LichessClient:
     ''' Main class which interacts with Lichess. Plays and recieves moves. Called
         every instance of a game. '''
     
-    def __init__(self, url=None, side=None, time=None):
+    def __init__(self, shadow_mode=False, url=None, side=None, time=None):
         if url is not None:
             self.url = url
             # getting player side and starting time
             page = requests.get(self.url)
             if time == None:
-                starting_time = float(re.findall('\"initial\":(\d{1,3})', page.text)[0])
+                starting_time = float(re.findall('\"initial\":(\d{1,4})', page.text)[0])
             else:
                 starting_time = time
             if side is None:
@@ -86,6 +88,7 @@ class LichessClient:
         self.board = chess.Board()
         self.last_fen = chess.STARTING_FEN
         self.engine = AtomicSamurai()
+        self.shadow = shadow_mode
         
     def set_game(self, url, side=None, time=None):
         ''' Once client has found game, sets up game parameters. '''
@@ -93,7 +96,7 @@ class LichessClient:
         # getting player side and starting time
         page = requests.get(self.url)
         if time == None:
-            starting_time = float(re.findall('\"initial\":(\d{1,3})', page.text)[0])
+            starting_time = float(re.findall('\"initial\":(\d{1,4})', page.text)[0])
         else:
             starting_time = time
         if side is None:
@@ -116,6 +119,7 @@ class LichessClient:
         self.engine.premove_mode = False
         self.engine.big_material_take = False
         self.engine.mate_in_one = False
+        self.engine.shadow = self.shadow
         
     def find_clicks(self, move_uci):
         ''' Given a move in uci form, find the click from and click to positions. '''
@@ -151,27 +155,28 @@ class LichessClient:
     def interact(self, click_from_x, click_from_y, click_to_x, click_to_y, own_time, premove=False):
         ''' Function which does the clicking on the screen, and makes the moves.
             For the first and last 10 seconds of own_time, the user plays to avoid suspicion. '''
-        if premove:
+        if premove and self.shadow == False and own_time > 15:
             #time.sleep(0.1)
             #print('yes i made premove')
-            pyautogui.moveTo(click_from_x, click_from_y)
-            pyautogui.dragTo(click_to_x, click_to_y, 0.2, button='right')
+            # pyautogui.moveTo(click_from_x, click_from_y)
+            # pyautogui.dragTo(click_to_x, click_to_y, 0.2, button='left')
+            pyautogui.click(click_from_x, click_from_y, button='left')
+            pyautogui.click(click_to_x, click_to_y, button='left')
         else:
-            if self.starting_time < 16 or own_time < 15:
-                #print('yes i made normal move')
-                # if self.engine.big_material_take == True or self.engine.mate_in_one == True:
-                #     # opposition just hung a big piece or next move is mate in one
-                #     # print('hung big piece!')
-                #     # print(self.board)
-                #     time.sleep(random.randint(24,48)/self.starting_time)
-                # else:
-                #     if random.random() <0.02:
-                #         time.sleep(random.randint(1,2)/1.3)
-                #     else:
-                #         time.sleep(random.randint(1,10)/30)
-                # pyautogui.moveTo(click_from_x, click_from_y)
-                # pyautogui.dragTo(click_to_x, click_to_y, 0.2, button='left')
-                pass
+            if self.starting_time < 16 or own_time < 15 and self.shadow == False:
+                if self.engine.big_material_take == True or self.engine.mate_in_one == True:
+                    # opposition just hung a big piece or next move is mate in one
+                    print('hung big piece!')
+                    print(self.board)
+                    time.sleep(random.randint(12,24)/self.starting_time)
+                else:
+                    if random.random() <0.01:
+                        time.sleep(random.randint(1,2)/1.5)
+                    else:
+                        time.sleep(random.randint(1,10)/60)
+                pyautogui.click(click_from_x, click_from_y, button='left')
+                pyautogui.click(click_to_x, click_to_y, button='left')
+                # pass
                 
             elif self.starting_time > 61 and own_time > 10 and self.starting_time-own_time >7:
                 # first assert it is actually my move
@@ -185,20 +190,36 @@ class LichessClient:
                     fen = chess.STARTING_FEN
                 else:
                     fen = fen_search[-1]
-                if fen == self.last_fen:        
-                    pyautogui.moveTo(click_from_x, click_from_y)
-                    pyautogui.dragTo(click_to_x, click_to_y, 0.2, button='right')
+                if fen == self.last_fen:
+                    if self.shadow == True:
+                        pyautogui.click(click_from_x, click_from_y, button='right')
+                        pyautogui.click(click_to_x, click_to_y, button='right')
+                    else:
+                        if self.engine.big_material_take == True or self.engine.mate_in_one == True:
+                            # opposition just hung a big piece or next move is mate in one
+                            print('hung big piece!')
+                            print(self.board)
+                            time.sleep(random.randint(18,28)*self.starting_time/1000)
+                        pyautogui.click(click_from_x, click_from_y, button='left')
+                        pyautogui.click(click_to_x, click_to_y, button='left')
                 else:
                     print('Detected human interference!, passing move for now...')
             elif own_time > 10 and self.starting_time-own_time > 3:
-                # print('yes i made normal move')
-                #time.sleep(0.1)
-                pyautogui.moveTo(click_from_x, click_from_y)
-                pyautogui.dragTo(click_to_x, click_to_y, 0.2, button='right')
+                if self.shadow == True:
+                    pyautogui.click(click_from_x, click_from_y, button='right')
+                    pyautogui.click(click_to_x, click_to_y, button='right')
+                else:
+                    if self.engine.big_material_take == True or self.engine.mate_in_one == True:
+                        # opposition just hung a big piece or next move is mate in one
+                        print('hung big piece!')
+                        print(self.board)
+                        time.sleep(random.randint(18,28)*self.starting_time/1000)
+                    pyautogui.click(click_from_x, click_from_y, button='left')
+                    pyautogui.click(click_to_x, click_to_y, button='left')
                 
 
     def make_move(self):
-        fen, prev_move, prev_fen, white_time, black_time, game_end, premove = self.get_next_move(self.last_fen, premove=False)
+        fen, prev_move, prev_fen, white_time, black_time, game_end, premove = self.get_next_move(self.last_fen, premove=True)
         if self.side == chess.WHITE:
             own_time = white_time
         else:

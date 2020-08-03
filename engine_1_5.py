@@ -93,7 +93,8 @@ points_dic = {chess.PAWN: 1,
               chess.KNIGHT: 3,
               chess.BISHOP: 3.5,
               chess.ROOK: 4.5,
-              chess.QUEEN: 6}
+              chess.QUEEN: 6,
+              chess.KING: 0}
 
 def phase_of_game(board):
     ''' Takes in a chess.Board() instance and returns opening, midgame, endgame
@@ -211,6 +212,7 @@ class AtomicSamurai:
         self.premove_mode = False # when engine is in premove mode, a certain percentage of moves it makes are premoves
         self.big_material_take = False # if oppenent suddenly hangs a piece (in time scrambles), don't immediately take back (let's lichess clinet know)
         self.mate_in_one = False
+        self.shadow = True
     
     def update_board(self, board):
         ''' When the engine recieves information about the opponent's move
@@ -276,8 +278,10 @@ class AtomicSamurai:
         
         move_prob = {k: v for k, v in sorted(move_prob.items(), key=lambda item: item[1], reverse=True)}
         # take first 4 moves as the root moves
-        # print(move_prob)
-        move_list = list(move_prob.keys())[:10]
+        prob_ = {self.board.san(chess.Move.from_uci(key)) : prob for key, prob in move_prob.items()}
+        # print(self.board)
+        # print(prob_)
+        move_list = list(move_prob.keys())[:7]
         return move_list
     
     def search_human_moves(self, starting_time):
@@ -871,7 +875,7 @@ class AtomicSamurai:
             standard_dev = complexity**0.65
         elif eff_mob < 8:
             # there's still a chance that it would miss a tactic etc
-            if random.random() < 0.5:
+            if random.random() < 0.3:
                 self.log += 'eff_mob low, but decided to blunder anyway trying to miss a tactic. \n'
                 self.blunder_prone = True
             else:
@@ -918,7 +922,8 @@ class AtomicSamurai:
         else: # will change these values for deployment
             time_limit = max(np.random.normal(hard_factor * time_spend, stdev), 0.1)         
         
-        time_limit = 1
+        if self.shadow == True:
+            time_limit = 1
         return difficulty, standard_dev, time_limit
     
     def decide_time_scramble(self, own_time, starting_time):
@@ -1098,7 +1103,7 @@ class AtomicSamurai:
 
 def test():
     ''' Test function used for various testing. '''
-    engine = AtomicSamurai(playing_side= chess.WHITE, starting_position_fen='5rk1/1b3pb1/3Qp1p1/1B4Pp/1N2P2P/P1q2P2/2P5/1K1RR3 w - - 1 30')
+    engine = AtomicSamurai(playing_side= chess.WHITE, starting_position_fen='5rk1/ppp4p/3p3b/3Pnp2/QPPN1p1q/4rP1N/P5PP/1R3RK1 w - - 5 21')
     engine.blunder_prone = True
     engine.filter_legal_moves(engine.search_human_moves(180))
     # print(engine.log)
