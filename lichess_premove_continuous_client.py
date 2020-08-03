@@ -21,25 +21,21 @@ from engine_1_5 import AtomicSamurai
 
 import time
 
-#USERNAME = 'gmdolmatov'
-#USERNAME = 'imcsabalogh'
-#USERNAME = 'JXu2019'
-USERNAME = 'suddenly_hopeful'
-#USERNAME = 'Moment_of_Inertia'
-#USERNAME = 'jamyyos'
-#USERNAME = 'jeremythecheramie'
-#USERNAME = 'CrazyCucumber999'
-#USERNAME = 'StinkosMachos909'
 
 class GameFinder:
     ''' During idle phases, we are scanning a particuar username to see if any active
         games are present, hence avoiding starting/restarting the script. '''
-    def __init__(self, username):
+    def __init__(self, username, shadow_mode=False):
         self.username = username
-        self.client = LichessClient(shadow_mode=False)
+        self.client = LichessClient(username, shadow_mode=shadow_mode)
     
     def run(self):
         profile_url = 'https://lichess.org/@/'+self.username+'/playing'
+        # now see if username was valid or not
+        r = requests.get(profile_url)
+        valid = re.findall(r"<h1>404<\/h1><div><strong>Page not found!<\/strong>", r.text)
+        if len(valid) > 0:
+            raise Exception('Username not found: ' + self.username + '. Please make sure the spelling is correct (case sensitive)')
         print('Status connected.')
         while True:
             r = requests.get(profile_url)
@@ -64,7 +60,8 @@ class LichessClient:
     ''' Main class which interacts with Lichess. Plays and recieves moves. Called
         every instance of a game. '''
     
-    def __init__(self, shadow_mode=False, url=None, side=None, time=None):
+    def __init__(self, username, shadow_mode=False, url=None, side=None, time=None):
+        self.username = username
         if url is not None:
             self.url = url
             # getting player side and starting time
@@ -76,7 +73,7 @@ class LichessClient:
             if side is None:
                 soup = BeautifulSoup(page.text, 'html.parser')
                 white_username = soup.findAll("div", {"class": "player color-icon is white text"})[0].text.split()[0]
-                if white_username == USERNAME:
+                if white_username == self.username:
                     self.side = chess.WHITE
                 else:
                     self.side = chess.BLACK
@@ -102,7 +99,7 @@ class LichessClient:
         if side is None:
             soup = BeautifulSoup(page.text, 'html.parser')
             white_username = soup.findAll("div", {"class": "player color-icon is white text"})[0].text.split()[0]
-            if white_username == USERNAME:
+            if white_username == self.username:
                 self.side = chess.WHITE
             else:
                 self.side = chess.BLACK
@@ -156,7 +153,6 @@ class LichessClient:
         ''' Function which does the clicking on the screen, and makes the moves.
             For the first and last 10 seconds of own_time, the user plays to avoid suspicion. '''
         if premove and self.shadow == False and own_time > 15:
-            #time.sleep(0.1)
             #print('yes i made premove')
             # pyautogui.moveTo(click_from_x, click_from_y)
             # pyautogui.dragTo(click_to_x, click_to_y, 0.2, button='left')
@@ -165,9 +161,8 @@ class LichessClient:
         else:
             if self.starting_time < 16 or own_time < 15 and self.shadow == False:
                 if self.engine.big_material_take == True or self.engine.mate_in_one == True:
-                    # opposition just hung a big piece or next move is mate in one
-                    print('hung big piece!')
-                    print(self.board)
+                    # opposition just hung a big piece or next move is mate in on
+                    # delay for a bit to simulate the surprise/intrigue by a human player
                     time.sleep(random.randint(12,24)/self.starting_time)
                 else:
                     if random.random() <0.01:
@@ -197,8 +192,8 @@ class LichessClient:
                     else:
                         if self.engine.big_material_take == True or self.engine.mate_in_one == True:
                             # opposition just hung a big piece or next move is mate in one
-                            print('hung big piece!')
-                            print(self.board)
+                            # print('hung big piece!')
+                            # print(self.board)
                             time.sleep(random.randint(18,28)*self.starting_time/1000)
                         pyautogui.click(click_from_x, click_from_y, button='left')
                         pyautogui.click(click_to_x, click_to_y, button='left')
@@ -211,8 +206,8 @@ class LichessClient:
                 else:
                     if self.engine.big_material_take == True or self.engine.mate_in_one == True:
                         # opposition just hung a big piece or next move is mate in one
-                        print('hung big piece!')
-                        print(self.board)
+                        # print('hung big piece!')
+                        # print(self.board)
                         time.sleep(random.randint(18,28)*self.starting_time/1000)
                     pyautogui.click(click_from_x, click_from_y, button='left')
                     pyautogui.click(click_to_x, click_to_y, button='left')
@@ -290,9 +285,9 @@ class LichessClient:
                     page = requests.get(self.url, timeout=0.25)
                 except requests.exceptions.Timeout:
                     # too many requests
-                    print('Timeout')
+                    print('Request fetching timed out, trying again...')
                     sound_file = "alert.mp3"
-                    os.system("mpg123 " + sound_file)
+                    os.system("mpg123 " + sound_file + " -q")
                     continue  
                 
                 fen_search = re.findall('\"fen\":\"([^,]{10,80})\"', page.text) 
@@ -315,9 +310,9 @@ class LichessClient:
                     break
                 except IndexError:
                     # too many requests
-                    print('too many requests, trying again')
+                    print('Request fetching timed out, trying again...')
                     sound_file = "alert.mp3"
-                    os.system("mpg123 " + sound_file)
+                    os.system("mpg123 " + sound_file + " -q")
                     continue         
                     
             if len(fen_search) == 0:
@@ -348,6 +343,4 @@ class LichessClient:
                 if move is not None:
                     return fen, prev_move, prev_fen, white_time, black_time, game_end, move
 
-URL = 'https://lichess.org/GlYCARuKJKOp'
-finder = GameFinder(USERNAME)
-finder.run()
+# URL = 'https://lichess.org/GlYCARuKJKOp'
