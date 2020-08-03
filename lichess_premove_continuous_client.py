@@ -44,7 +44,7 @@ class GameFinder:
                 # then the user is in a game
                 print ('Found user game!')
                 sound_file = "new_game_found.mp3"
-                os.system("mpg123 " + sound_file)
+                os.system("mpg123 " + sound_file + " -q")
                 soup = BeautifulSoup(r.text, 'html.parser')
                 game_url = 'https://lichess.org' + soup.findAll("a", {"class": "game-row__overlay"})[0]['href']
                 
