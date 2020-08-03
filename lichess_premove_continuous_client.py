@@ -44,7 +44,7 @@ class GameFinder:
                 # then the user is in a game
                 print ('Found user game!')
                 sound_file = "new_game_found.mp3"
-                os.system("mpg123 " + sound_file + " -q")
+                os.system("mpg123 -q" + sound_file)
                 soup = BeautifulSoup(r.text, 'html.parser')
                 game_url = 'https://lichess.org' + soup.findAll("a", {"class": "game-row__overlay"})[0]['href']
                 
@@ -163,7 +163,7 @@ class LichessClient:
                 if self.engine.big_material_take == True or self.engine.mate_in_one == True:
                     # opposition just hung a big piece or next move is mate in on
                     # delay for a bit to simulate the surprise/intrigue by a human player
-                    time.sleep(random.randint(12,24)/self.starting_time)
+                    time.sleep(random.randint(10,15)/self.starting_time)
                 else:
                     if random.random() <0.01:
                         time.sleep(random.randint(1,2)/1.5)
@@ -287,7 +287,7 @@ class LichessClient:
                     # too many requests
                     print('Request fetching timed out, trying again...')
                     sound_file = "alert.mp3"
-                    os.system("mpg123 " + sound_file + " -q")
+                    os.system("mpg123 -q" + sound_file)
                     continue  
                 
                 fen_search = re.findall('\"fen\":\"([^,]{10,80})\"', page.text) 
@@ -312,7 +312,7 @@ class LichessClient:
                     # too many requests
                     print('Request fetching timed out, trying again...')
                     sound_file = "alert.mp3"
-                    os.system("mpg123 " + sound_file + " -q")
+                    os.system("mpg123 -q " + sound_file)
                     continue         
                     
             if len(fen_search) == 0:

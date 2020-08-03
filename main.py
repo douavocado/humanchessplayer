@@ -25,3 +25,5 @@ if len(args.username) > 1:
     raise Exception('Number of username inputs detected', len(args.username), ". Please enter only one username. ")
 finder = GameFinder(args.username[0], shadow_mode=args.shadow)
 finder.run()
+# finder = GameFinder('Moment_of_Inertia')
+# finder.run()
