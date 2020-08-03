@@ -18,7 +18,8 @@ pip3 install -r requirements.txt
 
 Navigate to the downloaded folder in command line (using **cd**) and run:
 
-```python3 main.py [USERNAME] [-s]
+```python3
+python3 main.py [USERNAME] [-s]
 ```
 
 Where *USERNAME* is your lichess username, and the optional argument *-s* puts the engine in 'shadow mode', where the mouse only hovers over moves instead of executing them.
