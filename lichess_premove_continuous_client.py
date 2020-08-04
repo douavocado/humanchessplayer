@@ -60,7 +60,7 @@ class LichessClient:
     ''' Main class which interacts with Lichess. Plays and recieves moves. Called
         every instance of a game. '''
     
-    def __init__(self, username, shadow_mode=False, url=None, side=None, time=None):
+    def __init__(self, username, log=True, shadow_mode=False, url=None, side=None, time=None):
         self.username = username
         if url is not None:
             self.url = url
@@ -84,7 +84,7 @@ class LichessClient:
         self.premoved = False
         self.board = chess.Board()
         self.last_fen = chess.STARTING_FEN
-        self.engine = AtomicSamurai()
+        self.engine = AtomicSamurai(log=log, shadow=shadow_mode)
         self.shadow = shadow_mode
         
     def set_game(self, url, side=None, time=None):

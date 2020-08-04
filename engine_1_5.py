@@ -191,7 +191,7 @@ class AtomicSamurai:
         position.
         '''
         
-    def __init__(self, log=True, piece_models_dic=move_to_models, playing_side=chess.WHITE, starting_position_fen=chess.STARTING_FEN, play_mode='blitz'):
+    def __init__(self, log=True, shadow=True, piece_models_dic=move_to_models, playing_side=chess.WHITE, starting_position_fen=chess.STARTING_FEN):
         self.piece_models = piece_models_dic # dictionary of all piece models
         self.selector = midgame_selector # used for narrowing piece choices when blunder prone
         self.board = chess.Board(starting_position_fen)
@@ -212,7 +212,7 @@ class AtomicSamurai:
         self.premove_mode = False # when engine is in premove mode, a certain percentage of moves it makes are premoves
         self.big_material_take = False # if oppenent suddenly hangs a piece (in time scrambles), don't immediately take back (let's lichess clinet know)
         self.mate_in_one = False
-        self.shadow = True # alters thinkning times to be much more stable
+        self.shadow = shadow# alters thinking times to be much more stable
         self.log_true = log # whether or not to output a log file
     
     def update_board(self, board):
