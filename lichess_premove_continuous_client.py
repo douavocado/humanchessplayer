@@ -25,9 +25,9 @@ import time
 class GameFinder:
     ''' During idle phases, we are scanning a particuar username to see if any active
         games are present, hence avoiding starting/restarting the script. '''
-    def __init__(self, username, shadow_mode=False):
+    def __init__(self, username, shadow_mode=False, log=True):
         self.username = username
-        self.client = LichessClient(username, shadow_mode=shadow_mode)
+        self.client = LichessClient(username, shadow_mode=shadow_mode, log=log)
     
     def run(self):
         profile_url = 'https://lichess.org/@/'+self.username+'/playing'
@@ -44,7 +44,7 @@ class GameFinder:
                 # then the user is in a game
                 print ('Found user game!')
                 sound_file = "new_game_found.mp3"
-                os.system("mpg123 -q" + sound_file)
+                os.system("mpg123 -q " + sound_file)
                 soup = BeautifulSoup(r.text, 'html.parser')
                 game_url = 'https://lichess.org' + soup.findAll("a", {"class": "game-row__overlay"})[0]['href']
                 
@@ -287,7 +287,7 @@ class LichessClient:
                     # too many requests
                     print('Request fetching timed out, trying again...')
                     sound_file = "alert.mp3"
-                    os.system("mpg123 -q" + sound_file)
+                    os.system("mpg123 -q " + sound_file)
                     continue  
                 
                 fen_search = re.findall('\"fen\":\"([^,]{10,80})\"', page.text) 

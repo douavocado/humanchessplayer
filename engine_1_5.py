@@ -191,7 +191,7 @@ class AtomicSamurai:
         position.
         '''
         
-    def __init__(self, piece_models_dic=move_to_models, playing_side=chess.WHITE, starting_position_fen=chess.STARTING_FEN, play_mode='blitz'):
+    def __init__(self, log=True, piece_models_dic=move_to_models, playing_side=chess.WHITE, starting_position_fen=chess.STARTING_FEN, play_mode='blitz'):
         self.piece_models = piece_models_dic # dictionary of all piece models
         self.selector = midgame_selector # used for narrowing piece choices when blunder prone
         self.board = chess.Board(starting_position_fen)
@@ -212,7 +212,8 @@ class AtomicSamurai:
         self.premove_mode = False # when engine is in premove mode, a certain percentage of moves it makes are premoves
         self.big_material_take = False # if oppenent suddenly hangs a piece (in time scrambles), don't immediately take back (let's lichess clinet know)
         self.mate_in_one = False
-        self.shadow = True
+        self.shadow = True # alters thinkning times to be much more stable
+        self.log_true = log # whether or not to output a log file
     
     def update_board(self, board):
         ''' When the engine recieves information about the opponent's move
@@ -279,8 +280,9 @@ class AtomicSamurai:
         move_prob = {k: v for k, v in sorted(move_prob.items(), key=lambda item: item[1], reverse=True)}
         # take first 4 moves as the root moves
         prob_ = {self.board.san(chess.Move.from_uci(key)) : prob for key, prob in move_prob.items()}
-        # print(self.board)
-        # print(prob_)
+        self.log += 'Move Probabilities that the engine sees: \n'
+        for key, value in prob_.items():
+            self.log += str(key) + ': ' + str(value) + '\n'
         move_list = list(move_prob.keys())[:7]
         return move_list
     
@@ -291,7 +293,7 @@ class AtomicSamurai:
         
         # first check that it is the machine's turn to move
         if not self.assert_my_turn():
-            print (self.log)
+            print(self.log)
             raise Exception("ERROR: Atomic Samurai made to play move when it's not its turn.")
         
         # if engine playing from black side, then we need to flip the board
@@ -337,7 +339,7 @@ class AtomicSamurai:
                 # we give it a bonus proability as captures are more appealing
                 # to humans
                 if dummy_board.color_at(square_int) == chess.BLACK:
-                    probability = probability*4
+                    probability = probability*2
                 
                 for square in from_squares:
                     mirror_needed = self.side == chess.BLACK
@@ -968,25 +970,25 @@ class AtomicSamurai:
                 king_moves += 1
         
         opening_weights = [int(pawn_moves * 0.5 + 3),
-                           int(knight_moves * 0.6 + 3),
-                           int(bishop_moves * 0.6 + 3),
-                           int(rook_moves * 0.2 + 1),
-                           int(queen_moves * 0.4 + 3),
-                           int(king_moves * 1 + 6)]
+                            int(knight_moves * 0.6 + 3),
+                            int(bishop_moves * 0.6 + 3),
+                            int(rook_moves * 0.2 + 1),
+                            int(queen_moves * 0.4 + 3),
+                            int(king_moves * 1 + 6)]
         
         midgame_weights = [int(pawn_moves * 0.5 + 3),
-                           int(knight_moves * 0.5 + 3),
-                           int(bishop_moves * 0.5 + 3),
-                           int(rook_moves * 0.5 + 3),
-                           int(queen_moves * 0.5 + 4),
-                           int(king_moves * 1 + 6)]
+                            int(knight_moves * 0.5 + 3),
+                            int(bishop_moves * 0.5 + 3),
+                            int(rook_moves * 0.5 + 3),
+                            int(queen_moves * 0.5 + 4),
+                            int(king_moves * 1 + 6)]
         
         endgame_weights = [int(pawn_moves * 0.7 + 3),
-                           int(knight_moves * 0.7 + 3),
-                           int(bishop_moves * 0.7 + 3),
-                           int(rook_moves * 1 + 3),
-                           int(queen_moves * 1 + 3),
-                           int(king_moves * 1 + 6)]
+                            int(knight_moves * 0.7 + 3),
+                            int(bishop_moves * 0.7 + 3),
+                            int(rook_moves * 1 + 3),
+                            int(queen_moves * 1 + 3),
+                            int(king_moves * 1 + 6)]
         
         
         self.log += 'Phase of game recognised: ' + self.phase + '\n'
@@ -1008,21 +1010,21 @@ class AtomicSamurai:
         # the number of caps to make the move as uncalculated and 'human' as possible
         if self.blunder_prone:
             self.log += 'Currently this position is blunder prone. \n'
-            for i in range(len(weights)):
-                if weights[i] == 1:
-                    # leave it alone
-                    pass
-                else:
-                    # give a more restricted set of weights
-                    if starting_time < 61:
-                        weights = [3,2,2,3,7,2]
-                    elif starting_time < 181:
-                        #weights = [10,10,10,10,10,10]
-                        weights = [3,3,3,3,7,6]
-                    elif starting_time < 301:
-                        weights = [4,3,3,4,7,6]
-                    else:
-                        weights = [4,4,4,4,7,6]
+            # for i in range(len(weights)):
+            #     if weights[i] == 1:
+            #         # leave it alone
+            #         pass
+            #     else:
+            #         # give a more restricted set of weights
+            #         if starting_time < 61:
+            #             weights = [3,2,2,3,7,2]
+            #         elif starting_time < 181:
+            #             #weights = [10,10,10,10,10,10]
+            #             weights = [3,3,3,3,7,6]
+            #         elif starting_time < 301:
+            #             weights = [4,3,3,4,7,6]
+            #         else:
+            #             weights = [4,4,4,4,7,6]
             weights = [10,10,10,10,10,10]
         else:
             self.log += 'This position has been decided not to be blunder prone. \n'
@@ -1080,7 +1082,9 @@ class AtomicSamurai:
                 chosen_move = self.evaluate_moves(difficulty, standard_dev, moves_list=legal_moves, time_limit=time_limit)
             self.log += 'Chosen move: ' + chosen_move + ', '+ self.board.san(chess.Move.from_uci(chosen_move))  + '\n'
             self.board.push_uci(chosen_move)
-        self.write_log()
+        if self.log_true:
+            # we write to log
+            self.write_log()
         self.log = ''
         return chosen_move
     
