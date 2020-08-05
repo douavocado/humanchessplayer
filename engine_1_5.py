@@ -59,12 +59,19 @@ from tensorflow.keras.models import load_model
 
 import random
 import math
+import configparser
+
+config = configparser.ConfigParser()
+config.read('config.ini')
+
+RAW_PATH = r'{}'.format(config['DEFAULT']['path'])
+SEARCH_WIDTH = int(config['DEFAULT']['difficulty'])
 
 # load all models
 
 # loading piece_selector model
 # opening_selector = load_model('piece_selector_models/piece_selector_opening.h5')
-midgame_selector = load_model('piece_selector_models/piece_selector_midgame.h5')
+midgame_selector = load_model('piece_selector_models/piece_selector_midgame_lichess.h5')
 # endgame_selector = load_model('piece_selector_models/piece_selector_endgame.h5')
 
 # piece_selectors = {'opening': opening_selector,
@@ -85,8 +92,8 @@ move_to_models = {chess.PAWN: pawn_model,
                   chess.QUEEN: queen_model,
                   chess.KING: king_model}
 
-STOCKFISH = chess.engine.SimpleEngine.popen_uci("/usr/games/stockfish")
-LOG_FILE = 'Engine_Logs/log_' + str(datetime.datetime.now()) + '.txt'
+STOCKFISH = chess.engine.SimpleEngine.popen_uci(RAW_PATH)
+LOG_FILE = r'Engine_Logs/log_' + str(datetime.datetime.now()) + '.txt'
 
 # value of each piece, used in engine.check_obvious for takebacks
 points_dic = {chess.PAWN: 1,
@@ -274,16 +281,21 @@ class AtomicSamurai:
             # attacked piece's value
             
             total_prob = from_sq_prob * to_square_prob
-            move_prob[move] = total_prob
+            move_prob[move] = [total_prob, from_sq_prob, to_square_prob]
         
         
-        move_prob = {k: v for k, v in sorted(move_prob.items(), key=lambda item: item[1], reverse=True)}
+        move_prob = {k: v for k, v in sorted(move_prob.items(), key=lambda item: item[1][0], reverse=True)}
         # take first 4 moves as the root moves
         prob_ = {self.board.san(chess.Move.from_uci(key)) : prob for key, prob in move_prob.items()}
         self.log += 'Move Probabilities that the engine sees: \n'
         for key, value in prob_.items():
             self.log += str(key) + ': ' + str(value) + '\n'
-        move_list = list(move_prob.keys())[:7]
+        
+        if self.shadow:
+            no_moves = 12 # consider more moves when in advisor mode
+        else:
+            no_moves = 8
+        move_list = list(move_prob.keys())[:no_moves]
         return move_list
     
     def search_human_moves(self, starting_time):
@@ -1077,7 +1089,7 @@ class AtomicSamurai:
                     self.time_scramble_mode = False
                 difficulty, standard_dev, time_limit = self.decide_parameters(own_time, opp_time, starting_time)
                 legal_moves = self.filter_legal_moves(self.search_human_moves(starting_time))
-                self.log += 'Legal_moves found from human search: ' + str(legal_moves) + '\n'
+                self.log += 'Legal moves found from human search: ' + str(legal_moves) + '\n'
                 
                 chosen_move = self.evaluate_moves(difficulty, standard_dev, moves_list=legal_moves, time_limit=time_limit)
             self.log += 'Chosen move: ' + chosen_move + ', '+ self.board.san(chess.Move.from_uci(chosen_move))  + '\n'

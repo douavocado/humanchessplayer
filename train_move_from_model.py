@@ -16,8 +16,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.callbacks import EarlyStopping
 
-PGN_DIR = 'PGNs/'
-SAVE_FILE = 'piece_selector/training_data_endgame.h5'
+SAVE_FILE = 'piece_selector/training_data_midgame_fics.h5'
 
 training_file_train_df = pd.read_hdf(SAVE_FILE, key='train')
 X = training_file_train_df.values
@@ -75,4 +74,4 @@ losses = pd.DataFrame(model.history.history)
 losses[['accuracy','val_accuracy']].plot()
 plt.show()
 
-model.save('piece_selector_models/piece_selector_endgame.h5')
+model.save('piece_selector_models/piece_selector_midgame_fics.h5')

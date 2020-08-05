@@ -16,10 +16,19 @@ import chess
 import requests
 import re
 from bs4 import BeautifulSoup
+import configparser
 
 from engine_1_5 import AtomicSamurai
 
 import time
+
+config = configparser.ConfigParser()
+config.read('config.ini')
+
+STEP = float((config['DEFAULT']['step']))
+START_X = int(config['DEFAULT']['start_x']) + STEP/2
+START_Y = int(config['DEFAULT']['start_y']) + STEP/2
+
 
 
 class GameFinder:
@@ -120,8 +129,8 @@ class LichessClient:
         
     def find_clicks(self, move_uci):
         ''' Given a move in uci form, find the click from and click to positions. '''
-        start_x , start_y = 410, 180 # this represents top left square of chess board for calibration
-        step = 57
+        start_x , start_y = START_X, START_Y # this represents top left square of chess board for calibration
+        step = STEP
         move_obj = chess.Move.from_uci(move_uci)
         from_square = move_obj.from_square
         to_square = move_obj.to_square

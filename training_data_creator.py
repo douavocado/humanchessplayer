@@ -154,10 +154,11 @@ def piece_moved(position1, position2):
     return moved_from #, moved_to
 
 PGN_DIR = 'PGNs/'
-SAVE_FILE = 'piece_selector/training_data_endgame.h5'
+SAVE_FILE = 'piece_selector/training_data_midgame_fics.h5'
 
 game_count = 0
 for pgn_batch in os.listdir(PGN_DIR):
+    print (pgn_batch)
     pgn = open(PGN_DIR + pgn_batch)
     train_input, moved_from = [], []
     #while True:
@@ -169,15 +170,21 @@ for pgn_batch in os.listdir(PGN_DIR):
         except AttributeError:
             break
         
-        board = game.board()  # set the game board
-        for move in list(game.mainline_moves())[:70]:
+        try:
+            board = game.board()  # set the game board
+        except ValueError:
+            # some sort of variant issue
+            continue
+        for move in list(game.mainline_moves())[:30]:
             board.push(move)
         
-        for move in list(game.mainline_moves())[70:]: # middlegame
+        for move in list(game.mainline_moves())[30:80]: # middlegame
             if board.turn: #if it's white's turn
                 dummy_board_before = board.copy()
             else:
-                dummy_board_before = board.mirror()
+                board.push(move)
+                continue
+                #dummy_board_before = board.mirror()
             position1 = dummy_board_before.position_list()
             one_hot_position = dummy_board_before.position_list_one_hot()
             # if board.turn == chess.WHITE:
