@@ -22,7 +22,7 @@ For optional, but not necessary sound effects (sounded when the program has dete
 
 Before usage, you need to configure the your user settings. Either manually edit the *config.ini* file or run *config_client.py*, which has a useful calibration tool for mouse clicks on the computer screen.
 
-Make sure the **full** bath to your stockfish binary is given. For windows users, please remember to double backslash file names. For more details of this, see [this](https://stackoverflow.com/questions/26662247/invalid-argument-error-and-python-not-reading-file/34616750).
+Make sure the **full** path to your stockfish binary is given. For windows users, please remember to double backslash file names. For more details of this, see [this](https://stackoverflow.com/questions/26662247/invalid-argument-error-and-python-not-reading-file/34616750).
 
 
 ## Usage
@@ -39,6 +39,6 @@ Or to see the options:
 python3 main.py -h
 ```
 
-Once the `Status connected' message is received, you can logon to lichess and start playing! For non-ultrabullet games, the **first three seconds** of your clock time is left alone. This gives you leeway to play your own openings. After that, the program kicks in.
+Once the 'Status connected' message is received, you can logon to lichess and start playing! For non-ultrabullet games, the **first three seconds** of your clock time is left alone. This gives you leeway to play your own openings. After that, the program kicks in.
 
-Note this is still a developing project, so at times the engine will still occasionally make very `computer-like' moves.
+Note this is still a developing project, so at times the engine will still occasionally make very 'computer-like' moves.

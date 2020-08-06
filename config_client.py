@@ -28,21 +28,21 @@ def on_click(x, y, button, pressed):
     if not pressed and button == Button.right:
         if CLICK_COUNT == 0:
             print('Registered right button click at X:{0}, Y:{1}'.format(x,y))
-            print('Please right click the top right point of the top right square on the chessboard.')
+            print('Please right click ONCE the top right point of the top right square on the chessboard.')
             TOP_LEFT = (x, y)
         elif CLICK_COUNT == 1:
             print('Registered right button click at X:{0}, Y:{1}'.format(x,y))
             if x < TOP_LEFT[0]:
                 print('Are you sure you clicked correctly? Please try again.')
-                print('Please right click the top right point of the top right square on the chessboard.')
+                print('Please right click ONCE the top right point of the top right square on the chessboard.')
                 return True
-            print('Please right click the bottom left point of the bottom left square on the chessboard.')
+            print('Please right click ONCE the bottom left point of the bottom left square on the chessboard.')
             DX = x - TOP_LEFT[0]
         elif CLICK_COUNT == 2:
             print('Registered right button click at X:{0}, Y:{1}'.format(x,y))
             if y < TOP_LEFT[1]:
                 print('Are you sure you clicked correctly? Please try again.')
-                print('Please right click the bottom left point of the bottom left square on the chessboard.')
+                print('Please right click ONCE the bottom left point of the bottom left square on the chessboard.')
             print('Successful! Finished mouse calibration.')
             DY = y - TOP_LEFT[1]
             return False
@@ -65,15 +65,16 @@ if __name__ == '__main__':
         print('5. Save changes, quit.')
         while True:
             option = input('Option (1,2,3,4): ')
-            if option not in ['1', '2', '3', '4']:
+            if option not in ['1', '2', '3', '4', '5']:
                 print('Unrecognized option, please try again.')
             else:
                 break
         
         if option == '1':
             username = input('Please enter your new username (case sensitive): ')
-        elif option == '2':        
-            print('Please right click the top left point of the top left square on the chessboard.')
+        elif option == '2':
+            print('Please visit lichess.org/tv and use the board there for calibration.')
+            print('Please right click ONCE the top left point of the top left square on the chessboard.')
             # Collect events until released
             with mouse.Listener(
                     on_move=on_move,

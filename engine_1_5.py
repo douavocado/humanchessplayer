@@ -58,7 +58,6 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 import random
-import math
 import configparser
 
 config = configparser.ConfigParser()
@@ -102,6 +101,48 @@ points_dic = {chess.PAWN: 1,
               chess.ROOK: 4.5,
               chess.QUEEN: 6,
               chess.KING: 0}
+
+def is_en_pris(cboard, square):
+    ''' Takes in a chess.Board() instance and works out whether the attacked 
+        piece is en pris. '''
+    board = cboard.copy()
+    
+    square_color = board.color_at(square)
+    p_dic = {chess.PAWN: 1,
+              chess.KNIGHT: 3,
+              chess.BISHOP: 3,
+              chess.ROOK: 5,
+              chess.QUEEN: 9,
+              chess.KING: 10000}
+    sum_ = p_dic[board.piece_type_at(square)]
+    next_ = sum_
+    while True:
+        try:
+            temp_dic = {p_dic[board.piece_type_at(sq)] : sq for sq in board.attackers(not square_color, square)}
+            next_ = min(temp_dic)
+        except ValueError: # empty sequence
+            sum_ -= next_
+            if sum_ > 0:
+                return True
+            else:
+                return False
+        board.push(chess.Move(temp_dic[next_], square))
+        sum_ -= next_
+        if sum_ > 0:
+            return True # the piece is en pris
+        try:
+            temp_dic = {p_dic[board.piece_type_at(sq)] : sq for sq in board.attackers(square_color, square)}
+            next_ = min(temp_dic)
+        except ValueError: # empty sequence
+            sum_ += next_
+            if sum_ > 0:
+                return True
+            else:
+                return False
+        board.push(chess.Move(temp_dic[next_], square))
+        sum_ += next_
+        if sum_ < 0:
+            return False # the piece is not en pris
 
 def phase_of_game(board):
     ''' Takes in a chess.Board() instance and returns opening, midgame, endgame
@@ -280,6 +321,9 @@ class AtomicSamurai:
             # if current piece is being attacked, give it extra weight relative to the
             # attacked piece's value
             
+            # now filter for probability weights
+            from_sq_prob, to_square_prob = self.probability_weight(from_sq, chess.Move.from_uci(move).to_square, from_sq_prob, to_square_prob)
+            
             total_prob = from_sq_prob * to_square_prob
             move_prob[move] = [total_prob, from_sq_prob, to_square_prob]
         
@@ -292,9 +336,9 @@ class AtomicSamurai:
             self.log += str(key) + ': ' + str(value) + '\n'
         
         if self.shadow:
-            no_moves = 12 # consider more moves when in advisor mode
+            no_moves = SEARCH_WIDTH + 3 # consider more moves when in advisor mode
         else:
-            no_moves = 8
+            no_moves = SEARCH_WIDTH
         move_list = list(move_prob.keys())[:no_moves]
         return move_list
     
@@ -330,7 +374,6 @@ class AtomicSamurai:
         piece_caps = self.calculate_caps(starting_time)
         
         for piece_type, model in self.piece_models.items():
-            possible_uci_moves = []
             # first find square int positions of all of the certain piece
             # type on the board
             from_squares = []
@@ -347,11 +390,6 @@ class AtomicSamurai:
                 square_int = chess.square_mirror(index) # this square int is relative to dummy board
                 
                 # now construct ucis
-                # if the to_square is in fact a capture of the opposition piece,
-                # we give it a bonus proability as captures are more appealing
-                # to humans
-                if dummy_board.color_at(square_int) == chess.BLACK:
-                    probability = probability*2
                 
                 for square in from_squares:
                     mirror_needed = self.side == chess.BLACK
@@ -359,6 +397,28 @@ class AtomicSamurai:
                     uci = convert_square_to_uci(square, square_int, mirror=mirror_needed)
                     human_ucis[uci] = probability*multiplying_factors[piece_type]
         return human_ucis
+    
+    def probability_weight(self, square_from, square_to, sq_fr_prob, sq_to_prob):
+        ''' Takes probabilities given by models and slightly alters them to favour
+            more the human characteristics of playing. '''
+        # if the to_square is in fact a capture of the opposition piece,
+        # we give it a bonus proability as captures are more appealing
+        # to humans
+        
+        if self.board.color_at(square_to) != self.side:
+            sq_to_prob = sq_to_prob * 2
+        
+        # Pawn moves tend to advance the game state, so as to prevent seemingly
+        # unnecessary manoeuvring around, we promote these moves
+        if self.board.piece_type_at(square_from) == chess.PAWN:
+            sq_fr_prob = sq_fr_prob * 2
+            
+        # If the move from piece is en pris, also consider it more
+        if is_en_pris(self.board, square_from):
+            sq_fr_prob = sq_fr_prob * 2
+        
+        return sq_fr_prob, sq_to_prob
+        
     
     def filter_legal_moves(self, moves_dic):
         ''' Takes in a list of possible ucis, and returns a list of those which
@@ -1122,8 +1182,12 @@ def test():
     engine = AtomicSamurai(playing_side= chess.WHITE, starting_position_fen='5rk1/ppp4p/3p3b/3Pnp2/QPPN1p1q/4rP1N/P5PP/1R3RK1 w - - 5 21')
     engine.blunder_prone = True
     engine.filter_legal_moves(engine.search_human_moves(180))
-    # print(engine.log)
+    print(engine.log)
     #print(complexity(chess.Board('r4rk1/Bq1nbpp1/3p1nbp/RN1Pp3/1QN1P3/1B3P2/2P3PP/5RK1 b - - 0 26')))
+    # time_s = time.time()
+    # print(is_en_pris(chess.Board('1k2r3/8/3n4/8/4P3/3K4/Q7/8 w - - 0 1'), 28))
+    # time_f = time.time()
+    # print(time_f - time_s)
 
 if __name__ == '__main__':
     test()
