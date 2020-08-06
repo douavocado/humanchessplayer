@@ -64,7 +64,7 @@ if __name__ == '__main__':
         print('4. PATH TO STOCKFISH BINARY')
         print('5. Save changes, quit.')
         while True:
-            option = input('Option (1,2,3,4): ')
+            option = input('Option (1,2,3,4,5): ')
             if option not in ['1', '2', '3', '4', '5']:
                 print('Unrecognized option, please try again.')
             else:

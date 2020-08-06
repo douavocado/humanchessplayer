@@ -42,3 +42,7 @@ python3 main.py -h
 Once the 'Status connected' message is received, you can logon to lichess and start playing! For non-ultrabullet games, the **first three seconds** of your clock time is left alone. This gives you leeway to play your own openings. After that, the program kicks in.
 
 Note this is still a developing project, so at times the engine will still occasionally make very 'computer-like' moves.
+
+## Warning
+
+Lichess servers are sensitive to high frequency get requests, which is a problem for this program. The current work around is to use some form of vpn/proxy, but note this may damage internet speeds depending on what vpn you use.
