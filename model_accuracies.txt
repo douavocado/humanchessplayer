@@ -1,3 +1,27 @@
 lichess selector: loss: 1.5081 - accuracy: 0.4641 - val_loss: 1.8660 - val_accuracy: 0.3600
 
 fics selector: loss: 1.7161 - accuracy: 0.3972 - val_loss: 1.9165 - val_accuracy: 0.3379
+
+endgame move_to pawn (lichess): loss: 0.8650 - accuracy: 0.6818 - val_loss: 1.0011 - val_accuracy: 0.6349
+
+endgame move_to bishop (lichess): loss: 1.0699 - accuracy: 0.6437 - val_loss: 1.9901 - val_accuracy: 0.3930
+
+endgame move_to knight (lichess): loss: 0.9696 - accuracy: 0.6616 - val_loss: 1.5510 - val_accuracy: 0.4760
+
+endgame move_to rook (lichess): loss: 1.6262 - accuracy: 0.4886 - val_loss: 2.2639 - val_accuracy: 0.3378
+
+endgame move_to queen (lichess): loss: 1.7143 - accuracy: 0.4767 - val_loss: 2.7870 - val_accuracy: 0.2411
+
+endgame move_to king (lichess): loss: 0.7037 - accuracy: 0.7363 - val_loss: 1.2242 - val_accuracy: 0.5637
+
+midgame move_to king (lichess): loss: 0.4770 - accuracy: 0.8282 - val_loss: 0.6997 - val_accuracy: 0.7458
+
+midgame move_to knight (lichess): loss: 0.7695 - accuracy: 0.7341 - val_loss: 1.2806 - val_accuracy: 0.5765
+
+midgame move_to bishop (lichess): loss: 0.9127 - accuracy: 0.6910 - val_loss: 1.5304 - val_accuracy: 0.5230
+
+midgame move_to rook (lichess): loss: 0.9491 - accuracy: 0.6911 - val_loss: 1.5732 - val_accuracy: 0.5406
+
+midgame move_to queen (lichess): loss: 1.1365 - accuracy: 0.6320 - val_loss: 1.9836 - val_accuracy: 0.4278
+
+midgame move_to pawn (lichess): loss: 0.8152 - accuracy: 0.7138 - val_loss: 1.1390 - val_accuracy: 0.6102

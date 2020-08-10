@@ -49,6 +49,8 @@ as to reduce engine suspicion
 """
 import datetime
 import time
+import psutil
+
 from scipy.stats import chi2
 
 import chess
@@ -84,6 +86,20 @@ rook_model = load_model('piece_move_to_models/white_rook_model.h5')
 queen_model = load_model('piece_move_to_models/white_queen_model.h5')
 king_model = load_model('piece_move_to_models/white_king_model.h5')
 
+e_pawn_model = load_model('piece_move_to_models/endgame_white_pawn.h5')
+e_knight_model = load_model('piece_move_to_models/endgame_white_knight.h5')
+e_bishop_model = load_model('piece_move_to_models/endgame_white_bishop.h5')
+e_rook_model = load_model('piece_move_to_models/endgame_white_rook.h5')
+e_queen_model = load_model('piece_move_to_models/endgame_white_queen.h5')
+e_king_model = load_model('piece_move_to_models/endgame_white_king.h5')
+
+m_pawn_model = load_model('piece_move_to_models/midgame_white_pawn.h5')
+m_knight_model = load_model('piece_move_to_models/midgame_white_knight.h5')
+m_bishop_model = load_model('piece_move_to_models/midgame_white_bishop.h5')
+m_rook_model = load_model('piece_move_to_models/midgame_white_rook.h5')
+m_queen_model = load_model('piece_move_to_models/midgame_white_queen.h5')
+m_king_model = load_model('piece_move_to_models/midgame_white_king.h5')
+
 move_to_models = {chess.PAWN: pawn_model,
                   chess.KNIGHT: knight_model,
                   chess.BISHOP: bishop_model,
@@ -91,15 +107,30 @@ move_to_models = {chess.PAWN: pawn_model,
                   chess.QUEEN: queen_model,
                   chess.KING: king_model}
 
+#move_to models for the endgame_only
+e_move_to_models = {chess.PAWN: e_pawn_model,
+                  chess.KNIGHT: e_knight_model,
+                  chess.BISHOP: e_bishop_model,
+                  chess.ROOK: e_rook_model,
+                  chess.QUEEN: e_queen_model,
+                  chess.KING: e_king_model}
+
+m_move_to_models = {chess.PAWN: m_pawn_model,
+                  chess.KNIGHT: m_knight_model,
+                  chess.BISHOP: m_bishop_model,
+                  chess.ROOK: m_rook_model,
+                  chess.QUEEN: m_queen_model,
+                  chess.KING: m_king_model}
+
 STOCKFISH = chess.engine.SimpleEngine.popen_uci(RAW_PATH)
 LOG_FILE = r'Engine_Logs/log_' + str(datetime.datetime.now()) + '.txt'
 
 # value of each piece, used in engine.check_obvious for takebacks
-points_dic = {chess.PAWN: 1,
-              chess.KNIGHT: 3,
-              chess.BISHOP: 3.5,
-              chess.ROOK: 4.5,
-              chess.QUEEN: 6,
+points_dic = {chess.PAWN: 2,
+              chess.KNIGHT: 4,
+              chess.BISHOP: 4.5,
+              chess.ROOK: 6.5,
+              chess.QUEEN: 10,
               chess.KING: 0}
 
 def is_en_pris(cboard, square):
@@ -239,8 +270,10 @@ class AtomicSamurai:
         position.
         '''
         
-    def __init__(self, log=True, shadow=True, piece_models_dic=move_to_models, playing_side=chess.WHITE, starting_position_fen=chess.STARTING_FEN):
+    def __init__(self, log=True, shadow=True, m_piece_models_dic=m_move_to_models, e_piece_models_dic=e_move_to_models, piece_models_dic=move_to_models, playing_side=chess.WHITE, starting_position_fen=chess.STARTING_FEN):
         self.piece_models = piece_models_dic # dictionary of all piece models
+        self.e_piece_models = e_piece_models_dic
+        self.m_piece_models = m_piece_models_dic
         self.selector = midgame_selector # used for narrowing piece choices when blunder prone
         self.board = chess.Board(starting_position_fen)
         self.phase = phase_of_game(self.board) # phase of game
@@ -373,7 +406,18 @@ class AtomicSamurai:
         # now we iterate through all models
         piece_caps = self.calculate_caps(starting_time)
         
-        for piece_type, model in self.piece_models.items():
+        if self.phase == 'midgame':
+            # use a different set of move to models
+            models = self.m_piece_models
+            self.log += 'Used midgame move_to models! \n'
+        elif self.phase == 'endgame':
+            # use a different set of move to models
+            models = self.e_piece_models
+            self.log += 'Used endgame move_to models! \n'
+        else:
+            models = self.piece_models
+        
+        for piece_type, model in models.items():
             # first find square int positions of all of the certain piece
             # type on the board
             from_squares = []
@@ -405,17 +449,19 @@ class AtomicSamurai:
         # we give it a bonus proability as captures are more appealing
         # to humans
         
-        if self.board.color_at(square_to) != self.side:
-            sq_to_prob = sq_to_prob * 2
+        if self.board.color_at(square_to) == (not self.side):
+            # also if the piece is enpris
+            if is_en_pris(self.board, square_to):
+                sq_to_prob = sq_to_prob * points_dic[self.board.piece_type_at(square_to)]
         
         # Pawn moves tend to advance the game state, so as to prevent seemingly
         # unnecessary manoeuvring around, we promote these moves
-        if self.board.piece_type_at(square_from) == chess.PAWN:
+        elif self.board.piece_type_at(square_from) == chess.PAWN:
             sq_fr_prob = sq_fr_prob * 2
             
         # If the move from piece is en pris, also consider it more
         if is_en_pris(self.board, square_from):
-            sq_fr_prob = sq_fr_prob * 2
+            sq_fr_prob = sq_fr_prob * points_dic[self.board.piece_type_at(square_from)]
         
         return sq_fr_prob, sq_to_prob
         
@@ -440,7 +486,7 @@ class AtomicSamurai:
             moves considered are all legal moves (simply asking engine to make
             move with no restrictions). '''
         
-        moves_dic = self.get_engine_lines(root_moves=moves_list, time_limit=time_limit)
+        moves_dic = self.get_engine_lines(root_moves=moves_list, time_limit=0.1)
         
         ''' Now we use the most important part of any engine. We must somehow
             incorporate difficulty variable into filtering out and selecting a 
@@ -503,13 +549,16 @@ class AtomicSamurai:
             # extracting information from analysis info returned by stockfish
             move_uci = str(info['pv'][0])
             evaluation_str = str(info['score'])
+            self.log += 'Evaluation str: ' + evaluation_str + '\n'
             
             # see if the evaluation is some sort of mating eval for example #-2
             # would mean would receive mate from opposition in 2 plies
             try:
                 eval_score = int(evaluation_str)
             except ValueError:
-                # mating sequence received
+                # mating sequence
+                # Note a eval string of #-0 means the engine has not calculated enough for the line
+                # to have a eval score
                 mate_in = int(str(info['score'])[2:])
                 if str(info['score'])[1] == '-':
                     # we are recieving mate in the variation
@@ -751,7 +800,7 @@ class AtomicSamurai:
             temp_board = chess.Board(prev_fen)
             if self.board.piece_at(move_to_sq) is not None and opp_prev_move.to_square == move_to_sq and temp_board.piece_at(move_to_sq) is not None:
                 point_diff = points_dic[temp_board.piece_type_at(move_to_sq)] - points_dic[self.board.piece_type_at(move_to_sq)]
-                if abs(point_diff) < 1.7:
+                if abs(point_diff) < 1.6:
                     take_back = True
                     self.big_material_take = False
                     self.log += 'Top move is a take-back. \n'
@@ -896,10 +945,7 @@ class AtomicSamurai:
         
         # if in time scramble mode, position is always blunder prone and response is quick
         if self.time_scramble_mode:
-            if random.random() < 0.35:
-                self.blunder_prone= True
-            else:
-                self.blunder_prone = False
+            self.blunder_prone= True
             self.log += 'AtomicSamurai is in time-scramble mode. \n'
             # spend on average the amount of time as if there was 15 more moves to play
             if own_time < 25:
@@ -926,7 +972,7 @@ class AtomicSamurai:
                 time_spend = max(0.1, np.random.normal(avg, stdev))
                 return [7,20,time_spend]
         
-        self.phase = phase_of_game(self.board)
+        # self.phase = phase_of_game(self.board)
         if self.phase == 'opening':
             if starting_time < 61:
                 avg_time = 0.1
@@ -942,25 +988,17 @@ class AtomicSamurai:
         # to spend on the move
         # when eff_mob is between 8 and 25 percent is when we are blunder prone
         
-        
+        self.blunder_prone = True
         if  8 < eff_mob < 20: # low complexity, play high accurate moves
-            self.blunder_prone = True
+            
             difficulty = random.random() * 3 + 7
             standard_dev = complexity**0.65
-        elif eff_mob < 8:
-            # there's still a chance that it would miss a tactic etc
-            if random.random() < 0.3:
-                self.log += 'eff_mob low, but decided to blunder anyway trying to miss a tactic. \n'
-                self.blunder_prone = True
-            else:
-                self.blunder_prone = False
-            
+        elif eff_mob < 8:            
             difficulty = 10
             standard_dev = 4
         else:
             difficulty = 10
             standard_dev = 4
-            self.blunder_prone = True
         # now we decide the mean time spend for the normal distributions
         # this would be based mainly on own time, which is handled by the 
         # self.time_scramble attribute, but also the opp_time, if they are in
@@ -1119,6 +1157,7 @@ class AtomicSamurai:
         self.log += 'Move number: ' + str(self.board.fullmove_number) + '\n'
         self.log += self.board.fen() + '\n'
         self.log += str(self.board) + '\n'
+        self.phase = phase_of_game(self.board)
         # extracting information about times to hep with decision making
         starting_time = time_dic['starting_time']
         if self.side == chess.WHITE:
@@ -1127,6 +1166,7 @@ class AtomicSamurai:
         else:
             own_time = time_dic['black_time']
             opp_time = time_dic['white_time']
+        self.log += 'Own time left: ' + str(own_time) + '\n'
         # first check if position is hopeless, in which case resign
         if self.decide_resign(own_time, opp_time, starting_time):
             self.resigned = True
@@ -1176,12 +1216,26 @@ class AtomicSamurai:
         self.resigned = False
         self.time_scramble_mode = False
         self.resign_threshold = random.randint(1,10) + 30 # number of moves the engine must play before resigning
+        
+        # if using too much memory, refresh
+        
+        if psutil.virtual_memory().percent > 90:
+            print('Memory Usage Percentage: ', psutil.virtual_memory().percent)
+            # refresh memory
+            # clearing memory
+            try:
+                from IPython import get_ipython
+                get_ipython().magic('clear')
+                get_ipython().magic('reset -f')
+            except:
+                pass
+            print('Memory after: ', psutil.virtual_memory().percent)
 
 def test():
     ''' Test function used for various testing. '''
-    engine = AtomicSamurai(playing_side= chess.WHITE, starting_position_fen='5rk1/ppp4p/3p3b/3Pnp2/QPPN1p1q/4rP1N/P5PP/1R3RK1 w - - 5 21')
+    engine = AtomicSamurai(playing_side= chess.BLACK, starting_position_fen='3r2k1/1pq2p1p/p5p1/3B2n1/1P3R2/2b2PP1/5Q1P/3R2K1 b - - 3 38')
     engine.blunder_prone = True
-    engine.filter_legal_moves(engine.search_human_moves(180))
+    engine.make_move({'white_time': 40, 'black_time':25.11, 'starting_time': 60}, prev_fen='3rr1k1/ppp2bpp/5p2/4b3/2P5/N6P/PP3PP1/R1B1R1K1 w - - 0 18', prev_move='a8d8')
     print(engine.log)
     #print(complexity(chess.Board('r4rk1/Bq1nbpp1/3p1nbp/RN1Pp3/1QN1P3/1B3P2/2P3PP/5RK1 b - - 0 26')))
     # time_s = time.time()
