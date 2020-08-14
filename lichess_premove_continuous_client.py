@@ -121,11 +121,13 @@ class LichessClient:
         self.engine.resigned = False # indicates whether engine has resigned
         self.engine.time_scramble_mode = False # when this is on, engine will make moves as fast as possible
         self.engine.resign_threshold = random.randint(1,10) + 30 # number of moves the engine must play before resigning
-        self.engine.bullet_threshold = random.randint(1,5) + 9 # threshold before engine goes into bullet mode
+        self.engine.bullet_threshold = random.randint(1,5) + 10 # threshold before engine goes into bullet mode
         self.engine.premove_mode = False
         self.engine.big_material_take = False
         self.engine.mate_in_one = False
         self.engine.shadow = self.shadow
+        self.engine.move_times = []
+        self.engine.prev_own_move = None
         
     def find_clicks(self, move_uci):
         ''' Given a move in uci form, find the click from and click to positions. '''
@@ -159,9 +161,8 @@ class LichessClient:
         return click_from_x, click_from_y, click_to_x, click_to_y
     
     def interact(self, click_from_x, click_from_y, click_to_x, click_to_y, own_time, premove=False):
-        ''' Function which does the clicking on the screen, and makes the moves.
-            For the first and last 10 seconds of own_time, the user plays to avoid suspicion. '''
-        if premove and self.shadow == False and own_time > 15:
+        ''' Function which does the clicking on the screen, and makes the moves. '''
+        if premove and self.shadow == False:
             #print('yes i made premove')
             # pyautogui.moveTo(click_from_x, click_from_y)
             # pyautogui.dragTo(click_to_x, click_to_y, 0.2, button='left')
@@ -172,12 +173,12 @@ class LichessClient:
                 if self.engine.big_material_take == True or self.engine.mate_in_one == True:
                     # opposition just hung a big piece or next move is mate in on
                     # delay for a bit to simulate the surprise/intrigue by a human player
-                    time.sleep(random.randint(10,15)/self.starting_time)
+                    time.sleep(random.randint(10,15)*self.starting_time/1500)
                 else:
                     if random.random() <0.01:
                         time.sleep(random.randint(1,2)/1.5)
                     else:
-                        time.sleep(random.randint(1,10)/60)
+                        time.sleep(random.randint(1,10)/1000)
                 pyautogui.click(click_from_x, click_from_y, button='left')
                 pyautogui.click(click_to_x, click_to_y, button='left')
                 # pass
@@ -218,6 +219,17 @@ class LichessClient:
                         # print('hung big piece!')
                         # print(self.board)
                         time.sleep(random.randint(18,28)*self.starting_time/1000)
+                    elif self.engine.obvious_move == True:
+                        pass
+                    else:
+                        x = random.random()
+                        if x < 0.6:
+                            pass
+                        elif x <0.95:
+                            time.sleep(x/5)
+                        else:
+                            if own_time > 15 and own_time > 45:
+                                time.sleep(random.randint(0,1) + random.random())
                     pyautogui.click(click_from_x, click_from_y, button='left')
                     pyautogui.click(click_to_x, click_to_y, button='left')
                 
@@ -307,7 +319,8 @@ class LichessClient:
                     prev_move = prev_move[-1]
                 
                 result_search = re.findall('Result', page.text)
-                if len(result_search) > 0:
+                abort_search = re.findall('aborted after', page.text)
+                if len(result_search) > 0 or len(abort_search) > 0:
                     # game has ended
                     game_end = True
                     successful_request = True

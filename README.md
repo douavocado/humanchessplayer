@@ -6,6 +6,8 @@ The move selection models were based on [this](https://towardsdatascience.com/pr
 
 Models were trained from high level grandmaster games (2500+ elo) and downloaded from [fics](https://www.ficsgames.org/) as well as the games of high-rated players on [lichess](https://lichess.org/) itself. Using training data creating scripts *train_data_creator.py* (for piece_selector) and *training_data_creator_pieces.py* (for piece move_to models). The model is trained at *train_move_from_model.py*.
 
+The difficulty levels have not been tested thoroughly, although a difficulty level of 10/11 corresponds to ~2600 bullet rating on lichess.
+
 ## Requirements
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the necessary requirements.
