@@ -95,6 +95,8 @@ class LichessClient:
         self.last_fen = chess.STARTING_FEN
         self.engine = AtomicSamurai(log=log, shadow=shadow_mode)
         self.shadow = shadow_mode
+        self.temp_shadow = self.shadow
+        self.berserk = False
         
     def set_game(self, url, side=None, time=None):
         ''' Once client has found game, sets up game parameters. '''
@@ -116,6 +118,9 @@ class LichessClient:
             self.side = side
         
         self.starting_time = starting_time
+        self.temp_shadow = self.shadow
+        self.berserk = False
+        self.own_time = 60 # arbitrary for the first get request
         self.engine.side = self.side
         self.engine.blunder_prone = False # when true, the engine is prone to make a human like error
         self.engine.resigned = False # indicates whether engine has resigned
@@ -128,6 +133,9 @@ class LichessClient:
         self.engine.shadow = self.shadow
         self.engine.move_times = []
         self.engine.prev_own_move = None
+        self.engine.own_time = starting_time
+        self.engine.opp_time = starting_time
+        self.engine.quick_move = False
         
     def find_clicks(self, move_uci):
         ''' Given a move in uci form, find the click from and click to positions. '''
@@ -162,19 +170,24 @@ class LichessClient:
     
     def interact(self, click_from_x, click_from_y, click_to_x, click_to_y, own_time, premove=False):
         ''' Function which does the clicking on the screen, and makes the moves. '''
-        if premove and self.shadow == False:
+        if self.berserk:
+            starting_t = self.starting_time/2
+        else:
+            starting_t = self.starting_time
+        if premove and self.temp_shadow == False:
             #print('yes i made premove')
             # pyautogui.moveTo(click_from_x, click_from_y)
             # pyautogui.dragTo(click_to_x, click_to_y, 0.2, button='left')
             pyautogui.click(click_from_x, click_from_y, button='left')
             pyautogui.click(click_to_x, click_to_y, button='left')
         else:
-            if self.starting_time < 16 or own_time < 15 and self.shadow == False:
+            if starting_t < 16 or own_time < 15 and self.temp_shadow == False:
                 if self.engine.big_material_take == True or self.engine.mate_in_one == True:
                     # opposition just hung a big piece or next move is mate in on
                     # delay for a bit to simulate the surprise/intrigue by a human player
-                    time.sleep(random.randint(10,15)*self.starting_time/1500)
+                    time.sleep(random.randint(10,15)*self.starting_time/1000)
                 else:
+                    #pass
                     if random.random() <0.01:
                         time.sleep(random.randint(1,2)/1.5)
                     else:
@@ -183,7 +196,7 @@ class LichessClient:
                 pyautogui.click(click_to_x, click_to_y, button='left')
                 # pass
                 
-            elif self.starting_time > 61 and own_time > 10 and self.starting_time-own_time >7:
+            elif starting_t > 61 and own_time > 10 and starting_t-own_time >7:
                 # first assert it is actually my move
                 page = requests.get(self.url)
                 fen_search = re.findall('\"fen\":\"([^,]{10,80})\"', page.text)
@@ -196,7 +209,7 @@ class LichessClient:
                 else:
                     fen = fen_search[-1]
                 if fen == self.last_fen:
-                    if self.shadow == True:
+                    if self.temp_shadow == True:
                         pyautogui.click(click_from_x, click_from_y, button='right')
                         pyautogui.click(click_to_x, click_to_y, button='right')
                     else:
@@ -209,8 +222,8 @@ class LichessClient:
                         pyautogui.click(click_to_x, click_to_y, button='left')
                 else:
                     print('Detected human interference!, passing move for now...')
-            elif own_time > 10 and self.starting_time-own_time > 3:
-                if self.shadow == True:
+            elif own_time > self.engine.bullet_threshold and starting_t-own_time > 3:
+                if self.temp_shadow == True:
                     pyautogui.click(click_from_x, click_from_y, button='right')
                     pyautogui.click(click_to_x, click_to_y, button='right')
                 else:
@@ -219,17 +232,20 @@ class LichessClient:
                         # print('hung big piece!')
                         # print(self.board)
                         time.sleep(random.randint(18,28)*self.starting_time/1000)
-                    elif self.engine.obvious_move == True:
+                    elif self.engine.quick_move == True:
                         pass
                     else:
-                        x = random.random()
-                        if x < 0.6:
-                            pass
-                        elif x <0.95:
-                            time.sleep(x/5)
+                        if self.engine.long_think:
+                            time.sleep(3*random.random())
                         else:
-                            if own_time > 15 and own_time > 45:
-                                time.sleep(random.randint(0,1) + random.random())
+                            x = random.random()
+                            if x < 0.5:
+                                pass
+                            elif x <0.99:
+                                time.sleep((x-0.5)*1.5)
+                            else:
+                                if own_time > 20 and own_time > 45:
+                                    time.sleep(random.randint(0,1) + random.random())
                     pyautogui.click(click_from_x, click_from_y, button='left')
                     pyautogui.click(click_to_x, click_to_y, button='left')
                 
@@ -245,6 +261,11 @@ class LichessClient:
             # game has ended
             print('Detected game has ended.')
             return False
+        
+        # if time is low, let engine takeover despite shadow mode
+        if float(own_time) < 30:
+            self.temp_shadow = False
+            self.engine.shadow = False
         
         self.last_fen = fen
         self.board = chess.Board(fen)
@@ -274,7 +295,11 @@ class LichessClient:
             return ['GAME_OVER', self.board.result()]
         
         self.engine.update_board(self.board)
-        time_dic = {'starting_time':self.starting_time, 'white_time': white_time, 'black_time': black_time}
+        if self.berserk == True:
+            starting_t = self.starting_time/2
+        else:
+            starting_t = self.starting_time
+        time_dic = {'starting_time':starting_t, 'white_time': white_time, 'black_time': black_time}
         move_uci_played = self.engine.make_move(time_dic=time_dic, prev_fen=prev_fen, prev_move=prev_move)
         # check if player has resigned/timed out
         if self.engine.resigned:
@@ -299,8 +324,8 @@ class LichessClient:
             successful_request = False
             game_end = False
             while successful_request == False:
-                if self.starting_time > 60:
-                      time.sleep(self.starting_time/1000)
+                if self.own_time > 30:
+                      time.sleep(self.own_time/800)
                 
                 try:
                     page = requests.get(self.url, timeout=0.25)
@@ -313,6 +338,19 @@ class LichessClient:
                 
                 fen_search = re.findall('\"fen\":\"([^,]{10,80})\"', page.text) 
                 prev_move = re.findall('uci\":\"(.{3,5})\"', page.text)
+                
+                if self.board.fullmove_number < 10 and self.berserk == False:
+                    # check if we have berserked
+                    # print('checking if berserked')
+                    # print(self.username)
+                    # print(rf'\"username\"\:\"{self.username}\".{{110,180}}\"berserk\"\:true')
+                    berserk_search = re.findall(rf'\"username\"\:\"{self.username}\".{{110,180}}\"berserk\"\:true', page.text)
+                    if len(berserk_search) > 0:
+                        print('Detected berserk! New starting time: ', self.starting_time/2)
+                        self.berserk = True
+                    else:
+                        self.berserk = False
+                
                 if len(prev_move) == 0:
                     prev_move = False
                 else:
@@ -328,6 +366,10 @@ class LichessClient:
                 try:
                     white_time = float(re.findall('white\":(\d{1,4}\.\d{1,2})', page.text)[0])
                     black_time = float(re.findall('black\":(\d{1,4}\.\d{1,2})', page.text)[0])
+                    if self.side == chess.WHITE:
+                        self.own_time = white_time
+                    else:
+                        self.own_time = black_time
                     successful_request = True
                     break
                 except IndexError:

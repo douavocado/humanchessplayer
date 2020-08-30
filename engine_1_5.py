@@ -89,7 +89,7 @@ king_model = load_model('piece_move_to_models/white_king_model.h5')
 e_pawn_model = load_model('piece_move_to_models/endgame_white_pawn.h5')
 e_knight_model = load_model('piece_move_to_models/endgame_white_knight.h5')
 e_bishop_model = load_model('piece_move_to_models/endgame_white_bishop.h5')
-e_rook_model = load_model('piece_move_to_models/endgame_white_rook.h5')
+e_rook_model = load_model('piece_move_to_models/white_rook_model.h5')
 e_queen_model = load_model('piece_move_to_models/endgame_white_queen.h5')
 e_king_model = load_model('piece_move_to_models/endgame_white_king.h5')
 
@@ -97,7 +97,7 @@ m_pawn_model = load_model('piece_move_to_models/midgame_white_pawn.h5')
 m_knight_model = load_model('piece_move_to_models/midgame_white_knight.h5')
 m_bishop_model = load_model('piece_move_to_models/midgame_white_bishop.h5')
 m_rook_model = load_model('piece_move_to_models/white_rook_model.h5')
-m_queen_model = load_model('piece_move_to_models/midgame_white_queen.h5')
+m_queen_model = load_model('piece_move_to_models/white_queen_model.h5')
 m_king_model = load_model('piece_move_to_models/midgame_white_king.h5')
 
 move_to_models = {chess.PAWN: pawn_model,
@@ -127,10 +127,10 @@ LOG_FILE = r'Engine_Logs/log_' + str(datetime.datetime.now()) + '.txt'
 
 # value of each piece, used in engine.check_obvious for takebacks
 points_dic = {chess.PAWN: 2,
-              chess.KNIGHT: 4,
-              chess.BISHOP: 4.5,
-              chess.ROOK: 6.5,
-              chess.QUEEN: 10,
+              chess.KNIGHT: 20,
+              chess.BISHOP: 20.5,
+              chess.ROOK: 35.5,
+              chess.QUEEN: 55,
               chess.KING: 0}
 # a different value dictionary for checking en_pris
 p_dic = {chess.PAWN: 1,
@@ -139,6 +139,37 @@ p_dic = {chess.PAWN: 1,
               chess.ROOK: 5,
               chess.QUEEN: 9,
               chess.KING: 100}
+
+def is_weird_move(board, phase, move):
+    ''' Given a chess.Move object, and the phase of the game, return whether
+        a move looks 'weird' or computer like. Mainly concerns rook and queen moves. '''
+    # if the move is a rook move on the base rank, punish rook moves which
+    # 'squash' each other
+    square_from = move.from_square
+    square_to = move.to_square
+    side = board.color_at(square_from)
+    if side is None:
+        # not a valid move
+        raise Exception('Not a valid move from square when calculating weirdness.')
+    if board.piece_type_at(square_from) == chess.ROOK:
+        if chess.square_rank(square_from) == 0 and side == chess.WHITE:
+            if square_to == chess.E1 and square_from != chess.F1 and board.piece_type_at(chess.F1) == chess.ROOK and board.color_at(chess.F1) == side:
+                return True
+            elif square_to == chess.B1 and square_from != chess.A1 and board.piece_type_at(chess.A1) == chess.ROOK and board.color_at(chess.A1) == side:
+                return True
+        elif chess.square_rank(square_from) == 7 and side == chess.BLACK:
+            if square_to == chess.E8 and square_from != chess.F8 and board.piece_type_at(chess.F8) == chess.ROOK and board.color_at(chess.F8) == side:
+                return True
+            elif square_to == chess.B8 and square_from != chess.A8 and board.piece_type_at(chess.A8) == chess.ROOK and board.color_at(chess.A8) == side:
+                return True
+    # if the move is a gueen move onto the back rank in the opening
+    elif board.piece_type_at(square_from) == chess.QUEEN and phase != 'endgame':
+        if chess.square_rank(square_to) == 0 and side == chess.WHITE:
+            return True
+        elif chess.square_rank(square_to) == 7 and side == chess.BLACK:
+            return True
+    
+    return False
 
 def is_quiet_move(board, move):
     ''' Given a chess.Move object, check if is a quiet move or not i.e. a human
@@ -169,17 +200,22 @@ def new_attacked(prev_fen, fen, color):
         if before_board.color_at(sq) == color:
             before_map[sq] = is_en_pris(before_board, sq)[0]
     
+    new_threatened = {}
     after_board = chess.Board(fen)
     for sq in after_board.piece_map():
         if after_board.color_at(sq) == color:
             new_state = is_en_pris(after_board, sq)[0]
             try:
                 if new_state == True and before_map[sq] == False:
-                    return True, sq
+                    new_threatened[p_dic[after_board.piece_type_at(sq)]] = sq
             except KeyError:
                 # the previously en pris piece has moved away
                 continue
-    return False, None
+    if len(new_threatened) > 0:
+        # return the square with the highest piece threatened
+        return True, new_threatened[sorted(new_threatened)[-1]]
+    else:
+        return False, None
 
 def calculate_complexity(board):
     ''' Inspired by formula used by lucaschess, given a chess.Board() instance
@@ -431,13 +467,18 @@ class AtomicSamurai:
         self.premove_mode = False # when engine is in premove mode, a certain percentage of moves it makes are premoves
         self.big_material_take = False # if oppenent suddenly hangs a piece (in time scrambles), don't immediately take back (let's lichess clinet know)
         self.mate_in_one = False
-        self.shadow = shadow# alters thinking times to be much more stable
+        self.shadow = shadow # alters thinking times to be much more stable
         self.log_true = log # whether or not to output a log file
         self.move_times = [] # store of the last few move times to increase variation in move_times
         self.obvious_move = False
         self.prev_fen = None
         self.prev_move = None
         self.prev_own_move = None # the move that the engine played last, used for human-like time scrambles
+        self.obvious_move = None
+        self.own_time = 60
+        self.opp_time = 60
+        self.long_think = False
+        self.quick_move = False
     
     def update_board(self, board):
         ''' When the engine recieves information about the opponent's move
@@ -485,6 +526,15 @@ class AtomicSamurai:
         one_hot_board = convert_board_one_hot(dummy_board)
         square_predictions = self.selector.predict(one_hot_board)
         
+        # count the number of pieces per piece_type:
+        pieces_concerned = [piece.piece_type for piece in self.board.piece_map().values() if piece.color == self.side]
+        multiplying_factors = {chess.PAWN: pieces_concerned.count(chess.PAWN),
+                               chess.KNIGHT: pieces_concerned.count(chess.KNIGHT),
+                               chess.BISHOP: pieces_concerned.count(chess.BISHOP),
+                               chess.ROOK: pieces_concerned.count(chess.ROOK),
+                               chess.QUEEN: pieces_concerned.count(chess.QUEEN),
+                               chess.KING: pieces_concerned.count(chess.KING)}
+        
         move_prob ={}
         
         for move, from_sq in from_squares.items():
@@ -493,6 +543,9 @@ class AtomicSamurai:
                 from_sq_prob = square_predictions[0][chess.square_mirror(from_sq)]
             else:
                 from_sq_prob = square_predictions[0][from_sq]
+            
+            # account for the fact there may me more of one piece than another
+            from_sq_prob = from_sq_prob*multiplying_factors[self.board.piece_type_at(from_sq)]
             to_square_prob = move_dic[move]
             # if current piece is being attacked, give it extra weight relative to the
             # attacked piece's value
@@ -505,9 +558,12 @@ class AtomicSamurai:
         
         # calculate eff mob to decide how many moves to search
         self.log += 'Calculating complexity of the position... \n'
+        time_s = time.time()
         complexity, eff_mob = calculate_complexity(self.board) # calculates the complexity and eff_mob of the position
+        time_f = time.time()
         self.log += 'Complexity calculated: ' + str(complexity) + '\n'
         self.log += 'Efficient mobility calculated: ' + str(eff_mob) + '\n'
+        self.log += 'Time taken to calculate complexity and eff mob: ' + str(time_f-time_s) + '\n'
         
         # eff mob decides whether or not to blunder, complexity decides how much time
         # to spend on the move
@@ -520,18 +576,28 @@ class AtomicSamurai:
         self.log += 'Move Probabilities that the engine sees: \n'
         for key, value in prob_.items():
             self.log += str(key) + ': ' + str(value) + '\n'
-        
-        if self.shadow:
-            no_moves = SEARCH_WIDTH + 4 # consider more moves when in advisor mode
-        else:
-            no_moves = SEARCH_WIDTH
-            
-        if eff_mob < 10:
+        if eff_mob < 15:
             # either the best move is obvious (e.g. a takeback, mate in one) or
             # there is a tactic involved. Decrease search width to mimic human
             # behaviour in tactics under pressure
-            if self.mate_in_one == False:
-                no_moves = int(no_moves*0.6)
+            # if self.mate_in_one == False:
+            if eff_mob > 5 and self.own_time > self.opp_time and self.phase == 'midgame' and self.own_time > 15:
+                self.long_think = True
+                self.log += 'Long think provoked! \n'
+            else:
+                self.long_think = False
+            no_moves = SEARCH_WIDTH
+        else:
+            if self.phase != 'endgame':
+                no_moves = 7
+            else:
+                no_moves = SEARCH_WIDTH
+            self.long_think = False
+        
+        if self.shadow:
+            no_moves = no_moves + 4 # consider more moves when in advisor mode
+        else:
+            no_moves = no_moves
         
         self.log += 'Number of moves considered from difficulty levels: ' + str(no_moves) + '\n'
         
@@ -556,15 +622,6 @@ class AtomicSamurai:
         
         # parse dummy board for encoding
         one_hot_board = convert_board_one_hot(dummy_board)
-        
-        # count the number of pieces per piece_type:
-        pieces_concerned = [piece.piece_type for piece in self.board.piece_map().values() if piece.color == self.side]
-        multiplying_factors = {chess.PAWN: pieces_concerned.count(chess.PAWN),
-                               chess.KNIGHT: pieces_concerned.count(chess.KNIGHT),
-                               chess.BISHOP: pieces_concerned.count(chess.BISHOP),
-                               chess.ROOK: pieces_concerned.count(chess.ROOK),
-                               chess.QUEEN: pieces_concerned.count(chess.QUEEN),
-                               chess.KING: pieces_concerned.count(chess.KING)}
         
         # now we iterate through all models
         piece_caps = self.calculate_caps(starting_time)
@@ -602,7 +659,11 @@ class AtomicSamurai:
                     mirror_needed = self.side == chess.BLACK
                     # we need to mirror back the moves
                     uci = convert_square_to_uci(square, square_int, mirror=mirror_needed)
-                    human_ucis[uci] = probability*multiplying_factors[piece_type]
+                    
+                    # if it is a pawn move to the back rank, we need to add an extra 'q' at the end
+                    if piece_type == chess.PAWN and chess.square_rank(square_int) == 7:
+                        uci += 'q'
+                    human_ucis[uci] = probability
         return human_ucis
     
     def probability_weight(self, square_from, square_to, sq_fr_prob, sq_to_prob):
@@ -618,41 +679,83 @@ class AtomicSamurai:
             enpris_to = is_en_pris(self.board, square_to)
             # also if the piece is enpris
             if enpris_to[0]:
-                sq_to_prob = sq_to_prob * points_dic[self.board.piece_type_at(square_to)]
-            # punish moves which capture non-enpris peices specifically with a  quite negative score (exchanges allowed)
+                # pawns are more valuable in the endgame
+                if self.board.piece_type_at(square_to) == chess.PAWN and self.phase == 'endgame':
+                    factor = 10
+                else:
+                    factor = points_dic[self.board.piece_type_at(square_to)]
+                sq_to_prob = sq_to_prob * factor * 2.5
+            # punish moves which capture non-enpris pieces specifically with a quite negative score (exchanges allowed)
             elif enpris_to[0] == False and enpris_to[1] < -0.5:
-                sq_to_prob = sq_to_prob / abs(enpris_to[1])
+                sq_to_prob = sq_to_prob / abs(enpris_to[1] - 1)            
+        elif self.board.piece_type_at(square_from) == chess.PAWN:
             # Pawn moves tend to advance the game state, so as to prevent seemingly
             # unnecessary manoeuvring around, we promote these moves
-        elif self.board.piece_type_at(square_from) == chess.PAWN:
             sq_fr_prob = sq_fr_prob * 2
+            
+            # If we are promoting, give extra consideration
+            if self.side == chess.WHITE:
+                if chess.square_rank(square_to) == 7:
+                    sq_to_prob = sq_to_prob * 20
+            else:
+                if chess.square_rank(square_to) == 0:
+                    sq_to_prob = sq_to_prob * 20
             
         # If the move from piece is en pris, also consider it more
         if enpris_fr[0]:
             sq_fr_prob = sq_fr_prob * points_dic[self.board.piece_type_at(square_from)]
             
-        # If the move attacks something with higher value
+        # If the move attacks something with higher value, increase its tendency
         value_fr = p_dic[self.board.piece_type_at(square_from)]
         dummy_board = self.board.copy()
         dummy_board.push(chess.Move(square_from, square_to))
         if is_en_pris(dummy_board, square_to)[0] == False:
             for square in dummy_board.attacks(square_to):
                 if dummy_board.color_at(square) == (not self.side): # opposition
-                    if p_dic[dummy_board.piece_type_at(square)] > value_fr:
-                        sq_to_prob = sq_to_prob * (p_dic[dummy_board.piece_type_at(square)] - value_fr + 1)
+                    if is_en_pris(dummy_board, square)[0] :
+                        # pawns more valuable in the endgame
+                        if dummy_board.piece_type_at(square) == chess.PAWN and self.phase == 'endgame':
+                            factor = 5
+                        else:
+                            factor = p_dic[dummy_board.piece_type_at(square)]
+                        sq_to_prob = sq_to_prob * factor
         
         # If move protects a piece which became en pris by opponent's previous move
         # Add bonus
+        considered_move = chess.Move(square_from, square_to)
+        dummy_board = self.board.copy()
+        dummy_board.push(considered_move)
         attacked = new_attacked(self.prev_fen, self.board.fen(), self.side)
         if attacked[0] == True:
-            square = attacked[1]
-            considered_move = chess.Move(square_from, square_to)
-            dummy_board = self.board.copy()
-            dummy_board.push(considered_move)            
+            square = attacked[1]                    
             if is_en_pris(dummy_board, square)[0] == False:
                 # then the move successfully protects the en pris piece
-                sq_to_prob = sq_to_prob * 10
+                sq_to_prob = sq_to_prob * 5
+        elif self.board.piece_type_at(square_to) != (not self.side) and self.phase != 'endgame' and self.prev_own_move is not None:
+            # We punish 'awkward shuffling around moves' sometimes happens with rooks on the back rank
+            # Refer to the previous move played
+            pre_move_obj = chess.Move.from_uci(self.prev_own_move)
+            if pre_move_obj.to_square == square_from:
+                # we're moving the same piece again
+                # check that the to square isn't a square we could have moved to last time
+                dummy_board = self.board.copy()
+                dummy_board.remove_piece_at(square_from)
+                dummy_board.set_piece_at(pre_move_obj.from_square, chess.Piece(self.board.piece_type_at(square_from), self.side))
+                if chess.Move(pre_move_obj.from_square, square_to) in dummy_board.legal_moves or pre_move_obj.from_square == square_to:
+                    # punish the move if it's not an obvious move
+                    if considered_move.uci() != self.obvious_move:
+                        sq_to_prob = sq_to_prob / 15
         
+        # We punish moves which makes new pieces become en-pris
+        # e.g. move a piece that is pinned or move the piece to an attacked square
+        pinned_atk = new_attacked(self.board.fen(), dummy_board.fen(), self.side)
+        if pinned_atk[0] == True:
+            sq_fr_prob = sq_fr_prob / points_dic[self.board.piece_type_at(pinned_atk[1])]
+        
+        # if the move is a 'weird' computer type move, decrease its probability
+        if is_weird_move(self.board, self.phase, considered_move) == True:
+            # print('weird move: ', self.board.san(considered_move))
+            sq_to_prob = sq_to_prob / 20
         return sq_fr_prob, sq_to_prob
         
     
@@ -676,7 +779,7 @@ class AtomicSamurai:
             moves considered are all legal moves (simply asking engine to make
             move with no restrictions). '''
         
-        moves_dic = self.get_engine_lines(root_moves=moves_list, time_limit=0.1)
+        moves_dic = self.get_engine_lines(root_moves=moves_list, depth=10)
         
         ''' Now we use the most important part of any engine. We must somehow
             incorporate difficulty variable into filtering out and selecting a 
@@ -868,9 +971,9 @@ class AtomicSamurai:
             depth = 5
             if own_time < self.bullet_threshold:
                 depth = random.randint(2, 5)
-                lines = 4
+                lines = 5
             else:
-                lines = 2
+                lines = 4
         else:
             depth = 6
             lines = 2
@@ -885,12 +988,6 @@ class AtomicSamurai:
         sorted_evals = sorted(moves_dic)
     
         self.log += 'Obvious Moves check: ' + str(moves_dic) + '\n'
-        
-        if sorted_evals[-1] > 4800: # then the move is a mate in one
-            self.log += 'Mate in one found! \n'
-            self.mate_in_one = True
-        else:
-            self.mate_in_one = False
         
         # Managing flagging
         if own_time < self.bullet_threshold:
@@ -907,20 +1004,20 @@ class AtomicSamurai:
             # candidate moves involves moving the piece the engine moved last
             # play it
             self.log += 'Last own move played was ' + str(self.prev_own_move) + '\n'
-            tendencies = [eval_ for eval_ in non_blunder if chess.Move.from_uci(moves_dic[eval_]).from_square == chess.Move.from_uci(self.prev_own_move).to_square]
-            self.log += 'Producing tendencies: ' + str(tendencies) + '\n'
-            if len(tendencies) == 0:
-                selected = random.choice(non_blunder)
-            else:
-                selected = random.choice(tendencies)
-            if selected > 4800:
-                self.log += 'Mate in one found! \n'
-                self.mate_in_one = True
-            else:
-                self.mate_in_one = False
+            
             self.log += 'Moves considering: ' + str(moves_dic) + '\n'
             self.log += 'Non blunder evals are ' + str(non_blunder) + '\n'
-            self.log += 'Selected random eval: ' + str(selected) + '\n'
+            
+            if self.prev_own_move is None:
+                last_move_to_sq = 0
+            else:
+                last_move_to_sq = chess.Move.from_uci(self.prev_own_move).to_square
+            move_distances = {chess.square_distance(last_move_to_sq, chess.Move.from_uci(moves_dic[eval_]).from_square)*3 + chess.square_distance(chess.Move.from_uci(moves_dic[eval_]).to_square, chess.Move.from_uci(moves_dic[eval_]).from_square): eval_ for eval_ in non_blunder}
+            self.log += 'Move distances dictionary: ' + str(move_distances) + '\n'
+            
+            selected = move_distances[sorted(move_distances)[0]]
+            
+            self.log += 'Selected eval: ' + str(selected) + '\n'
             top_move_obj = chess.Move.from_uci(moves_dic[selected])
             
             # if the opponent has played a move which attacks one of our pieces
@@ -938,8 +1035,21 @@ class AtomicSamurai:
                         self.log += 'Our move evades opposition attack! Pause slightly. \n'            
                     else:
                         self.log += 'Our move evades opposition attack! No pause. \n'            
+        else:            
+            self.log += 'Not in flagging mode. \n'
+            # work out non-blunder moves
+            non_blunder = [eval_ for eval_ in sorted_evals if eval_ > sorted_evals[-1] - 50]
+            self.log += 'Moves considering: ' + str(moves_dic) + '\n'
+            self.log += 'Non blunder evals are ' + str(non_blunder) + '\n'
+            selected = random.choice(non_blunder)
+            top_move_obj = chess.Move.from_uci(moves_dic[selected])
+        
+        
+        if selected > 4800:
+            self.log += 'Mate in one found! \n'
+            self.mate_in_one = True
         else:
-            top_move_obj = chess.Move.from_uci(moves_dic[sorted_evals[-1]])
+            self.mate_in_one = False
         
         move_from_sq = top_move_obj.from_square
         move_to_sq = top_move_obj.to_square
@@ -976,6 +1086,16 @@ class AtomicSamurai:
         
         self.log += 'big_material_take: ' + str(self.big_material_take) + '\n'
         
+        # if our move takes an enpris piece that only became enpris from last opponent move
+        # and it is not a take back
+        # pause, cannot take immediately
+        atk = new_attacked(prev_fen, self.board.fen(), not self.side)
+        if atk[0] == True:
+            square = atk[1]
+            if top_move_obj.to_square == square and take_back == False and self.big_material_take == False:
+                time.sleep((random.random()+1)/8)
+                self.log += 'Opposition just hung material! Pause slightly \n' 
+        
         if own_time < self.bullet_threshold:
             # return move early
             return top_move_obj.uci()
@@ -986,10 +1106,10 @@ class AtomicSamurai:
             self.move_times.append(0.01)
             if len(self.move_times) > 5:
                 del self.move_times[0]
-            return moves_dic[sorted_evals[-1]]
+            return top_move_obj.uci()
         elif self.premove_mode == True:
             self.log += 'Obvious move found as currently in premove_mode! \n'
-            return moves_dic[sorted_evals[-1]]
+            return top_move_obj.uci()
         
         # check if move from piece is under attack
         # if self.side == chess.WHITE:
@@ -1012,27 +1132,35 @@ class AtomicSamurai:
         
         # attacked_and_take = attacked and take_back
         
+        # if the move is really an obvious move, store it, otherwise set obvious move as none
+        if sorted_evals[-1] > sorted_evals[-2] + 200:
+            self.log += 'Top move from obvious move check is by far the best move, storing for later reference. \n'
+            self.obvious_move = moves_dic[sorted_evals[-1]]
+        else:
+            self.obvious_move = None
+        
+        
         if sorted_evals[-1] > sorted_evals[-2] + 200 and take_back:
             self.log += 'Obvious move found! \n'
             self.move_times.append(0.01)
             if len(self.move_times) > 5:
                 del self.move_times[0]
-            return moves_dic[sorted_evals[-1]]
+            return top_move_obj.uci()
         elif starting_time < 61 and random.random() < 0.4 and self.big_material_take == False:
             # to increase move time variation during bullet games
             # play some quick moves
             # Only do this if certain conditions are satisfied
             if new_attacked(prev_fen, self.board.fen(), self.side)[0] == False:
-                self.log += 'The opposition has attacked one of our pieces with their last move. \n'
-                if is_quiet_move(self.board, chess.Move.from_uci(moves_dic[sorted_evals[-1]])):
-                    self.log += 'Stockfish move is a quiet retaliation move. \n'
+                self.log += 'The opposition has not attacked one of our pieces with their last move. \n'
+                if is_quiet_move(self.board, top_move_obj) and is_weird_move(self.board, self.phase, top_move_obj) == False:
+                    self.log += 'Stockfish move is a quiet, human-like retaliation move. \n'
                     self.log += 'No obvious move, but to increase move time variation we play it \n'
                     self.move_times.append(0.01)
                     if len(self.move_times) > 5:
                         del self.move_times[0]
-                    return moves_dic[sorted_evals[-1]]
+                    return top_move_obj.uci()
                 else:
-                    self.log += 'Stockfish move was not a quiet move: ' + moves_dic[sorted_evals[-1]] + '\n'
+                    self.log += 'Stockfish move was not a quiet/human like move: ' + top_move_obj.uci() + '\n'
                     return None
             else:
                 self.log += 'Opponent attacked one of our pieces, no obvious move. \n'
@@ -1283,7 +1411,7 @@ class AtomicSamurai:
             #             weights = [4,3,3,4,7,6]
             #         else:
             #             weights = [4,4,4,4,7,6]
-            weights = [10,10,10,10,10,10]
+            weights = [10,10,15,20,15,10]
         else:
             self.log += 'This position has been decided not to be blunder prone. \n'
         
@@ -1303,10 +1431,14 @@ class AtomicSamurai:
     def make_move(self, time_dic, prev_fen=None, prev_move=None):
         ''' Function which decides what move to make under a certain time_limit. '''
         self.log += 'Move number: ' + str(self.board.fullmove_number) + '\n'
-        self.log += self.board.fen() + '\n'
-        self.log += str(self.board) + '\n'
         self.prev_fen = prev_fen
         self.prev_move = prev_move
+        self.log += 'Current fen: ' + self.board.fen() + '\n'
+        self.log += 'Previous fen: ' + str(self.prev_fen) + '\n'
+        self.log += 'Previous opponent move: ' + str(self.prev_move) + '\n'
+        self.log += 'Previous own move: ' + str(self.prev_own_move) + '\n'
+        self.log += str(self.board) + '\n'
+        
         self.phase = phase_of_game(self.board)
         # extracting information about times to hep with decision making
         starting_time = time_dic['starting_time']
@@ -1316,6 +1448,8 @@ class AtomicSamurai:
         else:
             own_time = time_dic['black_time']
             opp_time = time_dic['white_time']
+        self.own_time = own_time
+        self.opp_time = opp_time
         self.log += 'Own time left: ' + str(own_time) + '\n'
         # first check if position is hopeless, in which case resign
         if self.decide_resign(own_time, opp_time, starting_time):
@@ -1331,9 +1465,9 @@ class AtomicSamurai:
             move = self.check_obvious(own_time, starting_time, prev_move, prev_fen)
             if move is not None:
                 chosen_move = move
-                self.obvious_move = True
+                self.quick_move = True
             else:
-                self.obvious_move = False
+                self.quick_move = False
                 # check to see if we are in time_scramble mode
                 if self.decide_time_scramble(own_time, starting_time) == True:
                     self.time_scramble_mode = True
@@ -1392,9 +1526,10 @@ class AtomicSamurai:
 
 def test():
     ''' Test function used for various testing. '''
-    engine = AtomicSamurai(playing_side= chess.BLACK, starting_position_fen='2b2rk1/5p2/5Rpp/3q1p2/8/1r6/2B2PPP/3QR1K1 b - - 1 26')
+    engine = AtomicSamurai(playing_side= chess.WHITE, starting_position_fen='2k1r2r/pppq1pp1/6b1/3P4/N2p2P1/1B1P1P1p/PP3R1P/R3Q1K1 w - - 1 21')
     engine.blunder_prone = True
-    engine.make_move({'white_time': 13.7, 'black_time':25.11, 'starting_time': 60}, prev_fen='2b2rk1/5p2/5Rpp/3q1p2/8/1r1B4/5PPP/3QR1K1 w - - 0 26', prev_move='d3c2')
+    engine.prev_own_move = 'c4d5'
+    engine.make_move({'white_time': 33.7, 'black_time':25.11, 'starting_time': 60}, prev_fen='2kr3r/pppq1pp1/6b1/3P4/N2p2P1/1B1P1P1p/PP3R1P/R3Q1K1 b - - 0 20', prev_move='d8e8')
     print(engine.log)
     #print(complexity(chess.Board('r4rk1/Bq1nbpp1/3p1nbp/RN1Pp3/1QN1P3/1B3P2/2P3PP/5RK1 b - - 0 26')))
     # time_s = time.time()
