@@ -136,6 +136,9 @@ class LichessClient:
         self.engine.own_time = starting_time
         self.engine.opp_time = starting_time
         self.engine.quick_move = False
+        self.engine.win_percentage = 50
+        self.engine.king_dang = 0
+        self.engine.fens.clear()
         
     def find_clicks(self, move_uci):
         ''' Given a move in uci form, find the click from and click to positions. '''
@@ -242,7 +245,7 @@ class LichessClient:
                             if x < 0.5:
                                 pass
                             elif x <0.99:
-                                time.sleep((x-0.5)*1.5)
+                                time.sleep((x-0.5))
                             else:
                                 if own_time > 20 and own_time > 45:
                                     time.sleep(random.randint(0,1) + random.random())
@@ -336,7 +339,7 @@ class LichessClient:
                     os.system("mpg123 -q " + sound_file)
                     continue  
                 
-                fen_search = re.findall('\"fen\":\"([^,]{10,80})\"', page.text) 
+                fen_search = re.findall('\"fen\":\"([^,]{10,80})\"', page.text)
                 prev_move = re.findall('uci\":\"(.{3,5})\"', page.text)
                 
                 if self.board.fullmove_number < 10 and self.berserk == False:
@@ -396,7 +399,11 @@ class LichessClient:
             if last_fen != fen and fen.split()[-5] == lookout:
                 # we have found new updated fen
                 self.premoved = False # reset premove
+                self.engine.fens = fen_search[1:]
                 #print('make normal move')
+                # print('fen_search:')
+                # for i in fen_search:
+                #     print (i)
                 return fen, prev_move, prev_fen, white_time, black_time, game_end, None
             elif last_fen != fen and premove == True and self.premoved == False:
                 # i.e. opponent hasn't moved but we have moved
