@@ -17,6 +17,9 @@ import requests
 import re
 from bs4 import BeautifulSoup
 import configparser
+from requests_html import HTMLSession
+import cv2
+import numpy as np
 
 from engine_1_5 import AtomicSamurai
 
@@ -29,6 +32,42 @@ STEP = float((config['DEFAULT']['step']))
 START_X = int(config['DEFAULT']['start_x']) + STEP/2
 START_Y = int(config['DEFAULT']['start_y']) + STEP/2
 
+
+def scrape_move_change():
+    im = pyautogui.screenshot('my_screenshot.png', region=(595,242, 632, 632))
+    image = cv2.cvtColor(np.array(im), cv2.COLOR_RGB2BGR)
+    (get_move_change(image))
+
+def get_move_change(image, bottom='w'):
+    image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+    board_width, board_height = image.shape[:2]
+    tile_width = board_width/8
+    tile_height = board_height/8
+    epsilon = 5
+    if bottom == 'w':
+        row_dic = {0:'8',1:'7',2:'6',3:'5',4:'4',5:'3',6:'2',7:'1'}
+        column_dic = {0:'a',1:'b',2:'c',3:'d',4:'e',5:'f',6:'g',7:'h'}
+    else:
+        row_dic = {0:'1',1:'2',2:'3',3:'4',4:'5',5:'6',6:'7',7:'8'}
+        column_dic = {0:'h',1:'g',2:'f',3:'e',4:'d',5:'c',6:'b',7:'a'}
+    
+    detected = []
+    
+    for i in range(64):
+        column_i = i%8
+        row_i = i // 8
+        pixel_x = int(tile_width*column_i + epsilon)
+        pixel_y = int(tile_height*row_i + epsilon)
+        rgb = image[pixel_y, pixel_x, :]
+        if (rgb == [59,155,143]).all():
+            detected.append(column_dic[column_i]+row_dic[row_i])
+    if len(detected) == 0:
+        print("Did not detect any move changes, returning None")
+        return None
+    elif len(detected) != 2:
+        raise Exception("Unexpectedly found {} detected change squares: {}".format(len(detected), detected))
+    else:
+        return [detected[0]+detected[1], detected[1] + detected[0]]
 
 
 class GameFinder:
@@ -71,10 +110,14 @@ class LichessClient:
     
     def __init__(self, username, log=True, shadow_mode=False, url=None, side=None, time=None):
         self.username = username
+        self.session = HTMLSession()
         if url is not None:
             self.url = url
             # getting player side and starting time
-            page = requests.get(self.url)
+            
+            page = self.session.get(url)
+            # page = requests.get(self.url)
+            
             if time == None:
                 starting_time = float(re.findall('\"initial\":(\d{1,4})', page.text)[0])
             else:
@@ -102,7 +145,8 @@ class LichessClient:
         ''' Once client has found game, sets up game parameters. '''
         self.url = url
         # getting player side and starting time
-        page = requests.get(self.url)
+        page = self.session.get(url)
+        # page = requests.get(self.url)
         if time == None:
             starting_time = float(re.findall('\"initial\":(\d{1,4})', page.text)[0])
         else:
@@ -201,7 +245,8 @@ class LichessClient:
                 
             elif starting_t > 61 and own_time > 10 and starting_t-own_time >7:
                 # first assert it is actually my move
-                page = requests.get(self.url)
+                # page = requests.get(self.url)
+                page = self.session.get(self.url)
                 fen_search = re.findall('\"fen\":\"([^,]{10,80})\"', page.text)
                 if self.side == chess.WHITE:
                     lookout = 'w'
@@ -331,7 +376,8 @@ class LichessClient:
                       time.sleep(self.own_time/800)
                 
                 try:
-                    page = requests.get(self.url, timeout=0.25)
+                    page = self.session.get(self.url, timeout=0.25)
+                    #page = requests.get(self.url, timeout=0.25)
                 except requests.exceptions.Timeout:
                     # too many requests
                     print('Request fetching timed out, trying again...')

@@ -1,0 +1,2665 @@
+Playing side: WHITE 
+Move number: 2
+Current fen: rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2
+Previous fen: rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1
+Previous opponent move: c7c5
+Previous own move: None
+r n b q k b n r
+p p . p p p p p
+. . . . . . . .
+. . p . . . . .
+. . . . P . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B N R
+Current phase: opening
+Calculating winning percentage... 
+Win percentage: 40.0
+Time taken to calculate win_percentage: 0.02624678611755371
+Current King Danger: -1052.6666666666665
+Own time left: 60.0
+Evaluation str: +77
+Evaluation str: +52
+Evaluation str: +40
+Evaluation str: +31
+Obvious Moves check: {77: 'd2d4', 52: 'b1c3', 40: 'g1f3', 31: 'f1b5'}
+Not in flagging mode. 
+Moves considering: {77: 'd2d4', 52: 'b1c3', 40: 'g1f3', 31: 'f1b5'}
+Non blunder evals are [31, 40, 52, 77]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+The opposition has not attacked one of our pieces with their last move. 
+Stockfish move is a quiet, human-like retaliation move. 
+No obvious move, but to increase move time variation we play it 
+Last 5 move times: [0.01]
+Chosen move: g1f3, Nf3
+Move number: 2
+Current fen: rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2
+Previous fen: rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1
+Previous opponent move: c7c5
+Previous own move: g1f3
+r n b q k b n r
+p p . p p p p p
+. . . . . . . .
+. . p . . . . .
+. . . . P . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B N R
+Current phase: opening
+Calculating winning percentage... 
+Win percentage: 40.0
+Time taken to calculate win_percentage: 0.006883859634399414
+Current King Danger: -1052.6666666666665
+Own time left: 59.77
+Evaluation str: +77
+Evaluation str: +63
+Evaluation str: +62
+Evaluation str: +57
+Obvious Moves check: {77: 'd2d4', 63: 'd2d3', 62: 'g1f3', 57: 'b1c3'}
+Not in flagging mode. 
+Moves considering: {77: 'd2d4', 63: 'd2d3', 62: 'g1f3', 57: 'b1c3'}
+Non blunder evals are [57, 62, 63, 77]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.2298846153846154
+Own time remaining: 59.77
+Standard devation on time allowed: 1.1954
+Phase of game recognised: opening
+Currently this position is blunder prone. 
+Weights Chosen:[10, 10, 15, 20, 15, 10]
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'c2c3': 10, 'd2d4': 11, 'b2b3': 9, 'c2c4': 10, 'g2g3': 14, 'b2b4': 9, 'f2f4': 13, 'd2d3': 11, 'e4e5': 28, 'a2a4': 8, 'g1f3': 6, 'b1c3': 1, 'g1e2': 6, 'b1a3': 1, 'g1h3': 6, 'f1b5': 5, 'f1c4': 5, 'f1d3': 5, 'f1e2': 5, 'f1a6': 5, 'd1f3': 3, 'd1e2': 3, 'd1g4': 3, 'd1h5': 3, 'e1e2': 4}
+Calculating complexity of the position... 
+Complexity calculated: 81.6
+Efficient mobility calculated: 53.333333333333336
+Time taken to calculate complexity and eff mob: 0.010805606842041016
+Move Probabilities that the engine sees: 
+Nf3: [0.810343017738532, 0.8479621410369873, 0.95563585]
+Bb5: [0.4429877362307977, 0.5022915005683899, 0.88193357]
+d4: [0.19503493969547847, 0.9448516964912415, 0.20641857385635376]
+c3: [0.06072096302023766, 0.12899333238601685, 0.47072947]
+Bc4: [0.0515016404044335, 0.5022915005683899, 0.10253337]
+Qf3: [0.03175760248436377, 0.04156086966395378, 0.76412266]
+b3: [0.015051369793641634, 0.1128624752163887, 0.13336027]
+d3: [0.010337756784646435, 0.9448516964912415, 0.010941142]
+c4: [0.009626328340158974, 0.12899333238601685, 0.07462656]
+g3: [0.006403909879476588, 0.1431635022163391, 0.044731442]
+Nc3: [0.005334191017015044, 0.12420737743377686, 0.042945847]
+Bd3: [0.005034095203796052, 0.5022915005683899, 0.010022258]
+Qe2: [0.00496911525394042, 0.04156086966395378, 0.11956235]
+f4: [0.004479337524749716, 0.3399850130081177, 0.013175103]
+Qg4: [0.003319997114995338, 0.04156086966395378, 0.07988276]
+b4: [0.0027935358673828597, 0.1128624752163887, 0.02475168]
+e5: [0.0017594261225837154, 0.39036938548088074, 0.00450708]
+Be2: [0.001388355856965326, 0.5022915005683899, 0.002764044]
+Ne2: [0.0011994569122958099, 0.8479621410369873, 0.001414517]
+Ke2: [0.0009564189553022017, 0.03912026807665825, 0.024448169767856597]
+Qh5: [0.0005598639163086408, 0.04156086966395378, 0.013470938429236412]
+a4: [5.7052889439634935e-05, 0.014089033007621765, 0.004049454]
+Ba6: [4.189178097355195e-05, 0.5022915005683899, 8.340133e-05]
+Nh3: [3.304326070055689e-07, 0.8479621410369873, 3.896785e-07]
+Na3: [5.3721441965051074e-08, 0.12420737743377686, 4.325141e-07]
+Number of moves considered from difficulty levels: 6
+Legal moves found from human search: ['g1f3', 'f1b5', 'd2d4', 'c2c3', 'f1c4', 'd1f3']
+Evaluation str: +75
+Evaluation str: +25
+Evaluation str: +19
+Moves evaluations: {75: 'g1f3', 25: 'd2d4', 19: 'c2c3'}
+Calculation time allowed: 1.0297554908666318
+Decided centipawn loss from mean -5 and stdev 20: -11.192320001639775
+Target_evaluation: 63.80767999836023
+Last 5 move times: [0.01, 1.0297554908666318]
+Chosen move: g1f3, Nf3
+Evaluation str: +148
+Found premove! In response to c5d4, Nxd4
+Move number: 5
+Current fen: rnbqkb1r/pp2pppp/3p1n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5
+Previous fen: rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4
+Previous opponent move: g8f6
+Previous own move: g1f3
+r n b q k b . r
+p p . . p p p p
+. . . p . n . .
+. . . . . . . .
+. . . N P . . .
+. . . . . . . .
+P P P . . P P P
+R N B Q K B . R
+Current phase: opening
+Calculating winning percentage... 
+Win percentage: 9.0
+Time taken to calculate win_percentage: 0.009055137634277344
+Current King Danger: -759.1666666666665
+Own time left: 59.44
+Evaluation str: +18
+Evaluation str: +16
+Evaluation str: +10
+Evaluation str: +10
+Obvious Moves check: {18: 'd4f3', 16: 'd1d3', 10: 'c2c3'}
+Not in flagging mode. 
+Moves considering: {18: 'd4f3', 16: 'd1d3', 10: 'c2c3'}
+Non blunder evals are [10, 16, 18]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.2286153846153846
+Own time remaining: 59.44
+Standard devation on time allowed: 1.1887999999999999
+Phase of game recognised: opening
+Currently this position is blunder prone. 
+Weights Chosen:[10, 10, 15, 20, 15, 10]
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'c2c4': 10, 'f2f3': 13, 'h2h3': 15, 'g2g3': 14, 'b2b3': 9, 'c2c3': 10, 'e4e5': 28, 'h2h4': 15, 'b2b4': 9, 'a2a3': 8, 'b1c3': 1, 'd4b3': 27, 'd4f3': 27, 'b1d2': 1, 'd4e2': 27, 'd4b5': 27, 'd4f5': 27, 'd4c6': 27, 'f1e2': 5, 'c1g5': 2, 'f1b5': 5, 'f1d3': 5, 'c1e3': 2, 'f1c4': 5, 'c1d2': 2, 'c1f4': 2, 'h1g1': 7, 'd1f3': 3, 'd1e2': 3, 'd1d2': 3, 'd1d3': 3, 'd1h5': 3, 'd1g4': 3, 'e1e2': 4, 'e1d2': 4}
+Calculating complexity of the position... 
+Complexity calculated: 88.2
+Efficient mobility calculated: 30.952380952380953
+Time taken to calculate complexity and eff mob: 0.016578197479248047
+Move Probabilities that the engine sees: 
+Bb5+: [11.130059657722313, 0.5720195770263672, 19.457480311393738]
+f3: [1.102810846538349, 1.0831776410341263, 1.0181255638599396]
+Nc3: [0.36859320397775175, 0.07378137856721878, 4.995748400688171]
+Bd3: [0.3656788035728198, 0.5720195770263672, 0.6392767280340195]
+Be2: [0.22392564844483331, 0.5720195770263672, 0.391465]
+Qf3: [0.20677958889525616, 0.07778508961200714, 2.658344805240631]
+Qe2: [0.14235911493509334, 0.07778508961200714, 1.8301594257354736]
+c4: [0.14001996462085264, 0.1908593364059925, 0.7336291]
+Bg5: [0.05418504252871781, 0.277293860912323, 0.19540657]
+e5: [0.028312336218002387, 1.3178001046180725, 0.021484545432031155]
+Be3: [0.01811352505342434, 0.277293860912323, 0.06532249]
+Bc4: [0.012316909350328586, 0.5720195770263672, 0.021532321]
+Qd3: [0.011562157934429107, 0.07778508961200714, 0.14864234253764153]
+g3: [0.003886197499647269, 0.3108965829014778, 0.0124999685]
+Qd2: [0.0033136061544632445, 0.07778508961200714, 0.042599503]
+h3: [0.0020521890675821806, 0.0667967414483428, 0.030722892]
+Rg1: [0.0013017660903025252, 0.0027262745425105095, 0.477489]
+c3: [0.0011710742570632, 0.1908593364059925, 0.0061357976]
+Bd2: [0.0005775838805574668, 0.277293860912323, 0.0020829306]
+Bf4: [0.0003351727745164734, 0.277293860912323, 0.0012087277]
+b3: [0.0002420396248800432, 0.034725000616163015, 0.0069701835]
+Nb3: [0.00019546767524748938, 0.44552329182624817, 0.00043873728]
+Qh5: [0.0001633194516062926, 0.07778508961200714, 0.0020996241]
+Nf3: [0.00013412706604072535, 0.44552329182624817, 0.00030105512]
+Qg4: [0.0001187919344814185, 0.07778508961200714, 0.0015271813026629388]
+a3: [3.707823013292922e-05, 0.09514673240482807, 0.00038969525]
+h4: [3.3125370627517994e-05, 0.0667967414483428, 0.000495913]
+Nd2: [2.1425507280918544e-05, 0.07378137856721878, 0.00029039179935352877]
+b4: [1.4428360757933365e-05, 0.034725000616163015, 0.00041550354]
+Ne2: [9.444107321116674e-06, 0.44552329182624817, 2.1197786e-05]
+Nb5: [9.032314436621669e-06, 0.44552329182624817, 2.0273495e-05]
+Ke2: [4.817134330755779e-06, 0.0527682825922966, 9.12884424906224e-05]
+Kd2: [4.76061808688177e-06, 0.0527682825922966, 9.02174157090485e-05]
+Nf5: [1.7018491682284533e-06, 0.44552329182624817, 3.819888e-06]
+Nc6: [1.498890535063604e-06, 0.44552329182624817, 3.364337e-06]
+Number of moves considered from difficulty levels: 6
+Legal moves found from human search: ['f1b5', 'f2f3', 'b1c3', 'f1d3', 'f1e2', 'd1f3']
+Evaluation str: +82
+Evaluation str: +49
+Evaluation str: +12
+Moves evaluations: {82: 'b1c3', 49: 'f1b5', 12: 'd1f3'}
+Calculation time allowed: 0.7173888876546705
+Decided centipawn loss from mean -5 and stdev 20: 26.098450310107076
+Target_evaluation: 108.09845031010707
+Last 5 move times: [0.01, 1.0297554908666318, 0.7173888876546705]
+Chosen move: b1c3, Nc3
+Move number: 7
+Current fen: rnbqkb1r/1p3ppp/p2p1n2/4p3/3NP3/2N5/PPP1BPPP/R1BQK2R w KQkq - 0 7
+Previous fen: rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP1BPPP/R1BQK2R b KQkq - 1 6
+Previous opponent move: e7e5
+Previous own move: b1c3
+r n b q k b . r
+. p . . . p p p
+p . . p . n . .
+. . . . p . . .
+. . . N P . . .
+. . N . . . . .
+P P P . B P P P
+R . B Q K . . R
+Current phase: opening
+Calculating winning percentage... 
+Win percentage: 22.0
+Time taken to calculate win_percentage: 0.005700588226318359
+Current King Danger: -802.4999999999995
+Own time left: 58.43
+Evaluation str: +39
+Evaluation str: +37
+Evaluation str: -5
+Evaluation str: -150
+Obvious Moves check: {39: 'd4f3', 37: 'd4b3', -5: 'd4f5', -150: 'c1e3'}
+Not in flagging mode. 
+Moves considering: {39: 'd4f3', 37: 'd4b3', -5: 'd4f5', -150: 'c1e3'}
+Non blunder evals are [-5, 37, 39]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.22473076923076923
+Own time remaining: 58.43
+Standard devation on time allowed: 1.1686
+Phase of game recognised: opening
+Currently this position is blunder prone. 
+Weights Chosen:[10, 10, 15, 20, 15, 10]
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'a2a4': 8, 'f2f4': 13, 'h2h3': 15, 'g2g3': 14, 'g2g4': 14, 'f2f3': 13, 'a2a3': 8, 'h2h4': 15, 'b2b3': 9, 'd4b3': 27, 'd4f3': 27, 'd4f5': 27, 'c3d5': 18, 'c3a4': 18, 'c3b5': 18, 'd4b5': 27, 'c1g5': 2, 'c1e3': 2, 'e2f3': 12, 'c1d2': 2, 'e2f1': 12, 'e2c4': 12, 'e2h5': 12, 'e2g4': 12, 'e2d3': 12, 'e2b5': 12, 'c1f4': 2, 'a1b1': 0, 'h1g1': 7, 'h1f1': 7, 'd1d3': 3, 'd1d2': 3, 'e1g1': 4, 'e1f1': 4, 'e1d2': 4}
+Calculating complexity of the position... 
+Complexity calculated: 18.450000000000003
+Efficient mobility calculated: 4.878048780487805
+Time taken to calculate complexity and eff mob: 0.011354207992553711
+Move Probabilities that the engine sees: 
+Nb3: [109.27779233968522, 26.81699514389038, 4.074945449829102]
+Nf3: [22.047295836281577, 26.81699514389038, 0.8221389353275299]
+Nf5: [1.6384360986183344, 26.81699514389038, 0.061096930876374245]
+Bg5: [0.041658743479018545, 0.047123584896326065, 0.8840317]
+f4: [0.032193389182258975, 0.150138134136796, 0.21442513]
+Ndb5: [0.030277308779197085, 26.81699514389038, 0.001129034353652969]
+a4: [0.027700472103746376, 0.04586970480158925, 0.6038947]
+g3: [0.013035989193463438, 0.20881963148713112, 0.06242703]
+Qd3: [0.010940170205838262, 0.017263371497392654, 0.63372153]
+O-O: [0.006216220994173849, 0.12434299290180206, 0.049992531538009644]
+Rg1: [0.004003511134612947, 0.020287664607167244, 0.19733721]
+g4: [0.0036749092723206353, 0.20881963148713112, 0.017598486]
+Qd2: [0.0029879396617795706, 0.017263371497392654, 0.17307973]
+Be3: [0.00285645136739357, 0.047123584896326065, 0.060616173]
+f3: [0.0025744265483363463, 0.150138134136796, 0.017147053]
+Rf1: [0.002448061513013633, 0.020287664607167244, 0.12066749]
+Bf3: [0.0024036181287433456, 0.057160746306180954, 0.042050153]
+h3: [0.001556538232970299, 0.024150102399289608, 0.064452656]
+a3: [0.00044824058781097256, 0.04586970480158925, 0.00977204]
+Rb1: [0.00041209506944286933, 0.0018793735653162003, 0.21927257]
+Nd5: [0.0003490197043778988, 0.08528130501508713, 0.00409257]
+Bd2: [0.00033086268378343213, 0.047123584896326065, 0.0070211696]
+Na4: [0.00015191233830308577, 0.08528130501508713, 0.0017813088]
+Bf1: [0.0001430532897945709, 0.057160746306180954, 0.002502649]
+Bc4: [8.760431520221787e-05, 0.057160746306180954, 0.0015325957]
+Bh5: [4.0482683351103456e-05, 0.057160746306180954, 0.00070822524]
+h4: [3.777387044540245e-05, 0.024150102399289608, 0.0015641288]
+b3: [2.9123678368326694e-05, 0.0313002192415297, 0.00093046244]
+Bg4: [2.7117633848771543e-05, 0.057160746306180954, 0.00047441007]
+Bd3: [2.4981623969725264e-05, 0.057160746306180954, 0.0004370416]
+Ncb5: [1.925710461727812e-05, 0.08528130501508713, 0.00022580687]
+Bb5+: [1.5598893837901612e-05, 0.057160746306180954, 0.0002728952]
+Bf4: [9.94047174459371e-07, 0.047123584896326065, 2.1094473e-05]
+Kf1: [8.954498901285772e-07, 0.12434299290180206, 7.201450353022665e-06]
+Kd2: [1.5024118995794608e-08, 0.12434299290180206, 1.2082803095836426e-07]
+Number of moves considered from difficulty levels: 4
+Legal moves found from human search: ['d4b3', 'd4f3', 'd4f5', 'c1g5']
+Evaluation str: +50
+Evaluation str: +40
+Evaluation str: -28
+Moves evaluations: {50: 'd4b3', 40: 'd4f3', -28: 'd4f5'}
+Calculation time allowed: 0.3033945098724048
+Decided centipawn loss from mean -5 and stdev 20: -0.5328868205732125
+Target_evaluation: 49.46711317942679
+Last 5 move times: [0.01, 1.0297554908666318, 0.7173888876546705, 0.3033945098724048]
+Chosen move: d4b3, Nb3
+Move number: 7
+Current fen: rnbqkb1r/1p3ppp/p2p1n2/4p3/3NP3/2N5/PPP1BPPP/R1BQK2R w KQkq - 0 7
+Previous fen: rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP1BPPP/R1BQK2R b KQkq - 1 6
+Previous opponent move: e7e5
+Previous own move: d4b3
+r n b q k b . r
+. p . . . p p p
+p . . p . n . .
+. . . . p . . .
+. . . N P . . .
+. . N . . . . .
+P P P . B P P P
+R . B Q K . . R
+Current phase: opening
+Calculating winning percentage... 
+Win percentage: 28.0
+Time taken to calculate win_percentage: 0.004127025604248047
+Current King Danger: -802.4999999999995
+Own time left: 57.94
+Evaluation str: +50
+Evaluation str: +40
+Evaluation str: -28
+Evaluation str: -150
+Obvious Moves check: {50: 'd4b3', 40: 'd4f3', -28: 'd4f5', -150: 'c1e3'}
+Not in flagging mode. 
+Moves considering: {50: 'd4b3', 40: 'd4f3', -28: 'd4f5', -150: 'c1e3'}
+Non blunder evals are [-28, 40, 50]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+Opponent attacked one of our pieces, no obvious move. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.22284615384615383
+Own time remaining: 57.94
+Standard devation on time allowed: 1.1588
+Phase of game recognised: opening
+Currently this position is blunder prone. 
+Weights Chosen:[10, 10, 15, 20, 15, 10]
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'a2a4': 8, 'f2f4': 13, 'h2h3': 15, 'g2g3': 14, 'g2g4': 14, 'f2f3': 13, 'a2a3': 8, 'h2h4': 15, 'b2b3': 9, 'd4b3': 27, 'd4f3': 27, 'd4f5': 27, 'c3d5': 18, 'c3a4': 18, 'c3b5': 18, 'd4b5': 27, 'c1g5': 2, 'c1e3': 2, 'e2f3': 12, 'c1d2': 2, 'e2f1': 12, 'e2c4': 12, 'e2h5': 12, 'e2g4': 12, 'e2d3': 12, 'e2b5': 12, 'c1f4': 2, 'a1b1': 0, 'h1g1': 7, 'h1f1': 7, 'd1d3': 3, 'd1d2': 3, 'e1g1': 4, 'e1f1': 4, 'e1d2': 4}
+Calculating complexity of the position... 
+Complexity calculated: 18.450000000000003
+Efficient mobility calculated: 4.878048780487805
+Time taken to calculate complexity and eff mob: 0.010576725006103516
+Move Probabilities that the engine sees: 
+Nb3: [109.27779233968522, 26.81699514389038, 4.074945449829102]
+Nf3: [22.047295836281577, 26.81699514389038, 0.8221389353275299]
+Nf5: [1.6384360986183344, 26.81699514389038, 0.061096930876374245]
+Bg5: [0.041658743479018545, 0.047123584896326065, 0.8840317]
+f4: [0.032193389182258975, 0.150138134136796, 0.21442513]
+Ndb5: [0.030277308779197085, 26.81699514389038, 0.001129034353652969]
+a4: [0.027700472103746376, 0.04586970480158925, 0.6038947]
+g3: [0.013035989193463438, 0.20881963148713112, 0.06242703]
+Qd3: [0.010940170205838262, 0.017263371497392654, 0.63372153]
+O-O: [0.006216220994173849, 0.12434299290180206, 0.049992531538009644]
+Rg1: [0.004003511134612947, 0.020287664607167244, 0.19733721]
+g4: [0.0036749092723206353, 0.20881963148713112, 0.017598486]
+Qd2: [0.0029879396617795706, 0.017263371497392654, 0.17307973]
+Be3: [0.00285645136739357, 0.047123584896326065, 0.060616173]
+f3: [0.0025744265483363463, 0.150138134136796, 0.017147053]
+Rf1: [0.002448061513013633, 0.020287664607167244, 0.12066749]
+Bf3: [0.0024036181287433456, 0.057160746306180954, 0.042050153]
+h3: [0.001556538232970299, 0.024150102399289608, 0.064452656]
+a3: [0.00044824058781097256, 0.04586970480158925, 0.00977204]
+Rb1: [0.00041209506944286933, 0.0018793735653162003, 0.21927257]
+Nd5: [0.0003490197043778988, 0.08528130501508713, 0.00409257]
+Bd2: [0.00033086268378343213, 0.047123584896326065, 0.0070211696]
+Na4: [0.00015191233830308577, 0.08528130501508713, 0.0017813088]
+Bf1: [0.0001430532897945709, 0.057160746306180954, 0.002502649]
+Bc4: [8.760431520221787e-05, 0.057160746306180954, 0.0015325957]
+Bh5: [4.0482683351103456e-05, 0.057160746306180954, 0.00070822524]
+h4: [3.777387044540245e-05, 0.024150102399289608, 0.0015641288]
+b3: [2.9123678368326694e-05, 0.0313002192415297, 0.00093046244]
+Bg4: [2.7117633848771543e-05, 0.057160746306180954, 0.00047441007]
+Bd3: [2.4981623969725264e-05, 0.057160746306180954, 0.0004370416]
+Ncb5: [1.925710461727812e-05, 0.08528130501508713, 0.00022580687]
+Bb5+: [1.5598893837901612e-05, 0.057160746306180954, 0.0002728952]
+Bf4: [9.94047174459371e-07, 0.047123584896326065, 2.1094473e-05]
+Kf1: [8.954498901285772e-07, 0.12434299290180206, 7.201450353022665e-06]
+Kd2: [1.5024118995794608e-08, 0.12434299290180206, 1.2082803095836426e-07]
+Number of moves considered from difficulty levels: 4
+Legal moves found from human search: ['d4b3', 'd4f3', 'd4f5', 'c1g5']
+Evaluation str: +52
+Evaluation str: +30
+Evaluation str: -28
+Moves evaluations: {52: 'd4b3', 30: 'd4f3', -28: 'd4f5'}
+Calculation time allowed: 0.4321347858579187
+Decided centipawn loss from mean -5 and stdev 20: 2.443736030839636
+Target_evaluation: 54.44373603083964
+Last 5 move times: [0.01, 1.0297554908666318, 0.7173888876546705, 0.3033945098724048, 0.4321347858579187]
+Chosen move: d4b3, Nb3
+Move number: 7
+Current fen: rnbqkb1r/1p3ppp/p2p1n2/4p3/3NP3/2N5/PPP1BPPP/R1BQK2R w KQkq - 0 7
+Previous fen: rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP1BPPP/R1BQK2R b KQkq - 1 6
+Previous opponent move: e7e5
+Previous own move: d4b3
+r n b q k b . r
+. p . . . p p p
+p . . p . n . .
+. . . . p . . .
+. . . N P . . .
+. . N . . . . .
+P P P . B P P P
+R . B Q K . . R
+Current phase: opening
+Calculating winning percentage... 
+Win percentage: 29.0
+Time taken to calculate win_percentage: 0.006341695785522461
+Current King Danger: -802.4999999999995
+Own time left: 57.94
+Evaluation str: +52
+Evaluation str: +30
+Evaluation str: -28
+Evaluation str: -150
+Obvious Moves check: {52: 'd4b3', 30: 'd4f3', -28: 'd4f5', -150: 'c1e3'}
+Not in flagging mode. 
+Moves considering: {52: 'd4b3', 30: 'd4f3', -28: 'd4f5', -150: 'c1e3'}
+Non blunder evals are [30, 52]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.22284615384615383
+Own time remaining: 57.94
+Standard devation on time allowed: 1.1588
+Phase of game recognised: opening
+Currently this position is blunder prone. 
+Weights Chosen:[10, 10, 15, 20, 15, 10]
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'a2a4': 8, 'f2f4': 13, 'h2h3': 15, 'g2g3': 14, 'g2g4': 14, 'f2f3': 13, 'a2a3': 8, 'h2h4': 15, 'b2b3': 9, 'd4b3': 27, 'd4f3': 27, 'd4f5': 27, 'c3d5': 18, 'c3a4': 18, 'c3b5': 18, 'd4b5': 27, 'c1g5': 2, 'c1e3': 2, 'e2f3': 12, 'c1d2': 2, 'e2f1': 12, 'e2c4': 12, 'e2h5': 12, 'e2g4': 12, 'e2d3': 12, 'e2b5': 12, 'c1f4': 2, 'a1b1': 0, 'h1g1': 7, 'h1f1': 7, 'd1d3': 3, 'd1d2': 3, 'e1g1': 4, 'e1f1': 4, 'e1d2': 4}
+Calculating complexity of the position... 
+Complexity calculated: 18.450000000000003
+Efficient mobility calculated: 4.878048780487805
+Time taken to calculate complexity and eff mob: 0.020244598388671875
+Move Probabilities that the engine sees: 
+Nb3: [109.27779233968522, 26.81699514389038, 4.074945449829102]
+Nf3: [22.047295836281577, 26.81699514389038, 0.8221389353275299]
+Nf5: [1.6384360986183344, 26.81699514389038, 0.061096930876374245]
+Bg5: [0.041658743479018545, 0.047123584896326065, 0.8840317]
+f4: [0.032193389182258975, 0.150138134136796, 0.21442513]
+Ndb5: [0.030277308779197085, 26.81699514389038, 0.001129034353652969]
+a4: [0.027700472103746376, 0.04586970480158925, 0.6038947]
+g3: [0.013035989193463438, 0.20881963148713112, 0.06242703]
+Qd3: [0.010940170205838262, 0.017263371497392654, 0.63372153]
+O-O: [0.006216220994173849, 0.12434299290180206, 0.049992531538009644]
+Rg1: [0.004003511134612947, 0.020287664607167244, 0.19733721]
+g4: [0.0036749092723206353, 0.20881963148713112, 0.017598486]
+Qd2: [0.0029879396617795706, 0.017263371497392654, 0.17307973]
+Be3: [0.00285645136739357, 0.047123584896326065, 0.060616173]
+f3: [0.0025744265483363463, 0.150138134136796, 0.017147053]
+Rf1: [0.002448061513013633, 0.020287664607167244, 0.12066749]
+Bf3: [0.0024036181287433456, 0.057160746306180954, 0.042050153]
+h3: [0.001556538232970299, 0.024150102399289608, 0.064452656]
+a3: [0.00044824058781097256, 0.04586970480158925, 0.00977204]
+Rb1: [0.00041209506944286933, 0.0018793735653162003, 0.21927257]
+Nd5: [0.0003490197043778988, 0.08528130501508713, 0.00409257]
+Bd2: [0.00033086268378343213, 0.047123584896326065, 0.0070211696]
+Na4: [0.00015191233830308577, 0.08528130501508713, 0.0017813088]
+Bf1: [0.0001430532897945709, 0.057160746306180954, 0.002502649]
+Bc4: [8.760431520221787e-05, 0.057160746306180954, 0.0015325957]
+Bh5: [4.0482683351103456e-05, 0.057160746306180954, 0.00070822524]
+h4: [3.777387044540245e-05, 0.024150102399289608, 0.0015641288]
+b3: [2.9123678368326694e-05, 0.0313002192415297, 0.00093046244]
+Bg4: [2.7117633848771543e-05, 0.057160746306180954, 0.00047441007]
+Bd3: [2.4981623969725264e-05, 0.057160746306180954, 0.0004370416]
+Ncb5: [1.925710461727812e-05, 0.08528130501508713, 0.00022580687]
+Bb5+: [1.5598893837901612e-05, 0.057160746306180954, 0.0002728952]
+Bf4: [9.94047174459371e-07, 0.047123584896326065, 2.1094473e-05]
+Kf1: [8.954498901285772e-07, 0.12434299290180206, 7.201450353022665e-06]
+Kd2: [1.5024118995794608e-08, 0.12434299290180206, 1.2082803095836426e-07]
+Number of moves considered from difficulty levels: 4
+Legal moves found from human search: ['d4b3', 'd4f3', 'd4f5', 'c1g5']
+Evaluation str: +48
+Evaluation str: +20
+Evaluation str: -28
+Moves evaluations: {48: 'd4f3', 20: 'd4b3', -28: 'd4f5'}
+Calculation time allowed: 0.38505013546721656
+Decided centipawn loss from mean -5 and stdev 20: 6.271480844540999
+Target_evaluation: 54.271480844541
+Last 5 move times: [1.0297554908666318, 0.7173888876546705, 0.3033945098724048, 0.4321347858579187, 0.38505013546721656]
+Chosen move: d4f3, Nf3
+Move number: 8
+Current fen: rnbqk2r/1p2bppp/p2p1n2/4p3/4P3/1NN5/PPP1BPPP/R1BQK2R w KQkq - 2 8
+Previous fen: rnbqkb1r/1p3ppp/p2p1n2/4p3/4P3/1NN5/PPP1BPPP/R1BQK2R b KQkq - 1 7
+Previous opponent move: f8e7
+Previous own move: d4f3
+r n b q k . . r
+. p . . b p p p
+p . . p . n . .
+. . . . p . . .
+. . . . P . . .
+. N N . . . . .
+P P P . B P P P
+R . B Q K . . R
+Current phase: opening
+Calculating winning percentage... 
+Win percentage: 11.0
+Time taken to calculate win_percentage: 0.0046160221099853516
+Current King Danger: -789.1666666666663
+Own time left: 57.25
+Evaluation str: +20
+Evaluation str: +19
+Evaluation str: +19
+Evaluation str: +16
+Obvious Moves check: {20: 'd1d3', 19: 'e1g1', 16: 'c1g5'}
+Not in flagging mode. 
+Moves considering: {20: 'd1d3', 19: 'e1g1', 16: 'c1g5'}
+Non blunder evals are [16, 19, 20]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+The opposition has not attacked one of our pieces with their last move. 
+Stockfish move was not a quiet/human like move: e1g1
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.2201923076923077
+Own time remaining: 57.25
+Standard devation on time allowed: 1.145
+Phase of game recognised: opening
+Currently this position is blunder prone. 
+Weights Chosen:[10, 10, 15, 20, 15, 10]
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'a2a4': 8, 'f2f4': 13, 'f2f3': 13, 'g2g3': 14, 'g2g4': 14, 'h2h3': 15, 'a2a3': 8, 'h2h4': 15, 'c3d5': 18, 'c3a4': 18, 'b3d2': 17, 'b3a5': 17, 'b3d4': 17, 'c1g5': 2, 'e2f3': 12, 'c1e3': 2, 'c1d2': 2, 'e2f1': 12, 'e2g4': 12, 'e2h5': 12, 'e2d3': 12, 'e2c4': 12, 'c1f4': 2, 'c1h6': 2, 'e2b5': 12, 'h1f1': 7, 'h1g1': 7, 'a1b1': 0, 'd1d3': 3, 'd1d2': 3, 'd1d4': 3, 'd1d6': 3, 'e1g1': 4, 'e1f1': 4, 'e1d2': 4}
+Calculating complexity of the position... 
+Complexity calculated: 108.00000000000003
+Efficient mobility calculated: 42.5
+Time taken to calculate complexity and eff mob: 0.014678001403808594
+Move Probabilities that the engine sees: 
+a4: [0.27713818810723323, 0.3430124558508396, 0.8079537]
+Bg5: [0.14209811368077396, 0.23141664266586304, 0.61403584]
+Nd5: [0.11726900961936337, 0.1421668529510498, 0.82486886]
+Bf3: [0.04050289396588891, 0.21324564516544342, 0.18993539]
+f4: [0.040159181253263565, 0.48629137873649597, 0.08258255]
+Qd3: [0.03202768648514365, 0.11157375574111938, 0.28705394]
+Be3: [0.0203700921891663, 0.23141664266586304, 0.088023454]
+Qd2: [0.019842851351763002, 0.11157375574111938, 0.17784515]
+O-O: [0.017182491447567116, 0.3440459370613098, 0.04994243383407593]
+Bd2: [0.01686456037432693, 0.23141664266586304, 0.07287531]
+f3: [0.01303822443746383, 0.48629137873649597, 0.026811548]
+Rf1: [0.012369666146668679, 0.048167403787374496, 0.25680575]
+g3: [0.011755977094238423, 0.44484230130910873, 0.026427291]
+Rg1: [0.011096670766346739, 0.048167403787374496, 0.23037718]
+g4: [0.01016645427273763, 0.44484230130910873, 0.022854064]
+Na4: [0.010008309126988024, 0.1421668529510498, 0.07039833]
+Nd2: [0.0034547357096747777, 0.08395186811685562, 0.041151386]
+Na5: [0.003260298966091507, 0.08395186811685562, 0.038835336]
+Bf1: [0.0031705157092383474, 0.21324564516544342, 0.014867904]
+a3: [0.0023377769860005553, 0.3430124558508396, 0.006815429]
+Qd4: [0.001827629547048848, 0.11157375574111938, 0.016380461]
+Bg4: [0.0016100384285210462, 0.21324564516544342, 0.0075501585]
+h3: [0.0015141959348562162, 0.06942344829440117, 0.021811016]
+Bh5: [0.0011105685402944127, 0.21324564516544342, 0.0052079307]
+Bd3: [0.0007235295632608968, 0.21324564516544342, 0.0033929395]
+Bc4: [0.0006197778407380054, 0.21324564516544342, 0.0029064033]
+Qxd6: [0.0002908735153319686, 0.11157375574111938, 0.0026070065796375275]
+Nd4: [0.0002235923841041789, 0.08395186811685562, 0.0026633402]
+h4: [0.00018376009445406332, 0.06942344829440117, 0.0026469456]
+Rb1: [0.0001219202653188721, 0.001796369906514883, 0.067870356]
+Bf4: [7.503953257674556e-05, 0.23141664266586304, 0.0003242616]
+Bh6: [3.8852072218023906e-05, 0.23141664266586304, 0.00016788798]
+Bb5+: [2.9669292366992558e-05, 0.21324564516544342, 0.000139132]
+Kf1: [1.9408652227271423e-05, 0.3440459370613098, 5.6412967387586833e-05]
+Kd2: [1.0516640082464724e-07, 0.3440459370613098, 3.0567546218662753e-07]
+Number of moves considered from difficulty levels: 6
+Legal moves found from human search: ['a2a4', 'c1g5', 'c3d5', 'e2f3', 'f2f4', 'd1d3']
+Evaluation str: +59
+Evaluation str: +41
+Evaluation str: +40
+Moves evaluations: {59: 'e2f3', 41: 'd1d3', 40: 'a2a4'}
+Calculation time allowed: 0.6405230473949499
+Decided centipawn loss from mean -5 and stdev 20: 6.278341520697559
+Target_evaluation: 65.27834152069755
+Last 5 move times: [0.7173888876546705, 0.3033945098724048, 0.4321347858579187, 0.38505013546721656, 0.6405230473949499]
+Chosen move: e2f3, Bf3
+Move number: 8
+Current fen: rnbqk2r/1p2bppp/p2p1n2/4p3/4P3/1NN5/PPP1BPPP/R1BQK2R w KQkq - 2 8
+Previous fen: rnbqkb1r/1p3ppp/p2p1n2/4p3/4P3/1NN5/PPP1BPPP/R1BQK2R b KQkq - 1 7
+Previous opponent move: f8e7
+Previous own move: e2f3
+r n b q k . . r
+. p . . b p p p
+p . . p . n . .
+. . . . p . . .
+. . . . P . . .
+. N N . . . . .
+P P P . B P P P
+R . B Q K . . R
+Current phase: opening
+Calculating winning percentage... 
+Win percentage: 32.0
+Time taken to calculate win_percentage: 0.004019737243652344
+Current King Danger: -789.1666666666663
+Own time left: 57.25
+Evaluation str: +59
+Evaluation str: +41
+Evaluation str: +40
+Evaluation str: +34
+Obvious Moves check: {59: 'e2f3', 41: 'd1d3', 40: 'a2a4', 34: 'e1g1'}
+Not in flagging mode. 
+Moves considering: {59: 'e2f3', 41: 'd1d3', 40: 'a2a4', 34: 'e1g1'}
+Non blunder evals are [34, 40, 41, 59]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+The opposition has not attacked one of our pieces with their last move. 
+Stockfish move was not a quiet/human like move: e1g1
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.2201923076923077
+Own time remaining: 57.25
+Standard devation on time allowed: 1.145
+Phase of game recognised: opening
+Currently this position is blunder prone. 
+Weights Chosen:[10, 10, 15, 20, 15, 10]
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'a2a4': 8, 'f2f4': 13, 'f2f3': 13, 'g2g3': 14, 'g2g4': 14, 'h2h3': 15, 'a2a3': 8, 'h2h4': 15, 'c3d5': 18, 'c3a4': 18, 'b3d2': 17, 'b3a5': 17, 'b3d4': 17, 'c1g5': 2, 'e2f3': 12, 'c1e3': 2, 'c1d2': 2, 'e2f1': 12, 'e2g4': 12, 'e2h5': 12, 'e2d3': 12, 'e2c4': 12, 'c1f4': 2, 'c1h6': 2, 'e2b5': 12, 'h1f1': 7, 'h1g1': 7, 'a1b1': 0, 'd1d3': 3, 'd1d2': 3, 'd1d4': 3, 'd1d6': 3, 'e1g1': 4, 'e1f1': 4, 'e1d2': 4}
+Calculating complexity of the position... 
+Complexity calculated: 108.00000000000003
+Efficient mobility calculated: 42.5
+Time taken to calculate complexity and eff mob: 0.011950016021728516
+Move Probabilities that the engine sees: 
+a4: [0.27713818810723323, 0.3430124558508396, 0.8079537]
+Bg5: [0.14209811368077396, 0.23141664266586304, 0.61403584]
+Nd5: [0.11726900961936337, 0.1421668529510498, 0.82486886]
+Bf3: [0.04050289396588891, 0.21324564516544342, 0.18993539]
+f4: [0.040159181253263565, 0.48629137873649597, 0.08258255]
+Qd3: [0.03202768648514365, 0.11157375574111938, 0.28705394]
+Be3: [0.0203700921891663, 0.23141664266586304, 0.088023454]
+Qd2: [0.019842851351763002, 0.11157375574111938, 0.17784515]
+O-O: [0.017182491447567116, 0.3440459370613098, 0.04994243383407593]
+Bd2: [0.01686456037432693, 0.23141664266586304, 0.07287531]
+f3: [0.01303822443746383, 0.48629137873649597, 0.026811548]
+Rf1: [0.012369666146668679, 0.048167403787374496, 0.25680575]
+g3: [0.011755977094238423, 0.44484230130910873, 0.026427291]
+Rg1: [0.011096670766346739, 0.048167403787374496, 0.23037718]
+g4: [0.01016645427273763, 0.44484230130910873, 0.022854064]
+Na4: [0.010008309126988024, 0.1421668529510498, 0.07039833]
+Nd2: [0.0034547357096747777, 0.08395186811685562, 0.041151386]
+Na5: [0.003260298966091507, 0.08395186811685562, 0.038835336]
+Bf1: [0.0031705157092383474, 0.21324564516544342, 0.014867904]
+a3: [0.0023377769860005553, 0.3430124558508396, 0.006815429]
+Qd4: [0.001827629547048848, 0.11157375574111938, 0.016380461]
+Bg4: [0.0016100384285210462, 0.21324564516544342, 0.0075501585]
+h3: [0.0015141959348562162, 0.06942344829440117, 0.021811016]
+Bh5: [0.0011105685402944127, 0.21324564516544342, 0.0052079307]
+Bd3: [0.0007235295632608968, 0.21324564516544342, 0.0033929395]
+Bc4: [0.0006197778407380054, 0.21324564516544342, 0.0029064033]
+Qxd6: [0.0002908735153319686, 0.11157375574111938, 0.0026070065796375275]
+Nd4: [0.0002235923841041789, 0.08395186811685562, 0.0026633402]
+h4: [0.00018376009445406332, 0.06942344829440117, 0.0026469456]
+Rb1: [0.0001219202653188721, 0.001796369906514883, 0.067870356]
+Bf4: [7.503953257674556e-05, 0.23141664266586304, 0.0003242616]
+Bh6: [3.8852072218023906e-05, 0.23141664266586304, 0.00016788798]
+Bb5+: [2.9669292366992558e-05, 0.21324564516544342, 0.000139132]
+Kf1: [1.9408652227271423e-05, 0.3440459370613098, 5.6412967387586833e-05]
+Kd2: [1.0516640082464724e-07, 0.3440459370613098, 3.0567546218662753e-07]
+Number of moves considered from difficulty levels: 6
+Legal moves found from human search: ['a2a4', 'c1g5', 'c3d5', 'e2f3', 'f2f4', 'd1d3']
+Evaluation str: +59
+Evaluation str: +40
+Evaluation str: +38
+Moves evaluations: {59: 'e2f3', 40: 'a2a4', 38: 'd1d3'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -5 and stdev 20: 45.84352867075537
+Target_evaluation: 104.84352867075538
+Last 5 move times: [0.3033945098724048, 0.4321347858579187, 0.38505013546721656, 0.6405230473949499, 0.1]
+Chosen move: e2f3, Bf3
+Move number: 9
+Current fen: rn1qk2r/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2QK2R w KQkq - 4 9
+Previous fen: rnbqk2r/1p2bppp/p2p1n2/4p3/4P3/1NN1B3/PPP1BPPP/R2QK2R b KQkq - 3 8
+Previous opponent move: c8e6
+Previous own move: e2f3
+r n . q k . . r
+. p . . b p p p
+p . . p b n . .
+. . . . p . . .
+. . . . P . . .
+. N N . B . . .
+P P P . B P P P
+R . . Q K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: 23.0
+Time taken to calculate win_percentage: 0.012699127197265625
+Current King Danger: -884.333333333333
+Own time left: 56.75
+Evaluation str: +42
+Evaluation str: +26
+Evaluation str: +13
+Evaluation str: +6
+Obvious Moves check: {42: 'a2a3', 26: 'a2a4', 13: 'f2f4', 6: 'e1g1'}
+Not in flagging mode. 
+Moves considering: {42: 'a2a3', 26: 'a2a4', 13: 'f2f4', 6: 'e1g1'}
+Non blunder evals are [6, 13, 26, 42]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+The opposition has not attacked one of our pieces with their last move. 
+Stockfish move is a quiet, human-like retaliation move. 
+No obvious move, but to increase move time variation we play it 
+Last 5 move times: [0.4321347858579187, 0.38505013546721656, 0.6405230473949499, 0.1, 0.01]
+Chosen move: a2a4, a4
+Move number: 9
+Current fen: rn1qk2r/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2QK2R w KQkq - 4 9
+Previous fen: rnbqk2r/1p2bppp/p2p1n2/4p3/4P3/1NN1B3/PPP1BPPP/R2QK2R b KQkq - 3 8
+Previous opponent move: c8e6
+Previous own move: a2a4
+r n . q k . . r
+. p . . b p p p
+p . . p b n . .
+. . . . p . . .
+. . . . P . . .
+. N N . B . . .
+P P P . B P P P
+R . . Q K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: 32.0
+Time taken to calculate win_percentage: 0.00373077392578125
+Current King Danger: -884.333333333333
+Own time left: 56.75
+Evaluation str: +59
+Evaluation str: +42
+Evaluation str: +7
+Evaluation str: +6
+Obvious Moves check: {59: 'e2f3', 42: 'a2a3', 7: 'a2a4', 6: 'e1g1'}
+Not in flagging mode. 
+Moves considering: {59: 'e2f3', 42: 'a2a3', 7: 'a2a4', 6: 'e1g1'}
+Non blunder evals are [6, 7, 42, 59]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+The opposition has not attacked one of our pieces with their last move. 
+Stockfish move is a quiet, human-like retaliation move. 
+No obvious move, but to increase move time variation we play it 
+Last 5 move times: [0.38505013546721656, 0.6405230473949499, 0.1, 0.01, 0.01]
+Chosen move: a2a4, a4
+Evaluation str: +180
+Found premove! In response to e6b3, axb3
+Move number: 10
+Current fen: r2qk2r/1p1nbppp/p2pbn2/4p3/4P3/1NN1B3/PPPQBPPP/R3K2R w KQkq - 6 10
+Previous fen: rn1qk2r/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPPQBPPP/R3K2R b KQkq - 5 9
+Previous opponent move: b8d7
+Previous own move: a2a4
+r . . q k . . r
+. p . n b p p p
+p . . p b n . .
+. . . . p . . .
+. . . . P . . .
+. N N . B . . .
+P P P Q B P P P
+R . . . K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: 1.0
+Time taken to calculate win_percentage: 0.007573843002319336
+Current King Danger: -1071.6666666666663
+Own time left: 56.58
+Evaluation str: +2
+Evaluation str: -2
+Evaluation str: -3
+Evaluation str: -4
+Obvious Moves check: {2: 'f2f3', -2: 'e1g1', -3: 'e1c1', -4: 'a2a4'}
+Not in flagging mode. 
+Moves considering: {2: 'f2f3', -2: 'e1g1', -3: 'e1c1', -4: 'a2a4'}
+Non blunder evals are [-4, -3, -2, 2]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+The opposition has not attacked one of our pieces with their last move. 
+Stockfish move is a quiet, human-like retaliation move. 
+No obvious move, but to increase move time variation we play it 
+Last 5 move times: [0.6405230473949499, 0.1, 0.01, 0.01, 0.01]
+Chosen move: f2f3, f3
+Move number: 10
+Current fen: r2qk2r/1p1nbppp/p2pbn2/4p3/4P3/1NN1B3/PPPQBPPP/R3K2R w KQkq - 6 10
+Previous fen: rn1qk2r/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPPQBPPP/R3K2R b KQkq - 5 9
+Previous opponent move: b8d7
+Previous own move: f2f3
+r . . q k . . r
+. p . n b p p p
+p . . p b n . .
+. . . . p . . .
+. . . . P . . .
+. N N . B . . .
+P P P Q B P P P
+R . . . K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: 9.0
+Time taken to calculate win_percentage: 0.0052187442779541016
+Current King Danger: -1071.6666666666663
+Own time left: 56.58
+Evaluation str: +16
+Evaluation str: -2
+Evaluation str: -4
+Evaluation str: -4
+Obvious Moves check: {16: 'e1g1', -2: 'a2a4', -4: 'h2h3'}
+Not in flagging mode. 
+Moves considering: {16: 'e1g1', -2: 'a2a4', -4: 'h2h3'}
+Non blunder evals are [-4, -2, 16]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.2571818181818182
+Own time remaining: 56.58
+Standard devation on time allowed: 1.1316
+Phase of game recognised: midgame
+Currently this position is blunder prone. 
+Weights Chosen:[10, 10, 15, 20, 15, 10]
+Used midgame move_to models! 
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'f2f4': 13, 'g2g4': 14, 'a2a4': 8, 'h2h3': 15, 'f2f3': 13, 'a2a3': 8, 'h2h4': 15, 'g2g3': 14, 'c3d5': 18, 'b3a5': 17, 'c3d1': 18, 'c3a4': 18, 'b3c1': 17, 'b3d4': 17, 'b3c5': 17, 'e2f3': 12, 'e2d3': 12, 'e3a7': 20, 'e3h6': 20, 'e3g5': 20, 'e3b6': 20, 'e2c4': 12, 'e2h5': 12, 'e2g4': 12, 'e2b5': 12, 'e2d1': 12, 'e2a6': 12, 'e3d4': 20, 'a1d1': 0, 'a1c1': 0, 'h1g1': 7, 'a1b1': 0, 'h1f1': 7, 'd2d1': 11, 'd2d6': 11, 'd2c1': 11, 'd2d4': 11, 'd2d3': 11, 'e1c1': 4, 'e1g1': 4, 'e1d1': 4, 'e1f1': 4}
+Calculating complexity of the position... 
+Complexity calculated: 100.8
+Efficient mobility calculated: 27.083333333333332
+Time taken to calculate complexity and eff mob: 0.01457667350769043
+Move Probabilities that the engine sees: 
+f4: [0.3761232419000251, 1.4208118915557861, 0.26472417]
+a4: [0.191542562488074, 0.9418252110481262, 0.20337379]
+Bf3: [0.11695161599568404, 0.2094627171754837, 0.55834097]
+g4: [0.08474031211494815, 0.3391011357307434, 0.24989687]
+f3: [0.06728951252946391, 1.4208118915557861, 0.047359902]
+Rd1: [0.050286144229747975, 0.05737810581922531, 0.8763995]
+Bd3: [0.04015761344043467, 0.2094627171754837, 0.19171724]
+h3: [0.03723080617914043, 0.22219769656658173, 0.16755712]
+a3: [0.025659266519303392, 0.9418252110481262, 0.027244192]
+Nd5: [0.021658941188617442, 0.0552031435072422, 0.39234978]
+O-O-O: [0.018611780383906762, 0.38896024227142334, 0.04785008430480957]
+Na5: [0.016557017314068334, 0.10909684002399445, 0.15176441]
+Nc1: [0.011422062709159353, 0.10909684002399445, 0.10469655]
+Nd1: [0.007350452183757072, 0.0552031435072422, 0.13315278]
+Na4: [0.00669695673919482, 0.0552031435072422, 0.12131477]
+g3: [0.005510089441838395, 0.3391011357307434, 0.016249103]
+Ba7: [0.005166326886686501, 0.05858872830867767, 0.088179536]
+h4: [0.004100150796987612, 0.22219769656658173, 0.018452715]
+Bh6: [0.0032711041883818903, 0.05858872830867767, 0.05583163]
+Qd1: [0.002694374932078958, 0.08629630506038666, 0.03122236728668213]
+Qd4: [0.002281863670742096, 0.08629630506038666, 0.026442194]
+Bc4: [0.0022466704170177876, 0.2094627171754837, 0.010725873]
+Qd3: [0.001897074136107152, 0.08629630506038666, 0.02198326]
+Bg5: [0.0018806553697118256, 0.05858872830867767, 0.03209927]
+Qxd6: [0.0018105267419682436, 0.08629630506038666, 0.0209803506731987]
+Bh5: [0.0017732457626069842, 0.2094627171754837, 0.008465687]
+Bb6: [0.0017492056528434219, 0.05858872830867767, 0.029855669]
+Nd4: [0.0012164417212792017, 0.10909684002399445, 0.01115011]
+O-O: [0.0008357337118642949, 0.38896024227142334, 0.0021486353129148484]
+Bg4: [0.0006914921218311755, 0.2094627171754837, 0.0033012659]
+Bb5: [0.0006615575501618329, 0.2094627171754837, 0.0031583547]
+Nc5: [0.0006101701400930762, 0.10909684002399445, 0.005592922]
+Bd1: [0.0004665579802121296, 0.2094627171754837, 0.0022274035]
+Rc1: [0.00032726512731472975, 0.05737810581922531, 0.0057036586105823515]
+Qc1: [0.00022495095632961147, 0.08629630506038666, 0.0026067275553941726]
+Bxa6: [0.0002000650583337685, 0.2094627171754837, 0.0009551344555802643]
+Rg1: [0.0001724316933352562, 0.057948920875787735, 0.0029755807]
+Rb1: [0.00010722928115135342, 0.05737810581922531, 0.0018688188]
+Bd4: [0.00010411374733790106, 0.05858872830867767, 0.0017770269]
+Rf1: [5.954486525194553e-05, 0.057948920875787735, 0.0010275405]
+Kd1: [2.4938858774321794e-07, 0.38896024227142334, 6.411672984540928e-07]
+Kf1: [5.674450275509397e-08, 0.38896024227142334, 1.4588766816814314e-07]
+Number of moves considered from difficulty levels: 6
+Legal moves found from human search: ['f2f4', 'a2a4', 'e2f3', 'g2g4', 'f2f3', 'a1d1']
+Evaluation str: +49
+Evaluation str: +42
+Evaluation str: +12
+Moves evaluations: {49: 'f2f3', 42: 'f2f4', 12: 'a2a4'}
+Calculation time allowed: 0.6505909562263643
+Decided centipawn loss from mean -5 and stdev 20: -32.01692464803646
+Target_evaluation: 16.983075351963542
+Last 5 move times: [0.1, 0.01, 0.01, 0.01, 0.6505909562263643]
+Chosen move: a2a4, a4
+Move number: 10
+Current fen: r2qk2r/1p1nbppp/p2pbn2/4p3/4P3/1NN1B3/PPPQBPPP/R3K2R w KQkq - 6 10
+Previous fen: rn1qk2r/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPPQBPPP/R3K2R b KQkq - 5 9
+Previous opponent move: b8d7
+Previous own move: a2a4
+r . . q k . . r
+. p . n b p p p
+p . . p b n . .
+. . . . p . . .
+. . . . P . . .
+. N N . B . . .
+P P P Q B P P P
+R . . . K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: 27.0
+Time taken to calculate win_percentage: 0.004544258117675781
+Current King Danger: -1071.6666666666663
+Own time left: 55.71
+Evaluation str: +49
+Evaluation str: +42
+Evaluation str: +18
+Evaluation str: +12
+Obvious Moves check: {49: 'f2f3', 42: 'f2f4', 18: 'e1c1', 12: 'a2a4'}
+Not in flagging mode. 
+Moves considering: {49: 'f2f3', 42: 'f2f4', 18: 'e1c1', 12: 'a2a4'}
+Non blunder evals are [12, 18, 42, 49]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.25322727272727275
+Own time remaining: 55.71
+Standard devation on time allowed: 1.1142
+Phase of game recognised: midgame
+Currently this position is blunder prone. 
+Weights Chosen:[10, 10, 15, 20, 15, 10]
+Used midgame move_to models! 
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'f2f4': 13, 'g2g4': 14, 'a2a4': 8, 'h2h3': 15, 'f2f3': 13, 'a2a3': 8, 'h2h4': 15, 'g2g3': 14, 'c3d5': 18, 'b3a5': 17, 'c3d1': 18, 'c3a4': 18, 'b3c1': 17, 'b3d4': 17, 'b3c5': 17, 'e2f3': 12, 'e2d3': 12, 'e3a7': 20, 'e3h6': 20, 'e3g5': 20, 'e3b6': 20, 'e2c4': 12, 'e2h5': 12, 'e2g4': 12, 'e2b5': 12, 'e2d1': 12, 'e2a6': 12, 'e3d4': 20, 'a1d1': 0, 'a1c1': 0, 'h1g1': 7, 'a1b1': 0, 'h1f1': 7, 'd2d1': 11, 'd2d6': 11, 'd2c1': 11, 'd2d4': 11, 'd2d3': 11, 'e1c1': 4, 'e1g1': 4, 'e1d1': 4, 'e1f1': 4}
+Calculating complexity of the position... 
+Complexity calculated: 108.0
+Efficient mobility calculated: 29.166666666666668
+Time taken to calculate complexity and eff mob: 0.012033462524414062
+Move Probabilities that the engine sees: 
+f4: [0.3761232419000251, 1.4208118915557861, 0.26472417]
+a4: [0.191542562488074, 0.9418252110481262, 0.20337379]
+Bf3: [0.11695161599568404, 0.2094627171754837, 0.55834097]
+g4: [0.08474031211494815, 0.3391011357307434, 0.24989687]
+f3: [0.06728951252946391, 1.4208118915557861, 0.047359902]
+Rd1: [0.050286144229747975, 0.05737810581922531, 0.8763995]
+Bd3: [0.04015761344043467, 0.2094627171754837, 0.19171724]
+h3: [0.03723080617914043, 0.22219769656658173, 0.16755712]
+a3: [0.025659266519303392, 0.9418252110481262, 0.027244192]
+Nd5: [0.021658941188617442, 0.0552031435072422, 0.39234978]
+O-O-O: [0.018611780383906762, 0.38896024227142334, 0.04785008430480957]
+Na5: [0.016557017314068334, 0.10909684002399445, 0.15176441]
+Nc1: [0.011422062709159353, 0.10909684002399445, 0.10469655]
+Nd1: [0.007350452183757072, 0.0552031435072422, 0.13315278]
+Na4: [0.00669695673919482, 0.0552031435072422, 0.12131477]
+g3: [0.005510089441838395, 0.3391011357307434, 0.016249103]
+Ba7: [0.005166326886686501, 0.05858872830867767, 0.088179536]
+h4: [0.004100150796987612, 0.22219769656658173, 0.018452715]
+Bh6: [0.0032711041883818903, 0.05858872830867767, 0.05583163]
+Qd1: [0.002694374932078958, 0.08629630506038666, 0.03122236728668213]
+Qd4: [0.002281863670742096, 0.08629630506038666, 0.026442194]
+Bc4: [0.0022466704170177876, 0.2094627171754837, 0.010725873]
+Qd3: [0.001897074136107152, 0.08629630506038666, 0.02198326]
+Bg5: [0.0018806553697118256, 0.05858872830867767, 0.03209927]
+Qxd6: [0.0018105267419682436, 0.08629630506038666, 0.0209803506731987]
+Bh5: [0.0017732457626069842, 0.2094627171754837, 0.008465687]
+Bb6: [0.0017492056528434219, 0.05858872830867767, 0.029855669]
+Nd4: [0.0012164417212792017, 0.10909684002399445, 0.01115011]
+O-O: [0.0008357337118642949, 0.38896024227142334, 0.0021486353129148484]
+Bg4: [0.0006914921218311755, 0.2094627171754837, 0.0033012659]
+Bb5: [0.0006615575501618329, 0.2094627171754837, 0.0031583547]
+Nc5: [0.0006101701400930762, 0.10909684002399445, 0.005592922]
+Bd1: [0.0004665579802121296, 0.2094627171754837, 0.0022274035]
+Rc1: [0.00032726512731472975, 0.05737810581922531, 0.0057036586105823515]
+Qc1: [0.00022495095632961147, 0.08629630506038666, 0.0026067275553941726]
+Bxa6: [0.0002000650583337685, 0.2094627171754837, 0.0009551344555802643]
+Rg1: [0.0001724316933352562, 0.057948920875787735, 0.0029755807]
+Rb1: [0.00010722928115135342, 0.05737810581922531, 0.0018688188]
+Bd4: [0.00010411374733790106, 0.05858872830867767, 0.0017770269]
+Rf1: [5.954486525194553e-05, 0.057948920875787735, 0.0010275405]
+Kd1: [2.4938858774321794e-07, 0.38896024227142334, 6.411672984540928e-07]
+Kf1: [5.674450275509397e-08, 0.38896024227142334, 1.4588766816814314e-07]
+Number of moves considered from difficulty levels: 6
+Legal moves found from human search: ['f2f4', 'a2a4', 'e2f3', 'g2g4', 'f2f3', 'a1d1']
+Evaluation str: +70
+Evaluation str: +35
+Evaluation str: +21
+Moves evaluations: {70: 'f2f4', 35: 'f2f3', 21: 'a2a4'}
+Calculation time allowed: 1.377093086811279
+Decided centipawn loss from mean -5 and stdev 20: 5.4919236755224805
+Target_evaluation: 75.49192367552249
+Last 5 move times: [0.01, 0.01, 0.01, 0.6505909562263643, 1.377093086811279]
+Chosen move: f2f4, f4
+Evaluation str: +74
+Found premove! In response to e5f4, Bxf4
+Move number: 11
+Current fen: 2rqk2r/1p1nbppp/p2pbn2/4p3/4PP2/1NN1B3/PPPQB1PP/R3K2R w KQk - 1 11
+Previous fen: r2qk2r/1p1nbppp/p2pbn2/4p3/4PP2/1NN1B3/PPPQB1PP/R3K2R b KQkq - 0 10
+Previous opponent move: a8c8
+Previous own move: f2f4
+. . r q k . . r
+. p . n b p p p
+p . . p b n . .
+. . . . p . . .
+. . . . P P . .
+. N N . B . . .
+P P P Q B . P P
+R . . . K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: 30.0
+Time taken to calculate win_percentage: 0.004648923873901367
+Current King Danger: -885.833333333333
+Own time left: 54.66
+Evaluation str: +55
+Evaluation str: +8
+Evaluation str: -9
+Evaluation str: -17
+Obvious Moves check: {55: 'e1g1', 8: 'f4f5', -9: 'e1c1', -17: 'd2d3'}
+Not in flagging mode. 
+Moves considering: {55: 'e1g1', 8: 'f4f5', -9: 'e1c1', -17: 'd2d3'}
+Non blunder evals are [-17, -9, 8, 55]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.24845454545454543
+Own time remaining: 54.66
+Standard devation on time allowed: 1.0932
+Phase of game recognised: midgame
+Currently this position is blunder prone. 
+Weights Chosen:[10, 10, 15, 20, 15, 10]
+Used midgame move_to models! 
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'f4f5': 29, 'g2g4': 14, 'h2h3': 15, 'f4e5': 29, 'g2g3': 14, 'a2a4': 8, 'a2a3': 8, 'h2h4': 15, 'c3d1': 18, 'b3a5': 17, 'c3d5': 18, 'c3a4': 18, 'b3c1': 17, 'b3c5': 17, 'e2f3': 12, 'e2d3': 12, 'e3f2': 20, 'e3b6': 20, 'e3a7': 20, 'e2h5': 12, 'e2g4': 12, 'e2c4': 12, 'e3g1': 20, 'e2d1': 12, 'e2a6': 12, 'e2b5': 12, 'e3d4': 20, 'a1d1': 0, 'a1c1': 0, 'h1g1': 7, 'h1f1': 7, 'a1b1': 0, 'd2d1': 11, 'd2d6': 11, 'd2d3': 11, 'd2d4': 11, 'd2c1': 11, 'e1c1': 4, 'e1g1': 4, 'e1f2': 4, 'e1d1': 4, 'e1f1': 4}
+Calculating complexity of the position... 
+Complexity calculated: 36.0
+Efficient mobility calculated: 8.333333333333334
+Time taken to calculate complexity and eff mob: 0.014028787612915039
+Move Probabilities that the engine sees: 
+f5: [12.025907007756047, 4.764438152313232, 2.5240976214408875]
+Rd1: [0.0646840486222362, 0.07664491981267929, 0.8439444]
+Bf3: [0.045341278101005855, 0.09850141406059265, 0.46031094]
+g4: [0.03810560447525946, 0.4979206919670105, 0.076529466]
+fxe5: [0.03805790736175663, 2.382219076156616, 0.015975822]
+Bd3: [0.02911343924417853, 0.09850141406059265, 0.29556367]
+O-O-O: [0.018539101281305648, 0.3936576843261719, 0.047094473242759706]
+Nd1: [0.008283859926590142, 0.025422921404242516, 0.32584217]
+g3: [0.007873786164606877, 0.4979206919670105, 0.015813334]
+Nd5: [0.0035667583569088668, 0.025422921404242516, 0.14029695]
+h3: [0.0027724457602427838, 0.08655199036002159, 0.032032143]
+Qd3: [0.0022288621377290763, 0.04853331670165062, 0.045924373]
+a4: [0.0021994688844186264, 0.30976559594273567, 0.00710043]
+a3: [0.0018833373800181633, 0.30976559594273567, 0.006079879]
+Na4: [0.0018397910995050781, 0.025422921404242516, 0.072367415]
+Bf2: [0.0016831820624420013, 0.012306837365031242, 0.13676804]
+Qxd6: [0.001680408656923038, 0.04853331670165062, 0.03462381660938263]
+Qd4: [0.0013632698662359652, 0.04853331670165062, 0.028089361]
+Na5: [0.001233772551305412, 0.008752400055527687, 0.14096391]
+Bh5: [0.0012112291202121817, 0.09850141406059265, 0.012296566]
+O-O: [0.0011378842756855079, 0.3936576843261719, 0.002890542522072792]
+Qd1: [0.0010550066900909371, 0.04853331670165062, 0.021737782657146452]
+Bg4: [0.001051916238025613, 0.09850141406059265, 0.010679199]
+Bc4: [0.0006188487558680539, 0.09850141406059265, 0.0062826383]
+Nc1: [0.0006036344664007709, 0.008752400055527687, 0.06896788]
+Rc1: [0.000519100468384981, 0.07664491981267929, 0.0067727968096733095]
+Bd1: [0.00035661546897449575, 0.09850141406059265, 0.0036204096]
+Bb6: [0.0003222047738626263, 0.012306837365031242, 0.026180957]
+Ba7: [0.0003030694129989679, 0.012306837365031242, 0.0246261]
+Rg1: [0.00029997558400292335, 0.040038421750068665, 0.007492193]
+Bb5: [0.00024296298401269012, 0.09850141406059265, 0.0024665939]
+Rf1: [0.00018857725655267027, 0.040038421750068665, 0.0047099073]
+h4: [0.00014791820578956847, 0.08655199036002159, 0.0017090099]
+Bxa6: [0.00014624469525227266, 0.09850141406059265, 0.0014846964040771127]
+Nc5: [0.0001022363265689892, 0.008752400055527687, 0.011680948]
+Rb1: [9.814912660617743e-05, 0.07664491981267929, 0.0012805692]
+Bg1: [6.595013009067386e-05, 0.012306837365031242, 0.0053588203]
+Bd4: [2.039964515931957e-05, 0.012306837365031242, 0.0016575863]
+Qc1: [1.2236376259677599e-05, 0.04853331670165062, 0.0002521232236176729]
+Kf2: [4.860100865311523e-06, 0.3936576843261719, 1.2346007861196994e-05]
+Kd1: [5.516085093103251e-07, 0.3936576843261719, 1.4012390238349327e-06]
+Kf1: [3.358380322524956e-08, 0.3936576843261719, 8.531220032637066e-08]
+Number of moves considered from difficulty levels: 4
+Legal moves found from human search: ['f4f5', 'a1d1', 'e2f3', 'g2g4']
+Evaluation str: +40
+Evaluation str: +28
+Evaluation str: +22
+Moves evaluations: {40: 'f4f5', 28: 'a1d1', 22: 'e2f3'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -5 and stdev 20: 31.066211766522883
+Target_evaluation: 71.06621176652288
+Last 5 move times: [0.01, 0.01, 0.6505909562263643, 1.377093086811279, 0.1]
+Chosen move: f4f5, f5
+Evaluation str: +80
+Found premove! In response to e6b3, axb3
+Move number: 12
+Current fen: 2rqk2r/1p1nbppp/p2p1n2/4pP2/2b1P3/1NN1B3/PPPQB1PP/R3K2R w KQk - 1 12
+Previous fen: 2rqk2r/1p1nbppp/p2pbn2/4pP2/4P3/1NN1B3/PPPQB1PP/R3K2R b KQk - 0 11
+Previous opponent move: e6c4
+Previous own move: f4f5
+. . r q k . . r
+. p . n b p p p
+p . . p . n . .
+. . . . p P . .
+. . b . P . . .
+. N N . B . . .
+P P P Q B . P P
+R . . . K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: 22.0
+Time taken to calculate win_percentage: 0.004003763198852539
+Current King Danger: -925.333333333333
+Own time left: 52.79
+Evaluation str: +40
+Evaluation str: +29
+Evaluation str: +25
+Evaluation str: +15
+Obvious Moves check: {40: 'e2c4', 29: 'e2f3', 25: 'a1b1', 15: 'e1g1'}
+Not in flagging mode. 
+Moves considering: {40: 'e2c4', 29: 'e2f3', 25: 'a1b1', 15: 'e1g1'}
+Non blunder evals are [15, 25, 29, 40]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.23995454545454545
+Own time remaining: 52.79
+Standard devation on time allowed: 1.0558
+Phase of game recognised: midgame
+Currently this position is blunder prone. 
+Weights Chosen:[10, 10, 15, 20, 15, 10]
+Used midgame move_to models! 
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'g2g4': 14, 'a2a4': 8, 'h2h3': 15, 'h2h4': 15, 'g2g3': 14, 'a2a3': 8, 'b3a5': 17, 'c3d1': 18, 'b3c1': 17, 'c3d5': 18, 'c3a4': 18, 'e2c4': 12, 'e2f3': 12, 'e3f2': 20, 'e3g5': 20, 'e3a7': 20, 'e2d3': 12, 'e3h6': 20, 'e3b6': 20, 'e2h5': 12, 'e2d1': 12, 'e3d4': 20, 'e2g4': 12, 'a1d1': 0, 'a1c1': 0, 'h1g1': 7, 'h1f1': 7, 'a1b1': 0, 'd2d1': 11, 'd2d4': 11, 'd2d6': 11, 'd2c1': 11, 'e1c1': 4, 'e1g1': 4, 'e1f2': 4, 'e1d1': 4, 'e1f1': 4}
+Calculating complexity of the position... 
+Complexity calculated: 126.9
+Efficient mobility calculated: 36.170212765957444
+Time taken to calculate complexity and eff mob: 0.013070821762084961
+Move Probabilities that the engine sees: 
+Bxc4: [0.18368919314040966, 0.24248507618904114, 0.7575278]
+g4: [0.1149997817037659, 0.14953611977398396, 0.7690435]
+a4: [0.10426846062298434, 0.7137311324477196, 0.14608927]
+Na5: [0.03369666386851122, 0.12158897519111633, 0.27713585]
+Rd1: [0.033687100779204115, 0.03835576772689819, 0.8782799]
+Qd4: [0.01921300716086849, 0.20370343327522278, 0.094318524]
+O-O-O: [0.018912730646991702, 0.39697104692459106, 0.04764259457588196]
+Bf3: [0.01803504159399738, 0.24248507618904114, 0.07437588]
+Nc1: [0.015420777830378096, 0.12158897519111633, 0.1268271]
+Nd1: [0.010351546875851048, 0.050074800848960876, 0.20672168]
+a3: [0.0073474644577267295, 0.7137311324477196, 0.010294443]
+Bf2: [0.004108635829281643, 0.07797902077436447, 0.05268899]
+Qd1: [0.0036847211622303092, 0.20370343327522278, 0.018088655173778535]
+Bd3: [0.003453561645690828, 0.24248507618904114, 0.014242368]
+Bg5: [0.0032949305525571126, 0.07797902077436447, 0.042254064]
+h3: [0.0029917029639537386, 0.07973312679678202, 0.037521455]
+Qxd6: [0.002875280946106747, 0.20370343327522278, 0.014115034292141596]
+Ba7: [0.0028478371650265677, 0.07797902077436447, 0.036520556]
+Rg1: [0.0024973735190126634, 0.05897242948412895, 0.042348154]
+Nd5: [0.002274815980666589, 0.050074800848960876, 0.045428358]
+g3: [0.0021119888947614684, 0.14953611977398396, 0.014123604]
+h4: [0.0015109668444683207, 0.07973312679678202, 0.018950302]
+Na4: [0.0013237724517766725, 0.050074800848960876, 0.0264359]
+O-O: [0.0009282257506088576, 0.39697104692459106, 0.0023382706567645073]
+Bh6: [0.0007682452856856911, 0.07797902077436447, 0.009851948]
+Bh5: [0.00034474633959919593, 0.24248507618904114, 0.0014217219]
+Bb6: [0.0003110904036378731, 0.07797902077436447, 0.0039894115]
+Bd1: [0.0003021435891604231, 0.24248507618904114, 0.0012460296]
+Bg4: [0.0002724067036500577, 0.24248507618904114, 0.0011233957]
+Bd4: [9.557324990301826e-05, 0.07797902077436447, 0.0012256277]
+Rc1: [8.763964759043175e-05, 0.03835576772689819, 0.002284914441406727]
+Rb1: [6.381829918428866e-05, 0.03835576772689819, 0.0016638514]
+Qc1: [6.278367372037976e-05, 0.20370343327522278, 0.0003082111710682511]
+Rf1: [3.0113358722536587e-05, 0.05897242948412895, 0.0005106345284730196]
+Kf2: [6.692271704015086e-06, 0.39697104692459106, 1.685833703959361e-05]
+Kd1: [4.4082643241217426e-07, 0.39697104692459106, 1.1104750228696502e-06]
+Kf1: [5.352239124835397e-08, 0.39697104692459106, 1.3482693930200185e-07]
+Number of moves considered from difficulty levels: 6
+Legal moves found from human search: ['e2c4', 'g2g4', 'a2a4', 'b3a5', 'a1d1', 'd2d4']
+Evaluation str: +72
+Evaluation str: +37
+Evaluation str: -8
+Moves evaluations: {72: 'e2c4', 37: 'a1d1', -8: 'a2a4'}
+Calculation time allowed: 0.4606780386604403
+Decided centipawn loss from mean -5 and stdev 20: 10.325561709037752
+Target_evaluation: 82.32556170903776
+Last 5 move times: [0.01, 0.6505909562263643, 1.377093086811279, 0.1, 0.4606780386604403]
+Chosen move: e2c4, Bxc4
+Move number: 13
+Current fen: 3qk2r/1p1nbppp/p2p1n2/4pP2/2r1P3/1NN1B3/PPPQ2PP/R3K2R w KQk - 0 13
+Previous fen: 2rqk2r/1p1nbppp/p2p1n2/4pP2/2B1P3/1NN1B3/PPPQ2PP/R3K2R b KQk - 0 12
+Previous opponent move: c8c4
+Previous own move: e2c4
+. . . q k . . r
+. p . n b p p p
+p . . p . n . .
+. . . . p P . .
+. . r . P . . .
+. N N . B . . .
+P P P Q . . P P
+R . . . K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: 42.0
+Time taken to calculate win_percentage: 0.005610227584838867
+Current King Danger: -890.6666666666663
+Own time left: 51.14
+Evaluation str: +72
+Evaluation str: +6
+Evaluation str: -30
+Evaluation str: -107
+Obvious Moves check: {72: 'd2d3', 6: 'e1g1', -30: 'e1c1', -107: 'd2e2'}
+Not in flagging mode. 
+Moves considering: {72: 'd2d3', 6: 'e1g1', -30: 'e1c1', -107: 'd2e2'}
+Non blunder evals are [6, 72]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.23245454545454547
+Own time remaining: 51.14
+Standard devation on time allowed: 1.0228
+Phase of game recognised: midgame
+Currently this position is blunder prone. 
+Weights Chosen:[10, 10, 15, 20, 15, 10]
+Used midgame move_to models! 
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'g2g4': 14, 'a2a4': 8, 'h2h3': 15, 'g2g3': 14, 'a2a3': 8, 'h2h4': 15, 'c3d1': 18, 'b3a5': 17, 'c3d5': 18, 'c3e2': 18, 'c3a4': 18, 'b3c1': 17, 'e3f2': 20, 'e3a7': 20, 'e3g5': 20, 'e3b6': 20, 'e3h6': 20, 'e3d4': 20, 'e3g1': 20, 'a1d1': 0, 'h1g1': 7, 'h1f1': 7, 'a1c1': 0, 'a1b1': 0, 'd2e2': 11, 'd2f2': 11, 'd2d1': 11, 'd2d3': 11, 'd2d6': 11, 'd2c1': 11, 'e1c1': 4, 'e1g1': 4, 'e1e2': 4, 'e1f2': 4, 'e1d1': 4, 'e1f1': 4}
+Calculating complexity of the position... 
+Complexity calculated: 18.48
+Efficient mobility calculated: 4.545454545454546
+Time taken to calculate complexity and eff mob: 0.020100831985473633
+Move Probabilities that the engine sees: 
+Qe2: [1.1212816736713371, 0.26648297905921936, 4.207704663276672]
+a4: [0.21320616341393706, 0.5721337348222733, 0.37265092]
+Rd1: [0.0718304816612374, 0.10218413174152374, 0.70295143]
+Qd3: [0.06616965457837895, 0.26648297905921936, 0.24830724578350782]
+g4: [0.055504835640933226, 0.11491858586668968, 0.48299268]
+Nd1: [0.031198712147992858, 0.12231454253196716, 0.25506952]
+Na5: [0.027730788311571053, 0.11990488320589066, 0.23127322]
+O-O-O: [0.02044166789291424, 0.42364537715911865, 0.048251837491989136]
+Qf2: [0.017843706101376977, 0.26648297905921936, 0.06696002]
+Nd5: [0.016714648101274765, 0.12231454253196716, 0.13665299]
+Ne2: [0.014881262231980497, 0.12231454253196716, 0.12166388]
+Bf2: [0.009683434054871487, 0.023260448127985, 0.4163047]
+Rg1: [0.00967513594241276, 0.09120503067970276, 0.106081165]
+a3: [0.008147303434544381, 0.5721337348222733, 0.014240208]
+h3: [0.0076021271051305295, 0.09229423105716705, 0.08236839]
+Ba7: [0.005601095649583554, 0.023260448127985, 0.24079913]
+Na4: [0.005023647278446508, 0.12231454253196716, 0.041071545]
+Nc1: [0.0038068381188857137, 0.11990488320589066, 0.031748816]
+Bg5: [0.0031773717301172844, 0.023260448127985, 0.13659976]
+g3: [0.0021571507124464526, 0.11491858586668968, 0.018771121]
+Bd4: [0.001783449165292817, 0.023260448127985, 0.07667303550988436]
+Bb6: [0.0017829882420580534, 0.023260448127985, 0.07665322]
+h4: [0.0012620032336299464, 0.09229423105716705, 0.013673696]
+Rb1: [0.001029182239463633, 0.10218413174152374, 0.01007184]
+Bh6: [0.0007173692072463753, 0.023260448127985, 0.03084073]
+O-O: [0.00071459353733061, 0.42364537715911865, 0.0016867728903889657]
+Qd1: [0.0005242239473926269, 0.26648297905921936, 0.001967194862663746]
+Rf1: [0.0004614963654899329, 0.09120503067970276, 0.005059988051652908]
+Qxd6: [0.0002956880837293406, 0.26648297905921936, 0.0011095946344236534]
+Rc1: [0.0002040293143052152, 0.10218413174152374, 0.001996682956814766]
+Bg1: [2.621812844636742e-05, 0.023260448127985, 0.0011271549]
+Qc1: [2.1770602874844613e-05, 0.26648297905921936, 8.169603534042835e-05]
+Ke2: [1.7455194153784617e-05, 0.42364537715911865, 4.1202371357940136e-05]
+Kf2: [6.140455448011735e-06, 0.42364537715911865, 1.4494328934233635e-05]
+Kd1: [1.8235022298987002e-06, 0.42364537715911865, 4.304312824388035e-06]
+Kf1: [1.835921901432579e-07, 0.42364537715911865, 4.333629021857632e-07]
+Number of moves considered from difficulty levels: 4
+Legal moves found from human search: ['d2e2', 'a2a4', 'a1d1', 'd2d3']
+Evaluation str: +52
+Evaluation str: +20
+Evaluation str: +14
+Moves evaluations: {52: 'd2d3', 20: 'd2e2', 14: 'a2a4'}
+Calculation time allowed: 0.16004421728008533
+Decided centipawn loss from mean -5 and stdev 20: -8.1059383454683
+Target_evaluation: 43.8940616545317
+Last 5 move times: [0.6505909562263643, 1.377093086811279, 0.1, 0.4606780386604403, 0.16004421728008533]
+Chosen move: d2d3, Qd3
+Move number: 14
+Current fen: 2rqk2r/1p1nbppp/p2p1n2/4pP2/4P3/1NNQB3/PPP3PP/R3K2R w KQk - 2 14
+Previous fen: 3qk2r/1p1nbppp/p2p1n2/4pP2/2r1P3/1NNQB3/PPP3PP/R3K2R b KQk - 1 13
+Previous opponent move: c4c8
+Previous own move: d2d3
+. . r q k . . r
+. p . n b p p p
+p . . p . n . .
+. . . . p P . .
+. . . . P . . .
+. N N Q B . . .
+P P P . . . P P
+R . . . K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: 30.0
+Time taken to calculate win_percentage: 0.005007743835449219
+Current King Danger: -770.1666666666665
+Own time left: 49.68
+Evaluation str: +51
+Evaluation str: +43
+Evaluation str: +39
+Evaluation str: +29
+Obvious Moves check: {51: 'e1c1', 43: 'h2h3', 39: 'e1g1', 29: 'e3d2'}
+Not in flagging mode. 
+Moves considering: {51: 'e1c1', 43: 'h2h3', 39: 'e1g1', 29: 'e3d2'}
+Non blunder evals are [29, 39, 43, 51]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+The opposition has not attacked one of our pieces with their last move. 
+Stockfish move is a quiet, human-like retaliation move. 
+No obvious move, but to increase move time variation we play it 
+Last 5 move times: [1.377093086811279, 0.1, 0.4606780386604403, 0.16004421728008533, 0.01]
+Chosen move: e3d2, Bd2
+Move number: 15
+Current fen: 2r1k2r/1pqnbppp/p2p1n2/4pP2/4P3/1NNQ4/PPPB2PP/R3K2R w KQk - 4 15
+Previous fen: 2rqk2r/1p1nbppp/p2p1n2/4pP2/4P3/1NNQ4/PPPB2PP/R3K2R b KQk - 3 14
+Previous opponent move: d8c7
+Previous own move: e3d2
+. . r . k . . r
+. p q n b p p p
+p . . p . n . .
+. . . . p P . .
+. . . . P . . .
+. N N Q . . . .
+P P P B . . P P
+R . . . K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: 21.0
+Time taken to calculate win_percentage: 0.00879979133605957
+Current King Danger: -734.6666666666663
+Own time left: 49.33
+Evaluation str: +35
+Evaluation str: +33
+Evaluation str: +28
+Evaluation str: +24
+Obvious Moves check: {35: 'e1g1', 33: 'a1d1', 28: 'd3g3', 24: 'a1c1'}
+Not in flagging mode. 
+Moves considering: {35: 'e1g1', 33: 'a1d1', 28: 'd3g3', 24: 'a1c1'}
+Non blunder evals are [24, 28, 33, 35]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+The opposition has not attacked one of our pieces with their last move. 
+Stockfish move is a quiet, human-like retaliation move. 
+No obvious move, but to increase move time variation we play it 
+Last 5 move times: [0.1, 0.4606780386604403, 0.16004421728008533, 0.01, 0.01]
+Chosen move: a1d1, Rd1
+Move number: 16
+Current fen: 2r1k2r/2qnbppp/p2p1n2/1p2pP2/4P3/1NNQ4/PPPB2PP/3RK2R w Kk - 0 16
+Previous fen: 2r1k2r/1pqnbppp/p2p1n2/4pP2/4P3/1NNQ4/PPPB2PP/3RK2R b Kk - 5 15
+Previous opponent move: b7b5
+Previous own move: a1d1
+. . r . k . . r
+. . q n b p p p
+p . . p . n . .
+. p . . p P . .
+. . . . P . . .
+. N N Q . . . .
+P P P B . . P P
+. . . R K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: 6.0
+Time taken to calculate win_percentage: 0.007550239562988281
+Current King Danger: -719.6666666666663
+Own time left: 48.98
+Evaluation str: +10
+Evaluation str: +8
+Evaluation str: -3
+Evaluation str: -20
+Obvious Moves check: {10: 'e1g1', 8: 'a2a3', -3: 'd3g3', -20: 'd2e3'}
+Not in flagging mode. 
+Moves considering: {10: 'e1g1', 8: 'a2a3', -3: 'd3g3', -20: 'd2e3'}
+Non blunder evals are [-20, -3, 8, 10]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+The opposition has not attacked one of our pieces with their last move. 
+Stockfish move was not a quiet/human like move: e1g1
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.22263636363636363
+Own time remaining: 48.98
+Standard devation on time allowed: 0.9795999999999999
+Phase of game recognised: midgame
+Currently this position is blunder prone. 
+Weights Chosen:[10, 10, 15, 20, 15, 10]
+Used midgame move_to models! 
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'g2g4': 14, 'a2a4': 8, 'h2h3': 15, 'a2a3': 8, 'g2g3': 14, 'h2h4': 15, 'c3d5': 18, 'b3a5': 17, 'c3e2': 18, 'c3b5': 18, 'b3c1': 17, 'd2g5': 11, 'd2e3': 11, 'd2c1': 11, 'd2h6': 11, 'd2f4': 11, 'd1c1': 3, 'h1g1': 7, 'd1a1': 3, 'd1b1': 3, 'h1f1': 7, 'd3g3': 19, 'd3f3': 19, 'd3h3': 19, 'd3e3': 19, 'd3e2': 19, 'd3b5': 19, 'd3d4': 19, 'd3f1': 19, 'd3d5': 19, 'e1g1': 4, 'e1e2': 4, 'e1f2': 4, 'e1f1': 4}
+Calculating complexity of the position... 
+Complexity calculated: 28.7
+Efficient mobility calculated: 9.75609756097561
+Time taken to calculate complexity and eff mob: 0.010657787322998047
+Move Probabilities that the engine sees: 
+Nd5: [1.7520824006446745, 0.3776039183139801, 4.640000581741333]
+g4: [0.1582462883872804, 0.23853756487369537, 0.66340196]
+a4: [0.08927451325925928, 0.737580768764019, 0.12103693187236786]
+Qg3: [0.06213508251838151, 0.1823602169752121, 0.34072718024253845]
+Ne2: [0.061422663622408, 0.3776039183139801, 0.16266426]
+Qf3: [0.04933310793150225, 0.1823602169752121, 0.2705256]
+Bg5: [0.0394853602312315, 0.048728153109550476, 0.81031924]
+a3: [0.03885765404977495, 0.737580768764019, 0.052682575]
+Qh3: [0.021876263622928716, 0.1823602169752121, 0.11996182]
+Na5: [0.020235439096007002, 0.10172737389802933, 0.19891833]
+h3: [0.015804061406748185, 0.16086901538074017, 0.0982418]
+Qe3: [0.015232005692923267, 0.1823602169752121, 0.08352702]
+g3: [0.010255410372911888, 0.23853756487369537, 0.042992853]
+Nxb5: [0.00962501447515307, 0.3776039183139801, 0.02548971027135849]
+Qe2: [0.009269094539010758, 0.1823602169752121, 0.05082849]
+Be3: [0.007699135678376434, 0.048728153109550476, 0.1580018]
+Rg1: [0.0032450698368455266, 0.07837636768817902, 0.041403677]
+O-O: [0.0030359453606408236, 0.17764580249786377, 0.017089879512786864]
+h4: [0.0026614878952806002, 0.16086901538074017, 0.01654444]
+Nc1: [0.0006537736747476812, 0.10172737389802933, 0.006426723]
+Qd4: [0.0005870204372996346, 0.1823602169752121, 0.003219016]
+Bc1: [0.0005665541951406367, 0.048728153109550476, 0.011626835]
+Qxb5: [0.0003523063388895433, 0.1823602169752121, 0.0019319254206493497]
+Qd5: [0.0001498586745726175, 0.1823602169752121, 0.00082177285]
+Rc1: [0.00012979157453861653, 0.04528387263417244, 0.0028661765654881795]
+Ra1: [0.0001061968762243885, 0.04528387263417244, 0.002345136801401774]
+Bh6: [7.48881401953054e-05, 0.048728153109550476, 0.0015368557]
+Rf1: [4.535930960053169e-05, 0.07837636768817902, 0.0005787370726466178]
+Bf4: [4.3552582016373985e-05, 0.048728153109550476, 0.00089378684]
+Rb1: [3.583772936229315e-05, 0.04528387263417244, 0.0007914016023278236]
+Ke2: [3.055222306356658e-05, 0.17764580249786377, 0.00017198392888531088]
+Qf1: [2.242017267273973e-05, 0.1823602169752121, 0.00012294442858546973]
+Kf2: [8.470140357465586e-06, 0.17764580249786377, 4.767993523273617e-05]
+Kf1: [2.7858641351914683e-06, 0.17764580249786377, 1.568212755955756e-05]
+Number of moves considered from difficulty levels: 4
+Legal moves found from human search: ['c3d5', 'g2g4', 'a2a4', 'd3g3']
+Evaluation str: -38
+Evaluation str: -132
+Evaluation str: -178
+Moves evaluations: {-38: 'd3g3', -132: 'a2a4', -178: 'g2g4'}
+Calculation time allowed: 0.6984936104982357
+Decided centipawn loss from mean -5 and stdev 20: -20.68887896454532
+Target_evaluation: -58.688878964545324
+Last 5 move times: [0.4606780386604403, 0.16004421728008533, 0.01, 0.01, 0.6984936104982357]
+Chosen move: d3g3, Qg3
+Move number: 17
+Current fen: 2r2k1r/2qnbppp/p2p1n2/1p2pP2/4P3/1NN3Q1/PPPB2PP/3RK2R w K - 2 17
+Previous fen: 2r1k2r/2qnbppp/p2p1n2/1p2pP2/4P3/1NN3Q1/PPPB2PP/3RK2R b Kk - 1 16
+Previous opponent move: e8f8
+Previous own move: d3g3
+. . r . . k . r
+. . q n b p p p
+p . . p . n . .
+. p . . p P . .
+. . . . P . . .
+. N N . . . Q .
+P P P B . . P P
+. . . R K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: 26.0
+Time taken to calculate win_percentage: 0.005905866622924805
+Current King Danger: -609.6666666666667
+Own time left: 45.75
+Evaluation str: +43
+Evaluation str: -77
+Evaluation str: -100
+Evaluation str: -186
+Obvious Moves check: {43: 'a2a3', -77: 'g3d3', -100: 'g3f3', -186: 'd2g5'}
+Not in flagging mode. 
+Moves considering: {43: 'a2a3', -77: 'g3d3', -100: 'g3f3', -186: 'd2g5'}
+Non blunder evals are [43]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.20795454545454545
+Own time remaining: 45.75
+Standard devation on time allowed: 0.915
+Phase of game recognised: midgame
+Currently this position is blunder prone. 
+Weights Chosen:[10, 10, 15, 20, 15, 10]
+Used midgame move_to models! 
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'h2h3': 15, 'a2a4': 8, 'h2h4': 15, 'a2a3': 8, 'c3d5': 18, 'b3a5': 17, 'c3e2': 18, 'c3b5': 18, 'b3c1': 17, 'd2g5': 11, 'd2e3': 11, 'd2h6': 11, 'd2c1': 11, 'd2f4': 11, 'd1c1': 3, 'h1f1': 7, 'd1a1': 3, 'h1g1': 7, 'd1b1': 3, 'g3h3': 22, 'g3e3': 22, 'g3g4': 22, 'g3f3': 22, 'g3d3': 22, 'g3f2': 22, 'g3h4': 22, 'g3g5': 22, 'g3g7': 22, 'g3f4': 22, 'e1g1': 4, 'e1e2': 4, 'e1f2': 4, 'e1f1': 4}
+Calculating complexity of the position... 
+Complexity calculated: 11.2
+Efficient mobility calculated: 2.5
+Time taken to calculate complexity and eff mob: 0.0171053409576416
+Move Probabilities that the engine sees: 
+Nd5: [0.5628460329921481, 0.11241734027862549, 5.006754577159882]
+h3: [0.5491895775457545, 1.1096830666065216, 0.4949067]
+h4: [0.1703794155559879, 1.1096830666065216, 0.15353881]
+a4: [0.06471426089254984, 0.37891142815351486, 0.1707899421453476]
+a3: [0.05436409547016685, 0.37891142815351486, 0.14347441]
+Qg4: [0.037179135395477125, 0.4455931782722473, 0.0834374]
+Bg5: [0.033217955127708976, 0.04095662385225296, 0.8110521]
+Na5: [0.018660972030241862, 0.09514947980642319, 0.19612269]
+Qh3: [0.013580015408422004, 0.4455931782722473, 0.030476264158884683]
+Qf2: [0.012428510261490944, 0.4455931782722473, 0.027892057]
+Qh4: [0.007459355906027976, 0.4455931782722473, 0.016740283]
+Ne2: [0.007141636376695182, 0.11241734027862549, 0.06352789]
+Be3: [0.004497977915287887, 0.04095662385225296, 0.109822966]
+O-O: [0.0036613189720260844, 0.2097403109073639, 0.017456439137458802]
+Qg5: [0.0027601565068986478, 0.4455931782722473, 0.006194342]
+Qe3: [0.0024912845110421243, 0.4455931782722473, 0.0055909395217895504]
+Nc1: [0.0024151841446805877, 0.09514947980642319, 0.025383051]
+Qf3: [0.0021621198581300996, 0.4455931782722473, 0.004852228363355001]
+Qf4: [0.001625138938009113, 0.4455931782722473, 0.003647136]
+Nxb5: [0.0016080420244146687, 0.11241734027862549, 0.01430421695113182]
+Ra1: [0.0015993292066390774, 0.025091564282774925, 0.06373972]
+Qd3: [0.0013927003426194389, 0.4455931782722473, 0.003125497450431188]
+Bh6: [0.00124834665038695, 0.04095662385225296, 0.030479725]
+Bc1: [0.0009053883947274938, 0.04095662385225296, 0.022106031]
+Rc1: [0.0008338946976735983, 0.025091564282774925, 0.033234065771102904]
+Rb1: [0.0005943115744473301, 0.025091564282774925, 0.023685712]
+Rg1: [0.00031221480575333027, 0.007004901766777039, 0.044570904]
+Qxg7+: [0.00021362271964310719, 0.4455931782722473, 0.00047941200642122165]
+Bf4: [0.00011607613256889998, 0.04095662385225296, 0.0028341236]
+Ke2: [6.064427228157088e-05, 0.2097403109073639, 0.0002891398034989834]
+Rf1: [3.016992639828242e-05, 0.007004901766777039, 0.00430697351694107]
+Kf2: [2.464178077407793e-05, 0.2097403109073639, 0.00011748709948733449]
+Kf1: [5.45216032171985e-06, 0.2097403109073639, 2.5994813768193126e-05]
+Number of moves considered from difficulty levels: 4
+Legal moves found from human search: ['c3d5', 'h2h3', 'h2h4', 'a2a4']
+Evaluation str: -124
+Evaluation str: -138
+Evaluation str: -144
+Moves evaluations: {-124: 'h2h3', -138: 'h2h4', -144: 'a2a4'}
+Calculation time allowed: 1.2339800144282351
+Decided centipawn loss from mean -5 and stdev 20: -20.853087788494115
+Target_evaluation: -144.85308778849412
+Last 5 move times: [0.16004421728008533, 0.01, 0.01, 0.6984936104982357, 1.2339800144282351]
+Chosen move: a2a4, a4
+Evaluation str: -144
+Evaluation str: -144
+Evaluation str: -144
+Evaluation str: -144
+Evaluation str: -144
+Evaluation str: -144
+Evaluation str: -144
+Evaluation str: -144
+Evaluation str: -144
+Evaluation str: -144
+Evaluation str: -144
+Evaluation str: -144
+Evaluation str: -144
+Move number: 18
+Current fen: 2r2k1r/2qnbppp/p2p1n2/4pP2/Pp2P3/1NN3Q1/1PPB2PP/3RK2R w K - 0 18
+Previous fen: 2r2k1r/2qnbppp/p2p1n2/1p2pP2/P3P3/1NN3Q1/1PPB2PP/3RK2R b K - 0 17
+Previous opponent move: b5b4
+Previous own move: a2a4
+. . r . . k . r
+. . q n b p p p
+p . . p . n . .
+. . . . p P . .
+P p . . P . . .
+. N N . . . Q .
+. P P B . . P P
+. . . R K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: -80.0
+Time taken to calculate win_percentage: 0.004538297653198242
+Current King Danger: -594.6666666666667
+Own time left: 44.31
+Evaluation str: -178
+Evaluation str: -231
+Evaluation str: -241
+Evaluation str: -243
+Obvious Moves check: {-178: 'c3d5', -231: 'g3e3', -241: 'g3d3', -243: 'g3f3'}
+Not in flagging mode. 
+Moves considering: {-178: 'c3d5', -231: 'g3e3', -241: 'g3d3', -243: 'g3f3'}
+Non blunder evals are [-243, -241, -231, -178]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.20140909090909093
+Own time remaining: 44.31
+Standard devation on time allowed: 0.8862000000000001
+Phase of game recognised: midgame
+Currently this position is blunder prone. 
+Weights Chosen:[10, 10, 15, 20, 15, 10]
+Used midgame move_to models! 
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'a4a5': 24, 'h2h3': 15, 'h2h4': 15, 'c3d5': 18, 'c3e2': 18, 'c3b1': 18, 'b3a5': 17, 'b3c1': 17, 'c3b5': 18, 'c3a2': 18, 'd2g5': 11, 'd2e3': 11, 'd2c1': 11, 'd2h6': 11, 'd2f4': 11, 'd1c1': 3, 'd1a1': 3, 'd1b1': 3, 'h1f1': 7, 'h1g1': 7, 'g3h3': 22, 'g3f2': 22, 'g3e3': 22, 'g3f3': 22, 'g3d3': 22, 'g3g4': 22, 'g3h4': 22, 'g3g7': 22, 'g3g5': 22, 'g3f4': 22, 'e1g1': 4, 'e1e2': 4, 'e1f2': 4, 'e1f1': 4}
+Calculating complexity of the position... 
+Complexity calculated: 27.3
+Efficient mobility calculated: 10.256410256410257
+Time taken to calculate complexity and eff mob: 0.011397838592529297
+Move Probabilities that the engine sees: 
+Nd5: [331.5370939293416, 11.187682151794434, 29.63411808013916]
+Ne2: [5.938135360816155, 11.187682151794434, 0.5307744070887566]
+Nb1: [3.238340543295859, 11.187682151794434, 0.2894558943808079]
+Nb5: [0.6095589002803381, 11.187682151794434, 0.054484824649989605]
+Na2: [0.556097418178636, 11.187682151794434, 0.049706222489476204]
+h3: [0.11802834791796357, 0.3595534563064575, 0.3282637]
+h4: [0.0817453235835579, 0.3595534563064575, 0.22735235]
+Qh3: [0.05368492795615154, 0.1544078141450882, 0.3476827]
+Qf2: [0.015063326262388821, 0.1544078141450882, 0.097555466]
+Qe3: [0.014898371012669442, 0.1544078141450882, 0.09648716]
+Bg5: [0.011341169131316553, 0.01676543429493904, 0.6764614]
+Qf3: [0.010152000154996954, 0.1544078141450882, 0.06574797]
+Qd3: [0.00997910005044822, 0.1544078141450882, 0.06462820619344711]
+Na5: [0.008074612177322471, 0.17384885251522064, 0.046446163]
+Qg4: [0.007932969759092079, 0.1544078141450882, 0.051376738]
+a5: [0.003922699597967254, 0.010149677167646587, 0.38648516]
+O-O: [0.0038043488460576484, 0.1408177763223648, 0.027016112208366395]
+Nc1: [0.002857653590314202, 0.17384885251522064, 0.016437575]
+Ra1: [0.0028293683039393447, 0.009600949473679066, 0.29469672]
+Be3: [0.0025727138066599653, 0.01676543429493904, 0.15345345]
+Qh4: [0.0022704096547426778, 0.1544078141450882, 0.014703982]
+Bc1: [0.0014224816183419642, 0.01676543429493904, 0.084846094]
+Rb1: [0.0008060540541286604, 0.009600949473679066, 0.08395566]
+Qg5: [0.000791647305493158, 0.1544078141450882, 0.00512699]
+Qf4: [0.0007836153776548394, 0.1544078141450882, 0.0050749723]
+Bh6: [0.0007096275678566966, 0.01676543429493904, 0.042326823]
+Rg1: [0.000259284761093043, 0.005892570596188307, 0.044001978]
+Rc1: [0.0002228441700011741, 0.009600949473679066, 0.023210638761520387]
+Qxg7+: [0.00012666345000135934, 0.1544078141450882, 0.0008203176160653433]
+Ke2: [8.120166936948433e-05, 0.1408177763223648, 0.0005766435991972685]
+Bf4: [3.16843728641685e-05, 0.01676543429493904, 0.0018898629]
+Kf2: [2.0168964012790697e-05, 0.1408177763223648, 0.00014322740025818348]
+Rf1: [1.632447931752129e-05, 0.005892570596188307, 0.002770349383354187]
+Kf1: [7.762987386502121e-06, 0.1408177763223648, 5.512789357453585e-05]
+Number of moves considered from difficulty levels: 6
+Legal moves found from human search: ['c3d5', 'c3e2', 'c3b1', 'c3b5', 'c3a2', 'h2h3']
+Evaluation str: -118
+Evaluation str: -158
+Evaluation str: -168
+Moves evaluations: {-118: 'c3d5', -158: 'c3a2', -168: 'c3e2'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -5 and stdev 20: -2.895431626840913
+Target_evaluation: -120.89543162684092
+Last 5 move times: [0.01, 0.01, 0.6984936104982357, 1.2339800144282351, 0.1]
+Chosen move: c3d5, Nd5
+Evaluation str: -118
+Found premove! In response to f6d5, exd5
+Move number: 20
+Current fen: 2r2k1r/2qnbppp/3p4/p2PpP2/Pp6/1N4Q1/1PPB2PP/3RK2R w K - 0 20
+Previous fen: 2r2k1r/2qnbppp/p2p4/3PpP2/Pp6/1N4Q1/1PPB2PP/3RK2R b K - 0 19
+Previous opponent move: a6a5
+Previous own move: c3d5
+. . r . . k . r
+. . q n b p p p
+. . . p . . . .
+p . . P p P . .
+P p . . . . . .
+. N . . . . Q .
+. P P B . . P P
+. . . R K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: 1.0
+Time taken to calculate win_percentage: 0.007831335067749023
+Current King Danger: -411.3333333333335
+Own time left: 42.55
+Calculating winning percentage... 
+Win percentage: -1.0
+Time taken to calculate win_percentage: 0.004019260406494141
+Evaluation str: -1
+Evaluation str: -11
+Evaluation str: -16
+Evaluation str: -82
+Obvious Moves check: {-1: 'd1c1', -11: 'e1g1', -16: 'g3e3', -82: 'd2e3'}
+Not in flagging mode. 
+Moves considering: {-1: 'd1c1', -11: 'e1g1', -16: 'g3e3', -82: 'd2e3'}
+Non blunder evals are [-16, -11, -1]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+The opposition has not attacked one of our pieces with their last move. 
+Stockfish move was not a quiet/human like move: e1g1
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.23638888888888887
+Own time remaining: 42.55
+Standard devation on time allowed: 0.851
+Phase of game recognised: midgame
+Currently this position is blunder prone. 
+Weights Chosen:[10, 10, 15, 20, 15, 10]
+Used midgame move_to models! 
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'f5f6': 37, 'h2h4': 15, 'c2c4': 10, 'h2h3': 15, 'c2c3': 10, 'b3c1': 17, 'b3a5': 17, 'b3d4': 17, 'b3a1': 17, 'd2c3': 11, 'd2g5': 11, 'd2b4': 11, 'd2e3': 11, 'd2c1': 11, 'd2h6': 11, 'd2f4': 11, 'd1c1': 3, 'd1b1': 3, 'h1f1': 7, 'd1a1': 3, 'h1g1': 7, 'g3g4': 22, 'g3h3': 22, 'g3d3': 22, 'g3f2': 22, 'g3h4': 22, 'g3e3': 22, 'g3g7': 22, 'g3f3': 22, 'g3f4': 22, 'g3e5': 22, 'g3g5': 22, 'e1g1': 4, 'e1e2': 4, 'e1f2': 4, 'e1f1': 4}
+Calculating complexity of the position... 
+Complexity calculated: 40.56
+Efficient mobility calculated: 17.94871794871795
+Time taken to calculate complexity and eff mob: 0.01216268539428711
+Move Probabilities that the engine sees: 
+Qg4: [0.32810526815568686, 0.4572225511074066, 0.7176052]
+f6: [0.12872288628743078, 0.38088133931159973, 0.3379606]
+Nc1: [0.059877345312479235, 0.12707459926605225, 0.47119838]
+h4: [0.04182009620880195, 0.5563490465283394, 0.07516881]
+Qh3: [0.03633410381827851, 0.4572225511074066, 0.079467]
+Bc3: [0.03535261747791152, 0.08294446021318436, 0.42622036]
+Qd3: [0.03214087418562683, 0.4572225511074066, 0.07029591]
+c4: [0.023824849657867353, 0.5010291263461113, 0.047551826]
+Rc1: [0.01637184586273377, 0.02136269025504589, 0.76637566]
+h3: [0.012200116863184327, 0.5563490465283394, 0.02192889]
+Bg5: [0.011243473196225984, 0.08294446021318436, 0.13555424]
+Nd4: [0.0076821696905944314, 0.12707459926605225, 0.060454015]
+Qf2: [0.007672935419614335, 0.4572225511074066, 0.01678162]
+Qh4: [0.007640290226072821, 0.4572225511074066, 0.016710222]
+O-O: [0.006244676652631398, 0.21645016968250275, 0.028850412368774413]
+Qe3: [0.0061804461744556505, 0.4572225511074066, 0.0135173695]
+Be3: [0.005762073436335224, 0.08294446021318436, 0.06946906]
+Bc1: [0.005394626100330868, 0.08294446021318436, 0.06503902]
+Nxa5: [0.0049708068919510255, 0.12707459926605225, 0.039117234448591866]
+Bh6: [0.004536174102145518, 0.08294446021318436, 0.054689296]
+Bxb4: [0.0035004032261333196, 0.08294446021318436, 0.04220177233219147]
+Na1: [0.0034235957780663906, 0.12707459926605225, 0.026941622]
+c3: [0.002514762141873475, 0.5010291263461113, 0.0050191935151815414]
+Qf3: [0.0023933054355507605, 0.4572225511074066, 0.005234443]
+Bf4: [0.0018403516303188427, 0.08294446021318436, 0.022187758]
+Qf4: [0.0008973576666789357, 0.4572225511074066, 0.0019626277]
+Qxg7+: [0.0006136027058679721, 0.4572225511074066, 0.0013420219636625713]
+Qg5: [0.0005957067571186955, 0.4572225511074066, 0.0013028814]
+Rf1: [0.00037874977028272243, 0.007411445956677198, 0.051103357]
+Ke2: [0.0003229195433249177, 0.21645016968250275, 0.0014918886125087738]
+Rg1: [0.0001464884086073955, 0.007411445956677198, 0.01976516]
+Kf2: [0.00010598524203498869, 0.21645016968250275, 0.0004896519239991903]
+Qxe5: [7.5611665957806e-05, 0.4572225511074066, 0.00016537168994545937]
+Kf1: [6.111921002539475e-05, 0.21645016968250275, 0.00028237081132829187]
+Rb1: [5.932774726338553e-05, 0.02136269025504589, 0.0027771664783358572]
+Ra1: [4.4963502238565965e-05, 0.02136269025504589, 0.0021047677844762804]
+Number of moves considered from difficulty levels: 6
+Legal moves found from human search: ['g3g4', 'f5f6', 'b3c1', 'h2h4', 'g3h3', 'd2c3']
+Evaluation str: -86
+Evaluation str: -94
+Evaluation str: -98
+Moves evaluations: {-86: 'g3h3', -94: 'g3g4', -98: 'h2h4'}
+Calculation time allowed: 1.9817164283966577
+Decided centipawn loss from mean -5 and stdev 20: 7.721319695710129
+Target_evaluation: -78.27868030428988
+Last 5 move times: [0.01, 0.6984936104982357, 1.2339800144282351, 0.1, 1.9817164283966577]
+Chosen move: g3h3, Qh3
+Move number: 21
+Current fen: 2r2k1r/2q1bppp/3p1n2/p2PpP2/Pp6/1N5Q/1PPB2PP/3RK2R w K - 2 21
+Previous fen: 2r2k1r/2qnbppp/3p4/p2PpP2/Pp6/1N5Q/1PPB2PP/3RK2R b K - 1 20
+Previous opponent move: d7f6
+Previous own move: g3h3
+. . r . . k . r
+. . q . b p p p
+. . . p . n . .
+p . . P p P . .
+P p . . . . . .
+. N . . . . . Q
+. P P B . . P P
+. . . R K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: -19.0
+Time taken to calculate win_percentage: 0.005327463150024414
+Current King Danger: -171.33333333333337
+Own time left: 31.72
+Calculating winning percentage... 
+Win percentage: -30.0
+Time taken to calculate win_percentage: 0.006525516510009766
+Evaluation str: -46
+Evaluation str: -59
+Evaluation str: -66
+Evaluation str: -73
+Obvious Moves check: {-46: 'd2e3', -59: 'h3f3', -66: 'd1c1', -73: 'e1g1'}
+Not in flagging mode. 
+Moves considering: {-46: 'd2e3', -59: 'h3f3', -66: 'd1c1', -73: 'e1g1'}
+Non blunder evals are [-73, -66, -59, -46]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+Opponent attacked one of our pieces, no obvious move. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.17622222222222222
+Own time remaining: 31.72
+Standard devation on time allowed: 0.7929999999999999
+Phase of game recognised: midgame
+Currently this position is blunder prone. 
+Weights Chosen:[10, 10, 15, 20, 15, 10]
+Used midgame move_to models! 
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'g2g4': 14, 'c2c4': 10, 'g2g3': 14, 'c2c3': 10, 'b3a5': 17, 'b3c1': 17, 'b3a1': 17, 'b3d4': 17, 'd2g5': 11, 'd2e3': 11, 'd2c3': 11, 'd2h6': 11, 'd2c1': 11, 'd2b4': 11, 'd2f4': 11, 'd1c1': 3, 'h1f1': 7, 'd1b1': 3, 'h1g1': 7, 'd1a1': 3, 'h3h4': 23, 'h3f3': 23, 'h3d3': 23, 'h3e3': 23, 'h3g3': 23, 'h3g4': 23, 'h3h6': 23, 'e1g1': 4, 'e1e2': 4, 'e1f2': 4, 'e1f1': 4}
+Calculating complexity of the position... 
+Complexity calculated: 40.95
+Efficient mobility calculated: 22.857142857142858
+Time taken to calculate complexity and eff mob: 0.020389556884765625
+Move Probabilities that the engine sees: 
+g4: [1.2811392864295712, 1.4788013696670532, 0.8663363]
+c4: [0.32641816169487026, 1.7603732347488403, 0.1854255422949791]
+Bg5: [0.28088943634030805, 0.12735781073570251, 2.2055140137672424]
+Qf3: [0.22227618182323883, 0.2280387133359909, 0.9747300297021866]
+Be3: [0.10507317754551826, 0.12735781073570251, 0.825023427605629]
+Bc3: [0.0843714896331127, 0.12735781073570251, 0.662475973367691]
+Qd3: [0.07466013954335438, 0.2280387133359909, 0.32740116119384766]
+Rc1: [0.06172580571692121, 0.07650504261255264, 0.8068201]
+g3: [0.04942224174593335, 1.4788013696670532, 0.033420473]
+Qh4: [0.04756188572696285, 0.2280387133359909, 0.20856935]
+Bh6: [0.042133698220157, 0.12735781073570251, 0.33082932233810425]
+Nc1: [0.02577737184340645, 0.14649106562137604, 0.17596549]
+Nxa5: [0.021155038806039528, 0.14649106562137604, 0.14441180229187012]
+Bc1: [0.02069068079265657, 0.12735781073570251, 0.1624610275030136]
+Na1: [0.015021769246041594, 0.14649106562137604, 0.10254393]
+Qe3: [0.01486306295485329, 0.2280387133359909, 0.065177806]
+Qg3: [0.010893513203047211, 0.2280387133359909, 0.047770455]
+Bxb4: [0.008384797417505946, 0.12735781073570251, 0.0658365385606885]
+c3: [0.007517761677501067, 1.7603732347488403, 0.004270549863576889]
+Nd4: [0.0073363355227000215, 0.14649106562137604, 0.05008043]
+O-O: [0.007094598048846557, 0.2307252287864685, 0.030749121308326723]
+Qg4: [0.006127329121006386, 0.2280387133359909, 0.026869688]
+Bf4: [0.004541809228093274, 0.12735781073570251, 0.03566180355846882]
+Qh6: [0.003175108645063221, 0.2280387133359909, 0.013923551]
+Rg1: [0.0007471272769908992, 0.02904733084142208, 0.02572103]
+Ke2: [0.0005664411853960272, 0.2307252287864685, 0.0024550465866923334]
+Rb1: [0.0001430786648347407, 0.07650504261255264, 0.0018701860681176186]
+Rf1: [0.00010452798995154862, 0.02904733084142208, 0.0035985402762889864]
+Kf2: [7.141038346757389e-05, 0.2307252287864685, 0.000309504009783268]
+Kf1: [6.990373356533518e-05, 0.2307252287864685, 0.0003029739484190941]
+Ra1: [6.072335010573679e-05, 0.07650504261255264, 0.0007937169633805752]
+Number of moves considered from difficulty levels: 6
+Legal moves found from human search: ['g2g4', 'c2c4', 'd2g5', 'h3f3', 'd2e3', 'd2c3']
+Evaluation str: -45
+Evaluation str: -51
+Evaluation str: -67
+Moves evaluations: {-45: 'd2e3', -51: 'd2g5', -67: 'h3f3'}
+Calculation time allowed: 0.24433002909900514
+Decided centipawn loss from mean -5 and stdev 20: -24.65607029164954
+Target_evaluation: -69.65607029164954
+Last 5 move times: [0.6984936104982357, 1.2339800144282351, 0.1, 1.9817164283966577, 0.24433002909900514]
+Chosen move: h3f3, Qf3
+Move number: 22
+Current fen: 2r2k1r/2q1bpp1/3p1n1p/p2PpP2/Pp6/1N3Q2/1PPB2PP/3RK2R w K - 0 22
+Previous fen: 2r2k1r/2q1bppp/3p1n2/p2PpP2/Pp6/1N3Q2/1PPB2PP/3RK2R b K - 3 21
+Previous opponent move: h7h6
+Previous own move: h3f3
+. . r . . k . r
+. . q . b p p .
+. . . p . n . p
+p . . P p P . .
+P p . . . . . .
+. N . . . Q . .
+. P P B . . P P
+. . . R K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: -2.0
+Time taken to calculate win_percentage: 0.007567644119262695
+Current King Danger: -611.3333333333333
+Own time left: 30.04
+Calculating winning percentage... 
+Win percentage: -13.0
+Time taken to calculate win_percentage: 0.005000591278076172
+Evaluation str: -20
+Evaluation str: -34
+Evaluation str: -53
+Evaluation str: -53
+Obvious Moves check: {-20: 'c2c3', -34: 'c2c4', -53: 'd1c1'}
+Not in flagging mode. 
+Moves considering: {-20: 'c2c3', -34: 'c2c4', -53: 'd1c1'}
+Non blunder evals are [-53, -34, -20]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+The opposition has not attacked one of our pieces with their last move. 
+Stockfish move was not a quiet/human like move: c2c3
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.1668888888888889
+Own time remaining: 30.04
+Standard devation on time allowed: 0.751
+Phase of game recognised: midgame
+Currently this position is blunder prone. 
+Weights Chosen:[10, 10, 15, 20, 15, 10]
+Used midgame move_to models! 
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'g2g4': 14, 'g2g3': 14, 'h2h3': 15, 'h2h4': 15, 'c2c4': 10, 'c2c3': 10, 'b3c1': 17, 'b3a5': 17, 'b3d4': 17, 'b3a1': 17, 'b3c5': 17, 'd2c3': 11, 'd2e3': 11, 'd2h6': 11, 'd2c1': 11, 'd2b4': 11, 'd2f4': 11, 'd2g5': 11, 'd1c1': 3, 'h1g1': 7, 'd1b1': 3, 'h1f1': 7, 'd1a1': 3, 'f3f2': 21, 'f3d3': 21, 'f3e2': 21, 'f3e3': 21, 'f3h3': 21, 'f3f1': 21, 'f3g4': 21, 'f3g3': 21, 'f3c3': 21, 'e1g1': 4, 'e1e2': 4, 'e1f2': 4, 'e1f1': 4}
+Calculating complexity of the position... 
+Complexity calculated: 35.49
+Efficient mobility calculated: 15.384615384615385
+Time taken to calculate complexity and eff mob: 0.016252517700195312
+Move Probabilities that the engine sees: 
+g4: [1.171551558307236, 1.8142419159412384, 0.64575267]
+g3: [0.18993366279030433, 1.8142419159412384, 0.10469037]
+c4: [0.06449779678467987, 1.4755689650774002, 0.04371046]
+h3: [0.047156205261729145, 0.6518213897943497, 0.07234529]
+Bc3: [0.03549691581061509, 0.1294039487838745, 0.27431092]
+Be3: [0.035081188705742505, 0.1294039487838745, 0.2710983]
+h4: [0.03217376512885012, 0.6518213897943497, 0.049359787]
+Rc1: [0.02999583983941445, 0.05307598412036896, 0.565149]
+Nc1: [0.025859669308151645, 0.08071306347846985, 0.32039014]
+Qf2: [0.018345503225231985, 0.06267795711755753, 0.29269466]
+Bc1: [0.016359652938374936, 0.1294039487838745, 0.12642314]
+c3: [0.011575271510697649, 1.4755689650774002, 0.00784461572766304]
+Nd4: [0.011476244868227958, 0.08071306347846985, 0.14218572]
+Na1: [0.011453098553209973, 0.08071306347846985, 0.14189894]
+O-O: [0.010512392577403773, 0.3754218518733978, 0.02800154685974121]
+Bxh6: [0.00854214823306787, 0.1294039487838745, 0.06601149588823318]
+Qe2: [0.007784497754052766, 0.06267795711755753, 0.12419833]
+Nxa5: [0.005033042821801577, 0.08071306347846985, 0.06235722700754801]
+Rg1: [0.0027446369237050378, 0.013321871869266033, 0.20602487]
+Bf4: [0.002736510565235273, 0.1294039487838745, 0.02114704]
+Bg5: [0.002466700885895845, 0.1294039487838745, 0.019062022]
+Bxb4: [0.0014723136014954674, 0.1294039487838745, 0.011377655901014805]
+Nc5: [0.0011688553826337267, 0.08071306347846985, 0.014481613]
+Qd3: [0.0009230141534027902, 0.06267795711755753, 0.014726296067237854]
+Ke2: [0.0006771919844161145, 0.3754218518733978, 0.0018038161098957062]
+Qe3: [0.0003844833645927951, 0.06267795711755753, 0.006134267648061117]
+Qh3: [0.0002140434765014132, 0.06267795711755753, 0.003414972126483917]
+Rb1: [0.0001792701762959148, 0.05307598412036896, 0.003377613797783852]
+Qf1: [0.00015481528343961047, 0.06267795711755753, 0.0024700116366147993]
+Qg4: [0.00013087829157504283, 0.06267795711755753, 0.002088107168674469]
+Kf2: [0.00013018450156776425, 0.3754218518733978, 0.00034676857758313416]
+Kf1: [0.00011140087134465584, 0.3754218518733978, 0.00029673518147319553]
+Ra1: [8.360960445447929e-05, 0.05307598412036896, 0.0015752812847495078]
+Qg3: [4.0182097936891645e-05, 0.06267795711755753, 0.0006410881876945495]
+Rf1: [3.8120955344686167e-05, 0.013321871869266033, 0.00286153145134449]
+Qc3: [1.3981941280306307e-05, 0.06267795711755753, 0.00022307589339713255]
+Number of moves considered from difficulty levels: 6
+Legal moves found from human search: ['g2g4', 'g2g3', 'c2c4', 'h2h3', 'd2c3', 'd2e3']
+Evaluation str: -6
+Evaluation str: -41
+Evaluation str: -113
+Moves evaluations: {-6: 'd2e3', -41: 'c2c4', -113: 'g2g3'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -5 and stdev 20: 35.92254649315311
+Target_evaluation: 29.922546493153114
+Last 5 move times: [1.2339800144282351, 0.1, 1.9817164283966577, 0.24433002909900514, 0.1]
+Chosen move: d2e3, Be3
+Move number: 23
+Current fen: 2r3kr/2q1bpp1/3p1n1p/p2PpP2/Pp6/1N2BQ2/1PP3PP/3RK2R w K - 2 23
+Previous fen: 2r2k1r/2q1bpp1/3p1n1p/p2PpP2/Pp6/1N2BQ2/1PP3PP/3RK2R b K - 1 22
+Previous opponent move: f8g8
+Previous own move: d2e3
+. . r . . . k r
+. . q . b p p .
+. . . p . n . p
+p . . P p P . .
+P p . . . . . .
+. N . . B Q . .
+. P P . . . P P
+. . . R K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: -24.0
+Time taken to calculate win_percentage: 0.007625102996826172
+Current King Danger: -529.3333333333333
+Own time left: 28.27
+Calculating winning percentage... 
+Win percentage: -24.0
+Time taken to calculate win_percentage: 0.004024982452392578
+Evaluation str: -37
+Evaluation str: -61
+Evaluation str: -80
+Evaluation str: -154
+Obvious Moves check: {-37: 'e1g1', -61: 'd1d2', -80: 'd1c1', -154: 'f3e2'}
+Not in flagging mode. 
+Moves considering: {-37: 'e1g1', -61: 'd1d2', -80: 'd1c1', -154: 'f3e2'}
+Non blunder evals are [-80, -61, -37]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+The opposition has not attacked one of our pieces with their last move. 
+Stockfish move is a quiet, human-like retaliation move. 
+No obvious move, but to increase move time variation we play it 
+Last 5 move times: [0.1, 1.9817164283966577, 0.24433002909900514, 0.1, 0.01]
+Chosen move: d1c1, Rc1
+Move number: 24
+Current fen: 2r3kr/1q2bpp1/3p1n1p/p2PpP2/Pp6/1N2BQ2/1PP3PP/2R1K2R w K - 4 24
+Previous fen: 2r3kr/2q1bpp1/3p1n1p/p2PpP2/Pp6/1N2BQ2/1PP3PP/2R1K2R b K - 3 23
+Previous opponent move: c7b7
+Previous own move: d1c1
+. . r . . . k r
+. q . . b p p .
+. . . p . n . p
+p . . P p P . .
+P p . . . . . .
+. N . . B Q . .
+. P P . . . P P
+. . R . K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: -53.0
+Time taken to calculate win_percentage: 0.009560823440551758
+Current King Danger: -575.833333333333
+Own time left: 27.9
+Calculating winning percentage... 
+Win percentage: -53.0
+Time taken to calculate win_percentage: 0.003033161163330078
+Evaluation str: -80
+Evaluation str: -89
+Evaluation str: -91
+Evaluation str: -96
+Obvious Moves check: {-80: 'e1f2', -89: 'e3f2', -91: 'h2h4', -96: 'c1d1'}
+Not in flagging mode. 
+Moves considering: {-80: 'e1f2', -89: 'e3f2', -91: 'h2h4', -96: 'c1d1'}
+Non blunder evals are [-96, -91, -89, -80]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.155
+Own time remaining: 27.9
+Standard devation on time allowed: 0.6975
+Phase of game recognised: midgame
+Currently this position is blunder prone. 
+Weights Chosen:[10, 10, 15, 20, 15, 10]
+Used midgame move_to models! 
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'g2g4': 14, 'h2h3': 15, 'h2h4': 15, 'g2g3': 14, 'c2c4': 10, 'c2c3': 10, 'b3a5': 17, 'b3d2': 17, 'b3c5': 17, 'b3a1': 17, 'b3d4': 17, 'e3d2': 20, 'e3f2': 20, 'e3h6': 20, 'e3g5': 20, 'e3d4': 20, 'e3b6': 20, 'e3f4': 20, 'e3a7': 20, 'e3c5': 20, 'e3g1': 20, 'c1d1': 2, 'c1a1': 2, 'h1g1': 7, 'h1f1': 7, 'c1b1': 2, 'f3e2': 21, 'f3f2': 21, 'f3d1': 21, 'f3f1': 21, 'f3g4': 21, 'f3h3': 21, 'f3g3': 21, 'e1e2': 4, 'e1g1': 4, 'e1d2': 4, 'e1f2': 4, 'e1d1': 4, 'e1f1': 4}
+Calculating complexity of the position... 
+Complexity calculated: 87.36
+Efficient mobility calculated: 35.714285714285715
+Time taken to calculate complexity and eff mob: 0.014044046401977539
+Move Probabilities that the engine sees: 
+Nxa5: [4.079871418418488, 0.10623177886009216, 38.4053760766983]
+g4: [1.155749529589106, 1.4376723617315292, 0.8039033]
+c4: [0.10339733227941003, 1.589635118842125, 0.0650446955114603]
+g3: [0.02492249957839407, 1.4376723617315292, 0.017335312]
+Bd2: [0.020053329899949457, 0.041098568588495255, 0.48793256]
+h3: [0.018728437549259958, 0.22226614877581596, 0.08426131]
+Qe2: [0.01716307320000987, 0.07220029085874557, 0.23771474]
+c3: [0.015354643473366986, 1.589635118842125, 0.009659225]
+Nd2: [0.01319088998456297, 0.10623177886009216, 0.12417085]
+h4: [0.012686980894350622, 0.22226614877581596, 0.05708013]
+Bf2: [0.011558860955730332, 0.041098568588495255, 0.2812473]
+Rd1: [0.00897947768195656, 0.094661645591259, 0.09485866874456406]
+Ke2: [0.008663020482993567, 0.41860395669937134, 0.020695027709007264]
+Qf2: [0.006874263452633811, 0.07220029085874557, 0.09521102]
+O-O: [0.005635925579521839, 0.41860395669937134, 0.013463622331619263]
+Kd2: [0.0032479385827203, 0.41860395669937134, 0.007758977264165879]
+Qg4: [0.0023735128510641024, 0.07220029085874557, 0.032874007]
+Bxh6: [0.002240155942283703, 0.041098568588495255, 0.05450690910220146]
+Kf2: [0.002217412665309193, 0.41860395669937134, 0.005297161266207695]
+Bg5: [0.0019662279065888605, 0.041098568588495255, 0.04784176]
+Rg1: [0.001835167429366541, 0.016107048839330673, 0.11393567]
+Qh3: [0.0014547327285110712, 0.07220029085874557, 0.020148572]
+Ra1: [0.0011456135411220757, 0.094661645591259, 0.012102193385362624]
+Nc5: [0.0008838798641871981, 0.10623177886009216, 0.008320296]
+Na1: [0.0006622995121565167, 0.10623177886009216, 0.0062344763]
+Kd1: [0.0005515632447387287, 0.41860395669937134, 0.001317625492811203]
+Bd4: [0.0005414198812825066, 0.041098568588495255, 0.013173692]
+Bb6: [0.0004954133626888825, 0.041098568588495255, 0.012054273]
+Qg3: [0.0004201257480141683, 0.07220029085874557, 0.0058188927]
+Bf4: [0.00040396229409643894, 0.041098568588495255, 0.009829109]
+Rb1: [0.00036263203776212285, 0.094661645591259, 0.003830823302268982]
+Ba7: [0.0002976410473178679, 0.041098568588495255, 0.007242127]
+Qd1: [0.00019523286168727645, 0.07220029085874557, 0.0027040453627705575]
+Qf1: [0.0001863989484693407, 0.07220029085874557, 0.0025816924870014192]
+Nd4: [0.00013955719402667516, 0.10623177886009216, 0.0013137048]
+Kf1: [0.00011712645436985914, 0.41860395669937134, 0.00027980254963040353]
+Bc5: [0.00010790330013893835, 0.041098568588495255, 0.0026254759]
+Rf1: [8.494737581335178e-05, 0.016107048839330673, 0.005273925513029099]
+Bg1: [6.76613996609286e-05, 0.041098568588495255, 0.0016463201]
+Number of moves considered from difficulty levels: 6
+Legal moves found from human search: ['b3a5', 'g2g4', 'c2c4', 'g2g3', 'e3d2', 'h2h3']
+Evaluation str: -52
+Evaluation str: -110
+Evaluation str: -122
+Moves evaluations: {-52: 'b3a5', -110: 'g2g3', -122: 'h2h3'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -5 and stdev 20: -22.009008870795068
+Target_evaluation: -74.00900887079507
+Last 5 move times: [1.9817164283966577, 0.24433002909900514, 0.1, 0.01, 0.1]
+Chosen move: b3a5, Nxa5
+Move number: 25
+Current fen: 2r3kr/4bpp1/3p1n1p/N2qpP2/Pp6/4BQ2/1PP3PP/2R1K2R w K - 0 25
+Previous fen: 2r3kr/1q2bpp1/3p1n1p/N2PpP2/Pp6/4BQ2/1PP3PP/2R1K2R b K - 0 24
+Previous opponent move: b7d5
+Previous own move: b3a5
+. . r . . . k r
+. . . . b p p .
+. . . p . n . p
+N . . q p P . .
+P p . . . . . .
+. . . . B Q . .
+. P P . . . P P
+. . R . K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: -34.0
+Time taken to calculate win_percentage: 0.0035037994384765625
+Current King Danger: 605.8333333333335
+Own time left: 26.04
+Calculating winning percentage... 
+Win percentage: -34.0
+Time taken to calculate win_percentage: 0.003002643585205078
+Evaluation str: -52
+Evaluation str: -66
+Evaluation str: -87
+Evaluation str: -372
+Obvious Moves check: {-52: 'a5b3', -66: 'e3b6', -87: 'f3d5', -372: 'a5c6'}
+Not in flagging mode. 
+Moves considering: {-52: 'a5b3', -66: 'e3b6', -87: 'f3d5', -372: 'a5c6'}
+Non blunder evals are [-87, -66, -52]
+Top move is not a take-back, as it involves taking big material. 
+big_material_take: True
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Average time allowed: 0.14466666666666667
+Own time remaining: 26.04
+Standard devation on time allowed: 0.651
+Phase of game recognised: midgame
+Currently this position is blunder prone. 
+Weights Chosen:[10, 10, 15, 20, 15, 10]
+Used midgame move_to models! 
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'g2g4': 14, 'h2h4': 15, 'b2b3': 9, 'h2h3': 15, 'c2c3': 10, 'g2g3': 14, 'c2c4': 10, 'a5c6': 32, 'a5c4': 32, 'a5b3': 32, 'a5b7': 32, 'e3h6': 20, 'e3f2': 20, 'e3d2': 20, 'e3b6': 20, 'e3a7': 20, 'e3d4': 20, 'e3f4': 20, 'e3c5': 20, 'e3g5': 20, 'c1d1': 2, 'c1a1': 2, 'h1f1': 7, 'c1b1': 2, 'h1g1': 7, 'f3d5': 21, 'f3e2': 21, 'f3g4': 21, 'f3f2': 21, 'f3f1': 21, 'f3d1': 21, 'f3h3': 21, 'f3g3': 21, 'e1g1': 4, 'e1e2': 4, 'e1f2': 4, 'e1f1': 4}
+Calculating complexity of the position... 
+Complexity calculated: 14.76
+Efficient mobility calculated: 4.878048780487805
+Time taken to calculate complexity and eff mob: 0.019380807876586914
+Move Probabilities that the engine sees: 
+Nc6: [22.599327611469988, 9.189435243606567, 2.4592727422714233]
+Nc4: [7.6632478315136865, 9.189435243606567, 0.83391934633255]
+Nb3: [6.801389234556421, 9.189435243606567, 0.7401313632726669]
+Nb7: [4.602403411587375, 9.189435243606567, 0.5008363723754883]
+O-O: [0.2301286923062662, 0.35756558179855347, 0.64359856]
+Qxd5: [0.08579620843290225, 0.028129123151302338, 3.050084710121155]
+Ke2: [0.07580108385885076, 0.35756558179855347, 0.21199211]
+Kf2: [0.040811948148269384, 0.35756558179855347, 0.11413836]
+c4: [0.020182394799395098, 0.2875328063964844, 0.07019162457436323]
+h4: [0.013481115967579976, 0.13358508422970772, 0.10091782]
+Rd1: [0.010652056097420648, 0.0347135029733181, 0.30685627162456514]
+h3: [0.010335778926183314, 0.13358508422970772, 0.07737225]
+g4: [0.00790764347979747, 0.01154410649429668, 0.684994]
+c3: [0.006493083007264033, 0.2875328063964844, 0.02258205972611904]
+Qe2: [0.005363265440061271, 0.028129123151302338, 0.19066593]
+Bb6: [0.004403113363689315, 0.016443654894828796, 0.2677697502076626]
+Bf2: [0.0030460824279265886, 0.016443654894828796, 0.18524364]
+b3: [0.0024264060250687725, 0.027277596294879913, 0.08895234]
+Bxh6: [0.0020822503533279857, 0.016443654894828796, 0.12662941217422485]
+Bd2: [0.00202181467188034, 0.016443654894828796, 0.12295409291982651]
+Kf1: [0.0017534435347578425, 0.35756558179855347, 0.0049038376]
+Rb1: [0.0011245905353555324, 0.0347135029733181, 0.032396343]
+Qg4: [0.0009543631978102263, 0.028129123151302338, 0.03392794]
+Qf2: [0.0009246433183630054, 0.028129123151302338, 0.032871388]
+Ba7: [0.0008161874964243698, 0.016443654894828796, 0.049635407]
+Bd4: [0.0006266244263494758, 0.016443654894828796, 0.03810737]
+Bc5: [0.000599299442804839, 0.016443654894828796, 0.03644563490524888]
+Qh3: [0.00040130576668823137, 0.028129123151302338, 0.014266558]
+Rg1: [0.0003761312118526379, 0.013068532571196556, 0.028781442]
+Bf4: [0.0002997144513186556, 0.016443654894828796, 0.018226754]
+Qg3: [0.00028802633823661605, 0.028129123151302338, 0.010239435]
+Ra1: [0.00018980522601180772, 0.0347135029733181, 0.005467763543128968]
+Bg5: [0.00010111247077816687, 0.016443654894828796, 0.0061490266]
+g3: [9.724359528639253e-05, 0.01154410649429668, 0.008423657]
+Qf1: [3.624938042831455e-05, 0.028129123151302338, 0.0012886779382824897]
+Rf1: [3.154972135878051e-05, 0.013068532571196556, 0.002414174750447273]
+Qd1: [1.2587821480694942e-05, 0.014064561575651169, 0.0008950027637183666]
+Number of moves considered from difficulty levels: 4
+Legal moves found from human search: ['a5c6', 'a5c4', 'a5b3', 'a5b7']
+Evaluation str: -62
+Evaluation str: -357
+Evaluation str: -460
+Moves evaluations: {-62: 'a5b3', -357: 'a5b7', -460: 'a5c6'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -5 and stdev 20: -8.04686929350852
+Target_evaluation: -70.04686929350852
+Last 5 move times: [0.24433002909900514, 0.1, 0.01, 0.1, 0.1]
+Chosen move: a5b3, Nb3
+Evaluation str: -42
+Found premove! In response to d5f3, gxf3
+Move number: 26
+Current fen: 2r3kr/4bpp1/3p1n1p/3q1P2/Pp2p3/1N2BQ2/1PP3PP/2R1K2R w K - 0 26
+Previous fen: 2r3kr/4bpp1/3p1n1p/3qpP2/Pp6/1N2BQ2/1PP3PP/2R1K2R b K - 1 25
+Previous opponent move: e5e4
+Previous own move: a5b3
+. . r . . . k r
+. . . . b p p .
+. . . p . n . p
+. . . q . P . .
+P p . . p . . .
+. N . . B Q . .
+. P P . . . P P
+. . R . K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: 0.0
+Time taken to calculate win_percentage: 0.007517337799072266
+Current King Danger: 459.16666666666674
+Own time left: 23.83
+Calculating winning percentage... 
+Win percentage: 0.0
+Time taken to calculate win_percentage: 0.0029993057250976562
+Evaluation str: 0
+Evaluation str: -20
+Evaluation str: -38
+Evaluation str: -65
+Obvious Moves check: {0: 'f3e2', -20: 'f3f4', -38: 'f3g3', -65: 'f3h3'}
+Not in flagging mode. 
+Moves considering: {0: 'f3e2', -20: 'f3f4', -38: 'f3g3', -65: 'f3h3'}
+Non blunder evals are [-65, -38, -20, 0]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+Opponent attacked one of our pieces, no obvious move. 
+AtomicSamurai is in time-scramble mode. 
+Phase of game recognised: midgame
+Currently this position is blunder prone. 
+Weights Chosen:[10, 10, 15, 20, 15, 10]
+Used midgame move_to models! 
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'g2g4': 14, 'h2h3': 15, 'a4a5': 24, 'h2h4': 15, 'g2g3': 14, 'c2c3': 10, 'c2c4': 10, 'b3d2': 17, 'b3d4': 17, 'b3a5': 17, 'b3c5': 17, 'b3a1': 17, 'e3f4': 20, 'e3d4': 20, 'e3h6': 20, 'e3b6': 20, 'e3f2': 20, 'e3d2': 20, 'e3a7': 20, 'e3c5': 20, 'e3g5': 20, 'e3g1': 20, 'c1d1': 2, 'h1g1': 7, 'c1a1': 2, 'h1f1': 7, 'c1b1': 2, 'f3e2': 21, 'f3d1': 21, 'f3f2': 21, 'f3f1': 21, 'f3g4': 21, 'f3g3': 21, 'f3h3': 21, 'f3f4': 21, 'e1g1': 4, 'e1e2': 4, 'e1f2': 4, 'e1f1': 4}
+Calculating complexity of the position... 
+Complexity calculated: 24.6
+Efficient mobility calculated: 9.75609756097561
+Time taken to calculate complexity and eff mob: 0.01510930061340332
+Move Probabilities that the engine sees: 
+Qe2: [31.36828647958012, 13.90335351228714, 2.256166934967041]
+Qf2: [10.027071057310888, 27.80670702457428, 0.36059901118278503]
+Qg4: [3.3315488139966543, 27.80670702457428, 0.11981097981333733]
+Qh3: [0.8517697522708673, 27.80670702457428, 0.03063180949538946]
+Qf4: [0.6983682072911181, 27.80670702457428, 0.025115099269896746]
+Qg3: [0.6710408364888898, 13.90335351228714, 0.048264674842357635]
+Qd1: [0.3047532377151069, 13.90335351228714, 0.021919405087828636]
+Qf1: [0.24096034627340723, 27.80670702457428, 0.008665547706186771]
+O-O: [0.18565902247522814, 0.38124972581863403, 0.48697484]
+Ke2: [0.11817648554634275, 0.38124972581863403, 0.30997133]
+g4: [0.10037309095188851, 0.12091336771845818, 0.830124]
+Kf2: [0.056871150885012156, 0.38124972581863403, 0.14917034]
+Nd2: [0.021340147920861474, 0.05319150909781456, 0.40119463]
+Nd4: [0.019857079183399406, 0.05319150909781456, 0.37331295]
+Bf4: [0.0058882096470213585, 0.007906855084002018, 0.7446968]
+Bd4: [0.0034392920524209947, 0.015813710168004036, 0.21748799]
+Rd1: [0.003139175122260024, 0.01318164262920618, 0.23814749121665954]
+Na5: [0.002815192222791224, 0.05319150909781456, 0.052925594]
+g3: [0.0027309706248266827, 0.12091336771845818, 0.022586176]
+h3: [0.0019799950050378504, 0.03551756031811237, 0.05574693]
+Ra1: [0.0016787000965246685, 0.01318164262920618, 0.12735136]
+Kf1: [0.0014758260857161282, 0.38124972581863403, 0.003871022]
+a5: [0.0014074076541707552, 0.03557724226266146, 0.03955921]
+h4: [0.0011563023231374661, 0.03551756031811237, 0.032555792]
+Rg1: [0.0011280924024015468, 0.006002512294799089, 0.18793671]
+Nc5: [0.0007885237217453468, 0.05319150909781456, 0.0148242405]
+c4: [0.0007335625075407526, 0.1198946088552475, 0.0061183944]
+Na1: [0.00039196558018223665, 0.05319150909781456, 0.00736895]
+Bxh6: [0.00011777222010710478, 0.015813710168004036, 0.00744747556746006]
+Bb6: [0.00011589050313498984, 0.015813710168004036, 0.007328483]
+Bf2: [7.371304714917908e-05, 0.015813710168004036, 0.004661338]
+Bd2: [5.763694262277694e-05, 0.015813710168004036, 0.003644745098426938]
+Ba7: [5.212698062784238e-05, 0.015813710168004036, 0.0032963157]
+c3: [4.608885189637014e-05, 0.005994730442762375, 0.007688227575272322]
+Rf1: [3.1968865312390415e-05, 0.006002512294799089, 0.005325914174318313]
+Bc5: [3.3599154760701746e-06, 0.015813710168004036, 0.00021246851]
+Bg5: [2.9651601988646273e-06, 0.015813710168004036, 0.00018750566]
+Bg1: [2.9331986339158414e-06, 0.015813710168004036, 0.00018548453]
+Rb1: [2.5968754947680453e-06, 0.01318164262920618, 0.00019700697157531977]
+Number of moves considered from difficulty levels: 4
+Legal moves found from human search: ['f3e2', 'f3f2', 'f3g4', 'f3h3']
+Evaluation str: -98
+Evaluation str: -122
+Evaluation str: -199
+Moves evaluations: {-98: 'f3e2', -122: 'f3h3', -199: 'f3f2'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -15 and stdev 20: -32.68317115943074
+Target_evaluation: -130.68317115943074
+Last 5 move times: [0.1, 0.01, 0.1, 0.1, 0.1]
+Chosen move: f3h3, Qh3
+Move number: 27
+Current fen: 2r4r/4bppk/3p1n1p/3q1P2/Pp2p3/1N2B2Q/1PP3PP/2R1K2R w K - 2 27
+Previous fen: 2r3kr/4bpp1/3p1n1p/3q1P2/Pp2p3/1N2B2Q/1PP3PP/2R1K2R b K - 1 26
+Previous opponent move: g8h7
+Previous own move: f3h3
+. . r . . . . r
+. . . . b p p k
+. . . p . n . p
+. . . q . P . .
+P p . . p . . .
+. N . . B . . Q
+. P P . . . P P
+. . R . K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: -32.0
+Time taken to calculate win_percentage: 0.005274772644042969
+Current King Danger: 899.1666666666667
+Own time left: 18.09
+Calculating winning percentage... 
+Win percentage: -32.0
+Time taken to calculate win_percentage: 0.009139060974121094
+Evaluation str: -49
+Evaluation str: -49
+Evaluation str: -66
+Evaluation str: -77
+Obvious Moves check: {-49: 'b3d4', -66: 'g2g3', -77: 'b3d2'}
+Not in flagging mode. 
+Moves considering: {-49: 'b3d4', -66: 'g2g3', -77: 'b3d2'}
+Non blunder evals are [-77, -66, -49]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Phase of game recognised: midgame
+Currently this position is blunder prone. 
+Weights Chosen:[10, 10, 15, 20, 15, 10]
+Used midgame move_to models! 
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'g2g4': 14, 'a4a5': 24, 'g2g3': 14, 'c2c3': 10, 'c2c4': 10, 'b3d2': 17, 'b3d4': 17, 'b3a5': 17, 'b3c5': 17, 'b3a1': 17, 'e3f4': 20, 'e3d4': 20, 'e3b6': 20, 'e3h6': 20, 'e3a7': 20, 'e3f2': 20, 'e3d2': 20, 'e3g5': 20, 'e3g1': 20, 'h1f1': 7, 'c1d1': 2, 'c1a1': 2, 'h1g1': 7, 'c1b1': 2, 'h3g3': 23, 'h3h4': 23, 'h3g4': 23, 'e1g1': 4, 'e1e2': 4, 'e1f2': 4, 'e1f1': 4}
+Calculating complexity of the position... 
+Complexity calculated: 42.0
+Efficient mobility calculated: 25.714285714285715
+Time taken to calculate complexity and eff mob: 0.010822296142578125
+Move Probabilities that the engine sees: 
+g4: [0.4589017987474797, 0.5183339864015579, 0.88534]
+O-O: [0.16522135911635072, 0.36917033791542053, 0.44754776]
+Ke2: [0.1455701625477568, 0.36917033791542053, 0.39431706]
+Nd2: [0.09961479943835894, 0.25671008229255676, 0.38804397]
+Nd4: [0.057957556826337964, 0.25671008229255676, 0.22577047]
+Bf4: [0.052882380108048466, 0.07605943083763123, 0.6952771]
+Na5: [0.04749180191789559, 0.25671008229255676, 0.1850017]
+Kf2: [0.03152423687290096, 0.36917033791542053, 0.08539212]
+Bd4: [0.0199380360364092, 0.07605943083763123, 0.2621376]
+Rd1: [0.016476634465879856, 0.09380413591861725, 0.17564933896064758]
+a5: [0.010903750592976658, 0.1290348507463932, 0.08450237]
+Nc5: [0.009347173717419, 0.25671008229255676, 0.0364114]
+Ra1: [0.008224591209297305, 0.09380413591861725, 0.08767834]
+g3: [0.007600565676022103, 0.5183339864015579, 0.014663452]
+Na1: [0.003953766306934087, 0.25671008229255676, 0.015401679]
+Rg1: [0.002869305768789354, 0.047762081027030945, 0.060074974]
+Qh4: [0.0026654041503149928, 0.0689673200249672, 0.03864735]
+c4: [0.002563574322483275, 0.5640002936124802, 0.004545342]
+Kf1: [0.001642166229752065, 0.36917033791542053, 0.0044482616]
+Bb6: [0.0010427527379968937, 0.07605943083763123, 0.01370971]
+Rf1: [0.000998122475176344, 0.047762081027030945, 0.020897801220417022]
+Ba7: [0.0004508398564122412, 0.07605943083763123, 0.005927468]
+Bf2: [0.0003862820679176038, 0.07605943083763123, 0.0050786873]
+Bd2: [0.0003840112117589889, 0.07605943083763123, 0.00504883099347353]
+Qg3: [0.000375401270141266, 0.0689673200249672, 0.005443176130453745]
+Bxh6: [0.00029060826215262375, 0.07605943083763123, 0.003820805111899972]
+c3: [0.00014782306815488906, 0.028200014680624007, 0.0052419500425457954]
+Qg4: [0.00014421114443593507, 0.0689673200249672, 0.002091006934642792]
+Bg5: [5.443604732447739e-05, 0.07605943083763123, 0.0007157041]
+Bg1: [1.7585648744664843e-05, 0.07605943083763123, 0.00023120931]
+Rb1: [1.6363947072819266e-05, 0.09380413591861725, 0.0001744480337947607]
+Number of moves considered from difficulty levels: 3
+Legal moves found from human search: ['g2g4', 'e1g1', 'e1e2']
+Evaluation str: -29
+Evaluation str: -62
+Evaluation str: -409
+Moves evaluations: {-29: 'g2g4', -62: 'e1g1', -409: 'e1e2'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -15 and stdev 20: 14.192457607426885
+Target_evaluation: -14.807542392573115
+Last 5 move times: [0.01, 0.1, 0.1, 0.1, 0.1]
+Chosen move: g2g4, g4
+Move number: 28
+Current fen: 2r4r/4bppk/3p1n1p/4qP2/Pp2p1P1/1N2B2Q/1PP4P/2R1K2R w K - 1 28
+Previous fen: 2r4r/4bppk/3p1n1p/3q1P2/Pp2p1P1/1N2B2Q/1PP4P/2R1K2R b K - 0 27
+Previous opponent move: d5e5
+Previous own move: g2g4
+. . r . . . . r
+. . . . b p p k
+. . . p . n . p
+. . . . q P . .
+P p . . p . P .
+. N . . B . . Q
+. P P . . . . P
+. . R . K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: 20.0
+Time taken to calculate win_percentage: 0.005552053451538086
+Current King Danger: 622.5000000000001
+Own time left: 16.87
+Calculating winning percentage... 
+Win percentage: 20.0
+Time taken to calculate win_percentage: 0.004553794860839844
+Evaluation str: +30
+Evaluation str: -6
+Evaluation str: -139
+Evaluation str: -157
+Obvious Moves check: {30: 'g4g5', -6: 'b3d4', -139: 'e3d2', -157: 'b3d2'}
+Not in flagging mode. 
+Moves considering: {30: 'g4g5', -6: 'b3d4', -139: 'e3d2', -157: 'b3d2'}
+Non blunder evals are [-6, 30]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Phase of game recognised: midgame
+Currently this position is blunder prone. 
+Weights Chosen:[10, 10, 15, 20, 15, 10]
+Used midgame move_to models! 
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'g4g5': 30, 'a4a5': 24, 'c2c3': 10, 'c2c4': 10, 'b3d4': 17, 'b3d2': 17, 'b3a5': 17, 'b3a1': 17, 'b3c5': 17, 'e3f4': 20, 'e3d4': 20, 'e3d2': 20, 'e3b6': 20, 'e3f2': 20, 'e3h6': 20, 'e3a7': 20, 'e3g5': 20, 'e3g1': 20, 'h1g1': 7, 'h1f1': 7, 'c1d1': 2, 'c1a1': 2, 'c1b1': 2, 'h3f1': 23, 'h3g2': 23, 'h3g3': 23, 'h3h4': 23, 'e1e2': 4, 'e1g1': 4, 'e1d1': 4, 'e1f2': 4, 'e1f1': 4, 'e1d2': 4}
+Calculating complexity of the position... 
+Complexity calculated: 8.88
+Efficient mobility calculated: 2.7027027027027026
+Time taken to calculate complexity and eff mob: 0.012983083724975586
+Move Probabilities that the engine sees: 
+Bd4: [0.9415413258617655, 0.05626017600297928, 16.735484898090363]
+g5: [0.6981763541280972, 0.3086855784058571, 2.261771857738495]
+Ke2: [0.4558808344885392, 0.6792009472846985, 0.6712017]
+c3: [0.2853946334851587, 1.023327112197876, 0.2788889594376087]
+Nd4: [0.07840319733593892, 0.03183894231915474, 2.4624937772750854]
+O-O: [0.0731488727229559, 0.6792009472846985, 0.107698426]
+Kd1: [0.05208279158465956, 0.6792009472846985, 0.07668245]
+Kf2: [0.05068666640702002, 0.6792009472846985, 0.07462691]
+Rg1: [0.03021918678034652, 0.044229716062545776, 0.68323267]
+Bf4: [0.022166638101084102, 0.05626017600297928, 0.3940023]
+Kf1: [0.02007071635216018, 0.6792009472846985, 0.029550483]
+a5: [0.019498122979132948, 0.14924127236008644, 0.13064833]
+Kd2: [0.013480547796776987, 0.6792009472846985, 0.019847658]
+Nd2: [0.010600892429187936, 0.03183894231915474, 0.33295366]
+c4: [0.007220632500420376, 1.023327112197876, 0.0070560356]
+Bd2: [0.004583951931788122, 0.05626017600297928, 0.08147773891687393]
+Rd1: [0.004342410569647542, 0.039956171065568924, 0.10867935]
+Bb6: [0.003585918413758271, 0.05626017600297928, 0.06373813]
+Na5: [0.003291355019473974, 0.03183894231915474, 0.10337514]
+Bf2: [0.003251215419707687, 0.05626017600297928, 0.05778893]
+Qg2: [0.0029818369485092866, 0.035500720143318176, 0.0839937]
+Qg3: [0.001454274112194398, 0.035500720143318176, 0.040964637]
+Qh4: [0.0012696105070693076, 0.035500720143318176, 0.03576295]
+Ra1: [0.0011019359192171521, 0.039956171065568924, 0.027578617]
+Na1: [0.0006414291470901445, 0.03183894231915474, 0.020146057]
+Bxh6: [0.00048509954907223485, 0.05626017600297928, 0.008622432127594948]
+Nc5: [0.00041812611081637127, 0.03183894231915474, 0.013132538]
+Rf1: [0.00035885914046991375, 0.044229716062545776, 0.008113530278205872]
+Qf1: [0.0003383824210357544, 0.017750360071659088, 0.019063411653041838]
+Ba7: [0.00030765203091698626, 0.05626017600297928, 0.00546838]
+Bg5: [0.00013506134206451442, 0.05626017600297928, 0.0024006562]
+Bg1: [5.854101894494767e-05, 0.05626017600297928, 0.001040541]
+Rb1: [1.1042805735611539e-05, 0.039956171065568924, 0.0002763729717116803]
+Number of moves considered from difficulty levels: 4
+Legal moves found from human search: ['e3d4', 'g4g5', 'e1e2', 'c2c3']
+Evaluation str: +112
+Evaluation str: -156
+Evaluation str: -222
+Moves evaluations: {112: 'g4g5', -156: 'e3d4', -222: 'c2c3'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -15 and stdev 20: -7.16711626163687
+Target_evaluation: 104.83288373836314
+Last 5 move times: [0.1, 0.1, 0.1, 0.1, 0.1]
+Chosen move: g4g5, g5
+Move number: 29
+Current fen: 2r4r/4bppk/3p3p/3nqPP1/Pp2p3/1N2B2Q/1PP4P/2R1K2R w K - 1 29
+Previous fen: 2r4r/4bppk/3p1n1p/4qPP1/Pp2p3/1N2B2Q/1PP4P/2R1K2R b K - 0 28
+Previous opponent move: f6d5
+Previous own move: g4g5
+. . r . . . . r
+. . . . b p p k
+. . . p . . . p
+. . . n q P P .
+P p . . p . . .
+. N . . B . . Q
+. P P . . . . P
+. . R . K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: -29.0
+Time taken to calculate win_percentage: 0.004144906997680664
+Current King Danger: 652.5
+Own time left: 15.38
+Calculating winning percentage... 
+Win percentage: -29.0
+Time taken to calculate win_percentage: 0.0060007572174072266
+Evaluation str: -44
+Evaluation str: -61
+Evaluation str: -120
+Evaluation str: -155
+Obvious Moves check: {-44: 'e3d4', -61: 'g5g6', -120: 'g5h6', -155: 'f5f6'}
+Not in flagging mode. 
+Moves considering: {-44: 'e3d4', -61: 'g5g6', -120: 'g5h6', -155: 'f5f6'}
+Non blunder evals are [-120, -61, -44]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Phase of game recognised: midgame
+Currently this position is blunder prone. 
+Weights Chosen:[10, 10, 15, 20, 15, 10]
+Used midgame move_to models! 
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'g5h6': 38, 'g5g6': 38, 'f5f6': 37, 'a4a5': 24, 'c2c4': 10, 'c2c3': 10, 'b3d4': 17, 'b3d2': 17, 'b3a5': 17, 'b3c5': 17, 'b3a1': 17, 'e3d4': 20, 'e3d2': 20, 'e3f4': 20, 'e3f2': 20, 'e3b6': 20, 'e3g1': 20, 'e3a7': 20, 'e3c5': 20, 'h1g1': 7, 'c1d1': 2, 'h1f1': 7, 'c1a1': 2, 'c1b1': 2, 'h3g4': 23, 'h3f1': 23, 'h3g2': 23, 'h3h4': 23, 'h3g3': 23, 'h3h5': 23, 'e1e2': 4, 'e1d2': 4, 'e1g1': 4, 'e1d1': 4, 'e1f2': 4, 'e1f1': 4}
+Calculating complexity of the position... 
+Complexity calculated: 22.8
+Efficient mobility calculated: 10.526315789473685
+Time taken to calculate complexity and eff mob: 0.0161285400390625
+Move Probabilities that the engine sees: 
+gxh6: [80.80290711259082, 5.636135458946228, 14.336580038070679]
+g6+: [19.812002376975713, 11.272270917892456, 1.757587492465973]
+Bd4: [0.4999028320135732, 0.10089338570833206, 4.954763174057007]
+Rg1: [0.2698357553733155, 0.07410575449466705, 3.6412253975868225]
+Ke2: [0.08934457713662036, 0.18345843255519867, 0.48700175]
+Nd4: [0.04833137065365367, 0.06429039686918259, 0.75176656]
+Kd2: [0.029298632673060654, 0.18345843255519867, 0.15970175]
+O-O: [0.02332383357240242, 0.18345843255519867, 0.12713416]
+Bd2: [0.02130192653799079, 0.10089338570833206, 0.21113303]
+Kd1: [0.01650615158600799, 0.18345843255519867, 0.08997216]
+Bf4: [0.015998317534535955, 0.10089338570833206, 0.15856656]
+c4: [0.01379579687629752, 0.49426858127117157, 0.027911539189517498]
+Kf2: [0.012023376475641001, 0.18345843255519867, 0.06553733]
+Nd2: [0.010979683741021318, 0.06429039686918259, 0.17078264]
+Kf1: [0.008238095561096115, 0.18345843255519867, 0.044904426]
+Rf1: [0.006941845139521452, 0.07410575449466705, 0.093674846]
+Qg3: [0.004576055886655606, 0.039419252425432205, 0.11608682572841644]
+c3: [0.00404683082931051, 0.49426858127117157, 0.008187514]
+Qg4: [0.0036486245929556738, 0.0038457807244324104, 0.9487344324588776]
+Bf2: [0.0031730059888183393, 0.10089338570833206, 0.0314491]
+Bb6: [0.0022333127465645475, 0.10089338570833206, 0.022135373]
+Qg2: [0.0017889863601705661, 0.0038457807244324104, 0.4651815816760063]
+Na5: [0.0015421516444346084, 0.06429039686918259, 0.023987278]
+Qh4: [0.0015121735696853086, 0.0038457807244324104, 0.3932032734155655]
+f6: [0.0009969845395648505, 0.030344604514539242, 0.032855414]
+Nc5: [0.0006273863646903133, 0.06429039686918259, 0.009758633]
+Ra1: [0.00042610562363481347, 0.01285606436431408, 0.03314433]
+Qh5: [0.00036258662085972146, 0.0038457807244324104, 0.09428166784346104]
+Na1: [0.0002157120153313541, 0.06429039686918259, 0.0033552758]
+a5: [0.00021557968688285054, 0.018911430146545172, 0.011399439]
+Bg1: [0.00020868155156034303, 0.10089338570833206, 0.0020683373]
+Ba7: [9.53252195010322e-05, 0.10089338570833206, 0.0009448114]
+Rd1: [7.743670441206912e-05, 0.01285606436431408, 0.006023360043764114]
+Qf1: [3.616116851895692e-05, 0.0038457807244324104, 0.009402815997600556]
+Bc5: [2.9786958169918587e-05, 0.10089338570833206, 0.00029523202]
+Rb1: [1.839361740417196e-07, 0.01285606436431408, 1.4307347009889782e-05]
+Number of moves considered from difficulty levels: 3
+Legal moves found from human search: ['g5h6', 'g5g6', 'e3d4']
+Evaluation str: +49
+Evaluation str: -155
+Evaluation str: -215
+Moves evaluations: {49: 'e3d4', -155: 'g5g6', -215: 'g5h6'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -15 and stdev 20: -48.847704105691044
+Target_evaluation: 0.1522958943089563
+Last 5 move times: [0.1, 0.1, 0.1, 0.1, 0.1]
+Chosen move: e3d4, Bd4
+Move number: 30
+Current fen: 2r4r/4bppk/3p3p/3n1PP1/Pp1Bpq2/1N5Q/1PP4P/2R1K2R w K - 3 30
+Previous fen: 2r4r/4bppk/3p3p/3nqPP1/Pp1Bp3/1N5Q/1PP4P/2R1K2R b K - 2 29
+Previous opponent move: e5f4
+Previous own move: e3d4
+. . r . . . . r
+. . . . b p p k
+. . . p . . . p
+. . . n . P P .
+P p . B p q . .
+. N . . . . . Q
+. P P . . . . P
+. . R . K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: 31.0
+Time taken to calculate win_percentage: 0.004021406173706055
+Current King Danger: 1206.8333333333335
+Own time left: 14.12
+Calculating winning percentage... 
+Win percentage: 32.0
+Time taken to calculate win_percentage: 0.00854945182800293
+Evaluation str: +362
+Evaluation str: +49
+Evaluation str: -106
+Evaluation str: -342
+Obvious Moves check: {362: 'h1f1', 49: 'f5f6', -106: 'g5g6', -342: 'd4g7'}
+Not in flagging mode. 
+Moves considering: {362: 'h1f1', 49: 'f5f6', -106: 'g5g6', -342: 'd4g7'}
+Non blunder evals are [362]
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+Top move from obvious move check is by far the best move, storing for later reference. 
+No obvious move found. 
+AtomicSamurai is in time-scramble mode. 
+Phase of game recognised: midgame
+Currently this position is blunder prone. 
+Weights Chosen:[10, 10, 15, 20, 15, 10]
+Used midgame move_to models! 
+Filtering using selector model... 
+Recieved move_list and respective from squares: {'g5h6': 38, 'g5g6': 38, 'f5f6': 37, 'a4a5': 24, 'c2c4': 10, 'c2c3': 10, 'b3d2': 17, 'b3c5': 17, 'd4e3': 27, 'd4b6': 27, 'd4e5': 27, 'd4f2': 27, 'd4c3': 27, 'd4g7': 27, 'd4f6': 27, 'h1g1': 7, 'h1f1': 7, 'c1d1': 2, 'c1a1': 2, 'c1b1': 2, 'h3g2': 23, 'h3h5': 23, 'h3g4': 23, 'h3f1': 23, 'h3h4': 23, 'h3g3': 23, 'e1e2': 4, 'e1d1': 4}
+Calculating complexity of the position... 
+Complexity calculated: 4.56
+Efficient mobility calculated: 0.0
+Time taken to calculate complexity and eff mob: 0.015458106994628906
+Move Probabilities that the engine sees: 
+g6+: [7.0445530431338454, 17.03999948501587, 0.41341275]
+Rf1: [0.6245551875431898, 0.16813255846500397, 3.7146593928337097]
+gxh6: [0.43801780966360104, 8.519999742507935, 0.051410542594061956]
+Rg1: [0.08411673739146419, 0.16813255846500397, 0.5003001]
+Ke2: [0.04262269118616935, 0.07220200449228287, 0.5903256]
+c4: [0.010532328226567578, 0.3712542951107025, 0.02836957946419716]
+f6: [0.009779375879289842, 0.12240060791373253, 0.079896465]
+Kd1: [0.008440141907139709, 0.07220200449228287, 0.11689623]
+Nd2: [0.0032709759394733418, 0.00877175759524107, 0.37289858]
+Be3: [0.0022985557742155383, 0.04320071265101433, 0.05320643186569214]
+Qg4: [0.0018822452064352624, 0.014495255425572395, 0.1298525]
+c3: [0.0016627438699481772, 0.3712542951107025, 0.0044787196]
+Qg2: [0.0014926266214407846, 0.007247627712786198, 0.20594692]
+Be5: [0.0014482986350955185, 0.04320071265101433, 0.03352488]
+Qh5: [0.001066321632458081, 0.007247627712786198, 0.14712698757648468]
+Bc3: [0.0004474082529807681, 0.04320071265101433, 0.010356502]
+Bf6: [0.00018479401954385986, 0.04320071265101433, 0.004277569]
+a5: [0.00018095391868966186, 0.010209290776401758, 0.017724436]
+Bb6: [0.00016790631830857403, 0.04320071265101433, 0.0038866562147935233]
+Qh4: [0.0001319553479266298, 0.007247627712786198, 0.018206695]
+Qg3: [0.00012228432336006817, 0.007247627712786198, 0.016872324]
+Ra1: [0.00010376325212220483, 0.019621621817350388, 0.0052882098]
+Bxg7: [0.0001009327543863321, 0.04320071265101433, 0.002336367809524139]
+Bf2: [6.0023002151513015e-05, 0.04320071265101433, 0.0013893984258174896]
+Qf1: [2.8031754647244234e-05, 0.014495255425572395, 0.0019338572397828101]
+Rd1: [1.8039071392490435e-05, 0.019621621817350388, 0.0009193466044962406]
+Nc5: [2.4662670389640485e-06, 0.0002470917632462273, 0.009981179]
+Rb1: [1.5052529709401822e-07, 0.019621621817350388, 7.671399362152443e-06]
+Number of moves considered from difficulty levels: 4
+Legal moves found from human search: ['g5g6', 'h1f1', 'g5h6', 'h1g1']
+Evaluation str: -85
+Evaluation str: -131
+Evaluation str: -153
+Moves evaluations: {-85: 'g5g6', -131: 'h1f1', -153: 'g5h6'}
+Calculation time allowed: 0.1
+Decided centipawn loss from mean -15 and stdev 20: 20.219317429009593
+Target_evaluation: -64.78068257099041
+Last 5 move times: [0.1, 0.1, 0.1, 0.1, 0.1]
+Chosen move: g5g6, g6+
+Evaluation str: -85
+Found premove! In response to f7g6, fxg6+
+Move number: 31
+Current fen: 2r3kr/4bpp1/3p2Pp/3n1P2/Pp1Bpq2/1N5Q/1PP4P/2R1K2R w K - 1 31
+Previous fen: 2r4r/4bppk/3p2Pp/3n1P2/Pp1Bpq2/1N5Q/1PP4P/2R1K2R b K - 0 30
+Previous opponent move: h7g8
+Previous own move: g5g6
+. . r . . . k r
+. . . . b p p .
+. . . p . . P p
+. . . n . P . .
+P p . B p q . .
+. N . . . . . Q
+. P P . . . . P
+. . R . K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: 100.0
+Time taken to calculate win_percentage: 0.005003452301025391
+Current King Danger: 1206.8333333333335
+Own time left: 13.39
+Calculating winning percentage... 
+Win percentage: 100.0
+Time taken to calculate win_percentage: 0.005559206008911133
+Evaluation str: +505
+Evaluation str: +122
+Evaluation str: +42
+Evaluation str: -54
+Evaluation str: -119
+Obvious Moves check: {505: 'f5f6', 122: 'h1f1', 42: 'g6f7', -54: 'a4a5', -119: 'c2c4'}
+In flagging mode... 
+Last own move played was g5g6
+Moves considering: {505: 'f5f6', 122: 'h1f1', 42: 'g6f7', -54: 'a4a5', -119: 'c2c4'}
+Non blunder evals are [505]
+Move distances dictionary: {4: 505}
+Checking f6 for repetition as we are currently winning/ up on time. 
+No repetition found. 
+Selected eval: 505
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+Last 5 move times: [0.1, 0.1, 0.1, 0.1, 0.01]
+Chosen move: f5f6, f6
+Evaluation str: +505
+Evaluation str: +505
+Evaluation str: +505
+Evaluation str: +505
+Evaluation str: +505
+Evaluation str: +505
+Evaluation str: +505
+Evaluation str: +505
+Evaluation str: +505
+Evaluation str: +505
+Evaluation str: +505
+Evaluation str: +505
+Evaluation str: +505
+Evaluation str: +505
+Evaluation str: +505
+Evaluation str: +505
+Evaluation str: +505
+Evaluation str: +505
+Evaluation str: +505
+Evaluation str: +505
+Evaluation str: +505
+Move number: 32
+Current fen: 2r3kr/5pp1/3p1bPp/3n4/Pp1Bpq2/1N5Q/1PP4P/2R1K2R w K - 0 32
+Previous fen: 2r3kr/4bpp1/3p1PPp/3n4/Pp1Bpq2/1N5Q/1PP4P/2R1K2R b K - 0 31
+Previous opponent move: e7f6
+Previous own move: f5f6
+. . r . . . k r
+. . . . . p p .
+. . . p . b P p
+. . . n . . . .
+P p . B p q . .
+. N . . . . . Q
+. P P . . . . P
+. . R . K . . R
+Current phase: midgame
+Calculating winning percentage... 
+Win percentage: 100.0
+Time taken to calculate win_percentage: 0.004563093185424805
+Current King Danger: 1617.3333333333335
+Own time left: 12.98
+Calculating winning percentage... 
+Win percentage: 100.0
+Time taken to calculate win_percentage: 0.004023551940917969
+Evaluation str: #+2
+Evaluation str: +278
+Evaluation str: +22
+Evaluation str: -80
+Evaluation str: -125
+Obvious Moves check: {9800: 'h3c8', 278: 'd4f6', 22: 'g6f7', -80: 'h1g1', -125: 'h1f1'}
+In flagging mode... 
+Last own move played was f5f6
+Moves considering: {9800: 'h3c8', 278: 'd4f6', 22: 'g6f7', -80: 'h1g1', -125: 'h1f1'}
+Non blunder evals are [9800]
+Move distances dictionary: {14: 9800}
+Checking Qxc8+ for repetition as we are currently winning/ up on time. 
+No repetition found. 
+Selected eval: 9800
+Top move is not a take-back. Nothing interesting here. 
+big_material_take: False
+Last 5 move times: [0.1, 0.1, 0.1, 0.01, 0.01]
+Chosen move: h3c8, Qxc8+

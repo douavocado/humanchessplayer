@@ -50,6 +50,7 @@ as to reduce engine suspicion
 import datetime
 import time
 import psutil
+import os
 
 from scipy.stats import chi2
 
@@ -123,7 +124,7 @@ m_move_to_models = {chess.PAWN: m_pawn_model,
                   chess.KING: m_king_model}
 
 STOCKFISH = chess.engine.SimpleEngine.popen_uci(RAW_PATH)
-LOG_FILE = r'Engine_Logs/log_' + str(datetime.datetime.now()) + '.txt'
+LOG_FILE = os.path.join(os.getcwd(), 'Engine_Logs',str(datetime.datetime.now()).replace(" ", "").replace(":","_") + '.txt')
 
 # value of each piece, used in engine.check_obvious for takebacks
 points_dic = {chess.PAWN: 2,
@@ -713,7 +714,7 @@ class AtomicSamurai:
             
             total_prob = from_sq_prob * to_square_prob
             move_prob[move] = [total_prob, from_sq_prob, to_square_prob]
-        
+     
         # calculate eff mob to decide how many moves to search
         self.log += 'Calculating complexity of the position... \n'
         time_s = time.time()
@@ -742,14 +743,15 @@ class AtomicSamurai:
             if eff_mob > 5 and self.own_time > self.opp_time and self.phase == 'midgame' and self.own_time > 15:
                 self.long_think = True
                 self.log += 'Long think provoked! \n'
+                no_moves = SEARCH_WIDTH
             else:
                 self.long_think = False
-            no_moves = SEARCH_WIDTH
+                no_moves = SEARCH_WIDTH-1
         else:
             if self.phase != 'endgame' and self.king_dang < 500:
                 no_moves = 6
             else:
-                no_moves = SEARCH_WIDTH
+                no_moves = SEARCH_WIDTH-2
             self.long_think = False
         
         if self.shadow:
@@ -778,6 +780,7 @@ class AtomicSamurai:
         else:
             dummy_board = self.board.copy()
         
+        start = time.time()
         # parse dummy board for encoding
         one_hot_board = convert_board_one_hot(dummy_board)
         
@@ -822,6 +825,9 @@ class AtomicSamurai:
                     if piece_type == chess.PAWN and chess.square_rank(square_int) == 7:
                         uci += 'q'
                     human_ucis[uci] = probability
+        end = time.time()
+        self.log += "Initial probability dic took {} seconds to calculate. \n".format(end-start)
+        
         return human_ucis
     
     def probability_weight(self, square_from, square_to, sq_fr_prob, sq_to_prob):
@@ -1088,9 +1094,21 @@ class AtomicSamurai:
     def decide_resign(self, own_time, opp_time, starting_time):
         ''' The decision making function which decides whether to resign. '''
         # does not resign in the first 20 moves
-        return False
-
-    def check_obvious(self, own_time, starting_time, prev_move, prev_fen):
+        if self.board.fullmove_number < 20:
+            return False
+        if opp_time <= 10:
+            return False
+        if own_time/(opp_time-10) > 3:
+            return False
+        win_pct = self.calculate_win_percentage()
+        #print("win percentage", win_pct)
+        if win_pct < -(100 - np.log(starting_time)/100):
+            self.log += 'Win percentage too low and opponent time too high, resigning...'
+            return True
+        else:
+            return False
+        
+    def check_obvious(self, own_time, starting_time, prev_move, prev_fen, flagging=False):
         ''' The first filtering process of deciding what move to make. Will get
             engine to search for minimal depth and see if there is a standout
             move. If there is, AtomicSamurai will play it regardless. 
@@ -1121,7 +1139,7 @@ class AtomicSamurai:
         self.log += 'Obvious Moves check: ' + str(moves_dic) + '\n'
         
         # Managing flagging
-        if own_time < self.bullet_threshold or self.opp_time < 10:
+        if flagging:
             # if we are down serious time, play randomised moves to avoid flagging
             self.log += 'In flagging mode... \n'
             self.move_times.append(0.01)
@@ -1619,12 +1637,23 @@ class AtomicSamurai:
             return None
         else:
             # see if we should be in premove_mode:
-            if own_time < 11 or starting_time < 16:
-                self.premove_mode = True
+            if own_time < 5 or starting_time < 16:
+                if random.random() < 0.7: # can't premove every move, too computer like
+                    self.premove_mode = True
+                else:
+                    self.premove_mode = False
             else:
                 self.premove_mode = False
             # if there's an obvious move, play it:
-            move = self.check_obvious(own_time, starting_time, prev_move, prev_fen)
+            # see if we want to flag the opponent
+            if own_time < self.bullet_threshold or self.opp_time < 10:
+                if random.random() < 0.5:
+                    flagging = True
+                else:
+                    flagging = False
+            else:
+                flagging = False
+            move = self.check_obvious(own_time, starting_time, prev_move, prev_fen, flagging=flagging)
             if move is not None:
                 chosen_move = move
                 self.quick_move = True

@@ -19,7 +19,8 @@ parser.add_argument("-n", "--nolog", help="Disable log output into /Engine_logs/
                         action="store_true")
 args = parser.parse_args()
 
-from lichess_premove_continuous_client import GameFinder    
+# from lichess_premove_continuous_client import GameFinder 
+from lichess_client import GameFinder   
 
 # clearing memory
 try:
